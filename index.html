@@ -102,6 +102,19 @@
   figcaption { color: var(--muted); font-size: 0.75rem; margin-top: 0.35rem; }
   .verify { color: var(--muted); font-size: 0.8rem; font-style: italic; margin-top: 0.5rem; }
   .comment { border-left: 3px solid var(--accent); padding: 0.3rem 0 0.3rem 0.8rem; margin-top: 0.7rem; font-style: italic; color: var(--muted); }
+  .notice {
+    border: 1px solid var(--accent);
+    border-radius: 8px;
+    background: color-mix(in srgb, var(--accent) 7%, var(--card));
+    padding: 0.85rem 1.1rem;
+    margin: 0 0 2.2rem;
+    font-size: 0.88rem;
+    color: var(--text);
+    max-width: 760px;
+  }
+  .notice b { color: var(--accent); }
+  .duality { margin-top: 0.8rem; line-height: 1.6; }
+  .duality b { color: var(--text); }
   footer { margin-top: 3rem; color: var(--muted); font-size: 0.85rem; }
 </style>
 </head>
@@ -120,6 +133,13 @@
     <h1>The War Crimes Safari</h1>
     <p class="sub">Documented war crimes: two-sentence summaries, mainstream sources, official responses, licensed images. <span id="counts"></span></p>
   </header>
+  <div class="notice">
+    <b>⚖ Legal notice — read before sharing.</b> This page documents reported war crimes and terrorism
+    designations; it endorses no organization and solicits nothing. In several jurisdictions, expressing
+    support for a proscribed organization is itself a criminal offence (e.g. UK Terrorism Act 2000;
+    US 18 U.S.C. § 2339B). Speech laws differ — <b>check your own jurisdiction</b> before you share or act.
+    And don't trust this page either: <b>verify</b> — every claim links to its sources.
+  </div>
   <div id="list" class="cards"></div>
   <div class="section" id="sec-closers">
     <h2>The closers — three you haven't heard</h2>
@@ -133,7 +153,11 @@
   <div id="docket" class="cards"></div>
   <div class="section" id="sec-hamas">
     <h2>And yes — Hamas</h2>
-    <p class="sub">Designated a terrorist organization by the US (1997), the EU (2003), the UK (2021) and others — supporting or fundraising for Hamas is a crime in those jurisdictions. Their documented crimes, held to the same standard as everything above. A designation is not a permanent fact about the world: the law that creates it also provides the route to undo it, and arguing for that is lawful speech, not support.</p>
+    <p class="sub">Their documented crimes, held to the same standard as everything above. A designation is not a permanent fact about the world: the law that creates it also provides the route to undo it, and arguing for that is lawful speech, not support.</p>
+    <p class="sub duality">
+      <b>Proscribed as a terrorist organization:</b> US (1997) · EU (2003) · UK (2021) · also Canada, Australia, Japan — supporting or fundraising for Hamas is a crime in these jurisdictions.<br>
+      <b>Yet engaged diplomatically:</b> Qatar hosted its political bureau in Doha for over a decade; Egypt and Qatar mediate ceasefires with it; Turkey hosts and receives its leadership.
+    </p>
   </div>
   <div id="hamas" class="cards"></div>
   <footer>Sources are linked per incident. This page documents reported and investigated events; follow the links for full context.</footer>
