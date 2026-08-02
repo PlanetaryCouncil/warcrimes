@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The War Crimes Safari — Gaza &amp; the West Bank, 2023–2026</title>
+<style>
+  :root {
+    --bg: #0e0f12;
+    --card: #17181d;
+    --text: #e8e6e1;
+    --muted: #9a978f;
+    --accent: #c0392b;
+    --line: #26272e;
+    --link: #d8a48f;
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #f6f5f2;
+      --card: #ffffff;
+      --text: #1c1c1e;
+      --muted: #6b6960;
+      --accent: #a93226;
+      --line: #e3e1da;
+      --link: #a04b2f;
+    }
+  }
+  * { box-sizing: border-box; margin: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.55 -apple-system, "Segoe UI", Georgia, serif;
+    padding: 0 1rem 5rem;
+  }
+  #topnav {
+    position: sticky; top: 0; z-index: 10;
+    display: flex; align-items: center; gap: 1rem; flex-wrap: wrap;
+    margin: 0 -1rem 2.2rem; padding: 0.65rem 1.2rem;
+    background: color-mix(in srgb, var(--bg) 82%, transparent);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--line);
+    font-size: 0.9rem;
+  }
+  #topnav .brand { font-weight: 700; letter-spacing: 0.06em; color: var(--accent); text-transform: uppercase; font-size: 0.78rem; }
+  #topnav a { color: var(--text); text-decoration: none; opacity: 0.75; }
+  #topnav a:hover { opacity: 1; color: var(--accent); }
+  #topnav input {
+    margin-left: auto; min-width: 160px;
+    background: var(--card); color: var(--text);
+    border: 1px solid var(--line); border-radius: 6px;
+    padding: 0.35rem 0.6rem; font: inherit; font-size: 0.85rem;
+  }
+  #topnav input:focus { outline: none; border-color: var(--accent); }
+  main { max-width: 1360px; margin: 0 auto; }
+  header, .section, footer { max-width: 760px; }
+  .cards { columns: 1; column-gap: 1.1rem; }
+  @media (min-width: 760px) { .cards { columns: 2; } }
+  @media (min-width: 1120px) { .cards { columns: 3; } }
+  header { margin-bottom: 2.5rem; border-bottom: 2px solid var(--accent); padding-bottom: 1.5rem; padding-top: 1.5rem; }
+  .section { scroll-margin-top: 4rem; }
+  h1 { font-size: 1.9rem; line-height: 1.2; letter-spacing: -0.01em; }
+  .overline { color: var(--accent); font-size: 0.8rem; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; margin-bottom: 0.7rem; }
+  .sub { color: var(--muted); margin-top: 0.6rem; font-size: 0.95rem; }
+  .section { margin: 3rem 0 1.5rem; border-top: 2px solid var(--accent); padding-top: 1.5rem; }
+  .section h2 { font-size: 1.4rem; line-height: 1.25; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 1.25rem 1.4rem;
+    margin: 0 0 1.1rem;
+    break-inside: avoid;
+    display: inline-block;
+    width: 100%;
+    scroll-margin-top: 4rem;
+    transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease, opacity 0.5s ease;
+  }
+  .card:hover {
+    transform: translateY(-3px);
+    border-color: var(--accent);
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.25);
+  }
+  .card.pre { opacity: 0; }
+  .card.hidden { display: none; }
+  .why { margin: 0.75rem 0 0; padding: 0; list-style: none; }
+  .why li { padding-left: 1.1rem; position: relative; margin-top: 0.4rem; font-size: 0.93rem; line-height: 1.45; }
+  .why li::before { content: "▸"; position: absolute; left: 0; color: var(--accent); font-weight: 700; }
+  .card h2 { font-size: 1.05rem; line-height: 1.35; }
+  .num { color: var(--accent); font-weight: 700; margin-right: 0.5rem; font-variant-numeric: tabular-nums; }
+  .meta { color: var(--muted); font-size: 0.85rem; margin-top: 0.25rem; }
+  .card p { margin-top: 0.6rem; }
+  .links { margin-top: 0.85rem; display: flex; flex-wrap: wrap; gap: 0.45rem; align-items: center; }
+  .links a { text-decoration: none; transition: transform 0.12s; line-height: 1; }
+  .links a:hover { transform: scale(1.25); }
+  .links a.src img { width: 22px; height: 22px; border-radius: 5px; display: block; background: #fff; }
+  .links a.emoji { font-size: 1.2rem; }
+  figure { margin: 0.9rem 0 0.1rem; }
+  figure a.imgwrap, figure > img { display: block; overflow: hidden; border-radius: 6px; }
+  figure img { width: 100%; max-height: 280px; object-fit: cover; display: block; transition: transform 0.35s ease; }
+  .card:hover figure img { transform: scale(1.04); }
+  figcaption { color: var(--muted); font-size: 0.75rem; margin-top: 0.35rem; }
+  .verify { color: var(--muted); font-size: 0.8rem; font-style: italic; margin-top: 0.5rem; }
+  .comment { border-left: 3px solid var(--accent); padding: 0.3rem 0 0.3rem 0.8rem; margin-top: 0.7rem; font-style: italic; color: var(--muted); }
+  footer { margin-top: 3rem; color: var(--muted); font-size: 0.85rem; }
+</style>
+</head>
+<body>
+<nav id="topnav">
+  <span class="brand">War Crimes Safari</span>
+  <a href="#top">Incidents</a>
+  <a href="#sec-closers">Closers</a>
+  <a href="#sec-docket">Docket</a>
+  <a href="#sec-hamas">Hamas</a>
+  <input id="q" type="search" placeholder="Filter… (e.g. hospital, ICC, journalist)" aria-label="Filter cards">
+</nav>
+<main>
+  <header id="top">
+    <div class="overline">Gaza &amp; the West Bank · 2023–2026</div>
+    <h1>The War Crimes Safari</h1>
+    <p class="sub">Documented war crimes: two-sentence summaries, mainstream sources, official responses, licensed images. <span id="counts"></span></p>
+  </header>
+  <div id="list" class="cards"></div>
+  <div class="section" id="sec-closers">
+    <h2>The closers — three you haven't heard</h2>
+    <p class="sub">Because everything became completely normalized.</p>
+  </div>
+  <div id="closers" class="cards"></div>
+  <div class="section" id="sec-docket">
+    <h2>The Docket</h2>
+    <p class="sub">The most spectacular cases: individuals, each anchored to a documented proceeding, sanction, or their own on-record statements. Then we decide who's next.</p>
+  </div>
+  <div id="docket" class="cards"></div>
+  <div class="section" id="sec-hamas">
+    <h2>And yes — Hamas</h2>
+    <p class="sub">Designated a terrorist organization by the US (1997), the EU (2003), the UK (2021) and others — supporting or fundraising for Hamas is a crime in those jurisdictions. Their documented crimes, held to the same standard as everything above. A designation is not a permanent fact about the world: the law that creates it also provides the route to undo it, and arguing for that is lawful speech, not support.</p>
+  </div>
+  <div id="hamas" class="cards"></div>
+  <footer>Sources are linked per incident. This page documents reported and investigated events; follow the links for full context.</footer>
+</main>
+<script>
+const esc = s => String(s).replace(/"/g, '&quot;');
+const favicon = u => { try { return `https://www.google.com/s2/favicons?domain=${new URL(u).hostname}&sz=64`; } catch { return ''; } };
+const srcLink = (url, name) => `<a class="src" href="${url}" target="_blank" rel="noopener" title="${esc(name)}" aria-label="${esc(name)}"><img src="${favicon(url)}" alt="${esc(name)}" loading="lazy"></a>`;
+const card = (d, label) => `
+  <article class="card" id="${d.id}">
+    <h2><span class="num">${label}</span>${d.title}</h2>
+    <div class="meta">${d.date}</div>
+    ${d.image ? `<figure><img src="${d.image.src}" alt="${esc(d.title)}" loading="lazy">
+      <figcaption>${d.image.credit} · ${d.image.license} · <a href="${d.image.page}" target="_blank" rel="noopener">Commons</a></figcaption></figure>` : ''}
+    ${d.bullets ? `<ul class="why">${d.bullets.map(b => `<li>${b}</li>`).join('')}</ul>` : ''}
+    <p>${d.summary}</p>
+    ${d.comment ? `<div class="comment">${d.comment}</div>` : ''}
+    <div class="links">
+      ${d.wikipedia ? srcLink(d.wikipedia, 'Wikipedia') : ''}
+      ${d.links.map(l => srcLink(l.url, l.source)).join('')}
+      ${d.photo ? `<a class="emoji" href="${d.photo.url}" target="_blank" rel="noopener" title="Photo — ${esc(d.photo.source)}" aria-label="Photo — ${esc(d.photo.source)}">📷</a>` : ''}
+      ${d.official ? `<a class="emoji" href="${d.official.url}" target="_blank" rel="noopener" title="Official response — ${esc(d.official.label)}" aria-label="Official response — ${esc(d.official.label)}">${d.official.flag || '🇮🇱'}</a>` : ''}
+    </div>
+    ${d.verify ? `<div class="verify">⚠ ${d.verify}</div>` : ''}
+  </article>`;
+fetch('data.json', { cache: 'no-store' }).then(r => r.json()).then(({ incidents }) => {
+  const num = n => String(n).padStart(2, '0');
+  const main = incidents.filter(d => d.section === 'main');
+  const closers = incidents.filter(d => d.section === 'closers');
+  const docket = incidents.filter(d => d.section === 'docket');
+  const hamas = incidents.filter(d => d.section === 'hamas');
+  document.getElementById('list').innerHTML = main.map((d, i) => card(d, num(i + 1))).join('');
+  document.getElementById('closers').innerHTML = closers.map((d, i) => card(d, num(main.length + i + 1))).join('');
+  document.getElementById('docket').innerHTML = docket.map((d, i) => card(d, 'D' + (i + 1))).join('');
+  document.getElementById('hamas').innerHTML = hamas.map((d, i) => card(d, 'H' + (i + 1))).join('');
+  const nSources = incidents.reduce((n, d) => n + d.links.length + (d.wikipedia ? 1 : 0) + (d.official ? 1 : 0), 0);
+  document.getElementById('counts').textContent =
+    `Currently: ${main.length + closers.length + hamas.length} incidents, ${docket.length} individuals on the docket, ${nSources} sources.`;
+
+  // scroll fade-in
+  const cards = [...document.querySelectorAll('.card')];
+  if ('IntersectionObserver' in window) {
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.remove('pre'); io.unobserve(e.target); }
+    }), { rootMargin: '0px 0px -40px 0px' });
+    cards.forEach(c => { if (c.getBoundingClientRect().top > innerHeight) { c.classList.add('pre'); io.observe(c); } });
+  }
+
+  // live filter
+  const q = document.getElementById('q');
+  q.addEventListener('input', () => {
+    const t = q.value.trim().toLowerCase();
+    cards.forEach(c => c.classList.toggle('hidden', t && !c.textContent.toLowerCase().includes(t)));
+    document.querySelectorAll('.section').forEach(s => {
+      const grid = s.nextElementSibling;
+      const any = grid && grid.querySelector('.card:not(.hidden)');
+      s.style.display = (t && !any) ? 'none' : '';
+      if (grid) grid.style.display = (t && !any) ? 'none' : '';
+    });
+  });
+}).catch(() => {
+  document.getElementById('list').innerHTML =
+    '<p class="sub">Could not load data.json — serve this folder over HTTP (e.g. python3 -m http.server) instead of opening the file directly.</p>';
+});
+</script>
+</body>
+</html>

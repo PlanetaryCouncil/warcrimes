@@ -1,0 +1,488 @@
+{
+  "meta": {
+    "generated": "2026-07-21",
+    "method": "GDELT DOC 2.0 API, English-language, major-outlet whitelist",
+    "note": "Counts are per event window and query; absence of a query hit is not proof of non-coverage."
+  },
+  "events": {
+    "hind-rajab": {
+      "query": "\"Hind Rajab\"",
+      "window": "20240129-20240301",
+      "total_major": 18,
+      "by_outlet": {
+        "CNN": 5,
+        "Al Jazeera": 3,
+        "The Independent": 3,
+        "BBC": 2,
+        "The Guardian": 2,
+        "Middle East Eye": 1,
+        "The Telegraph": 1,
+        "NBC News": 1
+      }
+    },
+    "nasser-double-tap": {
+      "query": "\"Nasser Hospital\"",
+      "window": "20250825-20250905",
+      "total_major": 37,
+      "by_outlet": {
+        "Middle East Eye": 8,
+        "Sky News": 5,
+        "Haaretz": 5,
+        "CNN": 3,
+        "The Independent": 3,
+        "BBC": 3,
+        "The Guardian": 2,
+        "CBS News": 2,
+        "NBC News": 2,
+        "CBC": 2,
+        "NPR": 1,
+        "Al Jazeera": 1
+      }
+    },
+    "hospital-rocket-jump": {
+      "query": "\"Al-Aqsa Martyrs Hospital\"",
+      "window": "20241014-20241028",
+      "total_major": 9,
+      "by_outlet": {
+        "CNN": 2,
+        "CBS News": 2,
+        "Sky News": 2,
+        "Al Jazeera": 1,
+        "AP": 1,
+        "DW": 1
+      }
+    },
+    "ghf-aid-shootings": {
+      "query": "\"Gaza Humanitarian Foundation\"",
+      "window": "20250527-20250801",
+      "total_major": 42,
+      "by_outlet": {
+        "Middle East Eye": 21,
+        "Haaretz": 16,
+        "DW": 1,
+        "The Guardian": 1,
+        "NPR": 1,
+        "BBC": 1,
+        "ABC News": 1
+      }
+    },
+    "jenin-execution": {
+      "query": "Jenin surrender",
+      "window": "20251127-20251210",
+      "total_major": 7,
+      "by_outlet": {
+        "The Independent": 1,
+        "CBC": 1,
+        "DW": 1,
+        "Sky News": 1,
+        "BBC": 1,
+        "Al Jazeera": 1,
+        "NPR": 1
+      }
+    },
+    "baby-cigarette": {
+      "query": "Gaza toddler cigarette",
+      "window": "20260319-20260412",
+      "total_major": 2,
+      "by_outlet": {
+        "The Independent": 1,
+        "Middle East Eye": 1
+      }
+    },
+    "sde-teiman-dogs": {
+      "query": "\"Sde Teiman\"",
+      "window": "20240501-20240720",
+      "total_major": 19,
+      "by_outlet": {
+        "Haaretz": 5,
+        "Middle East Eye": 4,
+        "CNN": 3,
+        "DW": 2,
+        "BBC": 1,
+        "The Guardian": 1,
+        "Der Spiegel": 1,
+        "Washington Post": 1,
+        "ABC News": 1
+      }
+    },
+    "organs-missing": {
+      "query": "Gaza bodies organs",
+      "window": "20251014-20251214",
+      "total_major": 6,
+      "by_outlet": {
+        "Middle East Eye": 2,
+        "Le Monde": 1,
+        "Al Jazeera": 1,
+        "The Independent": 1,
+        "CBS News": 1
+      }
+    },
+    "right-to-rape": {
+      "query": "\"Sde Teiman\"",
+      "window": "20240729-20240815",
+      "total_major": 23,
+      "by_outlet": {
+        "Haaretz": 9,
+        "Middle East Eye": 4,
+        "Al Jazeera": 2,
+        "CBC": 1,
+        "CNN": 1,
+        "Washington Post": 1,
+        "LA Times": 1,
+        "BBC": 1,
+        "The Guardian": 1,
+        "NYT": 1,
+        "The Independent": 1
+      }
+    },
+    "wck-strike": {
+      "query": "\"World Central Kitchen\"",
+      "window": "20240401-20240415",
+      "total_major": 26,
+      "by_outlet": {
+        "The Independent": 3,
+        "NBC News": 3,
+        "CNN": 2,
+        "CBS News": 2,
+        "BBC": 2,
+        "NYT": 2,
+        "ABC News": 2,
+        "NPR": 2,
+        "Al Jazeera": 1,
+        "AP": 1,
+        "France24": 1,
+        "CBC": 1,
+        "Le Monde": 1,
+        "LA Times": 1,
+        "The Guardian": 1,
+        "Sydney Morning Herald": 1
+      }
+    },
+    "children-sniped": {
+      "query": "Gaza children \"shot in the head\"",
+      "window": "20241001-20241101",
+      "total_major": 5,
+      "by_outlet": {
+        "BBC": 2,
+        "Sky News": 1,
+        "NYT": 1,
+        "Middle East Eye": 1
+      }
+    },
+    "flour-massacre": {
+      "query": "\"flour massacre\"",
+      "window": "20240229-20240320",
+      "total_major": 5,
+      "by_outlet": {
+        "CNN": 2,
+        "Le Monde": 1,
+        "Al Jazeera": 1,
+        "Washington Post": 1
+      }
+    },
+    "doctors-under-fire": {
+      "query": "\"Abu Safiya\"",
+      "window": "20241227-20250201",
+      "total_major": 17,
+      "by_outlet": {
+        "CNN": 4,
+        "Middle East Eye": 3,
+        "ABC News": 3,
+        "The Guardian": 2,
+        "Haaretz": 1,
+        "NBC News": 1,
+        "BBC": 1,
+        "Sky News": 1,
+        "Euronews": 1
+      }
+    },
+    "genocidal-rhetoric": {
+      "query": "\"Amichai Eliyahu\"",
+      "window": "20231105-20231125",
+      "total_major": 11,
+      "by_outlet": {
+        "Haaretz": 4,
+        "The Telegraph": 2,
+        "Middle East Eye": 2,
+        "The Guardian": 1,
+        "Euronews": 1,
+        "Al Jazeera": 1
+      }
+    },
+    "journalist-legs": {
+      "query": "\"Sami Shehada\"",
+      "window": "20240412-20240426",
+      "total_major": 0,
+      "by_outlet": {},
+      "not_measured": true,
+      "reason": "GDELT rate-limited all attempts; do not read as absence of coverage"
+    },
+    "anas-al-sharif": {
+      "query": "\"Anas al-Sharif\"",
+      "window": "20250810-20250825",
+      "total_major": 21,
+      "by_outlet": {
+        "Middle East Eye": 7,
+        "NPR": 3,
+        "CBS News": 2,
+        "Sky News": 2,
+        "Al Jazeera": 2,
+        "CNN": 1,
+        "Haaretz": 1,
+        "CBC": 1,
+        "The Independent": 1,
+        "BBC": 1
+      }
+    },
+    "terrorist-label": {
+      "query": "\"Palestine Action\"",
+      "window": "20250701-20250915",
+      "total_major": 35,
+      "by_outlet": {
+        "Middle East Eye": 13,
+        "The Guardian": 7,
+        "Al Jazeera": 5,
+        "BBC": 3,
+        "The Independent": 3,
+        "CNN": 2,
+        "Sky News": 1,
+        "Euronews": 1
+      }
+    },
+    "christians": {
+      "query": "Gaza church \"Holy Family\"",
+      "window": "20231216-20240105",
+      "total_major": 23,
+      "by_outlet": {
+        "BBC": 4,
+        "CNN": 4,
+        "The Guardian": 3,
+        "NBC News": 2,
+        "Sky News": 2,
+        "France24": 2,
+        "The Telegraph": 1,
+        "Euronews": 1,
+        "Middle East Eye": 1,
+        "CBC": 1,
+        "Sydney Morning Herald": 1,
+        "The Independent": 1
+      }
+    },
+    "rafah-paramedics": {
+      "query": "Rafah paramedics \"mass grave\"",
+      "window": "20250323-20250501",
+      "total_major": 18,
+      "by_outlet": {
+        "Middle East Eye": 5,
+        "The Guardian": 5,
+        "CNN": 4,
+        "Al Jazeera": 3,
+        "Sky News": 1
+      }
+    },
+    "human-shields": {
+      "query": "Israeli \"human shields\" Gaza",
+      "window": "20250520-20250615",
+      "total_major": 10,
+      "by_outlet": {
+        "Middle East Eye": 2,
+        "The Guardian": 2,
+        "Al Jazeera": 1,
+        "CBS News": 1,
+        "LA Times": 1,
+        "Haaretz": 1,
+        "The Independent": 1,
+        "Sydney Morning Herald": 1
+      }
+    },
+    "doha-strike": {
+      "query": "Doha Hamas strike",
+      "window": "20250909-20250923",
+      "total_major": 11,
+      "by_outlet": {
+        "CNN": 5,
+        "BBC": 3,
+        "Middle East Eye": 1,
+        "Haaretz": 1,
+        "CBS News": 1
+      }
+    },
+    "hamas-oct7": {
+      "query": "Hamas hostages festival",
+      "window": "20231007-20231015",
+      "total_major": 34,
+      "by_outlet": {
+        "The Independent": 10,
+        "CNN": 10,
+        "Times of Israel": 3,
+        "BBC": 3,
+        "Euronews": 2,
+        "The Telegraph": 2,
+        "Al Jazeera": 1,
+        "France24": 1,
+        "NYT": 1,
+        "Sydney Morning Herald": 1
+      }
+    },
+    "hamas-designations": {
+      "query": "Hamas proscribed",
+      "window": "20211119-20211210",
+      "total_major": 21,
+      "by_outlet": {
+        "Middle East Eye": 8,
+        "BBC": 3,
+        "Times of Israel": 3,
+        "ABC News": 1,
+        "AP": 1,
+        "Reuters": 1,
+        "LA Times": 1,
+        "The Guardian": 1,
+        "The Telegraph": 1,
+        "The Economist": 1
+      }
+    },
+    "deproscription": {
+      "query": "\"Palestine Action\" \"judicial review\"",
+      "window": "20260213-20260301",
+      "total_major": 0,
+      "by_outlet": {}
+    },
+    "docket-netanyahu": {
+      "query": "Netanyahu ICC \"arrest warrant\"",
+      "window": "20241121-20241205",
+      "total_major": 11,
+      "by_outlet": {
+        "DW": 3,
+        "Haaretz": 2,
+        "Sky News": 1,
+        "The Telegraph": 1,
+        "NBC News": 1,
+        "The Independent": 1,
+        "Middle East Eye": 1,
+        "ABC News": 1
+      }
+    },
+    "docket-gallant": {
+      "query": "Gallant ICC \"arrest warrant\"",
+      "window": "20241121-20241205",
+      "total_major": 14,
+      "by_outlet": {
+        "DW": 4,
+        "NBC News": 2,
+        "BBC": 2,
+        "Sky News": 1,
+        "The Telegraph": 1,
+        "Middle East Eye": 1,
+        "The Guardian": 1,
+        "Al Jazeera": 1,
+        "The Independent": 1
+      }
+    },
+    "docket-ben-gvir": {
+      "query": "\"Ben-Gvir\" sanctions",
+      "window": "20250610-20250625",
+      "total_major": 13,
+      "by_outlet": {
+        "Euronews": 2,
+        "The Independent": 1,
+        "Middle East Eye": 1,
+        "CNN": 1,
+        "ABC News": 1,
+        "NBC News": 1,
+        "LA Times": 1,
+        "Haaretz": 1,
+        "The Guardian": 1,
+        "Al Jazeera": 1,
+        "CBC": 1,
+        "Sydney Morning Herald": 1
+      }
+    },
+    "docket-smotrich": {
+      "query": "Smotrich sanctions",
+      "window": "20250610-20250625",
+      "total_major": 15,
+      "by_outlet": {
+        "Euronews": 2,
+        "Middle East Eye": 2,
+        "CNN": 1,
+        "The Independent": 1,
+        "Al Jazeera": 1,
+        "ABC News": 1,
+        "LA Times": 1,
+        "NBC News": 1,
+        "The Guardian": 1,
+        "CBC": 1,
+        "Sydney Morning Herald": 1,
+        "Haaretz": 1,
+        "CBS News": 1
+      }
+    },
+    "docket-eliyahu": {
+      "query": "\"Amichai Eliyahu\" nuclear",
+      "window": "20231105-20231125",
+      "total_major": 10,
+      "by_outlet": {
+        "Haaretz": 4,
+        "The Telegraph": 2,
+        "Middle East Eye": 2,
+        "Euronews": 1,
+        "Al Jazeera": 1
+      }
+    },
+    "docket-herzog": {
+      "query": "Herzog genocide ICJ",
+      "window": "20240111-20240201",
+      "total_major": 13,
+      "by_outlet": {
+        "CNN": 3,
+        "BBC": 2,
+        "Middle East Eye": 2,
+        "The Independent": 2,
+        "Al Jazeera": 1,
+        "DW": 1,
+        "The Guardian": 1,
+        "LA Times": 1
+      }
+    },
+    "docket-halevi": {
+      "query": "\"Lavender\" Israeli military AI",
+      "window": "20240403-20240424",
+      "total_major": 0,
+      "by_outlet": {},
+      "not_measured": true,
+      "reason": "GDELT rate-limited all attempts; do not read as absence of coverage"
+    },
+    "docket-alian": {
+      "query": "\"Ghassan Alian\"",
+      "window": "20231009-20231101",
+      "total_major": 1,
+      "by_outlet": {
+        "NYT": 1
+      }
+    },
+    "docket-vach": {
+      "query": "\"Yehuda Vach\"",
+      "window": "20241218-20250120",
+      "total_major": 0,
+      "by_outlet": {},
+      "caveat": "Measured: 9 articles indexed in window, none from the major-outlet whitelist. The primary reporting was Haaretz paywalled investigations, which GDELT may not index fully."
+    },
+    "docket-eiland": {
+      "query": "\"Giora Eiland\"",
+      "window": "20240901-20241101",
+      "total_major": 17,
+      "by_outlet": {
+        "Middle East Eye": 5,
+        "BBC": 3,
+        "CNN": 2,
+        "Sky News": 1,
+        "The Guardian": 1,
+        "The Telegraph": 1,
+        "ABC News": 1,
+        "The Independent": 1,
+        "DW": 1,
+        "Al Jazeera": 1
+      }
+    }
+  }
+}
