@@ -54,9 +54,8 @@
   #topnav input:focus { outline: none; border-color: var(--accent); }
   main { max-width: 1360px; margin: 0 auto; }
   header, .section, footer { max-width: 760px; }
-  .cards { columns: 1; column-gap: 1.1rem; }
-  @media (min-width: 760px) { .cards { columns: 2; } }
-  @media (min-width: 1120px) { .cards { columns: 3; } }
+  .cards { display: flex; gap: 1.1rem; align-items: flex-start; }
+  .cards .col { flex: 1 1 0; min-width: 0; }
   header { margin-bottom: 2.5rem; border-bottom: 2px solid var(--accent); padding-bottom: 1.5rem; padding-top: 1.5rem; }
   .section { scroll-margin-top: 4rem; }
   h1 { font-size: 1.9rem; line-height: 1.2; letter-spacing: -0.01em; }
@@ -70,9 +69,6 @@
     border-radius: 10px;
     padding: 1.25rem 1.4rem;
     margin: 0 0 1.1rem;
-    break-inside: avoid;
-    display: inline-block;
-    width: 100%;
     scroll-margin-top: 4rem;
     transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease, opacity 0.5s ease;
   }
@@ -198,35 +194,63 @@ fetch('data.json', { cache: 'no-store' }).then(r => r.json()).then(({ incidents 
   const closers = incidents.filter(d => d.section === 'closers');
   const docket = incidents.filter(d => d.section === 'docket');
   const hamas = incidents.filter(d => d.section === 'hamas');
-  document.getElementById('list').innerHTML = main.map((d, i) => card(d, num(i + 1))).join('');
-  document.getElementById('closers').innerHTML = closers.map((d, i) => card(d, num(main.length + i + 1))).join('');
-  document.getElementById('docket').innerHTML = docket.map((d, i) => card(d, 'D' + (i + 1))).join('');
-  document.getElementById('hamas').innerHTML = hamas.map((d, i) => card(d, 'H' + (i + 1))).join('');
   const nSources = incidents.reduce((n, d) => n + d.links.length + (d.wikipedia ? 1 : 0) + (d.official ? 1 : 0), 0);
   document.getElementById('counts').textContent =
     `Currently: ${main.length + closers.length + hamas.length} incidents, ${docket.length} individuals on the docket, ${nSources} sources.`;
 
-  // scroll fade-in
-  const cards = [...document.querySelectorAll('.card')];
-  if ('IntersectionObserver' in window) {
-    const io = new IntersectionObserver(es => es.forEach(e => {
-      if (e.isIntersecting) { e.target.classList.remove('pre'); io.unobserve(e.target); }
-    }), { rootMargin: '0px 0px -40px 0px' });
-    cards.forEach(c => { if (c.getBoundingClientRect().top > innerHeight) { c.classList.add('pre'); io.observe(c); } });
+  const SECTIONS = [
+    ['list', main, i => num(i + 1)],
+    ['closers', closers, i => num(main.length + i + 1)],
+    ['docket', docket, i => 'D' + (i + 1)],
+    ['hamas', hamas, i => 'H' + (i + 1)],
+  ];
+  const q = document.getElementById('q');
+  const colsFor = () => innerWidth >= 1120 ? 3 : innerWidth >= 760 ? 2 : 1;
+  let lastCols = 0;
+
+  // deal cards left-to-right (round-robin), so the first row always reads 1, 2, 3
+  function layout() {
+    const n = colsFor();
+    if (n === lastCols) return;
+    lastCols = n;
+    for (const [id, items, label] of SECTIONS) {
+      const host = document.getElementById(id);
+      const cols = Array.from({ length: n }, () => {
+        const c = document.createElement('div'); c.className = 'col'; return c;
+      });
+      items.forEach((d, i) => cols[i % n].insertAdjacentHTML('beforeend', card(d, label(i))));
+      host.replaceChildren(...cols);
+    }
+    wire();
   }
 
-  // live filter
-  const q = document.getElementById('q');
-  q.addEventListener('input', () => {
+  function applyFilter() {
     const t = q.value.trim().toLowerCase();
-    cards.forEach(c => c.classList.toggle('hidden', t && !c.textContent.toLowerCase().includes(t)));
+    document.querySelectorAll('.card').forEach(c =>
+      c.classList.toggle('hidden', !!t && !c.textContent.toLowerCase().includes(t)));
     document.querySelectorAll('.section').forEach(s => {
       const grid = s.nextElementSibling;
       const any = grid && grid.querySelector('.card:not(.hidden)');
       s.style.display = (t && !any) ? 'none' : '';
       if (grid) grid.style.display = (t && !any) ? 'none' : '';
     });
-  });
+  }
+
+  function wire() {
+    if ('IntersectionObserver' in window) {
+      const io = new IntersectionObserver(es => es.forEach(e => {
+        if (e.isIntersecting) { e.target.classList.remove('pre'); io.unobserve(e.target); }
+      }), { rootMargin: '0px 0px -40px 0px' });
+      document.querySelectorAll('.card').forEach(c => {
+        if (c.getBoundingClientRect().top > innerHeight) { c.classList.add('pre'); io.observe(c); }
+      });
+    }
+    applyFilter();
+  }
+
+  q.addEventListener('input', applyFilter);
+  let rt; addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(layout, 150); });
+  layout();
 }).catch(() => {
   document.getElementById('list').innerHTML =
     '<p class="sub">Could not load data.json — serve this folder over HTTP (e.g. python3 -m http.server) instead of opening the file directly.</p>';
