@@ -37,7 +37,7 @@ Goal: **the most-documented war crimes record in history.** Every claim independ
 
 ## Image principle
 
-Images exist to make the record visible. We use freely licensed material with attribution wherever possible; where full legal attribution was not possible, we always link the original source and stay as close to legal as the record allows. In the moral dilemma between exposing war crimes and deferring to copyright law, we chose the side of maximum impact — that is our principle. Rights holders and corrections: open a GitHub issue — we will credit, link, or remove.
+We are an independent site with no budget to license professional photography. Images exist to make the record visible: we attribute truthfully and openly, always link the original source, and stay as close to legal as the record allows. In the moral dilemma between exposing war crimes and deferring to copyright law, we chose the side of maximum impact — that is our principle. If your work appears here and you object, open a GitHub issue and we will simply remove it — though we would rather you saw it as your work bearing witness, credited, where it matters.
 
 ## Method
 
