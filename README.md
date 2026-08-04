@@ -35,6 +35,10 @@ Goal: **the most-documented war crimes record in history.** Every claim independ
 4. **Evidence hardening** — add an `archive` field per link (archive.org snapshot of every source, so link-rot can't erase the record); tag sources by type (`news / un / ngo / primary / video`).
 5. **Publish** — `git init`, GitHub Pages or a domain. The JSON-first structure means others can fork, verify, and extend the dataset.
 
+## Image principle
+
+Images exist to make the record visible. We use freely licensed material with attribution wherever possible; where full legal attribution was not possible, we always link the original source and stay as close to legal as the record allows. In the moral dilemma between exposing war crimes and deferring to copyright law, we chose the side of maximum impact — that is our principle. Rights holders and corrections: open a GitHub issue — we will credit, link, or remove.
+
 ## Method
 
 Built with parallel research agents: every incident researched independently; every link appeared literally in search results (never constructed); images embedded only when freely licensed on Wikimedia Commons, with credit + license shown; official Israeli responses linked as primary sources wherever one exists.
