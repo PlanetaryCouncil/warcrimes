@@ -45,19 +45,12 @@
   #topnav .brand { font-weight: 700; letter-spacing: 0.06em; color: var(--accent); text-transform: uppercase; font-size: 0.78rem; }
   #topnav a { color: var(--text); text-decoration: none; opacity: 0.75; }
   #topnav a:hover { opacity: 1; color: var(--accent); }
-  #topnav input {
-    margin-left: auto; min-width: 160px;
-    background: var(--card); color: var(--text);
-    border: 1px solid var(--line); border-radius: 6px;
-    padding: 0.35rem 0.6rem; font: inherit; font-size: 0.85rem;
-  }
-  #topnav input:focus { outline: none; border-color: var(--accent); }
   main { max-width: 1360px; margin: 0 auto; }
   header, .section, footer { max-width: 760px; }
   .cards { display: flex; gap: 1.1rem; align-items: flex-start; }
   .cards .col { flex: 1 1 0; min-width: 0; }
-  header { margin-bottom: 2.5rem; border-bottom: 2px solid var(--accent); padding-bottom: 1.5rem; padding-top: 1.5rem; }
-  .section { scroll-margin-top: 4rem; }
+  header { margin: 0 auto 2.5rem; border-bottom: 2px solid var(--accent); padding-bottom: 1.5rem; padding-top: 1.5rem; }
+  .section { scroll-margin-top: 4rem; margin-left: auto; margin-right: auto; }
   h1 { font-size: 1.9rem; line-height: 1.2; letter-spacing: -0.01em; }
   .overline { color: var(--accent); font-size: 0.8rem; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; margin-bottom: 0.7rem; }
   .sub { color: var(--muted); margin-top: 0.6rem; font-size: 0.95rem; }
@@ -103,7 +96,7 @@
     border-radius: 8px;
     background: color-mix(in srgb, var(--accent) 7%, var(--card));
     padding: 0.85rem 1.1rem;
-    margin: 0 0 2.2rem;
+    margin: 0 auto 2.2rem;
     font-size: 0.88rem;
     color: var(--text);
     max-width: 760px;
@@ -111,7 +104,7 @@
   .notice b { color: var(--accent); }
   .duality { margin-top: 0.8rem; line-height: 1.6; }
   .duality b { color: var(--text); }
-  footer { margin-top: 3rem; color: var(--muted); font-size: 0.85rem; }
+  footer { margin: 3rem auto 0; color: var(--muted); font-size: 0.85rem; }
 </style>
 </head>
 <body>
@@ -121,7 +114,6 @@
   <a href="#sec-closers">Closers</a>
   <a href="#sec-docket">Docket</a>
   <a href="#sec-hamas">Hamas</a>
-  <input id="q" type="search" placeholder="Filter… (e.g. hospital, ICC, journalist)" aria-label="Filter cards">
 </nav>
 <main>
   <header id="top">
@@ -204,7 +196,6 @@ fetch('data.json', { cache: 'no-store' }).then(r => r.json()).then(({ incidents 
     ['docket', docket, i => 'D' + (i + 1)],
     ['hamas', hamas, i => 'H' + (i + 1)],
   ];
-  const q = document.getElementById('q');
   const colsFor = () => innerWidth >= 1120 ? 3 : innerWidth >= 760 ? 2 : 1;
   let lastCols = 0;
 
@@ -224,18 +215,6 @@ fetch('data.json', { cache: 'no-store' }).then(r => r.json()).then(({ incidents 
     wire();
   }
 
-  function applyFilter() {
-    const t = q.value.trim().toLowerCase();
-    document.querySelectorAll('.card').forEach(c =>
-      c.classList.toggle('hidden', !!t && !c.textContent.toLowerCase().includes(t)));
-    document.querySelectorAll('.section').forEach(s => {
-      const grid = s.nextElementSibling;
-      const any = grid && grid.querySelector('.card:not(.hidden)');
-      s.style.display = (t && !any) ? 'none' : '';
-      if (grid) grid.style.display = (t && !any) ? 'none' : '';
-    });
-  }
-
   function wire() {
     if ('IntersectionObserver' in window) {
       const io = new IntersectionObserver(es => es.forEach(e => {
@@ -245,10 +224,8 @@ fetch('data.json', { cache: 'no-store' }).then(r => r.json()).then(({ incidents 
         if (c.getBoundingClientRect().top > innerHeight) { c.classList.add('pre'); io.observe(c); }
       });
     }
-    applyFilter();
   }
 
-  q.addEventListener('input', applyFilter);
   let rt; addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(layout, 150); });
   layout();
 }).catch(() => {
