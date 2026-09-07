@@ -1127,6 +1127,10 @@
       "summary": "On 12 April 2024, Sami Shehada, a cameraman for Turkey's TRT Arabi, was severely wounded in an Israeli strike on the Nuseirat refugee camp in central Gaza and had his right leg amputated below the knee, with other journalists, including a CNN stringer, also injured in the attack. Shehada said the crew was wearing press-marked flak jackets and helmets and filming from a marked press vehicle in an open area when they were hit, and the Committee to Protect Journalists called for an investigation into the strike on journalists wearing press insignia; widely shared footage showed Shehada on a stretcher asking about his severed leg.",
       "links": [
         {
+          "url": "https://www.youtube.com/watch?v=ywaOyHzqDxw",
+          "source": "Video (YouTube)"
+        },
+        {
           "url": "https://edition.cnn.com/2024/04/12/middleeast/israeli-attack-nuseirat-gaza-journalists-injured-intl/index.html",
           "source": "CNN"
         },
@@ -1187,6 +1191,10 @@
       "date": "2025-08-10 (overall toll: October 2023 – 2026)",
       "summary": "On 10 August 2025 an Israeli strike on the journalists' tent outside Al-Shifa Hospital in Gaza City killed Al Jazeera correspondent Anas al-Sharif together with colleague Mohammed Qreiqeh and camera operators Ibrahim Zaher, Mohammed Noufal and Moamen Aliwa; the Israeli military claimed al-Sharif led a Hamas cell, an allegation Al Jazeera and the Committee to Protect Journalists rejected as unproven, with CPJ noting the accusations were a recurring smear and that the military had threatened him beforehand. According to CPJ, at least 192 journalists had been killed by Israel by the day of the strike (a figure that passed 200 by mid-2026), while Gaza officials and UN-cited counts put the toll above 240, and Brown University's Costs of War project found this to be the deadliest conflict for journalists ever recorded, with more journalists killed than in the US Civil War, both world wars, Korea, Vietnam, the Yugoslav wars and the post-9/11 Afghanistan war combined.",
       "links": [
+        {
+          "url": "https://forensic-architecture.org/investigation/shireen-abu-akleh-the-targeted-killing-of-a-journalist",
+          "source": "Forensic Architecture (Shireen Abu Akleh)"
+        },
         {
           "url": "https://www.aljazeera.com/news/2025/8/10/al-jazeera-journalist-anas-al-sharif-killed-in-israeli-attack-in-gaza-city",
           "source": "Al Jazeera"
@@ -1250,9 +1258,13 @@
         {
           "url": "https://www.bbc.com/news/articles/c05ed10zqj8o",
           "source": "BBC"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Assassination_of_Anas_Al-Sharif",
+          "source": "Wikipedia (assassination article)"
         }
       ],
-      "wikipedia": "https://en.wikipedia.org/wiki/Assassination_of_Anas_Al-Sharif",
+      "wikipedia": "https://en.wikipedia.org/wiki/Anas_Al-Sharif",
       "official": {
         "url": "https://x.com/IDF/status/1954652255199887516",
         "label": "IDF statement (via X)"

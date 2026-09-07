@@ -84,10 +84,13 @@
   .links a:hover { transform: scale(1.25); }
   .links a.src img { width: 22px; height: 22px; border-radius: 5px; display: block; background: #fff; }
   .links a.emoji { font-size: 1.2rem; }
-  figure { margin: 0.9rem 0 0.1rem; }
-  figure a.imgwrap, figure > img { display: block; overflow: hidden; border-radius: 6px; }
-  figure img { width: 100%; max-height: 280px; object-fit: cover; display: block; transition: transform 0.35s ease; }
-  .card:hover figure img { transform: scale(1.04); }
+  .score {
+    margin-top: 0.85rem; padding-top: 0.6rem;
+    border-top: 1px dashed var(--line);
+    display: flex; flex-wrap: wrap; gap: 0.25rem 1rem;
+    font-size: 0.76rem; color: var(--muted); letter-spacing: 0.01em;
+  }
+  .score span { white-space: nowrap; }
   figcaption { color: var(--muted); font-size: 0.75rem; margin-top: 0.35rem; }
   .verify { color: var(--muted); font-size: 0.8rem; font-style: italic; margin-top: 0.5rem; }
   .comment { border-left: 3px solid var(--accent); padding: 0.3rem 0 0.3rem 0.8rem; margin-top: 0.7rem; font-style: italic; color: var(--muted); }
@@ -119,7 +122,7 @@
   <header id="top">
     <div class="overline">Gaza &amp; the West Bank · 2023–2026</div>
     <h1>The War Crimes Safari</h1>
-    <p class="sub">Documented war crimes: two-sentence summaries, mainstream sources, official responses, licensed images. <span id="counts"></span></p>
+    <p class="sub">Documented war crimes: the extremes, the summaries, the sources, the official excuses — and the scoreboard. <span id="counts"></span></p>
   </header>
   <div class="notice">
     <b>⚖ Legal notice — read before sharing.</b> This page documents reported war crimes and terrorism
@@ -167,8 +170,6 @@ const card = (d, label) => `
   <article class="card" id="${d.id}">
     <h2><span class="num">${label}</span>${d.title}</h2>
     <div class="meta">${d.date}</div>
-    ${d.image ? `<figure><img src="${d.image.src}" alt="${esc(d.title)}" loading="lazy">
-      <figcaption>${d.image.credit} · ${d.image.license} · <a href="${d.image.page}" target="_blank" rel="noopener">Commons</a></figcaption></figure>` : ''}
     ${d.bullets ? `<ul class="why">${d.bullets.map(b => `<li>${b}</li>`).join('')}</ul>` : ''}
     <p>${d.summary}</p>
     ${d.comment ? `<div class="comment">${d.comment}</div>` : ''}
@@ -179,6 +180,12 @@ const card = (d, label) => `
       ${d.official ? `<a class="emoji" href="${d.official.url}" target="_blank" rel="noopener" title="Official response — ${esc(d.official.label)}" aria-label="Official response — ${esc(d.official.label)}">${d.official.flag || '🇮🇱'}</a>` : ''}
     </div>
     ${d.verify ? `<div class="verify">⚠ ${d.verify}</div>` : ''}
+    ${(d.section === 'main' || d.section === 'closers') ? `<div class="score" title="The scoreboard is satire. The facts in it are not.">
+      <span>⚑ Excuse: ${d.official ? 'on file' : 'none offered'}</span>
+      <span>🕊 Response: condemnation &amp; concern</span>
+      <span>⚖ Sanctions: none</span>
+      <span>✈ Arms exports: uninterrupted</span>
+    </div>` : ''}
   </article>`;
 fetch('data.json', { cache: 'no-store' }).then(r => r.json()).then(({ incidents }) => {
   const num = n => String(n).padStart(2, '0');
