@@ -83,6 +83,7 @@
   .links a { text-decoration: none; transition: transform 0.12s; line-height: 1; }
   .links a:hover { transform: scale(1.25); }
   .links a.src img { width: 22px; height: 22px; border-radius: 5px; display: block; background: #fff; }
+  .links a.src.fa img { box-shadow: 0 0 0 2px var(--accent); }
   .links a.emoji { font-size: 1.2rem; }
   .score {
     margin-top: 0.85rem; padding-top: 0.6rem;
@@ -131,6 +132,9 @@
     support for a proscribed organization is itself a criminal offence (e.g. UK Terrorism Act 2000;
     US 18 U.S.C. § 2339B). Speech laws differ — <b>check your own jurisdiction</b> before you share or act.
     And don't trust this page either: <b>verify</b> — every claim links to its sources.
+    Sources marked with a <b>ringed icon</b> are <a href="https://forensic-architecture.org/" target="_blank" rel="noopener">Forensic Architecture</a>,
+    the Goldsmiths-based research agency whose spatial and audio reconstructions we rate highest — they publish their
+    methods, and their corrections, in public. Where they have investigated an incident, they lead the source list.
     <br><br>
     <b>On images.</b> We are an independent site with no budget to license professional photography.
     Images here exist to make the record visible: we attribute truthfully and openly, always link the
@@ -170,7 +174,7 @@
 <script>
 const esc = s => String(s).replace(/"/g, '&quot;');
 const favicon = u => { try { return `https://www.google.com/s2/favicons?domain=${new URL(u).hostname}&sz=64`; } catch { return ''; } };
-const srcLink = (url, name) => `<a class="src" href="${url}" target="_blank" rel="noopener" title="${esc(name)}" aria-label="${esc(name)}"><img src="${favicon(url)}" alt="${esc(name)}" loading="lazy"></a>`;
+const srcLink = (url, name) => `<a class="src${/forensic-architecture\.org/.test(url) ? ' fa' : ''}" href="${url}" target="_blank" rel="noopener" title="${esc(name)}" aria-label="${esc(name)}"><img src="${favicon(url)}" alt="${esc(name)}" loading="lazy"></a>`;
 const card = (d, label) => `
   <article class="card" id="${d.id}">
     <h2><span class="num">${label}</span>${d.title}</h2>
@@ -179,8 +183,9 @@ const card = (d, label) => `
     <p>${d.summary}</p>
     ${d.comment ? `<div class="comment">${d.comment}</div>` : ''}
     <div class="links">
+      ${d.links.filter(l => /forensic-architecture\.org/.test(l.url)).map(l => srcLink(l.url, l.source)).join('')}
       ${d.wikipedia ? srcLink(d.wikipedia, 'Wikipedia') : ''}
-      ${d.links.map(l => srcLink(l.url, l.source)).join('')}
+      ${d.links.filter(l => !/forensic-architecture\.org/.test(l.url)).map(l => srcLink(l.url, l.source)).join('')}
       ${d.photo ? `<a class="emoji" href="${d.photo.url}" target="_blank" rel="noopener" title="Photo — ${esc(d.photo.source)}" aria-label="Photo — ${esc(d.photo.source)}">📷</a>` : ''}
       ${d.official ? `<a class="emoji" href="${d.official.url}" target="_blank" rel="noopener" title="Official response — ${esc(d.official.label)}" aria-label="Official response — ${esc(d.official.label)}">${d.official.flag || '🇮🇱'}</a>` : ''}
     </div>

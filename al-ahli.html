@@ -60,7 +60,11 @@
   .timeline li { position: relative; padding: 0.25rem 0 0.6rem 1.2rem; font-size: 0.92rem; }
   .timeline li::before { content: ""; position: absolute; left: -6px; top: 0.6rem; width: 10px; height: 10px; border-radius: 50%; background: var(--amber); }
   .timeline b { color: var(--text); }
+  ol.read li.lead { font-weight: 600; }
+  ol.read li.lead a { color: var(--amber); }
+  .pinlabel { font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--amber); margin-top: 1rem; }
   .src { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 0.9rem 1.1rem; margin-top: 0.8rem; font-size: 0.92rem; }
+  .src.fa { border-color: var(--amber); background: color-mix(in srgb, var(--amber) 6%, var(--card)); }
   .src .head { display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap; }
   .src .head img { width: 20px; height: 20px; border-radius: 4px; background: #fff; }
   .src .head a { color: var(--text); text-decoration: none; font-weight: 700; }
@@ -149,12 +153,13 @@
   <section id="read">
     <h2>Read these first, if you only open five</h2>
     <ol class="read">
+      <li class="lead"><a href="https://forensic-architecture.org/investigation/israeli-disinformation-al-ahli-hospital" target="_blank" rel="noopener">Forensic Architecture, 15 Feb 2024</a> — the interceptor-timing argument and "all 17 rockets burned out mid-flight," in full, including their own earlier walk-back from "artillery shell" to "probably a rocket." Methods published; corrections published.</li>
       <li><a href="https://www.hrw.org/news/2023/11/26/gaza-findings-october-17-al-ahli-hospital-explosion" target="_blank" rel="noopener">Human Rights Watch, 26 Nov 2023</a> — the best single structured remote-forensic write-up: crater photogrammetry, rocket-consistent damage, large bomb "highly unlikely," launcher not proven.</li>
-      <li><a href="https://apnews.com/article/israel-palestinians-hamas-war-hospital-rocket-gaza-e0fa550faa4678f024797b72132452e3" target="_blank" rel="noopener">AP visual forensics</a> and <a href="https://www.cnn.com/2023/10/21/middleeast/cnn-investigates-forensic-analysis-gaza-hospital-blast" target="_blank" rel="noopener">CNN investigation</a> — Gaza-origin launches on video, an eight-expert panel on the crater, and the finding that the famous Al Jazeera streak is a <i>different</i> object.</li>
-      <li><a href="https://www.idf.il/en/mini-sites/israel-at-war/all-articles/al-ahli-al-maamadani-hospital-initial-idf-aftermath-report-october-18-2023/" target="_blank" rel="noopener">IDF after-action page, 18 Oct 2023</a> — the primary Israeli document, not a paraphrase.</li>
-      <li><a href="https://forensic-architecture.org/investigation/israeli-disinformation-al-ahli-hospital" target="_blank" rel="noopener">Forensic Architecture, 15 Feb 2024</a> — the interceptor-timing argument and "all 17 rockets burned out mid-flight," in full, including the earlier walk-back.</li>
       <li><a href="https://www.dw.com/en/gaza-hospital-blast-what-investigations-have-revealed-so-far/a-67237447" target="_blank" rel="noopener">Earshot / Channel 4, via DW</a> — Doppler direction analysis, and the claim that the IDF's "Hamas intercept" audio is two separately recorded channels edited together.</li>
+      <li><a href="https://apnews.com/article/israel-palestinians-hamas-war-hospital-rocket-gaza-e0fa550faa4678f024797b72132452e3" target="_blank" rel="noopener">AP visual forensics</a> and <a href="https://www.cnn.com/2023/10/21/middleeast/cnn-investigates-forensic-analysis-gaza-hospital-blast" target="_blank" rel="noopener">CNN investigation</a> — Gaza-origin launches on video, an eight-expert panel on the crater, and the finding that the famous Al Jazeera streak is a <i>different</i> object.</li>
+      <li><a href="https://www.idf.il/en/mini-sites/israel-at-war/all-articles/al-ahli-al-maamadani-hospital-initial-idf-aftermath-report-october-18-2023/" target="_blank" rel="noopener">IDF after-action page, 18 Oct 2023</a> — the primary Israeli document, not a paraphrase. Read it against the two above.</li>
     </ol>
+    <p class="sub">We rate Forensic Architecture highest among these — spatial and audio reconstruction, published methods, published corrections. On this incident they argue one side of the dispute, so their case is listed with its weakness intact, like every other.</p>
     <p class="sub">Then: <a href="https://www.nytimes.com/2023/10/24/world/middleeast/gaza-hospital-israel-hamas-video.html" target="_blank" rel="noopener">NYT on the wrong-video problem</a>, the four allied intelligence statements, the <a href="https://archive-2025.airwars.org/civilian-casualties/ispt0278-october-17-2023/" target="_blank" rel="noopener">Airwars incident file</a>, and the casualty-figure spread. All below.</p>
   </section>
 
@@ -195,9 +200,9 @@
 <script>
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;');
 const favicon = u => { try { return `https://www.google.com/s2/favicons?domain=${new URL(u).hostname}&sz=64`; } catch { return ''; } };
-fetch('al_ahli_hospital_explosion_sources.json', { cache: 'no-store' }).then(r => r.json()).then(j => {
-  document.getElementById('srclist').innerHTML = j.sources.map(s => `
-    <div class="src" id="src-${s.id}">
+const isFA = s => /Forensic Architecture/i.test(s.org);
+const srcCard = s => `
+    <div class="src${isFA(s) ? ' fa' : ''}" id="src-${s.id}">
       <div class="head">
         <img src="${favicon(s.url)}" alt="">
         <a href="${s.url}" target="_blank" rel="noopener">${s.id}. ${esc(s.org)}</a>
@@ -205,7 +210,13 @@ fetch('al_ahli_hospital_explosion_sources.json', { cache: 'no-store' }).then(r =
       </div>
       <div class="stance">${esc(s.stance)}</div>
       ${s.key_claims && s.key_claims.length ? `<details><summary>key claims</summary><ul>${s.key_claims.map(k => `<li>${esc(k)}</li>`).join('')}</ul></details>` : ''}
-    </div>`).join('');
+    </div>`;
+fetch('al_ahli_hospital_explosion_sources.json', { cache: 'no-store' }).then(r => r.json()).then(j => {
+  const fa = j.sources.filter(isFA), rest = j.sources.filter(s => !isFA(s));
+  document.getElementById('srclist').innerHTML =
+    (fa.length ? `<div class="pinlabel">Pinned — Forensic Architecture</div>${fa.map(srcCard).join('')}
+       <div class="pinlabel">Everyone else, in compiled order</div>` : '') +
+    rest.map(srcCard).join('');
 }).catch(() => {
   document.getElementById('srclist').innerHTML = '<p class="sub">Could not load the sources file — serve this folder over HTTP.</p>';
 });
