@@ -8,6 +8,7 @@ Goal: **the most-documented war crimes record in history.** Every claim independ
 - **`data.json`** — the canonical dataset. 33 entries: 18 main incidents (incl. the Doha negotiator strike), 3 closers, 10 docket individuals, 2 Hamas entries (Oct 7 crimes; designations and support bans). 330+ sources. The page is just a renderer; all curation happens here.
 - **`coverage.json`** — the press-coverage matrix: per event, article counts per major international outlet (GDELT DOC 2.0, English-language, ~30-outlet whitelist, event-specific query + date window). Rows GDELT throttled are flagged `not_measured` — never read a flagged row as a coverage gap. This is the dataset for coverage-pattern analysis.
 - **`press-articles.json`** — the full article corpus behind the matrix (URL, outlet, title, date per article).
+- **`al-ahli.html`** + **`al_ahli_hospital_explosion_sources.json`** — the dedicated "Contested" page for the Al-Ahli Arab Hospital explosion (17 Oct 2023): not a verdict; what survives every camp, three theses, hard unresolved questions, a timeline of claims, and 26 sources with the claim each one made.
 - **`index.html`** — static renderer, no dependencies. Serve the folder over HTTP (`python3 -m http.server 8315`) and open `localhost:8315`. Every card is deep-linkable: `/#hind-rajab`, `/#flour-massacre`, …
 - `.claude/launch.json` — dev server config.
 

@@ -1,0 +1,381 @@
+{
+  "meta": {
+    "incident": "Al-Ahli Arab Hospital / Al-Maamadani / Baptist Hospital courtyard explosion, Gaza City",
+    "datetime_local": "2023-10-17 ~18:59 IDT",
+    "compiled": "2026-09-11",
+    "purpose": "Primary and secondary sources across competing claims. Not a verdict. Read originals.",
+    "notes_for_reviewer": [
+      "No public munition remnant photos exist. That is the single biggest forensic gap.",
+      "Gaza Health Ministry claimed 471 killed / 342 injured. Anglican Diocese (hospital operator) said ~200 killed. US intel said 100-300, likely low end. HRW said MoH ratio looks inconsistent with visible damage.",
+      "Consensus of US/UK/FR/CA intel + AP/CNN/HRW: not a large Israeli air-dropped bomb; more consistent with a rocket-type munition. Attribution of launcher is the contested part.",
+      "Forensic Architecture + Earshot + Channel 4 contest IDF trajectory/propellant/video claims and argue northeast origin (Israel-controlled direction).",
+      "FA later walked back an early 'artillery shell' claim and said projectile was probably a rocket, while keeping the northeast-origin argument."
+    ]
+  },
+  "competing_theses": {
+    "A_palestinian_rocket_misfire": "Unguided rocket (often attributed to PIJ) launched from Gaza toward Israel failed shortly after launch; warhead + leftover propellant exploded in crowded courtyard.",
+    "B_munition_from_israel_direction": "Projectile arrived from northeast (Israel-controlled perimeter). Not necessarily a large JDAM. Could be rocket, missile, or artillery-class munition. FA/Earshot.",
+    "C_israeli_airstrike_as_initially_claimed_by_hamas": "Israeli aircraft bomb on hospital. Physical crater and building damage do not match typical Israeli air-dropped HE bombs used in Gaza."
+  },
+  "physical_observations_repeated_across_sources": {
+    "crater_approx": "Roughly 0.6-1.0 m across, 0.3-0.4 m deep (HRW photogrammetry ~90 x 60 x 30-40 cm; CNN ~3x3 ft, 1 ft deep; French intel similar).",
+    "damage_pattern": "Burned cars, broken windows, pockmarks, fireball. Hospital buildings largely standing. Limited structural collapse.",
+    "location": "Paved courtyard / parking lot between landscaped areas, crowded with civilians sheltering.",
+    "missing_evidence": "No published photos of munition fragments/casing/guidance kit. Gaza EOD seen at crater; remnants not released."
+  },
+  "sources": [
+    {
+      "id": 1,
+      "org": "Israel Defense Forces",
+      "type": "belligerent official report",
+      "date": "2023-10-18",
+      "url": "https://www.idf.il/en/mini-sites/israel-at-war/all-articles/al-ahli-al-maamadani-hospital-initial-idf-aftermath-report-october-18-2023/",
+      "stance": "PIJ rocket misfire; IDF did not strike hospital",
+      "key_claims": [
+        "No IAF/navy/land strike in vicinity at that time",
+        "PIJ barrage at 18:59 from cemetery near hospital",
+        "Radar/trajectory analysis + videos show a rocket landing inside Gaza",
+        "Fire from rocket fuel; Hamas damage/death figures exaggerated",
+        "Released alleged Hamas intercept blaming PIJ"
+      ]
+    },
+    {
+      "id": 2,
+      "org": "Gaza Ministry of Health / Hamas authorities",
+      "type": "belligerent official claim",
+      "date": "2023-10-17",
+      "url": "https://en.wikipedia.org/wiki/Al-Ahli_Arab_Hospital_explosion",
+      "stance": "Israeli airstrike; 471 killed, 342 injured",
+      "key_claims": [
+        "Immediate attribution to Israel",
+        "Death toll later specified as 471",
+        "PIJ denied firing the rocket that hit the hospital",
+        "No munition remnant publicly produced"
+      ]
+    },
+    {
+      "id": 3,
+      "org": "U.S. intelligence / ODNI / NSC (via NYT and AP)",
+      "type": "allied intelligence assessment",
+      "date": "2023-10-18 to 2023-10-24",
+      "url": "https://www.nytimes.com/2023/10/24/us/politics/intel-rocket-gaza-hospital-blast.html",
+      "stance": "High confidence Israel did not strike; Palestinian rocket with catastrophic motor failure",
+      "key_claims": [
+        "100-300 dead, likely low end of range",
+        "Video + Israeli intercepts of Palestinian groups",
+        "No evidence of Israeli weapon at site",
+        "If Israeli bomb fragments existed, militants would likely have shown them"
+      ]
+    },
+    {
+      "id": 4,
+      "org": "France Directorate of Military Intelligence (DRM)",
+      "type": "allied intelligence assessment",
+      "date": "2023-10-20",
+      "url": "https://www.aljazeera.com/news/2023/10/21/french-intel-says-palestinian-rocket-likely-cause-of-gaza-hospital-blast",
+      "stance": "Errant Palestinian rocket, ~5 kg explosive charge; not Israeli missile",
+      "key_claims": [
+        "Light structural damage inconsistent with typical Israeli strike",
+        "Charge estimated around 5 kg",
+        "Death toll likely lower than 471"
+      ]
+    },
+    {
+      "id": 5,
+      "org": "United Kingdom government (Rishi Sunak / weapons experts)",
+      "type": "allied government assessment",
+      "date": "2023-10-23",
+      "url": "https://english.elpais.com/international/2023-10-24/a-reconstruction-of-the-al-ahli-hospital-massacre-in-gaza-that-set-the-islamic-world-on-fire.html",
+      "stance": "Likely missile or part of one launched from within Gaza toward Israel",
+      "key_claims": [
+        "Based on intelligence and weapons-expert analysis"
+      ]
+    },
+    {
+      "id": 6,
+      "org": "Canadian Forces Intelligence Command / DND",
+      "type": "allied intelligence assessment",
+      "date": "2023-10-21",
+      "url": "https://www.canada.ca/en/department-national-defence/news/2023/10/statement-from-the-minister-of-national-defence-regarding-the-explosion-at-al-ahli-arab-hospital-on-october-17-2023.html",
+      "stance": "High confidence Israel did not strike; more likely errant rocket from Gaza",
+      "key_claims": [
+        "Open source + classified reporting",
+        "Blast damage and flight pattern analysis",
+        "Allied reporting said to corroborate"
+      ]
+    },
+    {
+      "id": 7,
+      "org": "Associated Press Visual Forensics",
+      "type": "newsroom open-source investigation",
+      "date": "2023-10-21 (updated analysis)",
+      "url": "https://apnews.com/article/israel-palestinians-hamas-war-hospital-rocket-gaza-e0fa550faa4678f024797b72132452e3",
+      "stance": "Most likely Palestinian rocket that went astray; Al Jazeera clip of projectile from Israel is a different object",
+      "key_claims": [
+        "Multiple videos of Gaza-origin rocket launches on a trajectory toward hospital seconds before blast",
+        "Modest blast damage, no large crater",
+        "Experts lean toward failed rocket still carrying flammable propellant (fireball)",
+        "US and French intel assessments aligned with AP conclusion"
+      ]
+    },
+    {
+      "id": 8,
+      "org": "CNN Investigations",
+      "type": "newsroom forensic analysis",
+      "date": "2023-10-21 (updated Nov 2023)",
+      "url": "https://www.cnn.com/2023/10/21/middleeast/cnn-investigates-forensic-analysis-gaza-hospital-blast",
+      "stance": "Balance of evidence: not Israeli airstrike; likely malfunctioning rocket from Gaza. Some video Israel cited was an unrelated Israeli-launched projectile.",
+      "key_claims": [
+        "Crater ~3x3 ft, 1 ft deep",
+        "Eight weapons experts: crater inconsistent with aircraft bomb / smallest JDAM (~3 m crater)",
+        "Burn marks more characteristic of leftover rocket fuel",
+        "CNN later said one widely cited projectile video was launched from Israel and not the hospital hit"
+      ]
+    },
+    {
+      "id": 9,
+      "org": "The New York Times Visual Investigations",
+      "type": "newsroom visual investigation",
+      "date": "2023-10-24",
+      "url": "https://www.nytimes.com/2023/10/24/world/middleeast/gaza-hospital-israel-hamas-video.html",
+      "stance": "Al Jazeera livestream projectile Israel highlighted is not the hospital munition; militants were firing rockets SW of hospital; fireball consistent with failed rocket + unspent fuel. Cause not fully closed.",
+      "key_claims": [
+        "Highlighted Israeli video detonated ~2 miles away",
+        "Separate videos show Gaza rocket barrages minutes before blast",
+        "Does not by itself prove attribution"
+      ]
+    },
+    {
+      "id": 10,
+      "org": "BBC Verify",
+      "type": "newsroom verification",
+      "date": "2023-10-26",
+      "url": "https://www.bbc.co.uk/news/world-middle-east-67216929",
+      "stance": "Cause still contested; crater much smaller than typical Israeli precision bomb; FA initially suggested artillery from Israel then revised to probably a rocket",
+      "key_claims": [
+        "Experts: leftover fuel fire plausible",
+        "Notes FA November correction: not artillery shell, probably rocket, direction claim retained",
+        "Clarification added 2024-01-10 about FA walk-back"
+      ]
+    },
+    {
+      "id": 11,
+      "org": "Human Rights Watch",
+      "type": "human-rights investigation",
+      "date": "2023-11-26",
+      "url": "https://www.hrw.org/news/2023/11/26/gaza-findings-october-17-al-ahli-hospital-explosion",
+      "stance": "Apparent rocket-propelled munition of type commonly used by Palestinian armed groups; large air-dropped bomb highly unlikely; launcher not conclusively identified; independent investigation needed",
+      "key_claims": [
+        "Crater ~90 x 60 x 30-40 cm via photogrammetry",
+        "Sound, fireball, crater, splatter, fragmentation consistent with rocket",
+        "Lacks artillery spin-stabilized features",
+        "MoH 471/342 ratio unusually high vs visible damage",
+        "Witnesses said Gaza EOD removed remnants"
+      ]
+    },
+    {
+      "id": 12,
+      "org": "Forensic Architecture + Al-Haq + Earshot (preliminary)",
+      "type": "university research agency / NGO OSINT",
+      "date": "2023-10-20",
+      "url": "https://x.com/ForensicArchi/status/1715422493274427414",
+      "stance": "Casts significant doubt on IDF west-to-east Palestinian rocket claim; crater fragmentation + channel suggest northeast origin",
+      "key_claims": [
+        "Radial fragmentation on SW side of crater",
+        "Shallow channel into crater from NE",
+        "Chris Cobb-Smith reviewed fragmentation as possibly NE",
+        "Early public posts discussed munition larger than Spike/Hellfire"
+      ]
+    },
+    {
+      "id": 13,
+      "org": "Forensic Architecture",
+      "type": "fuller investigation page",
+      "date": "2024-02-15",
+      "url": "https://forensic-architecture.org/investigation/israeli-disinformation-al-ahli-hospital",
+      "stance": "Disputes two core IDF claims: (1) Al Jazeera mid-air blast is the misfired PIJ rocket; (2) unspent propellant from the 17-rocket salvo caused the courtyard damage. Frames IDF material as disinformation.",
+      "key_claims": [
+        "Mid-air explosion is an Israeli interceptor; fragments would take ~31s to fall from 5 km; hospital blast was ~8s later so that object cannot be the hit",
+        "All 17 rockets in the cited salvo stopped flaring after similar distance/speed (1.8-2 km, 500-630 m/s), consistent with burned-out motors, not leftover fuel at hospital",
+        "Israel has not produced conclusive visual evidence of a Hamas/PIJ rocket as the source",
+        "NYT and WaPo analyses cited as corroborating the interceptor-video point"
+      ]
+    },
+    {
+      "id": 14,
+      "org": "Forensic Architecture",
+      "type": "situated testimony follow-up",
+      "date": "2024-10-17",
+      "url": "https://forensic-architecture.org/investigation/when-it-stopped-being-a-war-the-situated-testimony-of-dr-ghassan-abu-sittah",
+      "related_post": "https://x.com/ForensicArchi/status/1846967386001355214",
+      "stance": "Adds firsthand testimony of surgeon Dr Ghassan Abu-Sittah present at the hospital; used to challenge overlook of witness accounts",
+      "key_claims": [
+        "FA says witness testimony was sidelined in early narrative fight",
+        "Part of FA's broader medical-infrastructure work, not a new crater measurement"
+      ]
+    },
+    {
+      "id": 15,
+      "org": "Earshot + Channel 4 News",
+      "type": "audio forensics + broadcast investigation",
+      "date": "2023-10-20",
+      "url": "https://www.dw.com/en/gaza-hospital-blast-what-investigations-have-revealed-so-far/a-67237447",
+      "stance": "Doppler analysis: incoming sound not from SW Gaza as IDF claimed; possible firing points east of hospital. IDF 'Hamas intercept' audio assessed as two separately recorded channels edited together.",
+      "key_claims": [
+        "Lawrence Abu Hamdan / Earshot Doppler mapping",
+        "Channel 4 said crater analysis by FA matched audio NE/east origin",
+        "Limitations: dirty audio, incomplete evidence",
+        "Channel 4 also noted PIJ claimed a fragment but did not produce it"
+      ]
+    },
+    {
+      "id": 16,
+      "org": "EL PAÍS reconstruction",
+      "type": "long-form reconstruction citing multiple labs",
+      "date": "2023-10-24",
+      "url": "https://english.elpais.com/international/2023-10-24/a-reconstruction-of-the-al-ahli-hospital-massacre-in-gaza-that-set-the-islamic-world-on-fire.html",
+      "stance": "Most investigations: projectile launched from inside Gaza; also reports FA 3D crater work pointing NE, contrary to IDF SW claim; French 5 kg charge",
+      "key_claims": [
+        "Shallow ~3 ft crater, NE-to-SW impact cone described",
+        "Marc Garlasco: not JDAM-scale crater",
+        "Useful because it holds both 'from Gaza' majority view and FA direction dissent in one piece"
+      ]
+    },
+    {
+      "id": 17,
+      "org": "Airwars",
+      "type": "casualty-tracking NGO incident file",
+      "date": "ongoing / archived incident ISPT0278",
+      "url": "https://archive-2025.airwars.org/civilian-casualties/ispt0278-october-17-2023/",
+      "stance": "Does not independently settle perpetrator; notes most investigations lean Palestinian rocket but no remnants recovered so not definitive; records victim identification work",
+      "key_claims": [
+        "Quotes Marc Garlasco on unprecedented absence of visible weapon remnants",
+        "Summarizes HRW, CNN, NYT, FA disagreements"
+      ]
+    },
+    {
+      "id": 18,
+      "org": "Anglican Diocese of Jerusalem (hospital operator)",
+      "type": "institution on site",
+      "date": "2023-10",
+      "url": "https://en.wikipedia.org/wiki/Al-Ahli_Arab_Hospital_explosion",
+      "stance": "Reported about 200 people killed — lower than MoH 471",
+      "key_claims": [
+        "Operator estimate often used as a cross-check on MoH figure",
+        "Does not by itself identify munition"
+      ]
+    },
+    {
+      "id": 19,
+      "org": "UN OHCHR (Ravina Shamdasani)",
+      "type": "international organization statement",
+      "date": "2023-10-20",
+      "url": "https://www.aljazeera.com/news/2023/10/21/french-intel-says-palestinian-rocket-likely-cause-of-gaza-hospital-blast",
+      "stance": "Clear need for independent investigation; does not assign blame in the cited remarks",
+      "key_claims": [
+        "Calls for independent inquiry and cooperation by all parties"
+      ]
+    },
+    {
+      "id": 20,
+      "org": "Armament Research Services / N.R. Jenzen-Jones (quoted by AP, BBC)",
+      "type": "independent weapons research",
+      "date": "2023-10",
+      "url": "https://apnews.com/article/israel-palestinians-hamas-war-hospital-rocket-gaza-e0fa550faa4678f024797b72132452e3",
+      "stance": "Leans failed Palestinian craft-produced rocket with unspent propellant causing fireball; crater too small for typical 155 mm artillery",
+      "key_claims": [
+        "Fireball + modest crater more like rocket motor failure than HE artillery or large bomb",
+        "Cannot be treated as a full ARES institutional report; expert comment in news investigations"
+      ]
+    },
+    {
+      "id": 21,
+      "org": "Marc Garlasco (former US targeting / UN investigator, quoted CNN/El País/Airwars)",
+      "type": "independent munitions expert commentary",
+      "date": "2023-10",
+      "url": "https://www.cnn.com/2023/10/21/middleeast/cnn-investigates-forensic-analysis-gaza-hospital-blast",
+      "stance": "Not an airstrike / not smallest JDAM crater; later comments on lack of remnants",
+      "key_claims": [
+        "Smallest JDAM typically ~3 m crater",
+        "Airwars quotes him: never seen such lack of physical weapon evidence at a site"
+      ]
+    },
+    {
+      "id": 22,
+      "org": "Washington Post (cited by FA; munitions-expert survey mentioned in Wikipedia explosion page)",
+      "type": "newsroom expert survey",
+      "date": "2023-10",
+      "url": "https://en.wikipedia.org/wiki/Al-Ahli_Arab_Hospital_explosion",
+      "stance": "Impact inconsistent with airstrike (too little destruction) or typical artillery (would leave more fragments, less massive fireball)",
+      "key_claims": [
+        "Useful as a third-category view: neither classic JDAM nor classic 155 mm shell",
+        "Read the original WaPo piece directly; Wikipedia is only an index"
+      ]
+    },
+    {
+      "id": 23,
+      "org": "Al Jazeera",
+      "type": "outlet that both filmed key video and reported contrary intel",
+      "date": "2023-10-21",
+      "url": "https://www.aljazeera.com/news/2023/10/21/french-intel-says-palestinian-rocket-likely-cause-of-gaza-hospital-blast",
+      "stance": "Reported French DRM finding of Palestinian rocket; also carried Palestinian official attribution to Israel; livestream became a contested exhibit",
+      "key_claims": [
+        "Primary video source in the information war",
+        "Later analyses split the livestream object from the hospital impact"
+      ]
+    },
+    {
+      "id": 24,
+      "org": "The New Arab summary of FA Feb 2024 report",
+      "type": "secondary news writeup of FA",
+      "date": "2024-02-19",
+      "url": "http://web.archive.org/web/20250503031945/https://www.newarab.com/news/report-disputes-israel-claims-about-al-ahli-hospital-bombing",
+      "stance": "Amplifies FA: interceptor timing math + burned-out salvo motors",
+      "key_claims": [
+        "Convenient short digest; still go to FA primary page"
+      ]
+    },
+    {
+      "id": 25,
+      "org": "Open-source academic compilation (Academia.edu)",
+      "type": "independent OSINT compilation / critique of crater azimuths",
+      "date": "2023",
+      "url": "https://www.academia.edu/108974446/Al_Ahli_Hospital_attack_the_open_sources",
+      "stance": "Compares FA azimuth, IDF azimuth, and an alternative ~289° fit to fragmentation on pavement/facades/cars",
+      "key_claims": [
+        "Useful for seeing how sensitive direction claims are to assumed fragment spray",
+        "Not a peer-reviewed journal article; treat as one analyst's overlay"
+      ]
+    },
+    {
+      "id": 26,
+      "org": "Wikipedia English — Al-Ahli Arab Hospital explosion (bibliography hub)",
+      "type": "tertiary aggregator with footnotes",
+      "date": "updated through 2026",
+      "url": "https://en.wikipedia.org/wiki/Al-Ahli_Arab_Hospital_explosion",
+      "stance": "Documents that cause is contested; lists intel assessments vs FA/Earshot/Channel 4/Al Jazeera",
+      "key_claims": [
+        "Best single footnote map for finding original URLs",
+        "Not a source of truth; use to jump to primaries"
+      ]
+    }
+  ],
+  "suggested_reading_order": [
+    "11 HRW (best single structured remote-forensic writeup)",
+    "7 AP and 8 CNN (video + crater + expert panel)",
+    "1 IDF primary",
+    "13 Forensic Architecture Feb 2024 page",
+    "15 Earshot/Channel 4 via DW summary then hunt the original package",
+    "9 NYT on the wrong-video problem",
+    "3-6 intel statements (US/FR/UK/CA)",
+    "17 Airwars incident file",
+    "2 and 18 for casualty-figure spread"
+  ],
+  "hard_unresolved_questions": [
+    "Where are the munition fragments, and who last had custody?",
+    "If it was a Gaza rocket, which group and which launcher site?",
+    "If FA northeast origin is right, what specific Israeli or other munition class fits a tiny crater + large fireball?",
+    "How many people were actually in the courtyard, and how was 471 derived?",
+    "Is the IDF released audio authentic?"
+  ]
+}

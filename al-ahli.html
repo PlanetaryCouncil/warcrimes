@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Al-Ahli Arab Hospital explosion — contested, not attributed</title>
+<style>
+  :root {
+    --bg: #0e0f12; --card: #17181d; --text: #e8e6e1; --muted: #9a978f;
+    --accent: #c0392b; --line: #26272e; --link: #d8a48f; --amber: #d6a43c;
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #f6f5f2; --card: #ffffff; --text: #1c1c1e; --muted: #6b6960;
+      --accent: #a93226; --line: #e3e1da; --link: #a04b2f; --amber: #a3761c;
+    }
+  }
+  * { box-sizing: border-box; margin: 0; }
+  html { scroll-behavior: smooth; }
+  body { background: var(--bg); color: var(--text); font: 16px/1.55 -apple-system, "Segoe UI", Georgia, serif; padding: 0 1rem 5rem; }
+  #topnav {
+    position: sticky; top: 0; z-index: 10; display: flex; align-items: center; gap: 1rem; flex-wrap: wrap;
+    margin: 0 -1rem 2.2rem; padding: 0.65rem 1.2rem;
+    background: color-mix(in srgb, var(--bg) 82%, transparent); backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--line); font-size: 0.9rem;
+  }
+  #topnav .brand { font-weight: 700; letter-spacing: 0.06em; color: var(--accent); text-transform: uppercase; font-size: 0.78rem; text-decoration: none; }
+  #topnav a { color: var(--text); text-decoration: none; opacity: 0.75; }
+  #topnav a:hover { opacity: 1; color: var(--accent); }
+  main { max-width: 860px; margin: 0 auto; }
+  header { margin: 0 0 2rem; border-bottom: 2px solid var(--amber); padding: 1.5rem 0; }
+  h1 { font-size: 1.9rem; line-height: 1.2; letter-spacing: -0.01em; }
+  .overline { color: var(--amber); font-size: 0.8rem; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; margin-bottom: 0.7rem; }
+  .sub { color: var(--muted); margin-top: 0.6rem; font-size: 0.95rem; }
+  .score {
+    margin-top: 1rem; padding-top: 0.7rem; border-top: 1px dashed var(--line);
+    display: flex; flex-wrap: wrap; gap: 0.3rem 1.1rem; font-size: 0.8rem; color: var(--muted);
+  }
+  .score span { white-space: nowrap; }
+  .score b { color: var(--amber); font-weight: 600; }
+  .notice { border: 1px solid var(--amber); border-radius: 8px; background: color-mix(in srgb, var(--amber) 8%, var(--card)); padding: 0.85rem 1.1rem; margin: 0 0 2.2rem; font-size: 0.9rem; }
+  .notice b { color: var(--amber); }
+  section { margin: 2.6rem 0 0; scroll-margin-top: 4rem; }
+  h2 { font-size: 1.35rem; line-height: 1.25; margin-bottom: 0.9rem; border-top: 2px solid var(--line); padding-top: 1.2rem; }
+  h3 { font-size: 1rem; margin: 1rem 0 0.4rem; }
+  p { margin: 0.6rem 0; }
+  .why { margin: 0.4rem 0 0; padding: 0; list-style: none; }
+  .why li { padding-left: 1.1rem; position: relative; margin-top: 0.45rem; line-height: 1.45; }
+  .why li::before { content: "▸"; position: absolute; left: 0; color: var(--amber); font-weight: 700; }
+  .theses { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; margin-top: 0.8rem; }
+  .thesis { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 1rem 1.1rem; font-size: 0.92rem; }
+  .thesis h3 { margin-top: 0; }
+  .thesis .tag { display: inline-block; font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.4rem; }
+  .thesis .backers { color: var(--muted); font-size: 0.85rem; margin-top: 0.5rem; }
+  .thesis .weak { border-left: 3px solid var(--accent); padding-left: 0.7rem; margin-top: 0.6rem; font-size: 0.86rem; }
+  ol.read { padding-left: 1.4rem; }
+  ol.read li { margin-top: 0.5rem; }
+  ol.read a { color: var(--link); }
+  .timeline { list-style: none; padding: 0; margin-top: 0.6rem; border-left: 2px solid var(--line); }
+  .timeline li { position: relative; padding: 0.25rem 0 0.6rem 1.2rem; font-size: 0.92rem; }
+  .timeline li::before { content: ""; position: absolute; left: -6px; top: 0.6rem; width: 10px; height: 10px; border-radius: 50%; background: var(--amber); }
+  .timeline b { color: var(--text); }
+  .src { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 0.9rem 1.1rem; margin-top: 0.8rem; font-size: 0.92rem; }
+  .src .head { display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap; }
+  .src .head img { width: 20px; height: 20px; border-radius: 4px; background: #fff; }
+  .src .head a { color: var(--text); text-decoration: none; font-weight: 700; }
+  .src .head a:hover { color: var(--accent); }
+  .src .meta { color: var(--muted); font-size: 0.8rem; }
+  .src .stance { margin-top: 0.4rem; }
+  .src details { margin-top: 0.4rem; }
+  .src summary { cursor: pointer; color: var(--muted); font-size: 0.82rem; }
+  .src ul { margin: 0.3rem 0 0 1.1rem; padding: 0; font-size: 0.86rem; color: var(--muted); }
+  .q { border-left: 3px solid var(--amber); padding: 0.3rem 0 0.3rem 0.9rem; margin-top: 0.7rem; font-style: italic; }
+  footer { margin-top: 3rem; color: var(--muted); font-size: 0.85rem; }
+  footer a { color: var(--link); }
+</style>
+</head>
+<body>
+<nav id="topnav">
+  <a class="brand" href="./">← War Crimes Safari</a>
+  <a href="#survives">What survives</a>
+  <a href="#theses">Three theses</a>
+  <a href="#read">Read first</a>
+  <a href="#questions">Open questions</a>
+  <a href="#timeline">Timeline</a>
+  <a href="#sources">All sources</a>
+</nav>
+<main>
+  <header>
+    <div class="overline">Contested · Not attributed</div>
+    <h1>Al-Ahli Arab Hospital explosion</h1>
+    <p class="sub">Gaza City · 17 October 2023, ~18:59 · courtyard and car park of the Anglican-run Al-Ahli (al-Maamadani / Baptist) Hospital, crowded with people sheltering.</p>
+    <div class="score">
+      <span>⚑ Attribution: <b>disputed</b></span>
+      <span>🔬 Consensus: <b>rocket-class object</b></span>
+      <span>🧭 Origin: <b>unresolved</b></span>
+      <span>☠ Toll: <b>100 – 471</b>, by source</span>
+      <span>🧩 Fragments: <b>never shown</b></span>
+    </div>
+  </header>
+
+  <div class="notice">
+    <b>Why this page exists.</b> The Safari attributes twenty-plus crimes to the documented record. This one it cannot.
+    Al-Ahli is the event every side reaches for — as proof of an Israeli massacre, or as proof that the media rushed to
+    judgment — and the honest position is that the physical evidence rules out some things and settles nothing about
+    the rest. So instead of a verdict, this page holds the evidence: what every camp agrees on, the three theses, the
+    hard questions nobody has answered, and all 26 sources with the claim each one actually made. Not a verdict. Read the originals.
+  </div>
+
+  <section id="survives">
+    <h2>What survives almost every camp</h2>
+    <ul class="why">
+      <li><b>The crater is small.</b> Roughly 0.6–1.0 m across and 0.3–0.4 m deep — HRW photogrammetry gives ~90 × 60 × 30–40 cm; CNN measured ~3 × 3 ft, 1 ft deep; French military intelligence found similar.</li>
+      <li><b>The buildings stood.</b> Burned cars, broken windows, pockmarked walls, a fireball — but limited structural collapse. That pattern is not what an air-dropped high-explosive bomb leaves; the smallest JDAM typically makes a ~3 m crater.</li>
+      <li><b>The blast happened in the open.</b> A paved courtyard used as a car park, packed with civilians sheltering — which is how a small munition with remaining propellant can kill many people without flattening anything.</li>
+      <li><b>The toll is genuinely uncertain.</b> Gaza's Ministry of Health said 471 killed and 342 injured; the hospital's operator, the Anglican Diocese of Jerusalem, said about 200; US intelligence estimated 100–300, likely toward the low end. HRW noted the killed-to-injured ratio is unusually high for the visible damage.</li>
+      <li><b>No munition remnants were ever published.</b> Not by Gaza's authorities (witnesses say EOD teams removed them), not by Israel, not by anyone. This is the single biggest forensic gap — and the reason the question stays open.</li>
+    </ul>
+  </section>
+
+  <section id="theses">
+    <h2>The three theses</h2>
+    <p class="sub">The live dispute is narrower than "bomb versus rocket." It is: <b>which rocket-class object, from which azimuth, and why were fragments never shown.</b></p>
+    <div class="theses">
+      <div class="thesis">
+        <span class="tag">Thesis A</span>
+        <h3>Palestinian rocket misfire</h3>
+        <p>An unguided rocket, often attributed to Palestinian Islamic Jihad, launched from Gaza toward Israel and failed shortly after launch; warhead plus leftover propellant exploded in the crowded courtyard.</p>
+        <div class="backers"><b>Backed by:</b> US, French, UK and Canadian intelligence; AP, CNN and NYT visual investigations; HRW ("apparent rocket-propelled munition of a type commonly used by Palestinian armed groups"); weapons analysts Jenzen-Jones and Garlasco.</div>
+        <div class="weak"><b>Weakness:</b> the launcher is not proven; the IDF's headline video turned out to show a different object two miles away; the IDF intercept audio is disputed; no fragments.</div>
+      </div>
+      <div class="thesis">
+        <span class="tag">Thesis B</span>
+        <h3>Munition from the Israeli direction</h3>
+        <p>The projectile arrived from the northeast — the Israel-controlled perimeter. Not necessarily a large bomb: a rocket, missile or artillery-class munition. Fragmentation on the southwest side of the crater and a channel running in from the northeast.</p>
+        <div class="backers"><b>Backed by:</b> Forensic Architecture with Al-Haq; Earshot's Doppler audio analysis; Channel 4 News. FA's Feb 2024 report argues the mid-air blast Israel cited was an interceptor, and that all 17 rockets in the cited salvo had burned out before reaching the hospital.</div>
+        <div class="weak"><b>Weakness:</b> FA walked back its early "artillery shell" claim to "probably a rocket" while keeping the direction; azimuth estimates are sensitive to assumed fragment spray; no Israeli munition class fits a tiny crater plus a large fireball cleanly.</div>
+      </div>
+      <div class="thesis">
+        <span class="tag">Thesis C</span>
+        <h3>Israeli airstrike, as first claimed</h3>
+        <p>The initial attribution within minutes: an Israeli aircraft bombed the hospital, killing 471.</p>
+        <div class="backers"><b>Backed by:</b> Gaza's Ministry of Health and Hamas authorities; widely repeated in the first hours by governments and media worldwide.</div>
+        <div class="weak"><b>Weakness:</b> the crater and building damage do not match the Israeli air-dropped bombs documented in hundreds of other Gaza strikes; nearly every forensic analysis, including HRW's, rates this "highly unlikely."</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="read">
+    <h2>Read these first, if you only open five</h2>
+    <ol class="read">
+      <li><a href="https://www.hrw.org/news/2023/11/26/gaza-findings-october-17-al-ahli-hospital-explosion" target="_blank" rel="noopener">Human Rights Watch, 26 Nov 2023</a> — the best single structured remote-forensic write-up: crater photogrammetry, rocket-consistent damage, large bomb "highly unlikely," launcher not proven.</li>
+      <li><a href="https://apnews.com/article/israel-palestinians-hamas-war-hospital-rocket-gaza-e0fa550faa4678f024797b72132452e3" target="_blank" rel="noopener">AP visual forensics</a> and <a href="https://www.cnn.com/2023/10/21/middleeast/cnn-investigates-forensic-analysis-gaza-hospital-blast" target="_blank" rel="noopener">CNN investigation</a> — Gaza-origin launches on video, an eight-expert panel on the crater, and the finding that the famous Al Jazeera streak is a <i>different</i> object.</li>
+      <li><a href="https://www.idf.il/en/mini-sites/israel-at-war/all-articles/al-ahli-al-maamadani-hospital-initial-idf-aftermath-report-october-18-2023/" target="_blank" rel="noopener">IDF after-action page, 18 Oct 2023</a> — the primary Israeli document, not a paraphrase.</li>
+      <li><a href="https://forensic-architecture.org/investigation/israeli-disinformation-al-ahli-hospital" target="_blank" rel="noopener">Forensic Architecture, 15 Feb 2024</a> — the interceptor-timing argument and "all 17 rockets burned out mid-flight," in full, including the earlier walk-back.</li>
+      <li><a href="https://www.dw.com/en/gaza-hospital-blast-what-investigations-have-revealed-so-far/a-67237447" target="_blank" rel="noopener">Earshot / Channel 4, via DW</a> — Doppler direction analysis, and the claim that the IDF's "Hamas intercept" audio is two separately recorded channels edited together.</li>
+    </ol>
+    <p class="sub">Then: <a href="https://www.nytimes.com/2023/10/24/world/middleeast/gaza-hospital-israel-hamas-video.html" target="_blank" rel="noopener">NYT on the wrong-video problem</a>, the four allied intelligence statements, the <a href="https://archive-2025.airwars.org/civilian-casualties/ispt0278-october-17-2023/" target="_blank" rel="noopener">Airwars incident file</a>, and the casualty-figure spread. All below.</p>
+  </section>
+
+  <section id="questions">
+    <h2>Hard unresolved questions</h2>
+    <div class="q">Where are the munition fragments, and who last had custody of them?</div>
+    <div class="q">If it was a Gaza rocket — which group, and which launcher site?</div>
+    <div class="q">If Forensic Architecture's northeast origin is right — what specific munition class fits a tiny crater and a large fireball?</div>
+    <div class="q">How many people were actually in the courtyard, and how was 471 derived?</div>
+    <div class="q">Is the IDF's released intercept audio authentic?</div>
+  </section>
+
+  <section id="timeline">
+    <h2>Timeline of claims</h2>
+    <ul class="timeline">
+      <li><b>17 Oct 2023, ~18:59</b> — Explosion in the courtyard. Within the hour, Gaza's Ministry of Health attributes it to an Israeli airstrike; the toll is later specified as 471.</li>
+      <li><b>18 Oct</b> — IDF after-action report: no Israeli strike in the vicinity; a PIJ barrage at 18:59 from a cemetery near the hospital; releases alleged Hamas intercept audio. US intelligence begins briefing "high confidence Israel did not strike."</li>
+      <li><b>20 Oct</b> — Forensic Architecture / Al-Haq / Earshot preliminary: fragmentation suggests northeast origin. Channel 4 airs the Doppler and audio-editing analysis. French military intelligence: errant Palestinian rocket, ~5 kg charge. UN OHCHR calls for an independent investigation.</li>
+      <li><b>21 Oct</b> — AP and CNN forensic analyses: most likely a failed Gaza rocket; crater inconsistent with any air-dropped bomb. Canada: high confidence it was not an Israeli strike.</li>
+      <li><b>23–24 Oct</b> — UK government: likely a missile launched from within Gaza. NYT: the Al Jazeera projectile Israel highlighted detonated about two miles away and is not the hospital munition. US intelligence: 100–300 dead. El País reconstruction holds both the majority view and FA's direction dissent.</li>
+      <li><b>26 Oct</b> — BBC Verify: cause still contested. Notes FA's revision from "artillery shell" to "probably a rocket" (clarification added Jan 2024).</li>
+      <li><b>26 Nov 2023</b> — Human Rights Watch: apparent rocket-propelled munition of a type used by Palestinian armed groups; large bomb highly unlikely; launcher not conclusively identified; independent investigation needed.</li>
+      <li><b>15 Feb 2024</b> — Forensic Architecture full report: the mid-air blast was an interceptor (fragments would need ~31 s to fall; the hospital blast came ~8 s later); all 17 rockets in the salvo burned out at similar range; frames the IDF material as disinformation.</li>
+      <li><b>17 Oct 2024</b> — FA publishes the situated testimony of surgeon Dr Ghassan Abu-Sittah, present at the hospital that night.</li>
+    </ul>
+  </section>
+
+  <section id="sources">
+    <h2>All 26 sources — what each one actually claimed</h2>
+    <p class="sub">Rendered from <a href="al_ahli_hospital_explosion_sources.json" style="color:var(--link)">the compiled JSON</a>. Stances are the source's own position, not ours.</p>
+    <div id="srclist"></div>
+  </section>
+
+  <footer>
+    Part of <a href="./">The War Crimes Safari</a>. This page holds one honest question mark so the rest of the record can be believed. Corrections and new evidence: <a href="https://github.com/PlanetaryCouncil/warcrimes/issues" target="_blank" rel="noopener">open an issue</a>.
+  </footer>
+</main>
+<script>
+const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;');
+const favicon = u => { try { return `https://www.google.com/s2/favicons?domain=${new URL(u).hostname}&sz=64`; } catch { return ''; } };
+fetch('al_ahli_hospital_explosion_sources.json', { cache: 'no-store' }).then(r => r.json()).then(j => {
+  document.getElementById('srclist').innerHTML = j.sources.map(s => `
+    <div class="src" id="src-${s.id}">
+      <div class="head">
+        <img src="${favicon(s.url)}" alt="">
+        <a href="${s.url}" target="_blank" rel="noopener">${s.id}. ${esc(s.org)}</a>
+        <span class="meta">${esc(s.type)} · ${esc(s.date)}</span>
+      </div>
+      <div class="stance">${esc(s.stance)}</div>
+      ${s.key_claims && s.key_claims.length ? `<details><summary>key claims</summary><ul>${s.key_claims.map(k => `<li>${esc(k)}</li>`).join('')}</ul></details>` : ''}
+    </div>`).join('');
+}).catch(() => {
+  document.getElementById('srclist').innerHTML = '<p class="sub">Could not load the sources file — serve this folder over HTTP.</p>';
+});
+</script>
+</body>
+</html>
