@@ -835,12 +835,20 @@
       "id": "children-sniped",
       "section": "main",
       "title": "Children in Gaza treated for single gunshot wounds to the head or chest",
-      "date": "October 2023 – July 2025 (recurring pattern; key reports July–October 2024 and August–September 2025)",
-      "summary": "Volunteer foreign doctors and nurses who worked in Gaza hospitals reported routinely treating young children with single gunshot wounds to the head or chest: in a July 2024 open letter to the White House, 45 American clinicians wrote that they treated pre-teen children shot in the head and chest on a daily basis, and in an October 2024 New York Times opinion survey of 65 healthcare workers, 44 said they had seen multiple children aged 12 or younger shot in the head or chest. A BBC World Service investigation documented 168 cases of children shot in Gaza between October 2023 and July 2025, 95 of them hit in the head or chest, and forensic experts consulted by the Dutch daily de Volkskrant said the wound pattern was consistent with deliberate aimed fire, which Israel denies, saying its forces do not intentionally target civilians.",
+      "date": "October 2023 – July 2025 (de Volkskrant investigation published 2025; European Press Prize 2026)",
+      "summary": "Foreign doctors and nurses who volunteered in Gaza reported treating children with single gunshot wounds to the head or chest as a recurring pattern rather than a stray-fire accident: in the 2025 de Volkskrant investigation “What the wounds are telling us” — awarded the 2026 European Press Prize for Distinguished Reporting — Willem Feenstra and Maud Effting interviewed 17 international doctors and one nurse who had worked across six hospitals and four clinics, 15 of whom described a combined 114 children aged 15 and under shot once in the head or chest, most of whom died, and two forensic pathologists who reviewed the imagery concluded the wounds were highly likely to be long-distance shots aimed with military-grade ammunition. Earlier accounts converge with it: 45 American clinicians wrote to the White House in July 2024 that they treated pre-teen children shot in the head and chest daily, 44 of 65 healthcare workers surveyed by the New York Times in October 2024 reported the same, and a BBC World Service investigation documented 168 children shot between October 2023 and July 2025, 95 of them hit in the head or chest — all of which Israel denies, saying its forces do not deliberately target civilians.",
       "links": [
         {
           "url": "https://forensic-architecture.org/investigation/a-cartography-of-genocide",
           "source": "Forensic Architecture (Cartography of Genocide)"
+        },
+        {
+          "url": "https://www.volkskrant.nl/kijkverder/v/2025/schotwonden-palestijnse-kinderen-israel-oorlog~v1778945/",
+          "source": "de Volkskrant — 'What the wounds are telling us'"
+        },
+        {
+          "url": "https://www.europeanpressprize.com/article/what-the-wounds-are-telling-us/",
+          "source": "European Press Prize 2026 (Distinguished Reporting)"
         },
         {
           "url": "https://www.aljazeera.com/news/2025/9/14/foreign-doctors-say-israel-systematically-targeting-gazas-children-report",
@@ -903,9 +911,9 @@
         "license": "CC BY-SA 3.0 IGO"
       },
       "bullets": [
-        "Volunteer surgeons kept treating the same wound: one bullet, one child's head.",
-        "44 of 65 American clinicians surveyed saw children shot in the head or chest — repeatedly.",
-        "BBC verified 95 children hit in head or chest; forensic experts said the pattern fits deliberate aimed fire."
+        "114 children aged 15 and under, each shot once in the head or chest — counted by 15 of the 17 foreign doctors de Volkskrant interviewed. Most did not survive.",
+        "“Highly likely … long-distance shots aimed at the head and/or neck using military-grade ammunition” — forensic pathologist Wim Van de Voorde.",
+        "Too many to be stray rounds: a second pathologist, Frank van de Goot, found entry patterns indicating fire from considerable distance, inconsistent with accidental hits at this frequency."
       ]
     },
     {
