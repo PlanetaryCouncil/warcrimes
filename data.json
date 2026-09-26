@@ -1461,6 +1461,86 @@
       ]
     },
     {
+      "id": "al-nasr-babies",
+      "section": "main",
+      "title": "Premature babies left to decompose in the ICU of al-Nasr Children's Hospital",
+      "date": "Evacuated ~10 Nov 2023; bodies filmed 27 Nov 2023",
+      "summary": "Around 10 November 2023, as Israeli ground forces encircled Gaza City's al-Nasr Children's Hospital, staff say they were ordered out within minutes under fire, with tanks at the gates and no ambulances able to reach them, and left behind premature infants on ventilators who could not be moved without life support; Médecins Sans Frontières relayed a volunteer nurse's account that day, and its deputy medical coordinator told The Washington Post that five babies were left \"alone in the intensive care on the machines.\" On 27 November, during the truce, Al Mashhad reporter Mohamed Baalousha filmed the decomposing remains of four to five infants still in their beds, which CNN geolocated to the hospital's ICU and two independent forensic pathologists told NBC News were consistent with roughly two weeks of abandonment; the ICRC said it received evacuation requests but was never involved, and the IDF said it \"did not operate inside the Al-Nasr hospital\" and called the allegations \"a perverse exploitation of innocent lives.\"",
+      "bullets": [
+        "Found still attached to the wires and tubes meant to keep them alive — milk bottles and spare diapers still next to them on the sheets (NBC News).",
+        "“I felt like I was leaving my own children behind … if we took them off the oxygen they would have died.” — a nurse who was ordered out, to The Washington Post.",
+        "The IDF's defence is a doorway: it “did not operate inside” — while its tank sat outside and no ambulance was allowed through."
+      ],
+      "links": [
+        {
+          "url": "https://www.cnn.com/2023/12/08/middleeast/babies-al-nasr-gaza-hospital-what-we-know-intl/index.html",
+          "source": "CNN"
+        },
+        {
+          "url": "https://www.washingtonpost.com/world/2023/12/03/gaza-premature-babies-dead-nasr/",
+          "source": "The Washington Post"
+        },
+        {
+          "url": "https://www.nbcnews.com/news/world/abandoned-babies-found-decomposing-gaza-hospital-evacuated-rcna127533",
+          "source": "NBC News"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=EEW874ow6wU",
+          "source": "AJ+ (Al Jazeera) — video"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2023/11/13/patients-are-dying-what-we-know-about-gaza-hospitals-under-israeli-siege",
+          "source": "Al Jazeera"
+        },
+        {
+          "url": "https://www.middleeasteye.net/news/israel-palestine-war-gaza-dead-premature-babies-nasr-hospital",
+          "source": "Middle East Eye"
+        },
+        {
+          "url": "https://www.hrw.org/news/2023/12/01/birth-and-death-intertwined-gaza-strip",
+          "source": "Human Rights Watch"
+        },
+        {
+          "url": "https://www.thedailybeast.com/decomposing-babies-found-in-gazas-abandoned-al-nasr-hospital-report/",
+          "source": "The Daily Beast"
+        },
+        {
+          "url": "https://www.aa.com.tr/en/middle-east/israeli-army-left-infants-to-die-in-al-nasr-childrens-hospital-palestinian-doctor/3160114",
+          "source": "Anadolu Agency"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=dVwaLUTBIOM",
+          "source": "TRT World — video"
+        },
+        {
+          "url": "https://www.commondreams.org/news/israel-war-crimes-2666465411",
+          "source": "Common Dreams"
+        },
+        {
+          "url": "https://gazahcsector.palestine-studies.org/index.php/en/node/529",
+          "source": "Institute for Palestine Studies — health-sector record"
+        },
+        {
+          "url": "https://electronicintifada.net/blogs/nora-barrows-friedman/israeli-military-left-palestinian-infants-die",
+          "source": "The Electronic Intifada"
+        },
+        {
+          "url": "https://www.palestinechronicle.com/five-dead-premature-babies-discovered-in-gaza-hospital/",
+          "source": "Palestine Chronicle"
+        },
+        {
+          "url": "https://www.washingtoninstitute.org/policy-analysis/once-again-palestinian-babies-story-merits-washington-post-apology",
+          "source": "Washington Institute — critique of the Post's sourcing"
+        }
+      ],
+      "wikipedia": "https://en.wikipedia.org/wiki/Al-Nasr_Children%27s_Hospital",
+      "official": {
+        "url": "https://www.algemeiner.com/2023/11/30/israel-blasts-perverse-exploitation-innocent-lives-story-babies-found-dead-gaza-hospital-circulates/",
+        "label": "IDF statement: \"did not operate inside the Al-Nasr hospital\" (quoted by Algemeiner, 30 Nov 2023)"
+      },
+      "verify": "Undisputed: the infants' remains were in al-Nasr's ICU and decomposed there. Disputed: how many (four or five), whether all were alive and on oxygen when staff left, and who promised the ambulances that never came. The Washington Institute criticised the Post's single anonymous source and an undisclosed family tie between its reporter and the videographer; the Post has not retracted. Responsibility for the evacuation order is contested — see sources."
+    },
+    {
       "id": "christians",
       "section": "closers",
       "title": "Attacks on Christians: Jerusalem harassment and Gaza church killings",
