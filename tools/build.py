@@ -12,6 +12,7 @@ SITE = 'https://warcrimes.planetarycouncil.org'
 data = json.loads((ROOT / 'data.json').read_text())
 incidents = data['incidents']
 e = lambda s: html.escape(str(s or ''), quote=True)
+path = lambda d: d.get('slug') or d['id']
 is_fa = lambda u: 'forensic-architecture.org' in u
 favicon = lambda u: f'https://www.google.com/s2/favicons?domain={urlparse(u).hostname}&sz=64'
 host = lambda u: (urlparse(u).hostname or '').removeprefix('www.')
@@ -49,7 +50,7 @@ def page(d, prev, nxt):
     rest = sorted([l for l in links if not is_fa(l['url'])], key=lambda l: (not l.get('published'), l.get('published') or ''))
     ordered = fa + rest
     dated = sum(1 for l in links if l.get('published'))
-    url = f'{SITE}/{d["id"]}/'
+    url = f'{SITE}/{path(d)}/'
     desc = first_sentence(d['summary'])
     title = f'{plain(d["title"])} — War Crimes Safari'
     ld = {'@context': 'https://schema.org', '@type': 'Article', 'headline': plain(d['title'])[:110], 'description': desc,
@@ -65,8 +66,8 @@ def page(d, prev, nxt):
                 f'<a href="{e(off["url"])}" target="_blank" rel="noopener">{e(off["label"])}</a></div>') if off else ''
     wiki = (f'<div class="wiki"><b>Wikipedia</b><a href="{e(d["wikipedia"])}" target="_blank" rel="noopener">'
             f'{e(host(d["wikipedia"]))}{e(urlparse(d["wikipedia"]).path)}</a></div>') if d.get('wikipedia') else ''
-    pager = '<nav class="pager">' + (f'<a href="/{prev["id"]}/">← {LABEL[prev["id"]]} {e(plain(prev["title"]))}</a>' if prev else '<span></span>') + \
-            (f'<a href="/{nxt["id"]}/" style="text-align:right">{LABEL[nxt["id"]]} {e(plain(nxt["title"]))} →</a>' if nxt else '<span></span>') + '</nav>'
+    pager = '<nav class="pager">' + (f'<a href="/{path(prev)}/">← {LABEL[prev["id"]]} {e(plain(prev["title"]))}</a>' if prev else '<span></span>') + \
+            (f'<a href="/{path(nxt)}/" style="text-align:right">{LABEL[nxt["id"]]} {e(plain(nxt["title"]))} →</a>' if nxt else '<span></span>') + '</nav>'
     return f'''<!doctype html>
 <html lang="en">
 <head>
@@ -122,15 +123,22 @@ def page(d, prev, nxt):
 '''
 
 def main():
-    ids = {d['id'] for d in incidents}
+    ids = {d['id'] for d in incidents} | {path(d) for d in incidents}
     # remove pages for incidents that no longer exist (only dirs we generated: they contain a marker-free index.html next to nothing else)
     for p in ROOT.iterdir():
         if p.is_dir() and (p / 'index.html').exists() and p.name not in ids and p.name not in ('tools', '.git', '.claude'):
             if 'War Crimes Safari' in (p / 'index.html').read_text(): shutil.rmtree(p)
     for i, d in enumerate(ORDER):
-        out = ROOT / d['id']; out.mkdir(exist_ok=True)
+        out = ROOT / path(d); out.mkdir(exist_ok=True)
         (out / 'index.html').write_text(page(d, ORDER[i - 1] if i else None, ORDER[i + 1] if i + 1 < len(ORDER) else None))
-    urls = [SITE + '/', SITE + '/al-ahli.html'] + [f'{SITE}/{d["id"]}/' for d in ORDER]
+        if path(d) != d['id']:  # keep the short URL working: redirect to the keyword URL
+            old = ROOT / d['id']; old.mkdir(exist_ok=True)
+            target = f'/{path(d)}/'
+            (old / 'index.html').write_text(f'<!doctype html><meta charset="utf-8"><title>War Crimes Safari — moved</title>'
+                f'<link rel="canonical" href="{SITE}{target}"><meta name="robots" content="noindex">'
+                f'<meta http-equiv="refresh" content="0; url={target}"><script>location.replace("{target}"+location.hash)</script>'
+                f'<a href="{target}">{e(plain(d["title"]))}</a>\n')
+    urls = [SITE + '/', SITE + '/al-ahli.html'] + [f'{SITE}/{path(d)}/' for d in ORDER]
     (ROOT / 'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
                                       + ''.join(f'  <url><loc>{u}</loc></url>\n' for u in urls) + '</urlset>\n')
     (ROOT / 'robots.txt').write_text(f'User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n')

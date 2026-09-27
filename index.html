@@ -73,8 +73,8 @@ const esc = s => String(s).replace(/"/g, '&quot;');
 const favicon = u => { try { return `https://www.google.com/s2/favicons?domain=${new URL(u).hostname}&sz=64`; } catch { return ''; } };
 const srcLink = (url, name) => `<a class="src${/forensic-architecture\.org/.test(url) ? ' fa' : ''}" href="${url}" target="_blank" rel="noopener" title="${esc(name)}" aria-label="${esc(name)}"><img src="${favicon(url)}" alt="${esc(name)}" loading="lazy"></a>`;
 const card = (d, label) => `
-  <article class="card" id="${d.id}">
-    <h2><span class="num">${label}</span><a href="/${d.id}/">${d.title}</a></h2>
+  <article class="card" id="${d.id}" data-href="/${d.slug || d.id}/">
+    <h2><span class="num">${label}</span><a href="/${d.slug || d.id}/">${d.title}</a></h2>
     <div class="meta">${d.date}</div>
     ${d.bullets ? `<ul class="why">${d.bullets.map(b => `<li>${b}</li>`).join('')}</ul>` : ''}
     <p>${d.summary}</p>
@@ -93,7 +93,7 @@ const card = (d, label) => `
       <span>⚖ Sanctions: none</span>
       <span>✈ Arms exports: uninterrupted</span>
     </div>` : ''}
-    <a class="more" href="/${d.id}/">Full record · ${d.links.length + (d.wikipedia ? 1 : 0)} sources, dated →</a>
+    <a class="more" href="/${d.slug || d.id}/">Full record · ${d.links.length + (d.wikipedia ? 1 : 0)} sources, dated →</a>
   </article>`;
 fetch('data.json', { cache: 'no-store' }).then(r => r.json()).then(({ incidents }) => {
   const num = n => String(n).padStart(2, '0');
@@ -145,7 +145,7 @@ fetch('data.json', { cache: 'no-store' }).then(r => r.json()).then(({ incidents 
   document.querySelector('main').addEventListener('click', e => {
     const c = e.target.closest('.card');
     if (!c || e.target.closest('a') || getSelection().toString()) return;
-    const url = `/${c.id}/`;
+    const url = c.dataset.href;
     e.metaKey || e.ctrlKey ? open(url, '_blank') : (location.href = url);
   });
 

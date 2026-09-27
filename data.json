@@ -14,7 +14,8 @@
       "official": "{url, label} — official Israeli response, primary where possible (optional)",
       "image": "{src, page, credit, license} — freely licensed embed, Wikimedia Commons (optional)",
       "photo": "{url, source} — link to iconic copyrighted photo when no free image (optional)",
-      "verify": "open curation caveat (optional)"
+      "verify": "open curation caveat (optional)",
+      "slug": "optional keyword-rich URL path for the incident page; defaults to id. Old /<id>/ redirects to it."
     }
   },
   "incidents": [
@@ -2050,7 +2051,8 @@
         "url": "https://www.algemeiner.com/2023/11/30/israel-blasts-perverse-exploitation-innocent-lives-story-babies-found-dead-gaza-hospital-circulates/",
         "label": "IDF statement: \"did not operate inside the Al-Nasr hospital\" (quoted by Algemeiner, 30 Nov 2023)"
       },
-      "verify": "Undisputed: the infants' remains were in al-Nasr's ICU and decomposed there. Disputed: how many (four or five), whether all were alive and on oxygen when staff left, and who promised the ambulances that never came. The Washington Institute criticised the Post's single anonymous source and an undisclosed family tie between its reporter and the videographer; the Post has not retracted. Responsibility for the evacuation order is contested — see sources."
+      "verify": "Undisputed: the infants' remains were in al-Nasr's ICU and decomposed there. Disputed: how many (four or five), whether all were alive and on oxygen when staff left, and who promised the ambulances that never came. The Washington Institute criticised the Post's single anonymous source and an undisclosed family tie between its reporter and the videographer; the Post has not retracted. Responsibility for the evacuation order is contested — see sources.",
+      "slug": "al-nasr-hospital-babies-left-behind-decomposing-rotting-in-icu-beds-gaza"
     },
     {
       "id": "christians",
