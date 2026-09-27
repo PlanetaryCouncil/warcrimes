@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://warcrimes.planetarycouncil.org/sitemap.xml

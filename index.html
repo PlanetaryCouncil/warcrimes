@@ -3,113 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Documented war crimes in Gaza and the West Bank, 2023–2026: each incident with its sources dated and named, the official Israeli response, and what remains disputed.">
+<link rel="canonical" href="https://warcrimes.planetarycouncil.org/">
 <title>The War Crimes Safari — Gaza &amp; the West Bank, 2023–2026</title>
-<style>
-  :root {
-    --bg: #0e0f12;
-    --card: #17181d;
-    --text: #e8e6e1;
-    --muted: #9a978f;
-    --accent: #c0392b;
-    --line: #26272e;
-    --link: #d8a48f;
-  }
-  @media (prefers-color-scheme: light) {
-    :root {
-      --bg: #f6f5f2;
-      --card: #ffffff;
-      --text: #1c1c1e;
-      --muted: #6b6960;
-      --accent: #a93226;
-      --line: #e3e1da;
-      --link: #a04b2f;
-    }
-  }
-  * { box-sizing: border-box; margin: 0; }
-  html { scroll-behavior: smooth; }
-  body {
-    background: var(--bg);
-    color: var(--text);
-    font: 16px/1.55 -apple-system, "Segoe UI", Georgia, serif;
-    padding: 0 1rem 5rem;
-  }
-  #topnav {
-    position: sticky; top: 0; z-index: 10;
-    display: flex; align-items: center; gap: 1rem; flex-wrap: wrap;
-    margin: 0 -1rem 2.2rem; padding: 0.65rem 1.2rem;
-    background: color-mix(in srgb, var(--bg) 82%, transparent);
-    backdrop-filter: blur(10px);
-    border-bottom: 1px solid var(--line);
-    font-size: 0.9rem;
-  }
-  #topnav .brand { font-weight: 700; letter-spacing: 0.06em; color: var(--accent); text-transform: uppercase; font-size: 0.78rem; }
-  #topnav a { color: var(--text); text-decoration: none; opacity: 0.75; }
-  #topnav a:hover { opacity: 1; color: var(--accent); }
-  main { max-width: 1360px; margin: 0 auto; }
-  header, .section, footer { max-width: 760px; }
-  .cards { display: flex; gap: 1.1rem; align-items: flex-start; }
-  .cards .col { flex: 1 1 0; min-width: 0; }
-  header { margin: 0 auto 2.5rem; border-bottom: 2px solid var(--accent); padding-bottom: 1.5rem; padding-top: 1.5rem; }
-  .section { scroll-margin-top: 4rem; margin-left: auto; margin-right: auto; }
-  h1 { font-size: 1.9rem; line-height: 1.2; letter-spacing: -0.01em; }
-  .overline { color: var(--accent); font-size: 0.8rem; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; margin-bottom: 0.7rem; }
-  .sub { color: var(--muted); margin-top: 0.6rem; font-size: 0.95rem; }
-  .section { margin: 3rem 0 1.5rem; border-top: 2px solid var(--accent); padding-top: 1.5rem; }
-  .section h2 { font-size: 1.4rem; line-height: 1.25; }
-  .card {
-    background: var(--card);
-    border: 1px solid var(--line);
-    border-radius: 10px;
-    padding: 1.25rem 1.4rem;
-    margin: 0 0 1.1rem;
-    scroll-margin-top: 4rem;
-    transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease, opacity 0.5s ease;
-  }
-  .card:hover {
-    transform: translateY(-3px);
-    border-color: var(--accent);
-    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.25);
-  }
-  .card.pre { opacity: 0; }
-  .card.hidden { display: none; }
-  .why { margin: 0.75rem 0 0; padding: 0; list-style: none; }
-  .why li { padding-left: 1.1rem; position: relative; margin-top: 0.4rem; font-size: 0.93rem; line-height: 1.45; }
-  .why li::before { content: "▸"; position: absolute; left: 0; color: var(--accent); font-weight: 700; }
-  .card h2 { font-size: 1.05rem; line-height: 1.35; }
-  .num { color: var(--accent); font-weight: 700; margin-right: 0.5rem; font-variant-numeric: tabular-nums; }
-  .meta { color: var(--muted); font-size: 0.85rem; margin-top: 0.25rem; }
-  .card p { margin-top: 0.6rem; }
-  .links { margin-top: 0.85rem; display: flex; flex-wrap: wrap; gap: 0.45rem; align-items: center; }
-  .links a { text-decoration: none; transition: transform 0.12s; line-height: 1; }
-  .links a:hover { transform: scale(1.25); }
-  .links a.src img { width: 22px; height: 22px; border-radius: 5px; display: block; background: #fff; }
-  .links a.src.fa img { box-shadow: 0 0 0 2px var(--accent); }
-  .links a.emoji { font-size: 1.2rem; }
-  .score {
-    margin-top: 0.85rem; padding-top: 0.6rem;
-    border-top: 1px dashed var(--line);
-    display: flex; flex-wrap: wrap; gap: 0.25rem 1rem;
-    font-size: 0.76rem; color: var(--muted); letter-spacing: 0.01em;
-  }
-  .score span { white-space: nowrap; }
-  figcaption { color: var(--muted); font-size: 0.75rem; margin-top: 0.35rem; }
-  .verify { color: var(--muted); font-size: 0.8rem; font-style: italic; margin-top: 0.5rem; }
-  .comment { border-left: 3px solid var(--accent); padding: 0.3rem 0 0.3rem 0.8rem; margin-top: 0.7rem; font-style: italic; color: var(--muted); }
-  .notice {
-    border: 1px solid var(--accent);
-    border-radius: 8px;
-    background: color-mix(in srgb, var(--accent) 7%, var(--card));
-    padding: 0.85rem 1.1rem;
-    margin: 0 auto 2.2rem;
-    font-size: 0.88rem;
-    color: var(--text);
-    max-width: 760px;
-  }
-  .notice b { color: var(--accent); }
-  .duality { margin-top: 0.8rem; line-height: 1.6; }
-  .duality b { color: var(--text); }
-  footer { margin: 3rem auto 0; color: var(--muted); font-size: 0.85rem; }
-</style>
+<link rel="stylesheet" href="/site.css">
 </head>
 <body>
 <nav id="topnav">
@@ -118,7 +15,7 @@
   <a href="#sec-closers">Closers</a>
   <a href="#sec-docket">Docket</a>
   <a href="#sec-hamas">Hamas</a>
-  <a href="al-ahli.html">Contested</a>
+  <a href="/al-ahli.html">Contested</a>
 </nav>
 <main>
   <header id="top">
@@ -177,7 +74,7 @@ const favicon = u => { try { return `https://www.google.com/s2/favicons?domain=$
 const srcLink = (url, name) => `<a class="src${/forensic-architecture\.org/.test(url) ? ' fa' : ''}" href="${url}" target="_blank" rel="noopener" title="${esc(name)}" aria-label="${esc(name)}"><img src="${favicon(url)}" alt="${esc(name)}" loading="lazy"></a>`;
 const card = (d, label) => `
   <article class="card" id="${d.id}">
-    <h2><span class="num">${label}</span>${d.title}</h2>
+    <h2><span class="num">${label}</span><a href="/${d.id}/">${d.title}</a></h2>
     <div class="meta">${d.date}</div>
     ${d.bullets ? `<ul class="why">${d.bullets.map(b => `<li>${b}</li>`).join('')}</ul>` : ''}
     <p>${d.summary}</p>
@@ -196,6 +93,7 @@ const card = (d, label) => `
       <span>⚖ Sanctions: none</span>
       <span>✈ Arms exports: uninterrupted</span>
     </div>` : ''}
+    <a class="more" href="/${d.id}/">Full record · ${d.links.length + (d.wikipedia ? 1 : 0)} sources, dated →</a>
   </article>`;
 fetch('data.json', { cache: 'no-store' }).then(r => r.json()).then(({ incidents }) => {
   const num = n => String(n).padStart(2, '0');
@@ -242,6 +140,14 @@ fetch('data.json', { cache: 'no-store' }).then(r => r.json()).then(({ incidents 
       });
     }
   }
+
+  // the whole tile opens the incident's own page; links inside it keep working
+  document.querySelector('main').addEventListener('click', e => {
+    const c = e.target.closest('.card');
+    if (!c || e.target.closest('a') || getSelection().toString()) return;
+    const url = `/${c.id}/`;
+    e.metaKey || e.ctrlKey ? open(url, '_blank') : (location.href = url);
+  });
 
   let rt; addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(layout, 150); });
   layout();
