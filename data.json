@@ -9,13 +9,14 @@
       "title": "sober factual title",
       "date": "date or range",
       "summary": "2 sentences, attributed",
-      "links": "[{url, source, headline?, published?}] — headline and publication date as the source itself published them (tools/harvest.py); blank = not retrieved, never guessed",
+      "links": "[{url, source, headline?, published?}] — headline and publication date as the source itself published them (tools/harvest.py); blank = not retrieved, never guessed; tag: \"propaganda\" marks a source we cite as an example of denial, not as evidence",
       "wikipedia": "most relevant Wikipedia article (optional)",
       "official": "{url, label} — official Israeli response, primary where possible (optional)",
       "image": "{src, page, credit, license} — freely licensed embed, Wikimedia Commons (optional)",
       "photo": "{url, source} — link to iconic copyrighted photo when no free image (optional)",
       "verify": "open curation caveat (optional)",
-      "slug": "optional keyword-rich URL path for the incident page; defaults to id. Old /<id>/ redirects to it."
+      "slug": "optional keyword-rich URL path for the incident page; defaults to id. Old /<id>/ redirects to it.",
+      "figure": "optional {src, alt, title, caption, credit{label,url}} — image shown on the incident page and used as its social preview"
     }
   },
   "incidents": [
@@ -2042,8 +2043,9 @@
         },
         {
           "url": "https://www.washingtoninstitute.org/policy-analysis/once-again-palestinian-babies-story-merits-washington-post-apology",
-          "source": "Washington Institute — critique of the Post's sourcing",
-          "headline": "Once Again, a “Palestinian Babies” Story Merits a Washington Post Apology"
+          "source": "The Washington Institute (WINEP)",
+          "headline": "Once Again, a “Palestinian Babies” Story Merits a Washington Post Apology",
+          "tag": "propaganda"
         }
       ],
       "wikipedia": "https://en.wikipedia.org/wiki/Al-Nasr_Children%27s_Hospital",
@@ -2051,8 +2053,18 @@
         "url": "https://www.algemeiner.com/2023/11/30/israel-blasts-perverse-exploitation-innocent-lives-story-babies-found-dead-gaza-hospital-circulates/",
         "label": "IDF statement: \"did not operate inside the Al-Nasr hospital\" (quoted by Algemeiner, 30 Nov 2023)"
       },
-      "verify": "Undisputed: the infants' remains were in al-Nasr's ICU and decomposed there. Disputed: how many (four or five), whether all were alive and on oxygen when staff left, and who promised the ambulances that never came. The Washington Institute criticised the Post's single anonymous source and an undisclosed family tie between its reporter and the videographer; the Post has not retracted. Responsibility for the evacuation order is contested — see sources.",
-      "slug": "al-nasr-hospital-babies-left-behind-decomposing-rotting-in-icu-beds-gaza"
+      "verify": "Undisputed: the infants' remains were in al-Nasr's ICU and decomposed there. Disputed: how many (four or five), whether all were alive and on oxygen when staff left, and who promised the ambulances that never came. The Washington Institute, a pro-Israel think tank whose piece ranks highly in search (marked here as propaganda), attacked the Post's reliance on one anonymous nurse and an undisclosed family tie between its reporter and the videographer; the Post has not retracted, and none of it explains how the babies came to rot in their beds.",
+      "slug": "al-nasr-hospital-babies-left-behind-decomposing-rotting-in-icu-beds-gaza",
+      "figure": {
+        "src": "/img/anatomy-of-an-excuse-al-nasr-babies.webp",
+        "alt": "Anatomy of an Excuse: six denial claims about the al-Nasr babies, each answered with a question of reasoning — an intact ceiling does not establish the babies were safe; imagining an evacuation does not prove it was possible; blaming absent caregivers requires evidence; a possibility is not a timeline; missing autopsies cannot confirm a preferred explanation; an accusation of motive is not proof of motive.",
+        "title": "Anatomy of an excuse",
+        "caption": "Propaganda training: six claims circulated to deny the al-Nasr babies, and why none of them hold. Quoted claims are not verified facts; illustrations are symbolic.",
+        "credit": {
+          "label": "Inspired by @CaliDreamingof on X",
+          "url": "https://x.com/CaliDreamingof/status/2103587019943563312"
+        }
+      }
     },
     {
       "id": "christians",

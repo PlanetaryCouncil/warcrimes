@@ -71,7 +71,7 @@
 <script>
 const esc = s => String(s).replace(/"/g, '&quot;');
 const favicon = u => { try { return `https://www.google.com/s2/favicons?domain=${new URL(u).hostname}&sz=64`; } catch { return ''; } };
-const srcLink = (url, name) => `<a class="src${/forensic-architecture\.org/.test(url) ? ' fa' : ''}" href="${url}" target="_blank" rel="noopener" title="${esc(name)}" aria-label="${esc(name)}"><img src="${favicon(url)}" alt="${esc(name)}" loading="lazy"></a>`;
+const srcLink = (url, name, tag) => `<a class="src${/forensic-architecture\.org/.test(url) ? ' fa' : ''}${tag === 'propaganda' ? ' prop' : ''}" href="${url}" target="_blank" rel="noopener" title="${esc(name)}${tag === 'propaganda' ? ' — marked: propaganda' : ''}" aria-label="${esc(name)}"><img src="${favicon(url)}" alt="${esc(name)}" loading="lazy"></a>`;
 const card = (d, label) => `
   <article class="card" id="${d.id}" data-href="/${d.slug || d.id}/">
     <h2><span class="num">${label}</span><a href="/${d.slug || d.id}/">${d.title}</a></h2>
@@ -82,7 +82,7 @@ const card = (d, label) => `
     <div class="links">
       ${d.links.filter(l => /forensic-architecture\.org/.test(l.url)).map(l => srcLink(l.url, l.source)).join('')}
       ${d.wikipedia ? srcLink(d.wikipedia, 'Wikipedia') : ''}
-      ${d.links.filter(l => !/forensic-architecture\.org/.test(l.url)).map(l => srcLink(l.url, l.source)).join('')}
+      ${d.links.filter(l => !/forensic-architecture\.org/.test(l.url)).map(l => srcLink(l.url, l.source, l.tag)).join('')}
       ${d.photo ? `<a class="emoji" href="${d.photo.url}" target="_blank" rel="noopener" title="Photo — ${esc(d.photo.source)}" aria-label="Photo — ${esc(d.photo.source)}">📷</a>` : ''}
       ${d.official ? `<a class="emoji" href="${d.official.url}" target="_blank" rel="noopener" title="Official response — ${esc(d.official.label)}" aria-label="Official response — ${esc(d.official.label)}">${d.official.flag || '🇮🇱'}</a>` : ''}
     </div>

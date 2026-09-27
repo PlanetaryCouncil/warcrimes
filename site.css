@@ -151,3 +151,14 @@ table.sources td.h .host { color: var(--muted); font-size: 0.78rem; margin-left:
   table.sources td.h { display: block; margin-top: 0.2rem; }
   table.sources td.p, table.sources td.d { width: auto; }
 }
+
+/* propaganda-tagged sources */
+.tag-prop { display: inline-block; margin-left: 0.45rem; padding: 0 0.4rem; border: 1px solid var(--accent); border-radius: 4px; color: var(--accent); font-size: 0.68rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; vertical-align: 1px; }
+table.sources tr.prop td.h a { color: var(--muted); text-decoration: line-through; text-decoration-color: color-mix(in srgb, var(--accent) 60%, transparent); }
+.links a.src.prop img { box-shadow: 0 0 0 2px var(--bg), 0 0 0 3.5px var(--accent); filter: grayscale(1); }
+
+/* poster figure on incident pages */
+figure.poster { margin: 2.2rem 0 0; }
+figure.poster h2 { font-size: 1.2rem; border-top: 2px solid var(--accent); padding-top: 1rem; margin-bottom: 0.9rem; }
+figure.poster img { display: block; width: 100%; max-width: 620px; height: auto; margin: 0 auto; border-radius: 8px; border: 1px solid var(--line); }
+figure.poster figcaption { max-width: 620px; margin: 0.6rem auto 0; font-size: 0.82rem; }

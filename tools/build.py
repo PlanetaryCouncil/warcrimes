@@ -41,7 +41,9 @@ def row(i, l):
     h = (f'<a href="{e(l["url"])}" target="_blank" rel="noopener">{e(head)}</a>{gd}' if head
          else f'<a href="{e(l["url"])}" target="_blank" rel="noopener"><span class="nohead">headline not retrieved</span></a><span class="host">{e(host(l["url"]))}</span>')
     date = l.get('published') or '—'
-    return (f'<tr class="{"fa" if is_fa(l["url"]) else ""}"><td class="d">{e(date)}</td>'
+    if l.get('tag') == 'propaganda':
+        h += '<span class="tag-prop" title="Cited as an example of denial, not as evidence">propaganda</span>'
+    return (f'<tr class="{"fa" if is_fa(l["url"]) else ""}{" prop" if l.get("tag") == "propaganda" else ""}"><td class="d">{e(date)}</td>'
             f'<td class="p"><img src="{favicon(l["url"])}" alt="" loading="lazy">{e(l["source"])}</td><td class="h">{h}</td></tr>')
 
 def page(d, prev, nxt):
@@ -56,6 +58,12 @@ def page(d, prev, nxt):
     ld = {'@context': 'https://schema.org', '@type': 'Article', 'headline': plain(d['title'])[:110], 'description': desc,
           'url': url, 'isPartOf': {'@type': 'WebSite', 'name': 'The War Crimes Safari', 'url': SITE + '/'},
           'citation': [l['url'] for l in ordered] + ([d['wikipedia']] if d.get('wikipedia') else [])}
+    fig = d.get('figure')
+    og_image = (f'<meta property="og:image" content="{SITE}{fig["src"]}">\n<meta name="twitter:card" content="summary_large_image">'
+                if fig else '<meta name="twitter:card" content="summary">')
+    figure = (f'<figure class="poster"><h2>{e(fig["title"])}</h2><a href="{fig["src"]}"><img src="{fig["src"]}" alt="{e(fig["alt"])}" loading="lazy"></a>'
+              f'<figcaption>{e(fig["caption"])}' + (f' <a href="{e(fig["credit"]["url"])}" target="_blank" rel="noopener">{e(fig["credit"]["label"])}</a>' if fig.get('credit') else '')
+              + '</figcaption></figure>') if fig else ''
     score = ''
     if d['section'] in ('main', 'closers'):
         score = f'''<div class="score" title="The scoreboard is satire. The facts in it are not.">
@@ -81,7 +89,7 @@ def page(d, prev, nxt):
 <meta property="og:title" content="{e(plain(d['title']))}">
 <meta property="og:description" content="{e(desc)}">
 <meta property="og:url" content="{url}">
-<meta name="twitter:card" content="summary">
+{og_image}
 <link rel="stylesheet" href="/site.css">
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
 </head>
@@ -105,6 +113,7 @@ def page(d, prev, nxt):
   {official}
   {wiki}
   {score}
+  {figure}
   <section class="record">
     <h2>The record — {len(links)} sources</h2>
     <p class="sub">Date, publication and headline for each source, as the source itself published them. {"Forensic Architecture is pinned first; the rest" if fa else "Sorted"} by publication date. {dated} of {len(links)} dated; a blank means the publisher's page didn't expose it, and we don't guess.</p>
