@@ -160,7 +160,7 @@ table.sources tr.prop td.h a { color: var(--muted); text-decoration: line-throug
 /* poster figure on incident pages */
 figure.poster { margin: 2.2rem 0 0; }
 figure.poster h2 { font-size: 1.2rem; border-top: 2px solid var(--accent); padding-top: 1rem; margin-bottom: 0.9rem; }
-figure.poster img { display: block; width: 100%; max-width: 620px; height: auto; margin: 0 auto; border-radius: 8px; border: 1px solid var(--line); }
+figure.poster img, figure.poster video { display: block; width: 100%; max-width: 620px; height: auto; margin: 0 auto; border-radius: 8px; border: 1px solid var(--line); }
 figure.poster figcaption { max-width: 620px; margin: 0.6rem auto 0; font-size: 0.82rem; }
 
 /* copy as tweet */

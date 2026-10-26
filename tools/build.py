@@ -148,6 +148,10 @@ def page(d, prev, nxt):
     figure = (f'<figure class="poster"><h2>{e(fig["title"])}</h2><a href="{fig["src"]}"><img src="{fig["src"]}" alt="{e(fig["alt"])}" loading="lazy"></a>'
               f'<figcaption>{e(fig["caption"])}' + (f' <a href="{e(fig["credit"]["url"])}" target="_blank" rel="noopener">{e(fig["credit"]["label"])}</a>' if fig.get('credit') else '')
               + '</figcaption></figure>') if fig else ''
+    vid = d.get('video')
+    video = (f'<figure class="poster"><h2>{e(vid["title"])}</h2><video controls preload="none" playsinline poster="{vid["poster"]}" src="{vid["src"]}"></video>'
+             f'<figcaption>{e(vid["caption"])}' + (f' <a href="{e(vid["credit"]["url"])}" target="_blank" rel="noopener">{e(vid["credit"]["label"])}</a>' if vid.get('credit') else '')
+             + '.</figcaption></figure>') if vid else ''
     score = ''
     if d['section'] in ('main', 'closers'):
         score = f'''<div class="score" title="The scoreboard is satire. The facts in it are not.">
@@ -198,6 +202,7 @@ def page(d, prev, nxt):
   {official}
   {wiki}
   {score}
+  {video}
   {figure}
   <section class="record">
     <h2>The record — {len(record_links)} sources</h2>

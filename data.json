@@ -682,6 +682,13 @@
           "headline": "GAZAWOOD — “the PALLYWOOD saga” (post marked sensitive by X; text not retrievable without login)",
           "published": "2026-03-24",
           "tag": "propaganda"
+        },
+        {
+          "url": "https://x.com/hippyygoat/status/2036790852677165308",
+          "source": "Earth Hippy (X account)",
+          "headline": "“ISRAELI ARMY RELEASING A BABY…” — video of the Red Cross handoff (the quoted “stable” line in the post is the poster's sarcasm, not an IDF statement)",
+          "published": "2026-03-25",
+          "stance": "pro-palestinian"
         }
       ],
       "wikipedia": "https://en.wikipedia.org/wiki/Jawad_Abu_Nassar",
@@ -700,7 +707,17 @@
         "Ten hours in military custody; his father never came back — and the only source for his “Hamas confession” is his interrogators.",
         "X-rays ruled out the army's shrapnel explanation, Gaza doctors said."
       ],
-      "verify": "The IDF says that “during questioning, he identified himself as a Hamas operative,” admitted entering Israel on 7 October, and “confessed to bringing his toddler son” as a human shield. The father has not confirmed any of it: he has been held incommunicado since 19 March 2026, and every account of his words traces to the army that detained him, which is also accused of abusing his son. His family rejects the claim (“why would my son carry his infant on his shoulder and approach the Yellow Line if he had any party affiliations?”) and describes a mental breakdown after he lost his livelihood; the ICRC told the family he had been shot in the shoulder, while the IDF says it fired warning shots. Drop Site News names the family al-Shafi rather than Abu Nassar. HonestReporting's rebuttal (marked as propaganda) cites no independent forensic exam."
+      "verify": "The IDF says that “during questioning, he identified himself as a Hamas operative,” admitted entering Israel on 7 October, and “confessed to bringing his toddler son” as a human shield. The father has not confirmed any of it: he has been held incommunicado since 19 March 2026, and every account of his words traces to the army that detained him, which is also accused of abusing his son. His family rejects the claim (“why would my son carry his infant on his shoulder and approach the Yellow Line if he had any party affiliations?”) and describes a mental breakdown after he lost his livelihood; the ICRC told the family he had been shot in the shoulder, while the IDF says it fired warning shots. Drop Site News names the family al-Shafi rather than Abu Nassar. HonestReporting's rebuttal (marked as propaganda) cites no independent forensic exam.",
+      "video": {
+        "src": "/video/baby-cigarette-burns-toddler-handed-over-red-cross-gaza.mp4",
+        "poster": "/video/baby-cigarette-burns-toddler-handed-over-red-cross-gaza.jpg",
+        "title": "The handoff: footage of the toddler being handed to the Red Cross",
+        "caption": "Night-time footage of the handover to the ICRC at the military line, 19 March 2026. Original filmer not identified; reposted 25 March 2026 by",
+        "credit": {
+          "label": "Earth Hippy (@hippyygoat) on X",
+          "url": "https://x.com/hippyygoat/status/2036790852677165308"
+        }
+      }
     },
     {
       "id": "sde-teiman-dogs",
