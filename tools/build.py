@@ -37,7 +37,7 @@ def first_sentence(s):
 
 def row(i, l):
     head = l.get('headline') or ''
-    gd = '<span class="host" title="Headline as indexed by the GDELT Project; the publisher blocked direct retrieval, so punctuation may differ from the original.">(GDELT)</span>' if l.get('headline_via') == 'gdelt' else ''
+    gd = '<span class="host" title="Headline as indexed by the GDELT Project; the publisher blocked direct retrieval, so punctuation may differ from the original.">(GDELT)</span>' if l.get('headline_via') == 'gdelt' else ('<span class="host" title="Title as recorded in the Wikipedia citation; the publisher blocked direct retrieval.">(via Wikipedia)</span>' if l.get('headline_via') == 'wikipedia' else '')
     h = (f'<a href="{e(l["url"])}" target="_blank" rel="noopener">{e(head)}</a>{gd}' if head
          else f'<a href="{e(l["url"])}" target="_blank" rel="noopener"><span class="nohead">headline not retrieved</span></a><span class="host">{e(host(l["url"]))}</span>')
     date = l.get('published') or '—'
