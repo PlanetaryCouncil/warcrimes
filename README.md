@@ -25,7 +25,7 @@ Goal: **the most-documented war crimes record in history.** Every claim independ
 | `comment` | optional curator's note, rendered as an accent-bar italic block |
 | `title`, `date` | sober factual title; date or range |
 | `summary` | 2 sentences, attributed ("according to…") |
-| `links` | `[{url, source, headline?, published?}]` — independent sources, with headline and date as the source published them. **Add as many as you find; 3 is the floor, not the ceiling.** |
+| `links` | `[{url, source, headline?, published?, stance?, tag?}]` — `stance` overrides the domain-based default in `tools/build.py` (`mainstream`, `pro-palestinian`, `israeli-gov`, `pro-israel`); — independent sources, with headline and date as the source published them. **Add as many as you find; 3 is the floor, not the ceiling.** |
 | `wikipedia` | most relevant Wikipedia article |
 | `official` | `{url, label}` — the official Israeli response, primary source where one exists (gov.il / idf.il / official X) |
 | `image` | `{src, page, credit, license}` — freely licensed embed (Wikimedia Commons only) |

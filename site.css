@@ -172,3 +172,9 @@ table.sources td.x { width: 2rem; text-align: right; }
 button.cp { font: inherit; font-size: 0.8rem; width: 1.7rem; height: 1.7rem; border-radius: 6px; border: 1px solid var(--line); background: transparent; color: var(--muted); cursor: pointer; }
 button.cp:hover { border-color: var(--accent); color: var(--accent); }
 @media (max-width: 640px) { table.sources td.x { display: block; text-align: left; margin-top: 0.3rem; } }
+
+/* stance groups */
+table.sources tr.grp td { padding-top: 1.1rem; color: var(--muted); font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; border-bottom: 1px solid var(--line); }
+table.sources tr.grp:hover td { background: transparent; }
+.record.machine h2 { border-top-style: dashed; }
+@media (max-width: 640px) { table.sources tr.grp td { display: block; } }

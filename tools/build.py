@@ -63,8 +63,34 @@ def handle(l):
     for k, v in HANDLES.items():
         if h == k or h.endswith('.' + k): return v
     return l['source']
+
+# Source stance. Default is mainstream; a link may override with "stance" in data.json.
+ISRAELI_GOV_HOSTS = ('idf.il', 'gov.il', 'mfa.gov.il')
+ISRAELI_GOV_X = {'idf', 'netanyahu', 'orenmarmorstein', 'ltc_ariella', 'israelmfa', 'israel', 'israelipm', 'idfspokesperson', 'avichayadraee', 'israelingeneva'}
+PRO_ISRAEL_HOSTS = ('honestreporting.com', 'honestreporting.ca', 'washingtoninstitute.org', 'algemeiner.com', 'camera.org', 'ngo-monitor.org', 'jns.org', 'unwatch.org', 'israellycool.com')
+PRO_ISRAEL_X = {'gazawood1'}
+PRO_PAL_HOSTS = ('mondoweiss.net', 'electronicintifada.net', 'palestinechronicle.com', 'middleeastmonitor.com', 'alhaq.org', 'euromedmonitor.org', 'palestine-studies.org', 'hindrajabfoundation.org', 'wafa.ps', 'qudsnen.co')
+PRO_PAL_X = {'mondoweiss', 'qudsnen', 'euromedhr'}
+STANCES = {
+    'mainstream': ('Mainstream, international, UN & NGO', ''),
+    'pro-palestinian': ('Palestinian & pro-Palestinian', ' (pro-Palestinian)'),
+    'israeli-gov': ('Israeli government & military', ' (Israeli gov)'),
+    'pro-israel': ('Pro-Israel advocacy', ' (pro-Israel)'),
+}
+def stance(l):
+    if l.get('stance'): return l['stance']
+    u = urlparse(l['url']); h = (u.hostname or '').removeprefix('www.')
+    acct = u.path.strip('/').split('/')[0].lower() if h in ('x.com', 'twitter.com', 'facebook.com') else ''
+    on = lambda hosts: any(h == x or h.endswith('.' + x) for x in hosts)
+    if on(ISRAELI_GOV_HOSTS) or acct in ISRAELI_GOV_X: return 'israeli-gov'
+    if on(PRO_ISRAEL_HOSTS) or acct in PRO_ISRAEL_X: return 'pro-israel'
+    if on(PRO_PAL_HOSTS) or acct in PRO_PAL_X: return 'pro-palestinian'
+    if l.get('tag') == 'propaganda': return 'pro-israel'
+    return 'mainstream'
+META_CACHE = json.loads((ROOT / 'tools' / 'meta_cache.json').read_text()) if (ROOT / 'tools' / 'meta_cache.json').exists() else {}
+
 def tweet_line(l):
-    tag = ' (propaganda)' if l.get('tag') == 'propaganda' else ''
+    tag = STANCES[stance(l)][1] + (' (propaganda)' if l.get('tag') == 'propaganda' else '')
     head = l.get('headline')
     return f'{handle(l)}{tag}: {l["url"]}' + (f' — {head}' if head else '')
 
@@ -85,7 +111,31 @@ def page(d, prev, nxt):
     fa = [l for l in links if is_fa(l['url'])]
     rest = sorted([l for l in links if not is_fa(l['url'])], key=lambda l: (not l.get('published'), l.get('published') or ''))
     ordered = fa + rest
-    dated = sum(1 for l in links if l.get('published'))
+    off = d.get('official')
+    machine_links = [l for l in ordered if stance(l) in ('israeli-gov', 'pro-israel')]
+    if off and off['url'] not in {l['url'] for l in links}:
+        m = META_CACHE.get(off['url'], {})
+        machine_links.insert(0, {'url': off['url'], 'source': 'Official response', 'headline': m.get('headline') or off['label'],
+                                 'published': m.get('published', ''), 'stance': 'israeli-gov'})
+    record_links = [l for l in ordered if stance(l) not in ('israeli-gov', 'pro-israel')]
+    def group_rows(ls, keys):
+        out = ''
+        for k in keys:
+            g = [l for l in ls if stance(l) == k]
+            if g:
+                out += f'<tr class="grp"><td colspan="4">{STANCES[k][0]} · {len(g)}</td></tr>' + ''.join(row(0, l) for l in g)
+        return out
+    record_rows = group_rows(record_links, ('mainstream', 'pro-palestinian'))
+    machine_rows = group_rows(machine_links, ('israeli-gov', 'pro-israel'))
+    machine = f'''<section class="record machine">
+    <h2>Analyzing the media machine: the genocidal state's denial — {len(machine_links)} sources</h2>
+    <p class="sub">The Israeli government's own statements and the pro-Israel advocacy that amplifies them, kept apart from the record above. Read them as the other side's case — and as a record of how denial is manufactured. Labels describe each source's stance; <b>propaganda</b> marks what we cite as an example of denial, not as evidence.</p>
+    <table class="sources">
+      <thead><tr><th>Date</th><th>Publication</th><th>Headline</th><th></th></tr></thead>
+      <tbody>{machine_rows}</tbody>
+    </table>
+  </section>''' if machine_links else ''
+    dated = sum(1 for l in record_links if l.get('published'))
     url = f'{SITE}/{path(d)}/'
     desc = first_sentence(d['summary'])
     title = f'{plain(d["title"])} — War Crimes Safari'
@@ -150,16 +200,17 @@ def page(d, prev, nxt):
   {score}
   {figure}
   <section class="record">
-    <h2>The record — {len(links)} sources</h2>
-    <p class="sub">Date, publication and headline for each source, as the source itself published them. {"Forensic Architecture is pinned first; the rest" if fa else "Sorted"} by publication date. {dated} of {len(links)} dated; a blank means the publisher's page didn't expose it, and we don't guess.</p>
+    <h2>The record — {len(record_links)} sources</h2>
+    <p class="sub">Date, publication and headline for each source, as the source itself published them, grouped by stance. {"Forensic Architecture is pinned first; the rest" if fa else "Sorted"} by publication date. {dated} of {len(record_links)} dated; a blank means the publisher's page didn't expose it, and we don't guess.</p>
     <div class="tweetbar"><button class="cpall" type="button" data-head="{e(plain(d['title']))}&#10;{url}">𝕏 Copy all as tweet</button><span class="cpmsg" aria-live="polite"></span></div>
     <table class="sources">
       <thead><tr><th>Date</th><th>Publication</th><th>Headline</th><th></th></tr></thead>
       <tbody>
-      {''.join(row(i, l) for i, l in enumerate(ordered))}
+      {record_rows}
       </tbody>
     </table>
   </section>
+  {machine}
   {pager}
   <footer>Permalink: <a href="{url}">{url}</a> · Data: <a href="/data.json">data.json</a> · Corrections: <a href="https://github.com/PlanetaryCouncil/warcrimes/issues" target="_blank" rel="noopener">open an issue</a></footer>
 </main>
