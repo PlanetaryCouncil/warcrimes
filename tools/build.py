@@ -22,13 +22,13 @@ def labels():
     for sec in ('main', 'closers'):
         for d in incidents:
             if d['section'] == sec: n += 1; out[d['id']] = f'{n:02d}'
-    for sec, p in (('docket', 'D'), ('hamas', 'H')):
+    for sec, p in (('docket', 'D'), ('hamas', 'H'), ('propaganda', 'P')):
         for i, d in enumerate([d for d in incidents if d['section'] == sec]): out[d['id']] = f'{p}{i + 1}'
     return out
 LABEL = labels()
-ORDER = sorted(incidents, key=lambda d: (['main', 'closers', 'docket', 'hamas'].index(d['section']), incidents.index(d)))
-SECTION_NAME = {'main': 'Incidents', 'closers': 'Closers', 'docket': 'The Docket', 'hamas': 'Hamas'}
-SECTION_ANCHOR = {'main': '#top', 'closers': '#sec-closers', 'docket': '#sec-docket', 'hamas': '#sec-hamas'}
+ORDER = sorted(incidents, key=lambda d: (['main', 'closers', 'docket', 'hamas', 'propaganda'].index(d['section']), incidents.index(d)))
+SECTION_NAME = {'main': 'Incidents', 'closers': 'Closers', 'docket': 'The Docket', 'hamas': 'Hamas', 'propaganda': 'Propaganda desk'}
+SECTION_ANCHOR = {'main': '#top', 'closers': '#sec-closers', 'docket': '#sec-docket', 'hamas': '#sec-hamas', 'propaganda': '#sec-propaganda'}
 
 def plain(s): return re.sub(r'<[^>]+>', '', s)
 def first_sentence(s):
@@ -100,6 +100,7 @@ def page(d, prev, nxt):
   <a href="/#sec-closers">Closers</a>
   <a href="/#sec-docket">Docket</a>
   <a href="/#sec-hamas">Hamas</a>
+  <a href="/#sec-propaganda">Propaganda</a>
   <a href="/al-ahli.html">Contested</a>
 </nav>
 <main class="page">

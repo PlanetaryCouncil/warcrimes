@@ -5,7 +5,7 @@
     "updated": "2026-07-18",
     "schema": {
       "id": "stable slug",
-      "section": "main | closers",
+      "section": "main | closers | docket | hamas | propaganda",
       "title": "sober factual title",
       "date": "date or range",
       "summary": "2 sentences, attributed",
@@ -3731,6 +3731,87 @@
         "The MEK went from “terrorists” to delisted — in London, Brussels and Washington.",
         "Arguing a ban is wrong is lawful speech; the Act itself shields the application process."
       ]
+    },
+    {
+      "id": "honestreporting",
+      "slug": "honestreporting-israel-advocacy-propaganda-media-watchdog",
+      "section": "propaganda",
+      "title": "HonestReporting: an Israel advocacy group, in its own words",
+      "date": "Founded October 2000 · About page read 26 Oct 2026",
+      "summary": "HonestReporting presents itself as a media watchdog, but its own mission statement limits its concern for fairness in journalism to coverage \"as it impacts Israel\"; it was founded in October 2000 by Shaul Rosenblatt of Aish HaTorah UK, has been led since 2022 by former AIPAC regional director Jacki Alexander, and critics including Reporters Without Borders and the Canadian Association of Journalists have described its campaigns against reporters as intimidation. In November 2023 it insinuated that Gaza photojournalists working for AP, Reuters, CNN and The New York Times had advance knowledge of the 7 October attack; the outlets showed their photos were taken after it began, Israeli politicians called for the photographers to be targeted, and HonestReporting's executive director then conceded the group had no evidence and had only \"raised questions.\"",
+      "bullets": [
+        "Its About page says “Israel” 12 times in 545 words. “Palestinian”: zero.",
+        "Accused Gaza photographers of foreknowledge of 7 October, watched politicians call for them to be “eliminated,” then admitted it had no evidence.",
+        "Mission: fairness in journalism “as it impacts Israel.” Also on offer: “the top choice in luxury trips” to Israel."
+      ],
+      "comment": "So honest about its bias that it put it in the first paragraph.",
+      "links": [
+        {
+          "url": "https://honestreporting.com/about/",
+          "source": "HonestReporting — About Us",
+          "tag": "propaganda",
+          "headline": "About Us"
+        },
+        {
+          "url": "https://www.cnn.com/2023/11/09/media/news-outlets-deny-prior-knowledge-of-hamas-attack/index.html",
+          "source": "CNN",
+          "headline": "News outlets deny prior knowledge of Hamas attack after Israeli government demands answers over misleading report | CNN Business",
+          "published": "2023-11-09"
+        },
+        {
+          "url": "https://www.aljazeera.com/amp/news/2023/11/9/news-organisations-reject-allegations-of-complicity-in-october-7-attack",
+          "source": "Al Jazeera",
+          "headline": "News organisations reject allegations of complicity in October 7 attacks",
+          "published": "2023-11-09"
+        },
+        {
+          "url": "https://www.australianjewishnews.com/watchdog-accepts-news-orgs-werent-tipped-off-about-oct-7-we-just-raised-questions/",
+          "source": "The Australian Jewish News",
+          "headline": "Watchdog accepts news orgs weren’t tipped off about Oct. 7: We just ‘raised questions’"
+        },
+        {
+          "url": "https://forbiddenstories.org/from-slander-to-exile-photographer-yasser-qudih-targeted-for-doing-his-job/",
+          "source": "Forbidden Stories",
+          "headline": "From Slander to Exile: Photographer Yasser Qudih Targeted for Doing His Job",
+          "published": "2025-03-27"
+        },
+        {
+          "url": "https://www.mediasupport.org/blogpost/how-an-israeli-media-watchdogs-unsubstantiated-allegations-has-put-a-price-on-palestinian-journalists-heads/",
+          "source": "International Media Support",
+          "headline": "How an Israeli media watchdog’s unsubstantiated allegations has put a price on Palestinian journalists’ heads | IMS",
+          "published": "2023-11-24"
+        },
+        {
+          "url": "https://honestreporting.com/how-a-false-tortured-toddler-narrative-spread-unchecked/",
+          "source": "HonestReporting — on the Gaza toddler (card 06)",
+          "tag": "propaganda",
+          "headline": "How a False “Tortured Toddler” Narrative Spread Unchecked"
+        },
+        {
+          "url": "https://honestreporting.ca/petitions/toronto-star-reporter-downplays-terrorist-ties-of-palestinian-anas-al-sharif/",
+          "source": "HonestReporting Canada — on Anas al-Sharif, after his killing",
+          "tag": "propaganda",
+          "headline": "Toronto Star Reporter Downplays Terrorist Ties Of Palestinian Anas Al Sharif - Honest Reporting Canada",
+          "published": "2025-08-21"
+        }
+      ],
+      "wikipedia": "https://en.wikipedia.org/wiki/HonestReporting",
+      "official": {
+        "url": "https://honestreporting.com/about/",
+        "label": "HonestReporting's own About page — mission statement and guiding principles",
+        "flag": "📄"
+      },
+      "verify": "HonestReporting says it is not affiliated with any government or party; per Wikipedia, in 2024 it took part in a strategy session with Foreign Minister Gideon Sa'ar on a $150 million state “public diplomacy” initiative. Word counts are of the About page's main text (mission, principles and strategy) as read on 26 Oct 2026.",
+      "figure": {
+        "src": "/img/honestreporting-about-page-israel-highlighted.webp",
+        "alt": "Screenshot of HonestReporting's About Us page, mission statement and guiding principles, with every mention of Israel, Israeli, Holocaust, antisemitism and Jewish boxed in red.",
+        "title": "Exhibit A: the About page",
+        "caption": "honestreporting.com/about — mission statement and guiding principles. Highlights ours.",
+        "credit": {
+          "label": "Original page",
+          "url": "https://honestreporting.com/about/"
+        }
+      }
     }
   ]
 }
