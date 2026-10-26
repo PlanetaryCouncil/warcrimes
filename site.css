@@ -162,3 +162,13 @@ figure.poster { margin: 2.2rem 0 0; }
 figure.poster h2 { font-size: 1.2rem; border-top: 2px solid var(--accent); padding-top: 1rem; margin-bottom: 0.9rem; }
 figure.poster img { display: block; width: 100%; max-width: 620px; height: auto; margin: 0 auto; border-radius: 8px; border: 1px solid var(--line); }
 figure.poster figcaption { max-width: 620px; margin: 0.6rem auto 0; font-size: 0.82rem; }
+
+/* copy as tweet */
+.tweetbar { display: flex; align-items: center; gap: 0.8rem; margin: 0 0 0.8rem; }
+.tweetbar .cpall { font: inherit; font-size: 0.85rem; padding: 0.4rem 0.85rem; border-radius: 999px; border: 1px solid var(--line); background: var(--card); color: var(--text); cursor: pointer; }
+.tweetbar .cpall:hover { border-color: var(--accent); color: var(--accent); }
+.cpmsg { color: var(--muted); font-size: 0.8rem; }
+table.sources td.x { width: 2rem; text-align: right; }
+button.cp { font: inherit; font-size: 0.8rem; width: 1.7rem; height: 1.7rem; border-radius: 6px; border: 1px solid var(--line); background: transparent; color: var(--muted); cursor: pointer; }
+button.cp:hover { border-color: var(--accent); color: var(--accent); }
+@media (max-width: 640px) { table.sources td.x { display: block; text-align: left; margin-top: 0.3rem; } }

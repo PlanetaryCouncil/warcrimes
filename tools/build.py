@@ -35,6 +35,39 @@ def first_sentence(s):
     s = plain(s); m = re.match(r'(.{80,300}?[.!?])\s', s)
     return (m.group(1) if m else s[:297] + '…')
 
+
+# X handles for outlets we're confident about; anything else falls back to the outlet name
+HANDLES = {
+    'aljazeera.com': '@AJEnglish', 'cnn.com': '@CNN', 'bbc.co.uk': '@BBCWorld', 'bbc.com': '@BBCWorld',
+    'nytimes.com': '@nytimes', 'washingtonpost.com': '@washingtonpost', 'theguardian.com': '@guardian',
+    'reuters.com': '@Reuters', 'apnews.com': '@AP', 'nbcnews.com': '@NBCNews', 'cbsnews.com': '@CBSNews',
+    'abcnews.go.com': '@ABC', 'npr.org': '@NPR', 'latimes.com': '@latimes', 'wsj.com': '@WSJ', 'time.com': '@TIME',
+    'axios.com': '@axios', 'politico.com': '@politico', 'ft.com': '@FT', 'economist.com': '@TheEconomist',
+    'middleeasteye.net': '@MiddleEastEye', 'independent.co.uk': '@Independent', 'telegraph.co.uk': '@Telegraph',
+    'news.sky.com': '@SkyNews', 'haaretz.com': '@haaretzcom', 'timesofisrael.com': '@TimesofIsrael',
+    'ynetnews.com': '@ynetnews', 'jpost.com': '@Jerusalem_Post', 'thejc.com': '@JewishChron', '972mag.com': '@972mag',
+    'france24.com': '@France24_en', 'dw.com': '@dwnews', 'cbc.ca': '@CBCNews', 'thedailybeast.com': '@thedailybeast',
+    'foxnews.com': '@FoxNews', 'theintercept.com': '@theintercept', 'propublica.org': '@ProPublica',
+    'electronicintifada.net': '@intifada', 'mondoweiss.net': '@Mondoweiss', 'dropsitenews.com': '@DropSiteNews',
+    'trtworld.com': '@trtworld', 'newarab.com': '@The_NewArab', 'commondreams.org': '@commondreams',
+    'forensic-architecture.org': '@ForensicArchi', 'volkskrant.nl': '@volkskrant', 'forward.com': '@jdforward',
+    'jta.org': '@JTAnews', 'cjr.org': '@CJR', 'hrw.org': '@hrw', 'amnesty.org': '@amnesty', 'ohchr.org': '@UNHumanRights',
+    'icrc.org': '@ICRC', 'msf.org': '@MSF', 'who.int': '@WHO', 'unrwa.org': '@UNRWA', 'cpj.org': '@pressfreedom',
+    'rsf.org': '@RSF_inter', 'honestreporting.com': '@HonestReporting',
+}
+def handle(l):
+    u = urlparse(l['url']); h = (u.hostname or '').removeprefix('www.').removeprefix('edition.').removeprefix('m.')
+    if h in ('x.com', 'twitter.com'):
+        seg = u.path.strip('/').split('/')[0]
+        if seg: return '@' + seg
+    for k, v in HANDLES.items():
+        if h == k or h.endswith('.' + k): return v
+    return l['source']
+def tweet_line(l):
+    tag = ' (propaganda)' if l.get('tag') == 'propaganda' else ''
+    head = l.get('headline')
+    return f'{handle(l)}{tag}: {l["url"]}' + (f' — {head}' if head else '')
+
 def row(i, l):
     head = l.get('headline') or ''
     gd = '<span class="host" title="Headline as indexed by the GDELT Project; the publisher blocked direct retrieval, so punctuation may differ from the original.">(GDELT)</span>' if l.get('headline_via') == 'gdelt' else ('<span class="host" title="Title as recorded in the Wikipedia citation; the publisher blocked direct retrieval.">(via Wikipedia)</span>' if l.get('headline_via') == 'wikipedia' else '')
@@ -44,7 +77,8 @@ def row(i, l):
     if l.get('tag') == 'propaganda':
         h += '<span class="tag-prop" title="Cited as an example of denial, not as evidence">propaganda</span>'
     return (f'<tr class="{"fa" if is_fa(l["url"]) else ""}{" prop" if l.get("tag") == "propaganda" else ""}"><td class="d">{e(date)}</td>'
-            f'<td class="p"><img src="{favicon(l["url"])}" alt="" loading="lazy">{e(l["source"])}</td><td class="h">{h}</td></tr>')
+            f'<td class="p"><img src="{favicon(l["url"])}" alt="" loading="lazy">{e(l["source"])}</td><td class="h">{h}</td>'
+            f'<td class="x"><button class="cp" type="button" data-tweet="{e(tweet_line(l))}" title="Copy as tweet" aria-label="Copy as tweet">𝕏</button></td></tr>')
 
 def page(d, prev, nxt):
     links = d['links']
@@ -118,8 +152,9 @@ def page(d, prev, nxt):
   <section class="record">
     <h2>The record — {len(links)} sources</h2>
     <p class="sub">Date, publication and headline for each source, as the source itself published them. {"Forensic Architecture is pinned first; the rest" if fa else "Sorted"} by publication date. {dated} of {len(links)} dated; a blank means the publisher's page didn't expose it, and we don't guess.</p>
+    <div class="tweetbar"><button class="cpall" type="button" data-head="{e(plain(d['title']))}&#10;{url}">𝕏 Copy all as tweet</button><span class="cpmsg" aria-live="polite"></span></div>
     <table class="sources">
-      <thead><tr><th>Date</th><th>Publication</th><th>Headline</th></tr></thead>
+      <thead><tr><th>Date</th><th>Publication</th><th>Headline</th><th></th></tr></thead>
       <tbody>
       {''.join(row(i, l) for i, l in enumerate(ordered))}
       </tbody>
@@ -128,6 +163,7 @@ def page(d, prev, nxt):
   {pager}
   <footer>Permalink: <a href="{url}">{url}</a> · Data: <a href="/data.json">data.json</a> · Corrections: <a href="https://github.com/PlanetaryCouncil/warcrimes/issues" target="_blank" rel="noopener">open an issue</a></footer>
 </main>
+<script src="/copy.js"></script>
 </body>
 </html>
 '''
