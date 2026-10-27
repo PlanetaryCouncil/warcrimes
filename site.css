@@ -178,3 +178,16 @@ table.sources tr.grp td { padding-top: 1.1rem; color: var(--muted); font-size: 0
 table.sources tr.grp:hover td { background: transparent; }
 .record.machine h2 { border-top-style: dashed; }
 @media (max-width: 640px) { table.sources tr.grp td { display: block; } }
+
+/* dossier sections on organisation pages */
+section.dossier { margin-top: 2.2rem; }
+section.dossier h2 { font-size: 1.2rem; border-top: 2px solid var(--accent); padding-top: 1rem; margin-bottom: 0.7rem; }
+section.dossier p, section.dossier li { line-height: 1.6; }
+section.dossier ul, section.dossier ol { padding-left: 1.2rem; }
+section.dossier li { margin-bottom: 0.5rem; }
+section.dossier blockquote { margin: 0.8rem 0; padding: 0.6rem 1rem; border-left: 3px solid var(--accent); background: var(--card, transparent); }
+.st { display: inline-block; font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.04em; padding: 0 0.4em; border: 1px solid var(--line); border-radius: 3px; margin-left: 0.3em; vertical-align: 0.1em; opacity: 0.8; }
+.tw { overflow-x: auto; }
+table.facts { border-collapse: collapse; width: 100%; font-size: 0.9rem; }
+table.facts th, table.facts td { text-align: left; padding: 0.45rem 0.6rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+table.facts td.n, table.facts th.n { text-align: right; font-variant-numeric: tabular-nums; }

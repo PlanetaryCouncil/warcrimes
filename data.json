@@ -16,7 +16,8 @@
       "photo": "{url, source} — link to iconic copyrighted photo when no free image (optional)",
       "verify": "open curation caveat (optional)",
       "slug": "optional keyword-rich URL path for the incident page; defaults to id. Old /<id>/ redirects to it.",
-      "figure": "optional {src, alt, title, caption, credit{label,url}} — image shown on the incident page and used as its social preview"
+      "figure": "optional {src, alt, title, caption, credit{label,url}} — image shown on the incident page and used as its social preview",
+      "dossier": "optional [{heading, html?, table?{cols, rows, note?}}] — profile sections on organisation pages (propaganda desk)"
     }
   },
   "incidents": [
@@ -2122,7 +2123,15 @@
           "url": "https://www.washingtoninstitute.org/policy-analysis/once-again-palestinian-babies-story-merits-washington-post-apology",
           "source": "The Washington Institute (WINEP)",
           "headline": "Once Again, a “Palestinian Babies” Story Merits a Washington Post Apology",
-          "tag": "propaganda"
+          "tag": "propaganda",
+          "published": "2024-03-03"
+        },
+        {
+          "url": "https://www.washingtoninstitute.org/policy-analysis/sadly-wapost-admits-no-error-story-filled-them",
+          "source": "The Washington Institute (WINEP)",
+          "tag": "propaganda",
+          "published": "2024-03-21",
+          "headline": "Sadly, WaPost Admits No Error in Story Filled with Them"
         }
       ],
       "wikipedia": "https://en.wikipedia.org/wiki/Al-Nasr_Children%27s_Hospital",
@@ -2130,7 +2139,7 @@
         "url": "https://www.algemeiner.com/2023/11/30/israel-blasts-perverse-exploitation-innocent-lives-story-babies-found-dead-gaza-hospital-circulates/",
         "label": "IDF statement: \"did not operate inside the Al-Nasr hospital\" (quoted by Algemeiner, 30 Nov 2023)"
       },
-      "verify": "Undisputed: the infants' remains were in al-Nasr's ICU and decomposed there. Disputed: how many (four or five), whether all were alive and on oxygen when staff left, and who promised the ambulances that never came. The Washington Institute, a pro-Israel think tank whose piece ranks highly in search (marked here as propaganda), attacked the Post's reliance on one anonymous nurse and an undisclosed family tie between its reporter and the videographer; the Post has not retracted, and none of it explains how the babies came to rot in their beds.",
+      "verify": "Undisputed: the infants' remains were in al-Nasr's ICU and decomposed there. Disputed: how many (four or five), whether all were alive and on oxygen when staff left, and who promised the ambulances that never came. The Washington Institute, a pro-Israel think tank founded with AIPAC's support (<a href=\"/washington-institute-winep-pro-israel-think-tank-founded-by-aipac-circle/\">our profile</a>) whose piece ranks highly in search (marked here as propaganda), attacked the Post's reliance on one anonymous nurse and an undisclosed family tie between its reporter and the videographer; the Post has not retracted, and none of it explains how the babies came to rot in their beds.",
       "slug": "al-nasr-hospital-babies-left-behind-decomposing-rotting-in-icu-beds-gaza",
       "figure": {
         "src": "/img/anatomy-of-an-excuse-al-nasr-babies.webp",
@@ -3946,8 +3955,7 @@
         {
           "url": "https://projects.propublica.org/nonprofits/organizations/61611859",
           "source": "ProPublica Nonprofit Explorer",
-          "headline": "Honest Reporting Com Inc - Nonprofit Explorer - ProPublica",
-          "published": "2013-05-09"
+          "headline": "Honest Reporting Com Inc - Nonprofit Explorer - ProPublica"
         },
         {
           "url": "https://www.i24news.tv/en/news/international/1670785837-al-jazeera-witness-is-pij-terrorist-claims-pro-israel-watchdog",
@@ -4122,6 +4130,381 @@
           "url": "https://honestreporting.com/about/"
         }
       }
+    },
+    {
+      "id": "winep",
+      "slug": "washington-institute-winep-pro-israel-think-tank-founded-by-aipac-circle",
+      "section": "propaganda",
+      "title": "The Washington Institute (WINEP): a pro-Israel think tank with an official-sounding name",
+      "date": "Founded 1985 · Dossier compiled 27 Oct 2026",
+      "summary": "The Washington Institute for Near East Policy is, in the first sentence of its Wikipedia article, “an American pro-Israel think tank”; it was established in 1985 with the support of the American Israel Public Affairs Committee (AIPAC) and the funding of many AIPAC donors, with Barbi Weinberg, wife of former AIPAC president Larry Weinberg, as founding president and AIPAC's former deputy research director Martin Indyk as founding executive director. It describes itself as advancing “a balanced and realistic understanding of American interests in the Middle East,” does not disclose its donors, and in 2024 its executive director Robert Satloff led a public campaign against the Washington Post's report on premature babies found decomposing in al-Nasr Children's Hospital — a report the Post defended as containing “no errors.”",
+      "bullets": [
+        "Its own line: “a balanced and realistic understanding.” Wikipedia's first sentence: “an American pro-Israel think tank.”",
+        "Founded with AIPAC's support: the founding president was the wife of a former AIPAC president; the first director came from AIPAC's research department.",
+        "Its director went after the Post's <a href=\"/al-nasr-hospital-babies-left-behind-decomposing-rotting-in-icu-beds-gaza/\">al-Nasr dead-babies report</a>. The Post: “no errors.”"
+      ],
+      "comment": "Sounds like a government office. Isn't one.",
+      "wikipedia": "https://en.wikipedia.org/wiki/The_Washington_Institute_for_Near_East_Policy",
+      "official": {
+        "url": "https://www.washingtoninstitute.org/about/our-mission-history",
+        "label": "The Washington Institute — Our Mission & History (its own words)",
+        "flag": "📄"
+      },
+      "verify": "Not every Washington Institute paper is propaganda: much of its output is conventional policy research, and its alumni have served presidents of both parties. What we mark as propaganda here is the al-Nasr campaign — an organisation disputing an atrocity report — under this site's definition. No evidence was found that any government directs the Institute; because its donors are undisclosed, outside funding influence can be neither confirmed nor excluded beyond its own statement that it is funded only by US citizens. Labels: <b>verified</b> = checked against a primary record; <b>reported</b> = stated by a named secondary source; <b>criticism</b> = a named critic's view.",
+      "dossier": [
+        {
+          "heading": "In its own words vs. the encyclopedia",
+          "html": "<blockquote>“to advance a balanced and realistic understanding of American interests in the Middle East and to promote the policies that secure them” <br><small>— The Washington Institute, <a href=\"https://www.washingtoninstitute.org/about/our-mission-history\" target=\"_blank\" rel=\"noopener\">Our Mission &amp; History</a></small></blockquote><blockquote>“an American pro-Israel think tank … established in 1985 with the support of the American Israel Public Affairs Committee (AIPAC) and the funding of many AIPAC donors” <br><small>— <a href=\"https://en.wikipedia.org/wiki/The_Washington_Institute_for_Near_East_Policy\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>, opening lines (also what Google shows in its knowledge panel)</small></blockquote><p>The Institute's history page names its founders but does not mention AIPAC. <span class=\"st\">verified</span></p>"
+        },
+        {
+          "heading": "Who founded it",
+          "html": "<ul><li><b>Barbi Weinberg</b>, founding president — former president of the Jewish Federation in Los Angeles; wife of Larry Weinberg, a former AIPAC president. <span class=\"st\">reported</span></li><li><b>Martin Indyk</b>, founding executive director — previously AIPAC's deputy director of research; later twice US ambassador to Israel, assistant secretary of state, and special envoy for Israeli-Palestinian negotiations (2013–14). Died 2024. <span class=\"st\">reported</span></li><li>Purpose, per historian Thomas G. Mitchell (2013): research “of a more academic quality” than AIPAC's own publications. No source found shows AIPAC controls the Institute today; that is a critics' claim. <span class=\"st\">reported</span></li></ul>"
+        },
+        {
+          "heading": "Who runs it",
+          "html": "<p>A volunteer board appoints the executive director, <b>Robert Satloff</b> (Segal Executive Director). President <b>Moses Libitzky</b>; chairman <b>Jay Bernstein</b>; chairmen emeriti Howard P. Berkowitz, Martin J. Gross, Shelly Kassen, James Schreiber. <span class=\"st\">verified</span> — <a href=\"https://www.washingtoninstitute.org/about/board-directors\" target=\"_blank\" rel=\"noopener\">board page</a>, read 27 Oct 2026.</p><p>Board of advisors (Wikipedia, Oct 2024) includes Richard Perle, R. James Woolsey, Condoleezza Rice, Evan Bayh, Martin Peretz, Mortimer Zuckerman and James G. Stavridis; former members include Henry Kissinger, George P. Shultz, Alexander Haig and Jeane Kirkpatrick. <span class=\"st\">reported</span></p>"
+        },
+        {
+          "heading": "The money",
+          "html": "<p>Contributions were 82% of 2024 revenue. The donors are not published: US non-profits report major donors to the IRS on Schedule B, which is not public. The Quincy Institute classes WINEP among “dark money” think tanks and notes it advertises “private dinners” for donors of $25,000 or more; it also notes WINEP's policy against foreign-government funding. <span class=\"st\">verified</span></p>",
+          "table": {
+            "cols": [
+              "Year",
+              "Revenue",
+              "Contributions",
+              "Expenses",
+              "Net assets"
+            ],
+            "rows": [
+              [
+                "2024",
+                "$21.5M",
+                "$17.7M",
+                "$19.9M",
+                "$85.3M"
+              ],
+              [
+                "2023",
+                "$24.4M",
+                "$21.9M",
+                "$17.8M",
+                "$77.7M"
+              ],
+              [
+                "2022",
+                "$17.6M",
+                "$15.2M",
+                "$16.0M",
+                "$64.8M"
+              ],
+              [
+                "2021",
+                "$24.6M",
+                "$16.7M",
+                "$15.0M",
+                "$71.9M"
+              ],
+              [
+                "2020",
+                "$21.5M",
+                "$20.5M",
+                "$14.3M",
+                "$63.2M"
+              ]
+            ],
+            "note": "IRS Form 990, EIN 52-1376034, via <a href=\"https://projects.propublica.org/nonprofits/organizations/521376034\" target=\"_blank\" rel=\"noopener\">ProPublica Nonprofit Explorer</a>. Highest paid, 2024: Robert Satloff $627,042; Dennis Ross $382,056; Michael Singh $381,892; David Makovsky $348,534; Matthew Levitt $314,843."
+          }
+        },
+        {
+          "heading": "The revolving door",
+          "html": "<p>Staff have moved into senior Middle East posts under presidents of both parties <span class=\"st\">reported</span>:</p><ul><li><b>Martin Indyk</b> — NSC, assistant secretary of state, ambassador to Israel, special envoy.</li><li><b>Dennis Ross</b> — Clinton's Middle East envoy, Obama adviser; now the Institute's counselor.</li><li><b>David Makovsky</b> — State Department negotiating team 2013–14, <a href=\"https://www.jta.org/2014/09/04/united-states/david-makovsky-quits-peace-team\" target=\"_blank\" rel=\"noopener\">on leave from the Institute</a>.</li><li><b>Dana Stroul</b> — deputy assistant secretary of defense for the Middle East 2021–23; <a href=\"https://washingtoninstitute.org/about/press-room/press-release/dana-stroul-former-pentagon-official-named-research-director\" target=\"_blank\" rel=\"noopener\">rejoined as research director</a> in 2024.</li></ul><p>Supporters read this as expertise; critics read it as a lobby's research arm placing people in government. Both readings fit the facts.</p>"
+        },
+        {
+          "heading": "Critics and defenders",
+          "html": "<ul><li><b>Mearsheimer &amp; Walt</b> (<a href=\"https://www.lrb.co.uk/the-paper/v28/n06/john-mearsheimer/the-israel-lobby\" target=\"_blank\" rel=\"noopener\">LRB, 2006</a>; book 2007): WINEP is “part of the core” of the Israel lobby, “funded and run by individuals who are deeply committed to advancing Israel's agenda.” <span class=\"st\">criticism</span></li><li><b>M.J. Rosenberg</b>, former AIPAC staffer: called it an AIPAC “cutout” and criticised broadcasters for presenting its fellows as neutral experts. <span class=\"st\">criticism</span></li><li><b>Rashid Khalidi</b> (Columbia), Al Jazeera 2003: described it as the most important Zionist propaganda tool in the US (translation from Arabic, not checked). <span class=\"st\">criticism</span></li><li><b>Washington Post</b> executive editor Sally Buzbee to Satloff, 2024: his allegations against reporter Hazem Balousha were “inaccurate, irresponsible and deeply unfair”; the Post found “no errors.” <span class=\"st\">verified</span></li><li><b>Defence</b> — Martin Indyk, 1989: “We are friendly to Israel but doing credible research on the Middle East in a realistic and balanced way.” Martin Kramer, 2004: it “accepts funds only from American sources.” <span class=\"st\">reported</span></li></ul>"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.washingtoninstitute.org/about/our-mission-history",
+          "source": "The Washington Institute — Our Mission & History",
+          "tag": "propaganda",
+          "headline": "Our Mission & History"
+        },
+        {
+          "url": "https://www.washingtoninstitute.org/about/board-directors",
+          "source": "The Washington Institute — Board of Directors",
+          "stance": "pro-israel",
+          "headline": "Board of Directors"
+        },
+        {
+          "url": "https://www.washingtoninstitute.org/policy-analysis/once-again-palestinian-babies-story-merits-washington-post-apology",
+          "source": "The Washington Institute (Robert Satloff)",
+          "tag": "propaganda",
+          "headline": "Once Again, a “Palestinian Babies” Story Merits a Washington Post Apology",
+          "published": "2024-03-03"
+        },
+        {
+          "url": "https://www.washingtoninstitute.org/policy-analysis/sadly-wapost-admits-no-error-story-filled-them",
+          "source": "The Washington Institute (Robert Satloff)",
+          "tag": "propaganda",
+          "headline": "Sadly, WaPost Admits No Error in Story Filled with Them",
+          "published": "2024-03-21"
+        },
+        {
+          "url": "https://blogs.timesofisrael.com/once-again-a-palestinian-babies-story-merits-a-washington-post-apology/",
+          "source": "Times of Israel blogs (Robert Satloff)",
+          "tag": "propaganda",
+          "stance": "pro-israel",
+          "headline": "The Blogs: Once again, a ‘Palestinian babies’ story merits a Washington Post apology",
+          "published": "2024-03-03"
+        },
+        {
+          "url": "https://washingtoninstitute.org/about/press-room/press-release/dana-stroul-former-pentagon-official-named-research-director",
+          "source": "The Washington Institute — press release",
+          "stance": "pro-israel",
+          "headline": "Dana Stroul, Former Pentagon Official, Named Research Director"
+        },
+        {
+          "url": "https://projects.propublica.org/nonprofits/organizations/521376034",
+          "source": "ProPublica Nonprofit Explorer (IRS Form 990)",
+          "headline": "Washington Institute For Near East Policy — Form 990 filings, EIN 52-1376034"
+        },
+        {
+          "url": "https://quincyinst.org/research/big-ideas-and-big-money-think-tank-funding-in-america",
+          "source": "Quincy Institute",
+          "published": "2025-01-03",
+          "headline": "Big Ideas and Big Money: Think Tank Funding in America - Quincy Institute for Responsible Statecraft"
+        },
+        {
+          "url": "https://www.lrb.co.uk/the-paper/v28/n06/john-mearsheimer/the-israel-lobby",
+          "source": "London Review of Books (Mearsheimer & Walt)",
+          "published": "2006-03-23",
+          "headline": "John Mearsheimer and Stephen Walt · The Israel Lobby"
+        },
+        {
+          "url": "https://www.jta.org/2014/09/04/united-states/david-makovsky-quits-peace-team",
+          "source": "JTA",
+          "published": "2014-09-04",
+          "headline": "David Makovsky quits peace team - Jewish Telegraphic Agency"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/The_Washington_Institute_for_Near_East_Policy",
+          "source": "Wikipedia",
+          "headline": "The Washington Institute for Near East Policy"
+        }
+      ],
+      "figure": {
+        "src": "/img/washington-institute-wikipedia-pro-israel-aipac-highlighted.webp",
+        "alt": "Wikipedia's article on The Washington Institute for Near East Policy, opening paragraphs, with every mention of pro-Israel, Israel, Israeli, Jewish and AIPAC boxed in red: AIPAC appears nine times.",
+        "title": "Exhibit A: the first two paragraphs on Wikipedia",
+        "caption": "“pro-Israel” in the first sentence; AIPAC nine times in three paragraphs. Highlights ours, read 27 Oct 2026.",
+        "credit": {
+          "label": "Original article",
+          "url": "https://en.wikipedia.org/wiki/The_Washington_Institute_for_Near_East_Policy"
+        }
+      }
+    },
+    {
+      "id": "aipac",
+      "slug": "aipac-israel-lobby-super-pac-united-democracy-project-election-spending",
+      "section": "propaganda",
+      "title": "AIPAC: “Voters control elections.” Its super PAC spends the money.",
+      "date": "Founded 1954 · Super PAC since 2022 · Compiled 27 Oct 2026",
+      "summary": "The American Israel Public Affairs Committee is, in Wikipedia's first sentence, “an American pro-Israel lobbying group”; it was founded in 1954 by Isaiah L. Kenen, a lobbyist for the Israeli government, as the American Zionist Committee for Public Affairs, and took its current name in 1959. After decades of leaving campaign money to its members, it launched its own PAC in late 2021 and the United Democracy Project super PAC in January 2022, which spent about $14.5 million to defeat Rep. Jamaal Bowman in 2024 — more than any outside group had spent on a House race — and $8.5 million against Rep. Cori Bush, both critics of Israel's war on Gaza; on 21 October 2026, with its backing now a liability in Democratic primaries, AIPAC said it would stop endorsing candidates and making direct PAC contributions, while the super PAC carries on.",
+      "bullets": [
+        "Its FAQ: “Does AIPAC control elections? Voters control elections.” Its super PAC spent $14.5 million unseating one congressman.",
+        "Its About page says “Israel” 18 times in 414 words. “Palestinian” and “Gaza”: zero.",
+        "October 2026: no more endorsements or direct PAC cheques as its support turns toxic. The super PAC, with unlimited money, keeps going."
+      ],
+      "comment": "The “PAC” in the name was never a PAC. Since 2021 it has run two.",
+      "wikipedia": "https://en.wikipedia.org/wiki/AIPAC",
+      "official": {
+        "url": "https://www.aipac.org/about",
+        "label": "AIPAC — About (its own FAQ: “Is AIPAC an Israeli organization?”)",
+        "flag": "📄"
+      },
+      "verify": "AIPAC says it is “funded exclusively by Americans” and is “not funded nor directed by, nor lobby for, the Israeli government”; no evidence was found here that contradicts that, and it is not registered as a foreign agent. Spending totals differ by tracker and cut-off date (OpenSecrets, Sludge, FEC); we give each figure with its source. AIPAC is on this desk because it spends to remove politicians who criticise Israel's war on Gaza, not because every lobbying effort is propaganda.",
+      "dossier": [
+        {
+          "heading": "In its own words",
+          "html": "<blockquote>“Is AIPAC an Israeli organization? No, AIPAC is an American organization. We are not funded nor directed by, nor lobby for, the Israeli government.”<br>“Does AIPAC control elections? Voters control elections. We help pro-Israel candidates get their message out by supporting their campaigns.”<br><small>— <a href=\"https://www.aipac.org/about\" target=\"_blank\" rel=\"noopener\">aipac.org/about</a>, read 27 Oct 2026</small></blockquote><blockquote>“an American pro-Israel lobbying group … Founded in 1954 as the American Zionist Committee for Public Affairs”<br><small>— <a href=\"https://en.wikipedia.org/wiki/AIPAC\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>, opening lines</small></blockquote><p>Founder Isaiah L. Kenen was a lobbyist for the Israeli government; he set up the committee separately from the American Zionist Council's finances amid concern he could be investigated for not registering as a foreign agent. <span class=\"st\">reported</span></p>"
+        },
+        {
+          "heading": "The election money",
+          "table": {
+            "cols": [
+              "Cycle",
+              "Target / race",
+              "Spent",
+              "Result",
+              "Source"
+            ],
+            "rows": [
+              [
+                "2022",
+                "Democratic primaries overall (PAC + UDP)",
+                "≈ $24M",
+                "—",
+                "Wikipedia <span class=\"st\">reported</span>"
+              ],
+              [
+                "2024",
+                "Jamaal Bowman, NY-16 primary",
+                "≈ $14.5M",
+                "Bowman lost; most expensive House primary ever",
+                "<a href=\"https://readsludge.com/2024/06/20/no-group-has-ever-spent-as-much-as-aipac-has-in-the-bowman-latimer-primary/\" target=\"_blank\" rel=\"noopener\">Sludge (FEC data)</a>"
+              ],
+              [
+                "2024",
+                "Cori Bush, MO-1 primary",
+                "$8.5M",
+                "Bush lost",
+                "<a href=\"https://www.nbcwashington.com/news/national-international/wesley-bell-squad-cori-bush-aipac/\" target=\"_blank\" rel=\"noopener\">AP via NBC</a>"
+              ],
+              [
+                "2026",
+                "Abdul El-Sayed, Michigan Senate primary",
+                "$30.6M — its most on any race",
+                "El-Sayed won by ~1 point",
+                "<a href=\"https://www.commondreams.org/news/aipac-2026-midterm-spending\" target=\"_blank\" rel=\"noopener\">Sludge via Common Dreams</a>; <a href=\"https://www.kait8.com/2026/08/05/abdul-el-sayed-wins-close-michigan-democratic-senate-primary/\" target=\"_blank\" rel=\"noopener\">AP</a>"
+              ],
+              [
+                "2026",
+                "Whole cycle, to early August",
+                "≥ $104.3M",
+                "—",
+                "Sludge via Common Dreams"
+              ],
+              [
+                "2026",
+                "To 30 Sept (FEC): AIPAC $25M to candidates & committees; UDP $13M + $53.5M independent expenditures",
+                "≈ $91.5M",
+                "—",
+                "<a href=\"https://www.npr.org/2026/10/21/nx-s1-6011531/aipac-campaign-contributions-israel-democrats\" target=\"_blank\" rel=\"noopener\">NPR</a>"
+              ]
+            ],
+            "note": "Super PACs may spend without limit. UDP's ads often don't mention Israel (New York Times, via Common Dreams). In 2026 UDP also funded pop-up PACs with neutral names — “Elect Chicago Women”, “Affordable Chicago Now” — whose donors only became visible after the primaries (American Prospect, via Common Dreams)."
+          }
+        },
+        {
+          "heading": "The money behind it",
+          "table": {
+            "cols": [
+              "Entity",
+              "Type",
+              "FY2023 revenue",
+              "Expenses"
+            ],
+            "rows": [
+              [
+                "AIPAC (EIN 53-0217164)",
+                "501(c)(4) lobby",
+                "$79.4M",
+                "$83.1M"
+              ],
+              [
+                "American Israel Education Foundation (EIN 52-1623781)",
+                "501(c)(3) affiliate",
+                "$70.0M",
+                "$52.2M"
+              ]
+            ],
+            "note": "IRS filings via ProPublica Nonprofit Explorer (<a href=\"https://projects.propublica.org/nonprofits/organizations/530217164\" target=\"_blank\" rel=\"noopener\">AIPAC</a>, <a href=\"https://projects.propublica.org/nonprofits/organizations/521623781\" target=\"_blank\" rel=\"noopener\">AIEF</a>). AIPAC says it has more than 6.5 million members. <span class=\"st\">verified</span>"
+          }
+        },
+        {
+          "heading": "The backlash, and the retreat",
+          "html": "<ul><li>2025: Democrats including Deborah Ross and Seth Moulton said they would no longer accept AIPAC donations (The Nation, via Wikipedia). <span class=\"st\">reported</span></li><li>21 Oct 2026: in a letter to members AIPAC said it would stop endorsements, direct PAC contributions and earmarking, warning “the challenges we are confronting will continue to grow,” and promised to “prioritize increasing direct, organized contributions from individual Americans to candidates.” United Democracy Project continues — and was already running ads against El-Sayed, now the Democratic nominee (<a href=\"https://www.npr.org/2026/10/21/nx-s1-6011531/aipac-campaign-contributions-israel-democrats\" target=\"_blank\" rel=\"noopener\">NPR</a>). <span class=\"st\">verified</span></li></ul>"
+        },
+        {
+          "heading": "Critics and defenders",
+          "html": "<ul><li><b>Mearsheimer &amp; Walt</b> (<a href=\"https://www.lrb.co.uk/the-paper/v28/n06/john-mearsheimer/the-israel-lobby\" target=\"_blank\" rel=\"noopener\">LRB, 2006</a>): AIPAC is “a de facto agent for a foreign government” with a “stranglehold” on Congress. <span class=\"st\">criticism</span></li><li><b>Rosen–Weissman case</b>: in 2005 AIPAC fired its policy director Steve Rosen and analyst Keith Weissman amid an FBI investigation; Pentagon analyst Lawrence Franklin pleaded guilty to passing them classified information; charges against the two were dropped in 2009. <span class=\"st\">reported</span></li><li><b>Defence</b> — AIPAC: bipartisan, “funded exclusively by Americans,” and “there is no such thing as unconditional aid to Israel.” <span class=\"st\">self-description</span></li></ul>"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.aipac.org/about",
+          "source": "AIPAC — About",
+          "tag": "propaganda",
+          "headline": "About AIPAC"
+        },
+        {
+          "url": "https://www.npr.org/2026/10/21/nx-s1-6011531/aipac-campaign-contributions-israel-democrats",
+          "source": "NPR",
+          "headline": "AIPAC won't give candidates direct contributions anymore",
+          "published": "2026-10-21"
+        },
+        {
+          "url": "https://www.commondreams.org/news/aipac-2026-midterm-spending",
+          "source": "Common Dreams",
+          "headline": "AIPAC's 2026 Spending Tops $100 Million—Including $30 Million Against El-Sayed in Michigan",
+          "published": "2026-08-04"
+        },
+        {
+          "url": "https://www.kait8.com/2026/08/05/abdul-el-sayed-wins-close-michigan-democratic-senate-primary/",
+          "source": "AP (via KAIT)",
+          "headline": "Abdul El-Sayed wins close Michigan Democratic Senate primary",
+          "published": "2026-08-05"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/2/4/aipac-linked-pac-ups-pressure-on-moderate-us-democrat-in-new-strategy",
+          "source": "Al Jazeera",
+          "published": "2026-02-04",
+          "headline": "Pro-Israel lobby group pressures ‘moderate’ US Democrat in new strategy"
+        },
+        {
+          "url": "https://insidepoliticalmoney.com/news/aipacs-2026-scorecard-in-democratic-primaries-so-far-a-quick-rundown/",
+          "source": "Inside Political Money",
+          "headline": "AIPAC's 2026 Scorecard in Democratic Primaries So Far: A Rundown",
+          "published": "2026-08-10"
+        },
+        {
+          "url": "https://readsludge.com/2024/06/20/no-group-has-ever-spent-as-much-as-aipac-has-in-the-bowman-latimer-primary/",
+          "source": "Sludge",
+          "published": "2024-06-20",
+          "headline": "No Group Has Ever Spent as Much as AIPAC Has in the Bowman-Latimer Primary"
+        },
+        {
+          "url": "https://adimpact.com/blog/ny-cd-16-primary-2024/",
+          "source": "AdImpact",
+          "headline": "New York Sixteen Primary Reaches Record High in Political Ad Spending",
+          "published": "2024-06-24"
+        },
+        {
+          "url": "https://www.nbcwashington.com/news/national-international/wesley-bell-squad-cori-bush-aipac/",
+          "source": "AP (via NBC Washington)",
+          "headline": "Wesley Bell defeats ‘Squad’ member Cori Bush. A pro-Israel group spent $8.5 million to help oust her",
+          "published": "2024-08-07"
+        },
+        {
+          "url": "https://www.factcheck.org/2024/09/united-democracy-project-2/",
+          "source": "FactCheck.org",
+          "headline": "United Democracy Project - FactCheck.org",
+          "published": "2024-09-26"
+        },
+        {
+          "url": "https://projects.propublica.org/nonprofits/organizations/530217164",
+          "source": "ProPublica Nonprofit Explorer (IRS Form 990-O)",
+          "headline": "American Israel Public Affairs Committee — filings, EIN 53-0217164"
+        },
+        {
+          "url": "https://projects.propublica.org/nonprofits/organizations/521623781",
+          "source": "ProPublica Nonprofit Explorer (IRS Form 990)",
+          "headline": "American Israel Education Foundation — filings, EIN 52-1623781"
+        },
+        {
+          "url": "https://www.lrb.co.uk/the-paper/v28/n06/john-mearsheimer/the-israel-lobby",
+          "source": "London Review of Books (Mearsheimer & Walt)",
+          "published": "2006-03-23",
+          "headline": "John Mearsheimer and Stephen Walt · The Israel Lobby"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/AIPAC",
+          "source": "Wikipedia",
+          "headline": "AIPAC"
+        }
+      ]
     }
   ]
 }

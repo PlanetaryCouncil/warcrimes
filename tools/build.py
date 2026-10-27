@@ -67,7 +67,7 @@ def handle(l):
 # Source stance. Default is mainstream; a link may override with "stance" in data.json.
 ISRAELI_GOV_HOSTS = ('idf.il', 'gov.il', 'mfa.gov.il')
 ISRAELI_GOV_X = {'idf', 'netanyahu', 'orenmarmorstein', 'ltc_ariella', 'israelmfa', 'israel', 'israelipm', 'idfspokesperson', 'avichayadraee', 'israelingeneva'}
-PRO_ISRAEL_HOSTS = ('honestreporting.com', 'honestreporting.ca', 'washingtoninstitute.org', 'algemeiner.com', 'camera.org', 'ngo-monitor.org', 'jns.org', 'unwatch.org', 'israellycool.com')
+PRO_ISRAEL_HOSTS = ('aipac.org', 'honestreporting.com', 'honestreporting.ca', 'washingtoninstitute.org', 'algemeiner.com', 'camera.org', 'ngo-monitor.org', 'jns.org', 'unwatch.org', 'israellycool.com')
 PRO_ISRAEL_X = {'gazawood1'}
 PRO_PAL_HOSTS = ('mondoweiss.net', 'electronicintifada.net', 'palestinechronicle.com', 'middleeastmonitor.com', 'alhaq.org', 'euromedmonitor.org', 'palestine-studies.org', 'hindrajabfoundation.org', 'wafa.ps', 'qudsnen.co')
 PRO_PAL_X = {'mondoweiss', 'qudsnen', 'euromedhr'}
@@ -152,6 +152,13 @@ def page(d, prev, nxt):
     video = (f'<figure class="poster"><h2>{e(vid["title"])}</h2><video controls preload="none" playsinline poster="{vid["poster"]}" src="{vid["src"]}"></video>'
              f'<figcaption>{e(vid["caption"])}' + (f' <a href="{e(vid["credit"]["url"])}" target="_blank" rel="noopener">{e(vid["credit"]["label"])}</a>' if vid.get('credit') else '')
              + '.</figcaption></figure>') if vid else ''
+    # optional dossier: [{heading, html?, table?{cols, rows}}] — profile sections for organisation pages
+    dossier = ''.join(
+        f'<section class="dossier"><h2>{s["heading"]}</h2>' + (s.get('html') or '')
+        + ((f'<div class="tw"><table class="facts"><thead><tr>' + ''.join(f'<th>{c}</th>' for c in s['table']['cols']) + '</tr></thead><tbody>'
+            + ''.join('<tr>' + ''.join(f'<td>{c}</td>' for c in r) + '</tr>' for r in s['table']['rows']) + '</tbody></table></div>'
+            + (f'<p class="sub">{s["table"]["note"]}</p>' if s['table'].get('note') else '')) if s.get('table') else '')
+        + '</section>' for s in d.get('dossier', []))
     score = ''
     if d['section'] in ('main', 'closers'):
         score = f'''<div class="score" title="The scoreboard is satire. The facts in it are not.">
@@ -189,6 +196,7 @@ def page(d, prev, nxt):
   <a href="/#sec-docket">Docket</a>
   <a href="/#sec-hamas">Hamas</a>
   <a href="/#sec-propaganda">Propaganda</a>
+  <a href="/talking-about-war-crimes-is-not-antisemitic/">Not antisemitic</a>
   <a href="/al-ahli.html">Contested</a>
 </nav>
 <main class="page">
@@ -204,6 +212,7 @@ def page(d, prev, nxt):
   {score}
   {video}
   {figure}
+  {dossier}
   <section class="record">
     <h2>The record — {len(record_links)} sources</h2>
     <p class="sub">Date, publication and headline for each source, as the source itself published them, grouped by stance. {"Forensic Architecture is pinned first; the rest" if fa else "Sorted"} by publication date. {dated} of {len(record_links)} dated; a blank means the publisher's page didn't expose it, and we don't guess.</p>
@@ -224,11 +233,13 @@ def page(d, prev, nxt):
 </html>
 '''
 
+STATIC_DIRS = ('talking-about-war-crimes-is-not-antisemitic', 'img', 'video')  # hand-written pages and assets, never cleaned up
+
 def main():
     ids = {d['id'] for d in incidents} | {path(d) for d in incidents}
     # remove pages for incidents that no longer exist (only dirs we generated: they contain a marker-free index.html next to nothing else)
     for p in ROOT.iterdir():
-        if p.is_dir() and (p / 'index.html').exists() and p.name not in ids and p.name not in ('tools', '.git', '.claude'):
+        if p.is_dir() and (p / 'index.html').exists() and p.name not in ids and p.name not in ('tools', '.git', '.claude') + STATIC_DIRS:
             if 'War Crimes Safari' in (p / 'index.html').read_text(): shutil.rmtree(p)
     for i, d in enumerate(ORDER):
         out = ROOT / path(d); out.mkdir(exist_ok=True)
@@ -240,7 +251,7 @@ def main():
                 f'<link rel="canonical" href="{SITE}{target}"><meta name="robots" content="noindex">'
                 f'<meta http-equiv="refresh" content="0; url={target}"><script>location.replace("{target}"+location.hash)</script>'
                 f'<a href="{target}">{e(plain(d["title"]))}</a>\n')
-    urls = [SITE + '/', SITE + '/al-ahli.html'] + [f'{SITE}/{path(d)}/' for d in ORDER]
+    urls = [SITE + '/', SITE + '/al-ahli.html'] + [f'{SITE}/{x}/' for x in STATIC_DIRS] + [f'{SITE}/{path(d)}/' for d in ORDER]
     (ROOT / 'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
                                       + ''.join(f'  <url><loc>{u}</loc></url>\n' for u in urls) + '</urlset>\n')
     (ROOT / 'robots.txt').write_text(f'User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n')
