@@ -4510,15 +4510,15 @@
       "id": "hanover",
       "slug": "hanover-institute-israel-government-funded-fake-think-tank-ai-chatbots-fara",
       "section": "propaganda",
-      "title": "The Hanover Institute: a think tank paid for by Israel's government, written for the chatbots",
+      "title": "The Hanover Institute: Israel's hasbara budget, dressed as a think tank and written for the chatbots",
       "date": "Domain registered 26 Jun 2026 · About page read 27 Oct 2026",
       "summary": "The Hanover Institute for Public Policy says it “studies the inputs fueling antisemitism in the United States,” and its own About page discloses that its materials are distributed by Piro, Inc. on behalf of Havas Media Germany “acting for the Israel Government Advertising Agency (LaPam),” under Foreign Agents Registration Act registration 7732 — which is why, it says, it “does not call itself independent, nonpartisan or neutral.” Filings with the US Justice Department show a $900,000 “Digital Storytelling Pilot” dated 30 April 2026 and a $100,000 “Fact-Based Content Initiative” on behalf of Israel's Foreign Ministry; the Guardian counted 124 reports of more than 560,000 words in nine days in August 2026, nearly all headlined as questions a user might type into a chatbot, from a site with no named staff, no bylines and, it found, no apparent legal entity.",
       "bullets": [
         "Its About page: paid for via “the Israel Government Advertising Agency,” registered as foreign-agent material — so it “does not call itself independent, nonpartisan or neutral.”",
-        "124 reports, 560,000 words, nine days. Headlines written as the questions people ask ChatGPT.",
+        "Paid from a hasbara budget that went from $150 million to $730 million in a year. The foreign minister: “like investing in jets, bombs and missile interceptors.”",
         "It says it was “established and publishing before that funding existed.” The contract is dated 30 April 2026; the website's domain was registered on 26 June."
       ],
-      "comment": "Credit where due: the only outfit on this desk that admits who pays for it. In the footer.",
+      "comment": "The ultimate propaganda — and the only outfit on this desk that admits who pays for it. In the footer.",
       "official": {
         "url": "https://hanoverinstitute.com/about",
         "label": "The Hanover Institute — About (its own funding disclosure)",
@@ -4539,6 +4539,10 @@
         {
           "heading": "In its own words",
           "html": "<blockquote>“The Institute's materials are distributed by Piro, Inc. on behalf of Havas Media Germany GmbH, acting for the Israel Government Advertising Agency (LaPam). That relationship is registered under the Foreign Agents Registration Act, registration 7732 … That registration is why this site does not call itself independent, nonpartisan or neutral.”<br><small>— <a href=\"https://hanoverinstitute.com/about\" target=\"_blank\" rel=\"noopener\">hanoverinstitute.com/about</a>, read 27 Oct 2026</small></blockquote><blockquote>“The Institute was established and publishing before that funding existed. An earlier version of this page said the Institute operated without external funding …”<br><small>— <a href=\"https://hanoverinstitute.com/funding\" target=\"_blank\" rel=\"noopener\">hanoverinstitute.com/funding</a></small></blockquote><p>The researchers are not named, it says, because “the subject attracts harassment.” <span class=\"st\">verified</span></p>"
+        },
+        {
+          "heading": "Part of the hasbara machine",
+          "html": "<p>In March 2026 the Knesset approved roughly <b>$730 million</b> for public diplomacy — <i>hasbara</i> — in the 2026 budget: nearly five times the $150 million of the year before, which was itself about 20 times pre-war spending. Foreign Minister Gideon Sa'ar: “It should be like investing in jets, bombs and missile interceptors.” He also won a dedicated public-diplomacy unit inside the Foreign Ministry. <span class=\"st\">reported</span> — <a href=\"https://www.timesofisrael.com/israel-just-quintupled-its-pr-budget-to-730-million-experts-say-it-wont-work/\" target=\"_blank\" rel=\"noopener\">Times of Israel</a> / <a href=\"https://www.jta.org/2026/04/29/israel/israel-just-quadrupled-its-pr-budget-to-730m-experts-say-it-wont-work\" target=\"_blank\" rel=\"noopener\">JTA</a>, 29–30 Apr 2026</p><p>Hanover's paper trail leads into that budget: its second work order is “undertaken on behalf of the Israel Ministry of Foreign Affairs,” and its first — the $900,000 pilot — is dated 30 April 2026, the same day the Times of Israel ran the budget story. <span class=\"st\">verified</span> — <a href=\"https://efile.fara.gov/docs/7732-Exhibit-AB-20260729-1.pdf\" target=\"_blank\" rel=\"noopener\">FARA Exhibit A/B</a></p><p>The middleman, Havas Media, has received more than $100 million from Israel since 2018 (Haaretz tally), and Israel's FARA-registered spending has passed $100 million since 2023, with more than $1 billion in direct public-diplomacy spending since 7 October 2023. <span class=\"st\">reported</span> — <a href=\"https://quincyinst.org/research/the-eighth-front-inside-israels-1-billion-influence-campaign/\" target=\"_blank\" rel=\"noopener\">Quincy Institute, “The Eighth Front”</a>, 24 Jul 2026</p><p>Neither article names Hanover: both were published before its website existed. The link is the contract, not the coverage.</p>"
         },
         {
           "heading": "The timeline",
@@ -4631,6 +4635,30 @@
           "source": "US Department of Justice — FARA",
           "headline": "Piro, Inc. — Exhibit A/B: work orders “Digital Storytelling Pilot” ($900,000) and “Fact-Based Content Initiative” ($100,000)",
           "published": "2026-07-29"
+        },
+        {
+          "url": "https://www.timesofisrael.com/israel-just-quintupled-its-pr-budget-to-730-million-experts-say-it-wont-work/",
+          "source": "The Times of Israel (JTA)",
+          "headline": "Israel just quintupled its PR budget to $730 million; experts say it won't work",
+          "published": "2026-04-30"
+        },
+        {
+          "url": "https://www.jta.org/2026/04/29/israel/israel-just-quadrupled-its-pr-budget-to-730m-experts-say-it-wont-work",
+          "source": "JTA",
+          "headline": "Israel just quadrupled its PR budget to $730M. Experts say it won't work.",
+          "published": "2026-04-29"
+        },
+        {
+          "url": "https://quincyinst.org/research/the-eighth-front-inside-israels-1-billion-influence-campaign/",
+          "source": "Quincy Institute",
+          "headline": "The Eighth Front: Inside Israel's $1 Billion Influence Campaign",
+          "published": "2026-07-24"
+        },
+        {
+          "url": "https://www.middleeasteye.net/news/israel-pour-730m-propaganda-gaza-genocide-iran-war-turns-it-pariah",
+          "source": "Middle East Eye",
+          "headline": "Israel to pour $730m into propaganda arm amid reputational crisis",
+          "published": "2026-05-01"
         },
         {
           "url": "https://www.politico.com/newsletters/politico-influence/2026/07/24/israels-new-u-s-influence-strategy-01011734",
