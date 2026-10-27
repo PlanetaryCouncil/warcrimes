@@ -4505,6 +4505,199 @@
           "headline": "AIPAC"
         }
       ]
+    },
+    {
+      "id": "hanover",
+      "slug": "hanover-institute-israel-government-funded-fake-think-tank-ai-chatbots-fara",
+      "section": "propaganda",
+      "title": "The Hanover Institute: a think tank paid for by Israel's government, written for the chatbots",
+      "date": "Domain registered 26 Jun 2026 · About page read 27 Oct 2026",
+      "summary": "The Hanover Institute for Public Policy says it “studies the inputs fueling antisemitism in the United States,” and its own About page discloses that its materials are distributed by Piro, Inc. on behalf of Havas Media Germany “acting for the Israel Government Advertising Agency (LaPam),” under Foreign Agents Registration Act registration 7732 — which is why, it says, it “does not call itself independent, nonpartisan or neutral.” Filings with the US Justice Department show a $900,000 “Digital Storytelling Pilot” dated 30 April 2026 and a $100,000 “Fact-Based Content Initiative” on behalf of Israel's Foreign Ministry; the Guardian counted 124 reports of more than 560,000 words in nine days in August 2026, nearly all headlined as questions a user might type into a chatbot, from a site with no named staff, no bylines and, it found, no apparent legal entity.",
+      "bullets": [
+        "Its About page: paid for via “the Israel Government Advertising Agency,” registered as foreign-agent material — so it “does not call itself independent, nonpartisan or neutral.”",
+        "124 reports, 560,000 words, nine days. Headlines written as the questions people ask ChatGPT.",
+        "It says it was “established and publishing before that funding existed.” The contract is dated 30 April 2026; the website's domain was registered on 26 June."
+      ],
+      "comment": "Credit where due: the only outfit on this desk that admits who pays for it. In the footer.",
+      "official": {
+        "url": "https://hanoverinstitute.com/about",
+        "label": "The Hanover Institute — About (its own funding disclosure)",
+        "flag": "📄"
+      },
+      "verify": "Hanover's disclosure is real and legally required: Piro, Inc. is registered under FARA (no. 7732, received 2 June 2026) for Havas Media Germany on behalf of LaPam. It says the funder “does not select topics, does not see drafts” and that some of its reports run against the funder's interests — and some do record facts unfavourable to Israel. Two things don't fit its account: the work order predates the website, and an “antisemitism” institute files reports on Gaza's siege, East Jerusalem and the right of return under “Israel & Anti-Zionism.” Claims that its reports are AI-written rest on detection tools (Pangram, GPTZero) cited by 404 Media and Responsible Statecraft, which are not proof. It has no Wikipedia article as of 27 Oct 2026.",
+      "figure": {
+        "src": "/img/hanover-institute-about-page-israel-government-fara-highlighted.webp",
+        "alt": "Screenshot of the Hanover Institute's About page with four phrases boxed in red: antisemitism; acting for the Israel Government Advertising Agency; Foreign Agents Registration Act; does not call itself independent, nonpartisan or neutral.",
+        "title": "Exhibit A: the About page",
+        "caption": "hanoverinstitute.com/about — “WHO FUNDS THIS WORK.” Highlights ours.",
+        "credit": {
+          "label": "Original page",
+          "url": "https://hanoverinstitute.com/about"
+        }
+      },
+      "dossier": [
+        {
+          "heading": "In its own words",
+          "html": "<blockquote>“The Institute's materials are distributed by Piro, Inc. on behalf of Havas Media Germany GmbH, acting for the Israel Government Advertising Agency (LaPam). That relationship is registered under the Foreign Agents Registration Act, registration 7732 … That registration is why this site does not call itself independent, nonpartisan or neutral.”<br><small>— <a href=\"https://hanoverinstitute.com/about\" target=\"_blank\" rel=\"noopener\">hanoverinstitute.com/about</a>, read 27 Oct 2026</small></blockquote><blockquote>“The Institute was established and publishing before that funding existed. An earlier version of this page said the Institute operated without external funding …”<br><small>— <a href=\"https://hanoverinstitute.com/funding\" target=\"_blank\" rel=\"noopener\">hanoverinstitute.com/funding</a></small></blockquote><p>The researchers are not named, it says, because “the subject attracts harassment.” <span class=\"st\">verified</span></p>"
+        },
+        {
+          "heading": "The timeline",
+          "table": {
+            "cols": [
+              "Date",
+              "Event",
+              "Source"
+            ],
+            "rows": [
+              [
+                "30 Apr 2026",
+                "Work order: “Digital Storytelling Pilot”, $900,000 — strategy and content $190k, video $400k, measurement $100k and more",
+                "<a href=\"https://efile.fara.gov/docs/7732-Exhibit-AB-20260729-1.pdf\" target=\"_blank\" rel=\"noopener\">FARA Exhibit A/B</a> <span class=\"st\">verified</span>"
+              ],
+              [
+                "2 Jun 2026",
+                "Piro, Inc. registers under FARA (no. 7732) for Havas Media Germany on behalf of LaPam",
+                "<a href=\"https://efile.fara.gov/docs/7732-Registration-Statement-20260602-1.pdf\" target=\"_blank\" rel=\"noopener\">FARA registration statement</a> <span class=\"st\">verified</span>"
+              ],
+              [
+                "26 Jun 2026",
+                "Domain hanoverinstitute.com registered",
+                "WHOIS (Name.com) <span class=\"st\">verified</span>"
+              ],
+              [
+                "15 Jul 2026",
+                "First informational materials filed with the Justice Department; 64 filed by 29 Sep",
+                "<a href=\"https://efile.fara.gov/ords/fara/f?p=1381:200::::200:P200_REG_NUMBER:7732\" target=\"_blank\" rel=\"noopener\">FARA register</a> <span class=\"st\">verified</span>"
+              ],
+              [
+                "20 Jul 2026",
+                "Work order: “Fact-Based Content Initiative”, $100,000, “undertaken on behalf of the Israel Ministry of Foreign Affairs”",
+                "<a href=\"https://efile.fara.gov/docs/7732-Exhibit-AB-20260729-1.pdf\" target=\"_blank\" rel=\"noopener\">FARA Exhibit A/B</a> <span class=\"st\">verified</span>"
+              ],
+              [
+                "6–14 Aug 2026",
+                "124 reports, 560,000+ words; 73 of them on 12–13 August",
+                "<a href=\"https://www.theguardian.com/world/2026/aug/26/fake-thinktank-israel-ai-propaganda\" target=\"_blank\" rel=\"noopener\">The Guardian</a> <span class=\"st\">reported</span>"
+              ],
+              [
+                "14 Aug 2026",
+                "Politico: “Israeli PR wants to answer your ChatGPT questions”",
+                "<a href=\"https://www.politico.com/newsletters/politico-influence/2026/08/14/israeli-pr-wants-to-answer-your-chatgpt-questions-01038138\" target=\"_blank\" rel=\"noopener\">Politico Influence</a> <span class=\"st\">reported</span>"
+              ]
+            ],
+            "note": "Piro markets a service it calls “AI Story Optimization,” and the site carries an llms.txt file to help AI models read it (404 Media, Guardian). Spamhaus added the domain to its blocklist (Gizmodo). <span class=\"st\">reported</span>"
+          }
+        },
+        {
+          "heading": "Written for the machines",
+          "html": "<p>Its research index reads like a list of search queries, each answered at length: “Which Countries Recognize Israel's Actions in Gaza as Genocide?”, “Is Israel Preventing Palestinians From Leaving Gaza for Medical Treatment?”, “Have Former Israeli Officials or UN Leaders Called It Apartheid?” — the questions a reader of this site might ask a chatbot. <span class=\"st\">verified</span> <a href=\"https://hanoverinstitute.com/research\" target=\"_blank\" rel=\"noopener\">hanoverinstitute.com/research</a></p><p>In tests reported by Politico and the Jerusalem Post, ChatGPT and Perplexity cited Hanover material; in the Guardian's test ChatGPT linked four reports but warned of “significant controversy over who funds it and why it exists.” <span class=\"st\">reported</span></p>"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://hanoverinstitute.com/about",
+          "source": "The Hanover Institute — About",
+          "tag": "propaganda",
+          "headline": "About — The Hanover Institute",
+          "stance": "israeli-gov"
+        },
+        {
+          "url": "https://hanoverinstitute.com/funding",
+          "source": "The Hanover Institute — Funding",
+          "tag": "propaganda",
+          "headline": "Funding — The Hanover Institute",
+          "stance": "israeli-gov"
+        },
+        {
+          "url": "https://hanoverinstitute.com/research",
+          "source": "The Hanover Institute — Research index",
+          "tag": "propaganda",
+          "headline": "Research — The Hanover Institute",
+          "stance": "israeli-gov"
+        },
+        {
+          "url": "https://efile.fara.gov/ords/fara/f?p=1381:200::::200:P200_REG_NUMBER:7732",
+          "source": "US Department of Justice — FARA register",
+          "headline": "Registration 7732: Piro, Inc. — foreign principal Havas Media Germany GmbH on behalf of the Israel Government Advertising Agency (LaPam)"
+        },
+        {
+          "url": "https://efile.fara.gov/docs/7732-Registration-Statement-20260602-1.pdf",
+          "source": "US Department of Justice — FARA",
+          "headline": "Piro, Inc. — Registration Statement",
+          "published": "2026-06-02"
+        },
+        {
+          "url": "https://efile.fara.gov/docs/7732-Exhibit-AB-20260729-1.pdf",
+          "source": "US Department of Justice — FARA",
+          "headline": "Piro, Inc. — Exhibit A/B: work orders “Digital Storytelling Pilot” ($900,000) and “Fact-Based Content Initiative” ($100,000)",
+          "published": "2026-07-29"
+        },
+        {
+          "url": "https://www.politico.com/newsletters/politico-influence/2026/07/24/israels-new-u-s-influence-strategy-01011734",
+          "source": "Politico Influence",
+          "published": "2026-07-24"
+        },
+        {
+          "url": "https://www.politico.com/newsletters/politico-influence/2026/08/14/israeli-pr-wants-to-answer-your-chatgpt-questions-01038138",
+          "source": "Politico Influence",
+          "published": "2026-08-14",
+          "headline": "Israeli PR wants to answer your ChatGPT questions"
+        },
+        {
+          "url": "https://arabnews.com/node/2654910/middle-east",
+          "source": "Arab News",
+          "headline": "How Israel is trying to shape what AI tells users about Gaza",
+          "published": "2026-08-16"
+        },
+        {
+          "url": "https://www.jpost.com/israel-news/article-905802",
+          "source": "The Jerusalem Post",
+          "headline": "Israel-linked $1 million US media campaign targeting Americans, filings show",
+          "published": "2026-08-17"
+        },
+        {
+          "url": "https://cybernews.com/security/hanover-institute-influencing-ai-analysis/",
+          "source": "Cybernews",
+          "headline": "Ghost think tank suspected of fabricating news about Israel and Palestine to manipulate AI",
+          "published": "2026-08-19"
+        },
+        {
+          "url": "https://404media.co/israel-is-running-a-synthetic-think-tank-to-influence-ai-search-results",
+          "source": "404 Media",
+          "headline": "Israel Is Running a Synthetic Think Tank to Influence AI Search Results",
+          "published": "2026-08-25"
+        },
+        {
+          "url": "https://www.theguardian.com/world/2026/aug/26/fake-thinktank-israel-ai-propaganda",
+          "source": "The Guardian",
+          "published": "2026-08-26",
+          "headline": "Fake US thinktank set up and funded by Israel sought to game AI for propaganda"
+        },
+        {
+          "url": "https://gizmodo.com/israel-seeds-internet-with-articles-from-opaque-group-to-influence-ai-chatbots-2000803509",
+          "source": "Gizmodo",
+          "headline": "Israel Seeds Internet With Articles From Opaque Group to Influence AI Chatbots",
+          "published": "2026-08-26"
+        },
+        {
+          "url": "https://ynetnews.com/article/b182i66vzl",
+          "source": "Ynet",
+          "headline": "124 reports in nine days: Inside Israel’s fake think tank bid to shape ChatGPT",
+          "published": "2026-08-27"
+        },
+        {
+          "url": "https://responsiblestatecraft.org/israel-influence-chatgpt/",
+          "source": "Responsible Statecraft",
+          "headline": "Israel creates fake think tank in likely attempt to dupe AI chatbots",
+          "published": "2026-08-17"
+        },
+        {
+          "url": "https://www.aljazeera.com/opinions/2026/9/4/israel-takes-its-war-on-palestine-into-the-ai-age",
+          "source": "Al Jazeera (opinion)",
+          "headline": "Israel takes its war on Palestine into the AI age",
+          "published": "2026-09-04"
+        }
+      ]
     }
   ]
 }
