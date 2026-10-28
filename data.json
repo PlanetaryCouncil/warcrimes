@@ -17,7 +17,8 @@
       "verify": "open curation caveat (optional)",
       "slug": "optional keyword-rich URL path for the incident page; defaults to id. Old /<id>/ redirects to it.",
       "figure": "optional {src, alt, title, caption, credit{label,url}} — image shown on the incident page and used as its social preview",
-      "dossier": "optional [{heading, html?, table?{cols, rows, note?}}] — profile sections on organisation pages (propaganda desk)"
+      "dossier": "optional [{heading, html?, table?{cols, rows, note?}}] — profile sections on organisation pages (propaganda desk)",
+      "figures": "optional list of extra posters, same shape as figure, shown below it"
     }
   },
   "incidents": [
@@ -2150,7 +2151,15 @@
           "label": "Inspired by @CaliDreamingof on X",
           "url": "https://x.com/CaliDreamingof/status/2103587019943563312"
         }
-      }
+      },
+      "figures": [
+        {
+          "src": "/img/post-satire-al-nasr-babies-we-did-not-operate-inside-the-hospital.webp",
+          "alt": "Satirical poster, “Post-satire satirical guidance”. Left, “Updated medical guidance: Do not leave premature babies to decompose on hospital beds”, over a ruined hospital ward. Right, “Propaganda guidance: ‘We did not operate inside the hospital.’ Reading between the lines: tanks were parked outside”, over a silhouetted speaker at a lectern. Footer: post-satire is when reality sounds like satire but is real, so satire must be labelled.",
+          "title": "Post-satire: labelled as satire",
+          "caption": "Satire. The quote is real: the Israeli army's statement that it “did not operate inside the Al-Nasr hospital” (via Algemeiner, 30 Nov 2023). The tank outside is in the record above; the figure at the lectern is illustrative, not a named official."
+        }
+      ]
     },
     {
       "id": "christians",

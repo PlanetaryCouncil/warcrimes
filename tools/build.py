@@ -145,9 +145,10 @@ def page(d, prev, nxt):
     fig = d.get('figure')
     og_image = (f'<meta property="og:image" content="{SITE}{fig["src"]}">\n<meta name="twitter:card" content="summary_large_image">'
                 if fig else '<meta name="twitter:card" content="summary">')
-    figure = (f'<figure class="poster"><h2>{e(fig["title"])}</h2><a href="{fig["src"]}"><img src="{fig["src"]}" alt="{e(fig["alt"])}" loading="lazy"></a>'
-              f'<figcaption>{e(fig["caption"])}' + (f' <a href="{e(fig["credit"]["url"])}" target="_blank" rel="noopener">{e(fig["credit"]["label"])}</a>' if fig.get('credit') else '')
-              + '</figcaption></figure>') if fig else ''
+    # figure is the poster and social preview; figures (optional) adds more posters below it
+    figure = ''.join(f'<figure class="poster"><h2>{e(f["title"])}</h2><a href="{f["src"]}"><img src="{f["src"]}" alt="{e(f["alt"])}" loading="lazy"></a>'
+              f'<figcaption>{e(f["caption"])}' + (f' <a href="{e(f["credit"]["url"])}" target="_blank" rel="noopener">{e(f["credit"]["label"])}</a>' if f.get('credit') else '')
+              + '</figcaption></figure>' for f in ([fig] if fig else []) + d.get('figures', []))
     vid = d.get('video')
     video = (f'<figure class="poster"><h2>{e(vid["title"])}</h2><video controls preload="none" playsinline poster="{vid["poster"]}" src="{vid["src"]}"></video>'
              f'<figcaption>{e(vid["caption"])}' + (f' <a href="{e(vid["credit"]["url"])}" target="_blank" rel="noopener">{e(vid["credit"]["label"])}</a>' if vid.get('credit') else '')
