@@ -131,8 +131,8 @@ def page(d, prev, nxt):
     record_rows = group_rows(record_links, ('mainstream', 'pro-palestinian', 'gaza-gov'))
     machine_rows = group_rows(machine_links, ('israeli-gov', 'pro-israel'))
     machine = f'''<section class="record machine">
-    <h2>Analyzing the media machine: the genocidal state's denial — {len(machine_links)} sources</h2>
-    <p class="sub">The Israeli government's own statements and the pro-Israel advocacy that amplifies them, kept apart from the record above. Read them as the other side's case — and as a record of how denial is manufactured. Labels describe each source's stance; <b>propaganda</b> marks what we cite as an example of denial, not as evidence.</p>
+    <h2>Official government sources — {len(machine_links)} {"source" if len(machine_links) == 1 else "sources"}</h2>
+    <p class="sub"><a href="/official-government-sources-exercise-extra-caution/"><b>Exercise extra caution.</b></a> The Israeli government's own statements and the pro-Israel advocacy that amplifies them, kept apart from the record above. Israel is a party to the war, its public-diplomacy budget roughly quintupled to $730 million in 2026, and its first accounts of several incidents here were later contradicted — so read them as one side's case, and check them. Labels describe each source's stance; <b>propaganda</b> marks what we cite as an example of denial, not as evidence.</p>
     <table class="sources">
       <thead><tr><th>Date</th><th>Publication</th><th>Headline</th><th></th></tr></thead>
       <tbody>{machine_rows}</tbody>
@@ -237,8 +237,8 @@ def page(d, prev, nxt):
 </html>
 '''
 
-STATIC_PAGES = ('talking-about-war-crimes-is-not-antisemitic',)  # hand-written pages listed in the sitemap
-STATIC_DIRS = ('talking-about-war-crimes-is-not-antisemitic', 'img', 'video', 'archive')  # hand-written pages and assets, never cleaned up
+STATIC_PAGES = ('talking-about-war-crimes-is-not-antisemitic', 'official-government-sources-exercise-extra-caution')  # hand-written pages listed in the sitemap
+STATIC_DIRS = ('talking-about-war-crimes-is-not-antisemitic', 'official-government-sources-exercise-extra-caution', 'img', 'video', 'archive')  # hand-written pages and assets, never cleaned up
 
 def main():
     ids = {d['id'] for d in incidents} | {path(d) for d in incidents}
