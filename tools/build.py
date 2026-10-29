@@ -65,9 +65,9 @@ def handle(l):
     return l['source']
 
 # Source stance. Default is mainstream; a link may override with "stance" in data.json.
-ISRAELI_GOV_HOSTS = ('idf.il', 'gov.il', 'mfa.gov.il')
+ISRAELI_GOV_HOSTS = ('idf.il', 'gov.il', 'mfa.gov.il', 'terrorism-info.org.il')
 ISRAELI_GOV_X = {'idf', 'netanyahu', 'orenmarmorstein', 'ltc_ariella', 'israelmfa', 'israel', 'israelipm', 'idfspokesperson', 'avichayadraee', 'israelingeneva'}
-PRO_ISRAEL_HOSTS = ('aipac.org', 'honestreporting.com', 'honestreporting.ca', 'washingtoninstitute.org', 'algemeiner.com', 'camera.org', 'ngo-monitor.org', 'jns.org', 'unwatch.org', 'israellycool.com')
+PRO_ISRAEL_HOSTS = ('aipac.org', 'honestreporting.com', 'honestreporting.ca', 'washingtoninstitute.org', 'algemeiner.com', 'camera.org', 'ngo-monitor.org', 'jns.org', 'worldisraelnews.com', 'unwatch.org', 'israellycool.com')
 PRO_ISRAEL_X = {'gazawood1'}
 PRO_PAL_HOSTS = ('mondoweiss.net', 'electronicintifada.net', 'palestinechronicle.com', 'middleeastmonitor.com', 'alhaq.org', 'euromedmonitor.org', 'palestine-studies.org', 'hindrajabfoundation.org', 'wafa.ps', 'qudsnen.co')
 PRO_PAL_X = {'mondoweiss', 'qudsnen', 'euromedhr'}

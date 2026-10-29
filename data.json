@@ -3781,6 +3781,201 @@
       ]
     },
     {
+      "id": "sinwar-memo",
+      "slug": "2022-sinwar-memo-handwritten-october-7-plan-what-we-dont-know",
+      "section": "hamas",
+      "title": "The 2022 Sinwar memo: what is reported, what we don't know",
+      "date": "Dated 24 Aug 2022 · recovered May 2025 · published 11–12 Oct 2025",
+      "summary": "Israeli officials say a six-page handwritten Arabic memo dated 24 August 2022, attributed to Hamas Gaza leader Yahya Sinwar, sets out the plan for the 7 October 2023 attack: staged fence breaches in waves, other factions told only after it began, and deliberately filmed atrocities including the burning of “entire neighborhoods, a kibbutz.” According to the New York Times (11 October 2025), an Israeli military unit found it in May 2025 as an image file on an air-gapped computer used by his brother Muhammad Sinwar; the images and the only public English translation come from an Israeli state-linked institute, and no independent forensic examination of the file or the device has been made public.",
+      "bullets": [
+        "Found, Israel says, as an <i>image</i> on a computer in a Gaza bunker. No paper original, no file, no device, no metadata released.",
+        "Every link in the chain — finder, translator, publisher, timing — is the Israeli state or close to it.",
+        "Its instructions match what happened on 7 October. A real plan would; so would a document written after the fact."
+      ],
+      "comment": "Would be nice to get access to the actual laptop. Not happening.",
+      "official": {
+        "url": "https://www.terrorism-info.org.il/en/instructions-given-by-yahya-al-sinwar-for-the-october-7-2023-attack-and-massacre/",
+        "label": "Amit (Meir Amit) Terrorism and Intelligence Research Institute — images and Israeli English translation"
+      },
+      "verify": "This page does not question that the 7 October attack happened or that atrocities were committed in it; those are documented independently (see <a href=\"/hamas-oct7/\">H1</a>). The question here is narrower: is this document what Israel says it is, and what does it prove? Labels: <b>verified</b> = we read it in the primary source; <b>reported</b> = stated by a named outlet; <b>open</b> = nobody has publicly answered it. We could not open the New York Times original (paywall); its account is taken from outlets that quote it.",
+      "figure": {
+        "src": "/img/2022-sinwar-memo-what-is-reported-what-we-dont-know.webp",
+        "alt": "Infographic, “The 2022 Sinwar memo: scan or photograph?” Four panels — what is reported, what we don't know, what is debated, why caution is reasonable — and a timeline from the 2022 memo date to the May 2025 recovery and the 11 October 2025 publication, with a satirical flamingo general and a rabbit in sunglasses.",
+        "title": "Scan or photograph?",
+        "caption": "Planetary Council, Ministry of Memes and Better Propaganda. Satire characters; the facts in the four panels are sourced below."
+      },
+      "dossier": [
+        {
+          "heading": "How the memo surfaced",
+          "table": {
+            "cols": [
+              "Date",
+              "Event",
+              "Status"
+            ],
+            "rows": [
+              [
+                "24 Aug 2022",
+                "Date written on the memo",
+                "reported"
+              ],
+              [
+                "7 Oct 2023",
+                "Hamas-led attack on southern Israel",
+                "verified"
+              ],
+              [
+                "16 Oct 2024",
+                "Yahya Sinwar killed by Israeli forces in Rafah",
+                "verified"
+              ],
+              [
+                "May 2025",
+                "An Israeli military unit enters an underground complex used by Muhammad Sinwar after he is killed, and finds an air-gapped computer holding an image of the six-page memo",
+                "<a href=\"https://www.kurdistan24.net/en/opinion/868746/memo-found-in-hamas-bunker-and-intercepted-communications-reveal-oct-7-attacks-brutal-plan\" target=\"_blank\" rel=\"noopener\">NYT via Kurdistan24</a> <span class=\"st\">reported</span>"
+              ],
+              [
+                "9 Oct 2025",
+                "Date printed on the Meir Amit institute's report",
+                "<a href=\"https://www.terrorism-info.org.il/app/uploads/2025/10/E_145_25.pdf\" target=\"_blank\" rel=\"noopener\">report PDF</a> <span class=\"st\">verified</span>"
+              ],
+              [
+                "11 Oct 2025",
+                "New York Times publishes, days after the Gaza ceasefire deal and before the last living hostages are released",
+                "<a href=\"https://www.nytimes.com/2025/10/11/world/middleeast/israel-hamas-plans.html\" target=\"_blank\" rel=\"noopener\">NYT</a> <span class=\"st\">reported</span>"
+              ],
+              [
+                "12 Oct 2025",
+                "Institute publishes images and its translation; Israel's Foreign Ministry posts a page on X",
+                "<a href=\"https://www.terrorism-info.org.il/en/instructions-given-by-yahya-al-sinwar-for-the-october-7-2023-attack-and-massacre/\" target=\"_blank\" rel=\"noopener\">Meir Amit</a>, <a href=\"https://x.com/IsraelMFA/status/1977267776180883598\" target=\"_blank\" rel=\"noopener\">@IsraelMFA</a> <span class=\"st\">verified</span>"
+              ],
+              [
+                "12 Jul 2026",
+                "Israeli Channel 12 reports a second handwritten Sinwar document from August 2022 (anticipating even a nuclear response)",
+                "reported"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "What the translation says",
+          "html": "<p>From the institute's English translation, which is the only public one <span class=\"st\">verified</span>:</p><blockquote>“It is essential that the forces carry out intensive movements weeks before any activity in such a way that the enemy will perceive them as routine.”</blockquote><blockquote>“Events must be planned from which horrifying images will emerge. A few car bombs exploding inside an outpost or building … Enormous fires. 5 or 10 such images will break their spirit … Preparations must be made for two or 3 operations whose objective is to burn entire neighborhoods, a kibbutz, and so on. Fuel or diesel will be sprayed on the site from a tanker, the place will be burned, and the images will be broadcast.”</blockquote><blockquote>“… to document and broadcast the images as quickly as possible: stepping on the heads of soldiers, point-blank shootings, slaughtering people with knives, blowing up tanks, prisoners kneeling with their hands on their heads, and the like.”</blockquote><p><small>— <a href=\"https://www.terrorism-info.org.il/app/uploads/2025/10/E_145_25.pdf\" target=\"_blank\" rel=\"noopener\">Amit Institute report, pp. 4–15</a></small></p>"
+        },
+        {
+          "heading": "What we noticed reading it",
+          "html": "<ul><li><b>“People” becomes “civilians.”</b> The translated passage says “slaughtering people with knives.” The institute's own summary says the memo instructs operatives to film themselves “indiscriminately slaughtering civilians,” and the Foreign Ministry's post says “the slaughter of civilians.” The burning of “entire neighborhoods, a kibbutz” is explicitly civilian; the knife line, as translated, is not. Kurdistan24, relaying the NYT, says the memo does not explicitly use the words “kidnap or kill civilians.” <span class=\"st\">verified</span></li><li><b>A quote that isn't there.</b> “Slaughter them. End the children of Israel,” which circulates as a line from the memo, does not appear in the institute's translation. <span class=\"st\">verified</span></li><li><b>Draft notes left in.</b> Footnote 9 of the published report reads, in full: “This is pretty much footnote 6.” Footnote 6 cites a reading of Sinwar's 2004 novel, not the memo. <span class=\"st\">verified</span></li><li><b>An open archive?</b> Footnote 1: “The documents mentioned in this study can be viewed at the archives” of the institute. We found no report of an independent examiner doing so. <span class=\"st\">open</span></li></ul>"
+        },
+        {
+          "heading": "Who vouches for it",
+          "html": "<ul><li>Seven Israeli officials told the New York Times they believe Sinwar wrote it. <span class=\"st\">reported</span></li><li>Sima Ankona, a former Israeli police document examiner consulted by the NYT, matched the handwriting to known samples, including a 2018 note to Netanyahu — from images, not paper. <span class=\"st\">reported</span></li><li>A confidential report by the Gazit Institute, affiliated with Israeli military intelligence. <span class=\"st\">reported</span></li><li>Unnamed Hamas sources told Saudi daily Okaz they recognised the style of the handwriting but would not confirm the content, and raised the possibility of manipulation. <span class=\"st\">reported</span></li><li><b>Against:</b> Ibrahim Madhoun, a Palestinian analyst close to Hamas, doubted its authenticity, saying most acts it describes did not happen. <span class=\"st\">reported</span></li></ul><p>Every vouching party is Israeli or anonymous. The institute is part of the Israeli Intelligence Heritage and Commemoration Center; the Times of Israel calls it government-controlled. <span class=\"st\">reported</span></p>"
+        },
+        {
+          "heading": "What we don't know",
+          "html": "<ol><li>Are the page images scans or photographs — and who made them, when?</li><li>Was the computer encrypted or password-protected, and how was it opened?</li><li>Has any file metadata been disclosed? Has a forensic disk image with a hash been offered to anyone outside Israel?</li><li>Does a paper original exist?</li><li>What is the chain of custody from the bunker to the newsroom?</li><li>The institute's appendix shows five images; the memo is described as six pages. Is anything missing?</li><li>Is the Israeli translation faithful to the Arabic? No independent translation has been published.</li><li>Were other files on the same computer withheld?</li><li>Why five months between recovery and publication — and why days after the ceasefire deal?</li></ol><p>None of these is hard to answer for whoever holds the laptop.</p>"
+        },
+        {
+          "heading": "How to weigh it",
+          "html": "<p><b>For authenticity:</b> the handwriting comparison; Hamas sources recognising the style; instructions that match 7 October (bulldozed fence breaches, attack waves, factions joining later, homes burned, atrocities filmed and broadcast); handwriting fits Sinwar's known avoidance of electronics. <b>For caution:</b> one custodian (the Israeli military); Israeli-only attribution; a match made from images; no file, device or metadata; an Israeli translation; the timing; and the record — in September 2024 supposed Hamas documents about Sinwar, published by the Jewish Chronicle and Bild, were found to be forged or misrepresented, and people linked to the Prime Minister's office were arrested over the leak (<a href=\"https://fair.org/home/despite-history-of-fabrication-press-uncritically-covers-idf-provided-documents-on-hamas/\" target=\"_blank\" rel=\"noopener\">FAIR</a>).</p><p>Matching later events is what an authentic plan would do. A document written or edited after the fact would match too. Only access to the file and the device can tell the two apart.</p>"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.nytimes.com/2025/10/11/world/middleeast/israel-hamas-plans.html",
+          "source": "The New York Times",
+          "published": "2025-10-11"
+        },
+        {
+          "url": "https://archive.li/TmcqJ",
+          "source": "The New York Times (archive.today copy)",
+          "published": "2025-10-11"
+        },
+        {
+          "url": "https://www.timesofisrael.com/burn-towns-slaughter-broadcast-2022-sinwar-memo-said-to-detail-hamas-plan-for-oct-7/",
+          "source": "The Times of Israel",
+          "headline": "Burn towns, slaughter, broadcast: 2022 Sinwar memo said to detail Hamas plan for Oct. 7",
+          "published": "2025-10-11"
+        },
+        {
+          "url": "https://www.kurdistan24.net/en/opinion/868746/memo-found-in-hamas-bunker-and-intercepted-communications-reveal-oct-7-attacks-brutal-plan",
+          "source": "Kurdistan24 (opinion, Dr. Kamaran Aziz)",
+          "headline": "Memo Found in Hamas Bunker and Intercepted Communications Reveal Oct. 7 Attack's Brutal Plan",
+          "published": "2025-10-11"
+        },
+        {
+          "url": "https://en.royanews.tv/news/64035",
+          "source": "Roya News (Jordan)",
+          "headline": "Six-page memo allegedly from Yahya Sinwar details tactics for Oct. 7"
+        },
+        {
+          "url": "https://www.okaz.com.sa/news/politics/2217477",
+          "source": "Okaz (Saudi Arabia, Arabic)",
+          "headline": "رسالة منسوبة للسنوار تُشعل الجدل.. ما تفاصيلها؟",
+          "published": "2025-10-13"
+        },
+        {
+          "url": "https://www.israelhayom.com/2025/10/12/shooting-at-point-blank-range-slaughtering-with-a-knife-sinwars-chilling-handwritten-orders-for-oct-7-revealed",
+          "source": "Israel Hayom",
+          "published": "2025-10-12",
+          "headline": "'Shooting at point-blank range, slaughtering with a knife': Sinwar's chilling handwritten orders for Oct. 7 revealed"
+        },
+        {
+          "url": "https://www.algemeiner.com/2025/10/11/sinwar-memo-obtained-by-idf-reveals-hamas-chief-ordered-shocking-violence-on-oct-7/",
+          "source": "The Algemeiner",
+          "published": "2025-10-11",
+          "headline": "Sinwar Memo Obtained by IDF Reveals Hamas Chief Ordered ‘Shocking’ Violence on Oct. 7"
+        },
+        {
+          "url": "https://www.jns.org/handwritten-hamas-memo-exposes-scripted-nature-of-oct-7-rampage/",
+          "source": "JNS",
+          "headline": "Handwritten Hamas memo exposes scripted nature of Oct. 7 rampage",
+          "published": "2025-10-12"
+        },
+        {
+          "url": "https://www.terrorism-info.org.il/en/instructions-given-by-yahya-al-sinwar-for-the-october-7-2023-attack-and-massacre/",
+          "source": "Amit (Meir Amit) Terrorism and Intelligence Research Institute",
+          "headline": "Instructions Given by Yahya al-Sinwar for the October 7, 2023 Attack and Massacre",
+          "published": "2025-10-12"
+        },
+        {
+          "url": "https://www.terrorism-info.org.il/app/uploads/2025/10/E_145_25.pdf",
+          "source": "Amit Institute — full report (PDF)",
+          "headline": "Instructions Given by Yahya al-Sinwar for the October 7, 2023 Attack and Massacre — Shiri, Iserovich, Karo (18 pp.)",
+          "published": "2025-10-09",
+          "stance": "israeli-gov"
+        },
+        {
+          "url": "https://x.com/IsraelMFA/status/1977267776180883598",
+          "source": "Israel Ministry of Foreign Affairs (X)",
+          "headline": "“Evidence exposes Hamas’s calculated plan for October 7. A handwritten document by Hamas leader Yahya al-Sinwar reveals the massacre wasn’t chaos, but choreography.”",
+          "published": "2025-10-12"
+        },
+        {
+          "url": "https://www.jpost.com/middle-east/article-902398",
+          "source": "The Jerusalem Post (second memo)",
+          "headline": "Hamas accepted possibility of nuclear annihilation, in exchange for Israel death",
+          "published": "2026-07-13"
+        },
+        {
+          "url": "https://worldisraelnews.com/sinwar-memo-shows-hamas-planned-10000-terrorist-invasion-feared-nuclear-retaliation/",
+          "source": "World Israel News (second memo)",
+          "headline": "Sinwar memo shows Hamas planned 10,000-terrorist invasion, feared nuclear retaliation",
+          "published": "2026-07-13"
+        },
+        {
+          "url": "https://www.dropsitenews.com/p/new-york-times-ignored-doubts-hamas-iran-october-7-documents",
+          "source": "Drop Site News (on the 2024 Khan Younis documents)",
+          "headline": "The New York Times Ignored Source's Doubts About Hamas Docs Provided by Israel",
+          "published": "2024-12-17"
+        },
+        {
+          "url": "https://fair.org/home/despite-history-of-fabrication-press-uncritically-covers-idf-provided-documents-on-hamas/",
+          "source": "FAIR",
+          "headline": "Despite History of Fabrication, Press Uncritically Covers IDF-Provided Documents on Hamas",
+          "published": "2024-11-01"
+        }
+      ]
+    },
+    {
       "id": "honestreporting",
       "slug": "honestreporting-israel-advocacy-propaganda-media-watchdog",
       "section": "propaganda",
