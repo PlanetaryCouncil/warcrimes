@@ -3788,7 +3788,7 @@
       "date": "Dated 24 Aug 2022 · recovered May 2025 · published 11–12 Oct 2025",
       "summary": "Israeli officials say a six-page handwritten Arabic memo dated 24 August 2022, attributed to Hamas Gaza leader Yahya Sinwar, sets out the plan for the 7 October 2023 attack: bulldozed fence breaches, waves of attackers, other factions told only after it began, and deliberately filmed violence including the burning of “an entire neighborhood, kibbutz, or something similar.” According to the New York Times (11 October 2025), an Israeli military unit found it in May 2025 as an image on an air-gapped computer used by his brother Muhammad Sinwar; every step from the bunker to publication — the find, the copy, the handwriting samples, the intercepts said to corroborate it — passed through the Israeli state, and no independent forensic examination of the file or the device has been made public.",
       "bullets": [
-        "Found, Israel says, as an <i>image</i> on a computer in a Gaza bunker. No paper original, no file, no device, no metadata released.",
+        "Found, Israel says, as an <i>image</i> on a computer. Public: cropped excerpts and one phone photo of a paper page. Not public: the six original pages, the file, its metadata, the device.",
         "The New York Times' own translation puts the knife line on <i>soldiers</i>. Israel's institute and Foreign Ministry made it “civilians.”",
         "Its instructions match what happened on 7 October. A real plan would; so would a document written after the fact."
       ],
@@ -3929,8 +3929,57 @@
           }
         },
         {
+          "heading": "Do we have the six original pages? No.",
+          "html": "<p>We looked for every public copy of the memo and read the metadata of each, as of 29 Oct 2026. None is a complete, uncropped, original file with its EXIF data. <span class=\"st\">verified</span></p>",
+          "table": {
+            "cols": [
+              "Copy",
+              "What it is",
+              "Metadata"
+            ],
+            "rows": [
+              [
+                "Amit Institute, English page",
+                "15 cropped excerpts, 391–601 px wide; file names “word-image-…” — pasted in from a Word document. No full page.",
+                "None (PNG). Upload timestamps in the file names: 8 Oct 2025"
+              ],
+              [
+                "Amit Institute, Hebrew page",
+                "The same excerpts, uploaded earlier; no full page",
+                "Upload timestamps: <a href=\"https://www.terrorism-info.org.il/app/uploads/2025/08/word-image-1754210118683.png\" target=\"_blank\" rel=\"noopener\">3 Aug 2025, 08:35 UTC</a>"
+              ],
+              [
+                "Amit Institute, header crop",
+                "<a href=\"https://www.terrorism-info.org.il/app/uploads/2025/10/145_25.jpg\" target=\"_blank\" rel=\"noopener\">444 × 246 crop</a> of page 1",
+                "“Adobe Photoshop 26.8 (Macintosh)”, created 3 Aug 2025 10:59 and saved 11:00 (Israel time) — the only file with surviving metadata, and it records an edit, not a camera"
+              ],
+              [
+                "Amit Institute, report PDF",
+                "<a href=\"https://www.terrorism-info.org.il/app/uploads/2025/10/E_145_25.pdf\" target=\"_blank\" rel=\"noopener\">18 pages</a>; the memo appears only as cropped excerpts (≈ 880 px wide)",
+                "The PDF now posted was generated on 22 Aug 2026 (macOS Quartz); the page was last modified the same day"
+              ],
+              [
+                "Israel Foreign Ministry, X",
+                "<a href=\"https://x.com/IsraelMFA/status/1977267776180883598\" target=\"_blank\" rel=\"noopener\">One phone photo</a> of page 1: a <b>paper</b> page in a plastic sleeve, held up in a room with display boards",
+                "None — X strips EXIF; 721 × 1280, re-encoded"
+              ],
+              [
+                "The New York Times",
+                "“A copy” obtained from Israeli officials; the article as archived on 11 Oct 2025 shows no image of the memo",
+                "—"
+              ],
+              [
+                "The original file and the computer",
+                "Held by Israel",
+                "Not released"
+              ]
+            ],
+            "note": "Two things follow. <b>First</b>, the institute had the memo cropped and its report prepared by 3 August 2025 — about ten weeks before it published on 12 October, days after the ceasefire deal. <b>Second</b>, the Foreign Ministry's photo shows a handwritten page on paper, while the NYT says the computer “held an image.” Either it is a printout of that image, or there is a paper original that nobody has accounted for."
+          }
+        },
+        {
           "heading": "What we don't know",
-          "html": "<ol><li>Are the page images scans or photographs — and who made them, when?</li><li>Was the computer encrypted or password-protected, and how was it opened?</li><li>Has any file metadata been disclosed? Has a forensic disk image with a hash been offered to anyone outside Israel?</li><li>Does a paper original exist?</li><li>What is the chain of custody from the bunker to the newsroom?</li><li>The institute's appendix shows five images; the memo is described as six pages. Is anything missing?</li><li>Which translation is right where they differ — soldiers, or “people”? The Arabic images are public; an independent Arabic reader could settle it.</li><li>Where are the raw intercept recordings, and has anyone outside Israel authenticated them?</li><li>Were other files on the same computer withheld?</li><li>Why five months between recovery and publication — and why days after the ceasefire deal?</li></ol><p>None of these is hard to answer for whoever holds the laptop.</p>"
+          "html": "<ol><li>Are the page images scans or photographs — and who made them, when?</li><li>Was the computer encrypted or password-protected, and how was it opened?</li><li>Has any file metadata been disclosed? Has a forensic disk image with a hash been offered to anyone outside Israel?</li><li>Does a paper original exist? The Foreign Ministry's photo shows page 1 on paper, in a sleeve. Is that a printout, or the original?</li><li>What is the chain of custody from the bunker to the newsroom?</li><li>The institute's appendix shows five images; the memo is described as six pages. Is anything missing?</li><li>Which translation is right where they differ — soldiers, or “people”? The Arabic images are public; an independent Arabic reader could settle it.</li><li>Where are the raw intercept recordings, and has anyone outside Israel authenticated them?</li><li>Were other files on the same computer withheld?</li><li>Why five months between recovery and publication — and why hold a report that was ready by 3 August until days after the ceasefire deal?</li></ol><p>None of these is hard to answer for whoever holds the laptop.</p>"
         },
         {
           "heading": "How to weigh it",
@@ -4033,6 +4082,18 @@
           "source": "FAIR",
           "headline": "Despite History of Fabrication, Press Uncritically Covers IDF-Provided Documents on Hamas",
           "published": "2024-11-01"
+        }
+      ],
+      "figures": [
+        {
+          "src": "/img/sinwar-memo-page-1-paper-in-plastic-sleeve-israel-mfa.jpg",
+          "alt": "Phone photo posted by Israel's Foreign Ministry: a hand holds a plastic sleeve containing a handwritten Arabic page on lined paper, numbered 1, in a room with display boards and a person in uniform in the background.",
+          "title": "Exhibit: page 1, on paper",
+          "caption": "Posted by Israel's Foreign Ministry on X, 12 Oct 2025 — the only public image of a full page. No EXIF (stripped by X). The NYT says the computer held an image; this is paper.",
+          "credit": {
+            "label": "@IsraelMFA",
+            "url": "https://x.com/IsraelMFA/status/1977267776180883598"
+          }
         }
       ]
     },
