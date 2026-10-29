@@ -3788,11 +3788,11 @@
       "date": "Dated 24 Aug 2022 · recovered May 2025 · published 11–12 Oct 2025",
       "summary": "Israeli officials say a six-page handwritten Arabic memo dated 24 August 2022, attributed to Hamas Gaza leader Yahya Sinwar, sets out the plan for the 7 October 2023 attack: bulldozed fence breaches, waves of attackers, other factions told only after it began, and deliberately filmed violence including the burning of “an entire neighborhood, kibbutz, or something similar.” According to the New York Times (11 October 2025), an Israeli military unit found it in May 2025 as an image on an air-gapped computer used by his brother Muhammad Sinwar; every step from the bunker to publication — the find, the copy, the handwriting samples, the intercepts said to corroborate it — passed through the Israeli state, and no independent forensic examination of the file or the device has been made public.",
       "bullets": [
-        "Found, Israel says, as an <i>image</i> on a computer. Public: cropped excerpts and one phone photo of a paper page. Not public: the six original pages, the file, its metadata, the device.",
-        "The New York Times' own translation puts the knife line on <i>soldiers</i>. Israel's institute and Foreign Ministry made it “civilians.”",
-        "Its instructions match what happened on 7 October. A real plan would; so would a document written after the fact."
+        "<b>No original files released for basic digital forensics.</b> No uncropped page, no file, no EXIF, no hash, no device — only crops (one edited in Photoshop) and a phone photo of a paper page.",
+        "<b>Selective framing.</b> The independent translation puts the knife line on <i>soldiers</i>; Israel's institute and Foreign Ministry made it “civilians.”",
+        "<b>Timed release.</b> The report was ready by 3 August 2025, held for ten weeks, and published days after the ceasefire deal."
       ],
-      "comment": "Would be nice to get access to the actual laptop. Not happening.",
+      "comment": "They kept the laptop and sent out the crops — and hoped nobody would ask for the file. We're asking.",
       "official": {
         "url": "https://www.terrorism-info.org.il/en/instructions-given-by-yahya-al-sinwar-for-the-october-7-2023-attack-and-massacre/",
         "label": "Amit (Meir Amit) Terrorism and Intelligence Research Institute — images and Israeli English translation"
