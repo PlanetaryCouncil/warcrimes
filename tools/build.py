@@ -66,14 +66,16 @@ def handle(l):
 
 # Source stance. Default is mainstream; a link may override with "stance" in data.json.
 ISRAELI_GOV_HOSTS = ('idf.il', 'gov.il', 'mfa.gov.il', 'terrorism-info.org.il')
-ISRAELI_GOV_X = {'idf', 'netanyahu', 'orenmarmorstein', 'ltc_ariella', 'israelmfa', 'israel', 'israelipm', 'idfspokesperson', 'avichayadraee', 'israelingeneva'}
+ISRAELI_GOV_X = {'idf', 'netanyahu', 'orenmarmorstein', 'ltc_ariella', 'israelmfa', 'israel', 'israelipm', 'idfspokesperson', 'avichayadraee', 'israelingeneva', 'cogatonline'}
 PRO_ISRAEL_HOSTS = ('aipac.org', 'honestreporting.com', 'honestreporting.ca', 'washingtoninstitute.org', 'algemeiner.com', 'camera.org', 'ngo-monitor.org', 'jns.org', 'worldisraelnews.com', 'unwatch.org', 'israellycool.com')
 PRO_ISRAEL_X = {'gazawood1'}
 PRO_PAL_HOSTS = ('mondoweiss.net', 'electronicintifada.net', 'palestinechronicle.com', 'middleeastmonitor.com', 'alhaq.org', 'euromedmonitor.org', 'palestine-studies.org', 'hindrajabfoundation.org', 'wafa.ps', 'qudsnen.co')
 PRO_PAL_X = {'mondoweiss', 'qudsnen', 'euromedhr'}
+GAZA_GOV_HOSTS = ('shehabnews.com', 'alresalah.news')
 STANCES = {
     'mainstream': ('Mainstream, international, UN & NGO', ''),
     'pro-palestinian': ('Palestinian & pro-Palestinian', ' (pro-Palestinian)'),
+    'gaza-gov': ('Gaza authorities (Hamas-run) & Hamas-aligned media', ' (Hamas-aligned)'),
     'israeli-gov': ('Israeli government & military', ' (Israeli gov)'),
     'pro-israel': ('Pro-Israel advocacy', ' (pro-Israel)'),
 }
@@ -84,6 +86,7 @@ def stance(l):
     on = lambda hosts: any(h == x or h.endswith('.' + x) for x in hosts)
     if on(ISRAELI_GOV_HOSTS) or acct in ISRAELI_GOV_X: return 'israeli-gov'
     if on(PRO_ISRAEL_HOSTS) or acct in PRO_ISRAEL_X: return 'pro-israel'
+    if on(GAZA_GOV_HOSTS): return 'gaza-gov'
     if on(PRO_PAL_HOSTS) or acct in PRO_PAL_X: return 'pro-palestinian'
     if l.get('tag') == 'propaganda': return 'pro-israel'
     return 'mainstream'
@@ -125,7 +128,7 @@ def page(d, prev, nxt):
             if g:
                 out += f'<tr class="grp"><td colspan="4">{STANCES[k][0]} · {len(g)}</td></tr>' + ''.join(row(0, l) for l in g)
         return out
-    record_rows = group_rows(record_links, ('mainstream', 'pro-palestinian'))
+    record_rows = group_rows(record_links, ('mainstream', 'pro-palestinian', 'gaza-gov'))
     machine_rows = group_rows(machine_links, ('israeli-gov', 'pro-israel'))
     machine = f'''<section class="record machine">
     <h2>Analyzing the media machine: the genocidal state's denial — {len(machine_links)} sources</h2>

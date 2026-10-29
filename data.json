@@ -4105,6 +4105,306 @@
       ]
     },
     {
+      "id": "truck-fee",
+      "slug": "hamas-voluntary-contribution-10000-shekels-per-truck-gaza-commercial-goods-halt",
+      "section": "hamas",
+      "title": "The “voluntary contribution”: 10,000 shekels a truck, and an 11-day halt of commercial goods into Gaza",
+      "date": "13–25 Oct 2026",
+      "summary": "Israel's COGAT said on 14 October 2026 that Gaza merchants had stopped coordinating commercial imports after Hamas-run authorities demanded about 10,000 shekels (~$3,200) per truck and that about 30% of goods be sold for cash, enforced, it said, by threats and the detention of a merchant's son; Gaza's Government Media Office denied any tax or fee and called the money a “voluntary community initiative” for a national relief fund. The head of Gaza's private truckers union confirmed the Ministry of Economy had asked for the 10,000 shekels — its undersecretary called it a donation to pay civil servants — but said Israel, not the merchants, stopped the trucks; commercial goods were cut for about 11 days, food prices jumped, and no receipt, fee order or audit of the fund has been made public.",
+      "bullets": [
+        "<b>Both sides agree money was asked for.</b> The fight is over one word: “voluntary.” A request from the ministry that licenses you is not a neutral request.",
+        "<b>Two different arrests.</b> Israel: a merchant's son detained. Gaza's union head: a trader under house arrest for refusing to sell at 25% cash — and Israel's coordinator reportedly made lifting it the condition for letting goods in.",
+        "<b>“Resumed” on 19 October — on paper.</b> Arabic reporting says the crossing was then shut for days more; trucks flowed again on 25 October, at about 130 a day against 160–170 before.",
+        "<b>The bill went to the hungry.</b> UN OCHA: potatoes up 72%, the food basket up 20% on average."
+      ],
+      "comment": "A “voluntary contribution” requested by the ministry that decides whether you can trade is a strange kind of voluntary. A “merchants' strike” at a crossing only Israel controls is a strange kind of strike. Gazans paid for both.",
+      "official": {
+        "url": "https://x.com/cogatonline",
+        "label": "COGAT on X — statements of 14 and 19 October 2026 (Israeli government; the posts themselves could not be retrieved, their text is quoted by AP, Reuters and the Times of Israel)"
+      },
+      "wikipedia": "https://en.wikipedia.org/wiki/Economy_of_the_Gaza_Strip",
+      "verify": "Two parties to the war tell this story, and each is weighed as a party: Israel's COGAT controls what enters Gaza and wants no money reaching Hamas; the Hamas-run government needs cash to pay its staff and wants Israel blamed for the shortages. Neither has published a document. The closest thing to independent evidence is Gaza's own truckers union head, and he confirms only that the 10,000 shekels was requested — not that it was compulsory, not the threats, and not Israel's account of who stopped the trucks. Labels: <b>verified</b> = we read it in the primary source; <b>reported</b> = stated by a named outlet; <b>open</b> = nobody has publicly answered it. Arabic sources were read in the original; English renderings are ours, not certified translations.",
+      "dossier": [
+        {
+          "heading": "What happened, day by day",
+          "table": {
+            "cols": [
+              "Date",
+              "Event",
+              "Source"
+            ],
+            "rows": [
+              [
+                "Tue 13 Oct",
+                "Merchants tell COGAT they are suspending coordination of commercial trucks",
+                "<a href=\"https://www.ksat.com/news/world/2026/10/15/israel-says-commercial-goods-will-not-enter-gaza-a-major-shut-off-for-the-hungry-territory/\" target=\"_blank\" rel=\"noopener\">COGAT via AP</a> <span class=\"st\">reported</span>"
+              ],
+              [
+                "Wed 14 Oct",
+                "COGAT announces the halt and says no commercial goods have entered for two days. Its letter to UN and Board of Peace officials alleges ~10,000 shekels per truck, a 30%-cash rule, threats, and the detention of a merchant's son. Aid convoys continue.",
+                "<a href=\"https://www.timesofisrael.com/israel-cites-merchants-angered-by-hamas-taxes-as-commercial-goods-stop-entering-gaza/\" target=\"_blank\" rel=\"noopener\">Times of Israel</a> · <a href=\"https://www.ksat.com/news/world/2026/10/15/israel-says-commercial-goods-will-not-enter-gaza-a-major-shut-off-for-the-hungry-territory/\" target=\"_blank\" rel=\"noopener\">AP</a> <span class=\"st\">reported</span>"
+              ],
+              [
+                "14 Oct",
+                "Gaza's union head Nahed Sheheiber: the halt is “an Israeli decision.” A trader quoted by Shms says Israel's coordinator for Gaza trade, Avi Matan, will let nothing in while a trader stays under house arrest — a trader who, Shms says, refused to sell goods for 25% cash",
+                "<a href=\"https://shms.ps/post/218537/\" target=\"_blank\" rel=\"noopener\">Shms (Arabic)</a> <span class=\"st\">reported</span>"
+              ],
+              [
+                "15 Oct",
+                "Gaza Government Media Office: “no government taxes or fees” on commercial trucks in three years; the 10,000 shekels is a “voluntary community initiative”; the cash rule came from the Chamber of Commerce to fight a cash shortage and worn banknotes. Letters to Egypt, Qatar, Turkey, the UN",
+                "<a href=\"https://www.middleeastmonitor.com/20261015-gaza-government-denies-imposing-fees-on-trucks-demands-entry-of-600-daily/\" target=\"_blank\" rel=\"noopener\">MEMO</a> · <a href=\"https://www.aljazeera.com/news/2026/10/15/israel-halts-commercial-goods-from-entering-gaza-hamas-denies-tax-claims\" target=\"_blank\" rel=\"noopener\">Al Jazeera</a> <span class=\"st\">reported</span>"
+              ],
+              [
+                "15 Oct",
+                "Union meets the Ministry of Economy. Sheheiber confirms the ministry asked for 10,000 shekels per truck; undersecretary Khaled Al-Raqab calls it “not a tax but a donation” to help pay civil servants",
+                "<a href=\"https://www.ksat.com/news/world/2026/10/15/israel-says-commercial-goods-will-not-enter-gaza-a-major-shut-off-for-the-hungry-territory/\" target=\"_blank\" rel=\"noopener\">AP</a> <span class=\"st\">reported</span>"
+              ],
+              [
+                "15 Oct",
+                "Board of Peace envoy Nickolay Mladenov: “such practices are unacceptable and must end immediately”",
+                "<a href=\"https://www.timesofisrael.com/liveblog_entry/board-of-peaces-gaza-rep-calls-hamas-intimidation-of-merchants-unacceptable/\" target=\"_blank\" rel=\"noopener\">Times of Israel</a> <span class=\"st\">reported</span>"
+              ],
+              [
+                "18 Oct",
+                "Sheheiber on Facebook: the problem “has ended” and the ministry has no objection to work resuming. Zaman FM: a deal between the Private Sector Emergency Committee and the ministry; terms not disclosed",
+                "<a href=\"https://qudsnet.com/post/573075/\" target=\"_blank\" rel=\"noopener\">Quds News Network (Arabic)</a> <span class=\"st\">reported</span>"
+              ],
+              [
+                "19 Oct",
+                "COGAT announces a gradual resumption, citing merchants who say Hamas dropped the demand — “not independently verified.” New rule: payments by documented bank transfer only; any merchant found paying Hamas is excluded",
+                "<a href=\"https://www.internazionale.it/ultime-notizie-reuters/2026/10/19/israel-to-resume-commercial-shipments-to-gaza-after-hamas-fee-dispute\" target=\"_blank\" rel=\"noopener\">Reuters</a> <span class=\"st\">reported</span>"
+              ],
+              [
+                "12–22 Oct",
+                "UN OCHA: 315 commercial truckloads collected 12–18 Oct, down 25% on the week before. Gaza Crossings Authority via the Next Century Foundation: commercial trucks 351 → 222 (−37%) on 16–22 Oct; aid trucks roughly flat",
+                "<a href=\"https://www.ochaopt.org/content/humanitarian-situation-report-22-october-2026\" target=\"_blank\" rel=\"noopener\">OCHA</a> · <a href=\"https://www.nextcenturyfoundation.org/gaza-information-index-26-october-2026/\" target=\"_blank\" rel=\"noopener\">NCF</a> <span class=\"st\">reported</span>"
+              ],
+              [
+                "25 Oct",
+                "Trucks flow again after an “11-day crisis.” Al-Araby: Kerem Shalom fully shut for six days, then three days of non-essential goods only; ~130 trucks planned per day, against 160–170 before",
+                "<a href=\"https://www.alaraby.co.uk/economy/%D8%A8%D8%AF%D8%A1-%D8%AA%D8%AF%D9%81%D9%82-%D8%A7%D9%84%D8%B4%D8%A7%D8%AD%D9%86%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D9%8A%D8%A9-%D8%A5%D9%84%D9%89-%D8%BA%D8%B2%D8%A9-%D8%A8%D8%B9%D8%AF-%D8%A3%D8%B2%D9%85%D8%A9-%D9%85%D8%B9%D8%A8%D8%B1-%D8%A7%D8%B3%D8%AA%D9%85%D8%B1%D8%AA-11-%D9%8A%D9%88%D9%85%D8%A7%D9%8B\" target=\"_blank\" rel=\"noopener\">Al-Araby Al-Jadeed (Arabic)</a> <span class=\"st\">reported</span>"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Who says what — and what they gain if you believe them",
+          "table": {
+            "cols": [
+              "Who",
+              "Their account",
+              "Their interest",
+              "What would test it"
+            ],
+            "rows": [
+              [
+                "<b>Israel — COGAT</b> (party to the war)",
+                "Hamas extorts merchants: ~10,000 shekels per truck, 30% cash sales, threats, a son detained. The merchants chose to stop; Israel “did not initiate” the halt.",
+                "Shows Hamas still skims Gaza's trade; shifts blame for empty markets away from the side that controls the crossing.",
+                "The letter itself; merchant testimony not routed through COGAT; crossing logs showing which side stopped the trucks."
+              ],
+              [
+                "<b>Hamas-run government</b> — Media Office, Ministry of Economy (party to the war)",
+                "No tax, no fee. A voluntary community fund for orphans, widows, students, shelter, sanitation. The cash rule is the Chamber of Commerce's answer to a cash famine. Israel is spreading disinformation.",
+                "Denies predation; keeps a cash stream for unpaid civil servants; blames Israel for shortages.",
+                "The fund's accounts; the list of who paid and who refused; what happened to those who refused."
+              ],
+              [
+                "<b>Truckers union</b> — Nahed Sheheiber",
+                "Yes, the ministry asked for 10,000 shekels. No, merchants did not stop the trucks — Israel did, and uses the fee as a pretext. The real dispute was one trader under house arrest.",
+                "Wants trucks moving; must live under both the ministry and the Israeli permit system.",
+                "Whether he can speak freely about the ministry; the trader's own account."
+              ],
+              [
+                "<b>Anonymous traders</b> via Alhurra/MBN (US-government-funded)",
+                "Ministry staff inspect warehouses and shops, sometimes with armed men; refusing risks impounded goods; costs are passed to shoppers.",
+                "Unknown — anonymous, for fear of retaliation.",
+                "Named, on-record testimony; any second outlet that reached the same traders."
+              ],
+              [
+                "<b>Board of Peace</b> — Nickolay Mladenov",
+                "The practices are “unacceptable”; intimidation of merchants deepens civilians' suffering; deploy the technocratic committee and stabilisation force.",
+                "Needs Hamas out of administration so the transition can start.",
+                "Whether he saw evidence beyond COGAT's letter."
+              ],
+              [
+                "<b>Aid groups</b> — NRC's Shaina Low",
+                "Aid alone can't feed Gaza: “The markets need to be functioning.”",
+                "Hunger relief; no stake in the fee.",
+                "—"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Same facts, different verbs",
+          "html": "<p>Every outlet had the same three facts — a demand, a denial, a halt. Who the sentence makes guilty depends on the verb:</p><ul><li><b>Al Jazeera:</b> <a href=\"https://www.aljazeera.com/news/2026/10/15/israel-halts-commercial-goods-from-entering-gaza-hamas-denies-tax-claims\" target=\"_blank\" rel=\"noopener\">“Israel halts commercial goods from entering Gaza; Hamas denies tax claims”</a> — Israel acts.</li><li><b>AP:</b> <a href=\"https://www.ksat.com/news/world/2026/10/15/israel-says-commercial-goods-will-not-enter-gaza-a-major-shut-off-for-the-hungry-territory/\" target=\"_blank\" rel=\"noopener\">“Commercial goods are no longer entering Gaza, raising fears of worsening shortages”</a> — nobody acts; the consequence leads.</li><li><b>Times of Israel:</b> <a href=\"https://www.timesofisrael.com/israel-cites-merchants-angered-by-hamas-taxes-as-commercial-goods-stop-entering-gaza/\" target=\"_blank\" rel=\"noopener\">“Israel cites Gazan merchants angered by Hamas taxes”</a> — Israel's claim, attributed; the denial's word “voluntary” becomes “taxes.”</li><li><b>Alhurra</b> (US-government-funded): <a href=\"https://alhurra.com/en/46877\" target=\"_blank\" rel=\"noopener\">“Gaza Traders Halt Shipments, Citing Hamas Extortion Demands”</a> — the traders act; “extortion” in the headline.</li><li><b>Jerusalem Post:</b> <a href=\"https://www.jpost.com/middle-east/article-912273\" target=\"_blank\" rel=\"noopener\">“Gaza aid shipments resume as Hamas backs down from extortion threats”</a> — these were <i>commercial</i> shipments, not aid; and that Hamas “backed down” rests on merchants' reports COGAT itself says are unverified.</li><li><b>Shehab</b> (Hamas-aligned): <a href=\"https://shehabnews.com/post/165982/\" target=\"_blank\" rel=\"noopener\">the government denies fees and warns the claims are being used to justify cutting goods</a> — Israel acts, Hamas is the victim of a smear.</li></ul><p>None of these headlines is false. Each is a choice.</p>"
+        },
+        {
+          "heading": "The bigger money: who else takes a cut",
+          "html": "<p>The 10,000 shekels is the visible fee. It sits inside a much larger trade in access:</p><ul><li><b>Israel chooses who may import.</b> Only a short list of Israel-approved traders can bring commercial goods in — the Shms trader says eight. A licence that scarce is worth money to whoever holds it, and leverage to whoever grants it. <span class=\"st\">reported</span></li><li><b>“Coordination fees.”</b> Gaza's Chamber of Commerce says traders paid more than $2.06 billion in “illegal coordination” charges from October 2023 to 26 July 2026 (<a href=\"https://gazaherald.com/2026/08/08/coordination-fees/\" target=\"_blank\" rel=\"noopener\">Gaza Herald</a>, <a href=\"https://alhurra.com/en/46877\" target=\"_blank\" rel=\"noopener\">Alhurra</a>). It doesn't publish its method or name who collected the money; the figure is unaudited. <span class=\"st\">reported</span></li><li><b>Mada Masr's “Kings of famine”</b> (<a href=\"https://www.madamasr.com/en/2025/12/11/feature/politics/kings-of-famine/\" target=\"_blank\" rel=\"noopener\">original</a>; <a href=\"https://www.middleeastmonitor.com/20251212-inside-israels-starvation-economy-how-gaza-famine-was-engineered-for-profit/\" target=\"_blank\" rel=\"noopener\">MEMO summary</a>) describes a profiteering system run by companies close to the Israeli military and the Egyptian state, naming Ibrahim al-Organi's Sons of Sinai group and five Israel-approved Palestinian trading firms. We could not open the original; we rely on the summary. <span class=\"st\">reported</span></li><li><b>Cash is a commodity.</b> Israel restricts the entry of new banknotes; worn notes are refused in shops; electronic payment carries commissions. Whoever can demand cash gains a scarce asset. That is the Hamas government's stated reason for the cash rule — and Israel's stated reason to suspect it. <span class=\"st\">reported</span></li></ul>"
+        },
+        {
+          "heading": "The power vacuum behind it",
+          "html": "<ul><li><b>A year after the October 2025 ceasefire, nobody else runs Gaza.</b> The Palestinian technocratic committee (NCAG), formed in January 2026, had not been allowed to enter as of mid-October; the international stabilisation force was not deployed. Hamas's ministries still administer whatever is administered. <span class=\"st\">reported</span></li><li><b>Hamas needs cash.</b> Its own undersecretary said the money was to pay civil servants. Paying police and clerks is also how an authority stays an authority.</li><li><b>Israel needs Hamas to have none.</b> Every shekel that reaches Hamas is, in Israel's framing, a breach of the ceasefire's logic. Its tool is the permit: pay Hamas and you lose the right to import.</li><li><b>Merchants are caught between two licences.</b> One authority controls the gate, the other controls the street. Either can end a trader's business.</li><li><b>The 600-truck promise was never met anyway.</b> The ceasefire floor is 600 trucks a day; COGAT now says Gaza needs about 250; Sheheiber put actual entries near 300, two-thirds commercial. A fee dispute that halves the commercial share hits a supply line that was already short.</li></ul>"
+        },
+        {
+          "heading": "What we don't know",
+          "html": "<ul><li>Whether paying was in practice optional. <span class=\"st\">open</span> No list of payers and refusers, and no account of what happened to refusers, has been published.</li><li>How many trucks paid, how much was collected, and where it went. <span class=\"st\">open</span> No receipt, signed fee order, or fund accounts.</li><li>Whether a merchant's son was detained (COGAT) or a trader put under house arrest (Shms), or both — and who they are. <span class=\"st\">open</span></li><li>Whether the 30% cash rule (COGAT), the 25% figure (Shms) and the Chamber of Commerce measure (Gaza government) are the same rule. <span class=\"st\">open</span></li><li>Who actually stopped the trucks: merchants refusing to coordinate, or Israel conditioning entry on the trader's release. <span class=\"st\">open</span> Both can be true at once.</li><li>Why the crossing stayed shut for days after Israel announced the resumption on 19 October. <span class=\"st\">open</span></li><li>Whether the demand was really dropped, or just paused. <span class=\"st\">open</span> COGAT says the merchants' word is not verification; Gaza's side says there was never a demand to drop.</li></ul>"
+        },
+        {
+          "heading": "How to weigh it",
+          "html": "<ul><li><b>Something was asked for.</b> Gaza's own truckers union confirms it, and the Hamas-run government does not deny it — it renames it. That much is as solid as this story gets.</li><li><b>“Voluntary” is a claim, not a finding.</b> Neither is “extortion.” Both come from parties to the war, and neither has shown a document.</li><li><b>The union head's confirmation is narrow.</b> He backs the amount and the request, and rejects Israel's account of who stopped the trucks. Quoting him as proof of the whole Israeli story misuses him.</li><li><b>Keep the fee and the cash rule apart.</b> A 30%-cash sales rule is not a 30% tax.</li><li><b>Count channels, not outlets.</b> Most English coverage goes back to one COGAT letter and one interview with Sheheiber, repeated.</li><li><b>The people who paid are known.</b> Whatever the truth of the fee, Gaza's shoppers paid it in prices, and its hungry paid it in empty markets.</li></ul>"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.ksat.com/news/world/2026/10/15/israel-says-commercial-goods-will-not-enter-gaza-a-major-shut-off-for-the-hungry-territory/",
+          "source": "Associated Press (Sam Metz, Bassem Mroue), via KSAT",
+          "headline": "Commercial goods are no longer entering Gaza, raising fears of worsening shortages in the territory",
+          "published": "2026-10-15"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/10/15/israel-halts-commercial-goods-from-entering-gaza-hamas-denies-tax-claims",
+          "source": "Al Jazeera (with AP and Reuters)",
+          "headline": "Israel halts commercial goods from entering Gaza; Hamas denies tax claims",
+          "published": "2026-10-15"
+        },
+        {
+          "url": "https://www.timesofisrael.com/israel-cites-merchants-angered-by-hamas-taxes-as-commercial-goods-stop-entering-gaza/",
+          "source": "The Times of Israel",
+          "headline": "Israel cites Gazan merchants angered by Hamas taxes as commercial goods stop entering Strip",
+          "published": "2026-10-16"
+        },
+        {
+          "url": "https://www.timesofisrael.com/liveblog_entry/board-of-peaces-gaza-rep-calls-hamas-intimidation-of-merchants-unacceptable/",
+          "source": "The Times of Israel (liveblog, Lazar Berman)",
+          "headline": "Board of Peace’s Gaza rep calls Hamas intimidation of merchants ‘unacceptable’",
+          "published": "2026-10-15"
+        },
+        {
+          "url": "https://www.thenationalnews.com/news/mena/2026/10/15/israel-says-entry-of-commercial-goods-into-gaza-halted-amid-dispute-between-traders-and-hamas/",
+          "source": "The National",
+          "headline": "Israel says entry of commercial goods into Gaza halted amid dispute between traders and Hamas",
+          "published": "2026-10-15"
+        },
+        {
+          "url": "https://alhurra.com/en/46877",
+          "source": "Alhurra / MBN (US-government-funded)",
+          "headline": "Gaza Traders Halt Shipments, Citing Hamas Extortion Demands",
+          "published": "2026-10-16"
+        },
+        {
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/19/israel-to-resume-commercial-shipments-to-gaza-after-hamas-fee-dispute",
+          "source": "Reuters (via Internazionale)",
+          "headline": "Israel to resume commercial shipments to Gaza after Hamas fee dispute",
+          "published": "2026-10-19"
+        },
+        {
+          "url": "https://english.aawsat.com/arab-world/5331256-israel-resume-commercial-shipments-gaza-after-hamas-fee-dispute",
+          "source": "Asharq Al-Awsat",
+          "headline": "Israel to Resume Commercial Shipments to Gaza After Hamas Fee Dispute",
+          "published": "2026-10-19"
+        },
+        {
+          "url": "https://www.timesofisrael.com/israel-to-resume-entry-of-private-sector-goods-to-gaza-as-5-reportedly-killed-in-strip/",
+          "source": "The Times of Israel",
+          "headline": "Israel to resume entry of private-sector goods to Gaza; 5 reportedly killed in Strip",
+          "published": "2026-10-19"
+        },
+        {
+          "url": "https://www.jpost.com/middle-east/article-912273",
+          "source": "The Jerusalem Post",
+          "headline": "Gaza aid shipments resume as Hamas backs down from extortion threats targeting private merchants"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/10/18/gaza-families-fear-food-shortages-as-israel-halts-commercial-shipments",
+          "source": "Al Jazeera",
+          "headline": "Gaza families fear food shortages as Israel halts commercial shipments",
+          "published": "2026-10-18"
+        },
+        {
+          "url": "https://www.aljazeera.com/features/2026/10/21/gaza-children-face-worsening-food-shortages-as-prices-rise-and-aid-is-cut",
+          "source": "Al Jazeera",
+          "headline": "Gaza children face worsening food shortages as prices rise and aid is cut",
+          "published": "2026-10-21"
+        },
+        {
+          "url": "https://www.ochaopt.org/content/humanitarian-situation-report-22-october-2026",
+          "source": "UN OCHA",
+          "headline": "Humanitarian Situation Report",
+          "published": "2026-10-22"
+        },
+        {
+          "url": "https://www.nextcenturyfoundation.org/gaza-information-index-26-october-2026/",
+          "source": "Next Century Foundation",
+          "headline": "Gaza Information Index 26 October 2026",
+          "published": "2026-10-26"
+        },
+        {
+          "url": "https://arabic.news.cn/20261015/5e9283449fba4866bd1c48a8607b828d/c.html",
+          "source": "Xinhua (Arabic)",
+          "headline": "المكتب الإعلامي الحكومي في غزة ينفي ادعاء إسرائيل بفرض ضرائب على الشاحنات التجارية",
+          "published": "2026-10-15"
+        },
+        {
+          "url": "https://www.madamasr.com/en/2025/12/11/feature/politics/kings-of-famine/",
+          "source": "Mada Masr",
+          "headline": "Kings of famine",
+          "published": "2025-12-11"
+        },
+        {
+          "url": "https://www.middleeastmonitor.com/20261015-gaza-government-denies-imposing-fees-on-trucks-demands-entry-of-600-daily/",
+          "source": "Middle East Monitor (citing Anadolu)",
+          "headline": "Gaza government denies imposing fees on trucks, demands entry of 600 daily",
+          "published": "2026-10-15"
+        },
+        {
+          "url": "https://www.middleeastmonitor.com/20251212-inside-israels-starvation-economy-how-gaza-famine-was-engineered-for-profit/",
+          "source": "Middle East Monitor (summary of Mada Masr)",
+          "published": "2025-12-12"
+        },
+        {
+          "url": "https://shms.ps/post/218537/",
+          "source": "Shms News (Arabic)",
+          "headline": "من \"10 آلاف شيكل\" إلى \"تاجر تحت الإقامة الجبرية\": ما شرط أفي متان لإدخال البضائع إلى غزة؟",
+          "published": "2026-10-14",
+          "stance": "pro-palestinian"
+        },
+        {
+          "url": "https://qudsnet.com/post/573075/",
+          "source": "Quds News Network (Arabic)",
+          "headline": "شحيبر: انتهاء أزمة المعابر المتعلقة بمبلغ الـ10 آلاف شيكل والتعامل النقدي في غزة",
+          "published": "2026-10-18",
+          "stance": "pro-palestinian"
+        },
+        {
+          "url": "https://www.alaraby.co.uk/economy/%D8%A8%D8%AF%D8%A1-%D8%AA%D8%AF%D9%81%D9%82-%D8%A7%D9%84%D8%B4%D8%A7%D8%AD%D9%86%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D9%8A%D8%A9-%D8%A5%D9%84%D9%89-%D8%BA%D8%B2%D8%A9-%D8%A8%D8%B9%D8%AF-%D8%A3%D8%B2%D9%85%D8%A9-%D9%85%D8%B9%D8%A8%D8%B1-%D8%A7%D8%B3%D8%AA%D9%85%D8%B1%D8%AA-11-%D9%8A%D9%88%D9%85%D8%A7%D9%8B",
+          "source": "Al-Araby Al-Jadeed (Ahmed Abu Qamar, Gaza; Arabic)",
+          "headline": "بدء تدفق الشاحنات التجارية إلى غزة بعد أزمة معبر استمرت 11 يوماً",
+          "published": "2026-10-25",
+          "stance": "pro-palestinian"
+        },
+        {
+          "url": "https://gazaherald.com/2026/08/08/coordination-fees/",
+          "source": "Gaza Herald",
+          "headline": "Billions Paid in ‘Coordination Fees’ Deepen Gaza’s Economic Crisis",
+          "published": "2026-08-08",
+          "stance": "pro-palestinian"
+        },
+        {
+          "url": "https://shehabnews.com/post/165982/",
+          "source": "Shehab News Agency (Arabic)",
+          "headline": "الإعلام الحكومي بغزة ينفي فرض رسوم على الشاحنات ويحذر من توظيف الادعاءات لتبرير تقليص دخول البضائع"
+        },
+        {
+          "url": "https://alresalah.news/post/315886/",
+          "source": "Al-Resalah (Arabic)",
+          "headline": "شحيبر: الاحتلال يختلق ذرائع لمنع إدخال البضائع إلى غزة"
+        }
+      ]
+    },
+    {
       "id": "honestreporting",
       "slug": "honestreporting-israel-advocacy-propaganda-media-watchdog",
       "section": "propaganda",
