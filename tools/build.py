@@ -234,7 +234,8 @@ def page(d, prev, nxt):
 </html>
 '''
 
-STATIC_DIRS = ('talking-about-war-crimes-is-not-antisemitic', 'img', 'video')  # hand-written pages and assets, never cleaned up
+STATIC_PAGES = ('talking-about-war-crimes-is-not-antisemitic',)  # hand-written pages listed in the sitemap
+STATIC_DIRS = ('talking-about-war-crimes-is-not-antisemitic', 'img', 'video', 'archive')  # hand-written pages and assets, never cleaned up
 
 def main():
     ids = {d['id'] for d in incidents} | {path(d) for d in incidents}
@@ -252,7 +253,7 @@ def main():
                 f'<link rel="canonical" href="{SITE}{target}"><meta name="robots" content="noindex">'
                 f'<meta http-equiv="refresh" content="0; url={target}"><script>location.replace("{target}"+location.hash)</script>'
                 f'<a href="{target}">{e(plain(d["title"]))}</a>\n')
-    urls = [SITE + '/', SITE + '/al-ahli.html'] + [f'{SITE}/{x}/' for x in STATIC_DIRS] + [f'{SITE}/{path(d)}/' for d in ORDER]
+    urls = [SITE + '/', SITE + '/al-ahli.html'] + [f'{SITE}/{x}/' for x in STATIC_PAGES] + [f'{SITE}/{path(d)}/' for d in ORDER]
     (ROOT / 'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
                                       + ''.join(f'  <url><loc>{u}</loc></url>\n' for u in urls) + '</urlset>\n')
     (ROOT / 'robots.txt').write_text(f'User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n')

@@ -3930,7 +3930,7 @@
         },
         {
           "heading": "Do we have the six original pages? No.",
-          "html": "<p>We looked for every public copy of the memo and read the metadata of each, as of 29 Oct 2026. None is a complete, uncropped, original file with its EXIF data. <span class=\"st\">verified</span></p>",
+          "html": "<p>We looked for every public copy of the memo and read the metadata of each, as of 29 Oct 2026. None is a complete, uncropped, original file with its EXIF data. <span class=\"st\">verified</span></p><p><b>Our copies:</b> <a href=\"/archive/sinwar-memo/E_145_25.pdf\">English report (PDF)</a> · <a href=\"/archive/sinwar-memo/H_145_25-1.pdf\">Hebrew report (PDF)</a> · <a href=\"/archive/sinwar-memo/145_25.jpg\">Photoshop crop</a> · <a href=\"/archive/sinwar-memo/israelmfa-G3Cqj72WwAARWcp-orig.jpg\">Foreign Ministry photo</a> · <a href=\"/archive/sinwar-memo/MANIFEST.txt\">sources and SHA-256 hashes</a>. Retrieved 29 Oct 2026, unaltered.</p>",
           "table": {
             "cols": [
               "Copy",
@@ -4082,6 +4082,13 @@
           "source": "FAIR",
           "headline": "Despite History of Fabrication, Press Uncritically Covers IDF-Provided Documents on Hamas",
           "published": "2024-11-01"
+        },
+        {
+          "url": "https://www.terrorism-info.org.il/app/uploads/2025/10/H_145_25-1.pdf",
+          "source": "Amit Institute — full report, Hebrew (PDF)",
+          "headline": "הנחיות יחיא אלסנואר לפתיחת המערכה נגד ישראל, כפי שעולה מתוך מסמך שלל",
+          "published": "2025-10-12",
+          "stance": "israeli-gov"
         }
       ],
       "figures": [
