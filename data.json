@@ -3786,10 +3786,10 @@
       "section": "hamas",
       "title": "The 2022 Sinwar memo: what is reported, what we don't know",
       "date": "Dated 24 Aug 2022 · recovered May 2025 · published 11–12 Oct 2025",
-      "summary": "Israeli officials say a six-page handwritten Arabic memo dated 24 August 2022, attributed to Hamas Gaza leader Yahya Sinwar, sets out the plan for the 7 October 2023 attack: staged fence breaches in waves, other factions told only after it began, and deliberately filmed atrocities including the burning of “entire neighborhoods, a kibbutz.” According to the New York Times (11 October 2025), an Israeli military unit found it in May 2025 as an image file on an air-gapped computer used by his brother Muhammad Sinwar; the images and the only public English translation come from an Israeli state-linked institute, and no independent forensic examination of the file or the device has been made public.",
+      "summary": "Israeli officials say a six-page handwritten Arabic memo dated 24 August 2022, attributed to Hamas Gaza leader Yahya Sinwar, sets out the plan for the 7 October 2023 attack: bulldozed fence breaches, waves of attackers, other factions told only after it began, and deliberately filmed violence including the burning of “an entire neighborhood, kibbutz, or something similar.” According to the New York Times (11 October 2025), an Israeli military unit found it in May 2025 as an image on an air-gapped computer used by his brother Muhammad Sinwar; every step from the bunker to publication — the find, the copy, the handwriting samples, the intercepts said to corroborate it — passed through the Israeli state, and no independent forensic examination of the file or the device has been made public.",
       "bullets": [
         "Found, Israel says, as an <i>image</i> on a computer in a Gaza bunker. No paper original, no file, no device, no metadata released.",
-        "Every link in the chain — finder, translator, publisher, timing — is the Israeli state or close to it.",
+        "The New York Times' own translation puts the knife line on <i>soldiers</i>. Israel's institute and Foreign Ministry made it “civilians.”",
         "Its instructions match what happened on 7 October. A real plan would; so would a document written after the fact."
       ],
       "comment": "Would be nice to get access to the actual laptop. Not happening.",
@@ -3797,7 +3797,7 @@
         "url": "https://www.terrorism-info.org.il/en/instructions-given-by-yahya-al-sinwar-for-the-october-7-2023-attack-and-massacre/",
         "label": "Amit (Meir Amit) Terrorism and Intelligence Research Institute — images and Israeli English translation"
       },
-      "verify": "This page does not question that the 7 October attack happened or that atrocities were committed in it; those are documented independently (see <a href=\"/hamas-oct7/\">H1</a>). The question here is narrower: is this document what Israel says it is, and what does it prove? Labels: <b>verified</b> = we read it in the primary source; <b>reported</b> = stated by a named outlet; <b>open</b> = nobody has publicly answered it. We could not open the New York Times original (paywall); its account is taken from outlets that quote it.",
+      "verify": "This page does not question that the 7 October attack happened or that atrocities were committed in it; those are documented independently (see <a href=\"/hamas-oct7/\">H1</a>). The question here is narrower: is this document what Israel says it is, and what does it prove? Israel is a party to the war and is accused of war crimes in it, so its evidence is weighed like any party's: don't trust, verify. Labels: <b>verified</b> = we read it in the primary source; <b>reported</b> = stated by a named outlet; <b>open</b> = nobody has publicly answered it. The New York Times article was read in full from an archive.today copy captured on 11 Oct 2025.",
       "figure": {
         "src": "/img/2022-sinwar-memo-what-is-reported-what-we-dont-know.webp",
         "alt": "Infographic, “The 2022 Sinwar memo: scan or photograph?” Four panels — what is reported, what we don't know, what is debated, why caution is reasonable — and a timeline from the 2022 memo date to the May 2025 recovery and the 11 October 2025 publication, with a satirical flamingo general and a rabbit in sunglasses.",
@@ -3858,36 +3858,97 @@
           }
         },
         {
-          "heading": "What the translation says",
-          "html": "<p>From the institute's English translation, which is the only public one <span class=\"st\">verified</span>:</p><blockquote>“It is essential that the forces carry out intensive movements weeks before any activity in such a way that the enemy will perceive them as routine.”</blockquote><blockquote>“Events must be planned from which horrifying images will emerge. A few car bombs exploding inside an outpost or building … Enormous fires. 5 or 10 such images will break their spirit … Preparations must be made for two or 3 operations whose objective is to burn entire neighborhoods, a kibbutz, and so on. Fuel or diesel will be sprayed on the site from a tanker, the place will be burned, and the images will be broadcast.”</blockquote><blockquote>“… to document and broadcast the images as quickly as possible: stepping on the heads of soldiers, point-blank shootings, slaughtering people with knives, blowing up tanks, prisoners kneeling with their hands on their heads, and the like.”</blockquote><p><small>— <a href=\"https://www.terrorism-info.org.il/app/uploads/2025/10/E_145_25.pdf\" target=\"_blank\" rel=\"noopener\">Amit Institute report, pp. 4–15</a></small></p>"
+          "heading": "What the memo says — two translations",
+          "html": "<p>There are two public translations: the New York Times' own, and the Israeli institute's. Both work from images supplied by Israel.</p><table class=\"facts\"><thead><tr><th>New York Times translation</th><th>Amit Institute (Israeli state-linked) translation</th></tr></thead><tbody><tr><td>“Two or three operations, in which an entire neighborhood, kibbutz, or something similar will be burned, must be prepared” — with “gasoline or diesel from a tanker.”</td><td>“Preparations must be made for two or 3 operations whose objective is to burn entire neighborhoods, a kibbutz, and so on. Fuel or diesel will be sprayed on the site from a tanker.”</td></tr><tr><td>“Stomp on the heads of soldiers.” … “opening fire on soldiers at point-blank range, slaughtering some of them with knives, blowing up tanks.”</td><td>“stepping on the heads of soldiers, point-blank shootings, slaughtering people with knives, blowing up tanks, prisoners kneeling with their hands on their heads.”</td></tr><tr><td>“It needs to be affirmed to the unit commanders to undertake these actions intentionally, film them and broadcast images of them as fast as possible.”</td><td>“It must be emphasized to the unit commanders that these things are to be carried out deliberately. That is, to document and broadcast the images as quickly as possible.”</td></tr></tbody></table><p><small>— <a href=\"https://archive.li/TmcqJ\" target=\"_blank\" rel=\"noopener\">New York Times, 11 Oct 2025</a>; <a href=\"https://www.terrorism-info.org.il/app/uploads/2025/10/E_145_25.pdf\" target=\"_blank\" rel=\"noopener\">Amit Institute report, pp. 4–15</a> <span class=\"st\">verified</span></small></p><p>The NYT: “Although the memo does not explicitly mention plans to kidnap or kill civilians, it lays out orders for fighters to enter residential neighborhoods and set them on fire.”</p>"
         },
         {
           "heading": "What we noticed reading it",
-          "html": "<ul><li><b>“People” becomes “civilians.”</b> The translated passage says “slaughtering people with knives.” The institute's own summary says the memo instructs operatives to film themselves “indiscriminately slaughtering civilians,” and the Foreign Ministry's post says “the slaughter of civilians.” The burning of “entire neighborhoods, a kibbutz” is explicitly civilian; the knife line, as translated, is not. Kurdistan24, relaying the NYT, says the memo does not explicitly use the words “kidnap or kill civilians.” <span class=\"st\">verified</span></li><li><b>A quote that isn't there.</b> “Slaughter them. End the children of Israel,” which circulates as a line from the memo, does not appear in the institute's translation. <span class=\"st\">verified</span></li><li><b>Draft notes left in.</b> Footnote 9 of the published report reads, in full: “This is pretty much footnote 6.” Footnote 6 cites a reading of Sinwar's 2004 novel, not the memo. <span class=\"st\">verified</span></li><li><b>An open archive?</b> Footnote 1: “The documents mentioned in this study can be viewed at the archives” of the institute. We found no report of an independent examiner doing so. <span class=\"st\">open</span></li></ul>"
+          "html": "<ul><li><b>Soldiers become “civilians.”</b> In the NYT translation the knife line is about soldiers: “opening fire on soldiers at point-blank range, slaughtering some of them with knives.” The Israeli institute's version says “slaughtering people with knives”; its summary says the memo instructs operatives to film themselves “indiscriminately slaughtering civilians”; the Foreign Ministry's post says “the slaughter of civilians.” The burning of neighborhoods and kibbutzim is explicitly aimed at civilian communities; the knife line, in the independent translation, is not. <span class=\"st\">verified</span></li><li><b>The most-quoted line isn't from the memo.</b> “Slaughter them. End the children of Israel” is, per the NYT, from an <i>intercepted radio call</i> on 7 October — a Gaza City commander called Abu al-Baraa, near Kibbutz Sa'ad — not from the memo. It circulates as a memo quote. <span class=\"st\">verified</span></li><li><b>Draft notes left in.</b> Footnote 9 of the institute's published report reads, in full: “This is pretty much footnote 6.” Footnote 6 cites a reading of Sinwar's 2004 novel, not the memo. <span class=\"st\">verified</span></li><li><b>An open archive?</b> Footnote 1: “The documents mentioned in this study can be viewed at the archives” of the institute. We found no report of an independent examiner doing so. <span class=\"st\">open</span></li></ul>"
         },
         {
-          "heading": "Who vouches for it",
-          "html": "<ul><li>Seven Israeli officials told the New York Times they believe Sinwar wrote it. <span class=\"st\">reported</span></li><li>Sima Ankona, a former Israeli police document examiner consulted by the NYT, matched the handwriting to known samples, including a 2018 note to Netanyahu — from images, not paper. <span class=\"st\">reported</span></li><li>A confidential report by the Gazit Institute, affiliated with Israeli military intelligence. <span class=\"st\">reported</span></li><li>Unnamed Hamas sources told Saudi daily Okaz they recognised the style of the handwriting but would not confirm the content, and raised the possibility of manipulation. <span class=\"st\">reported</span></li><li><b>Against:</b> Ibrahim Madhoun, a Palestinian analyst close to Hamas, doubted its authenticity, saying most acts it describes did not happen. <span class=\"st\">reported</span></li></ul><p>Every vouching party is Israeli or anonymous. The institute is part of the Israeli Intelligence Heritage and Commemoration Center; the Times of Israel calls it government-controlled. <span class=\"st\">reported</span></p>"
+          "heading": "Independence check: who touched it",
+          "table": {
+            "cols": [
+              "Link in the chain",
+              "Who",
+              "Independent of Israel?"
+            ],
+            "rows": [
+              [
+                "Found the computer",
+                "A special Israeli military unit",
+                "No"
+              ],
+              [
+                "Holds the computer and the file",
+                "Israeli military / intelligence; never released",
+                "No"
+              ],
+              [
+                "Gave the NYT its copy",
+                "Israeli officials (seven, all anonymous)",
+                "No"
+              ],
+              [
+                "Handwriting comparison",
+                "Sima Ankona, former Israeli police examiner, at the NYT's request — from images, against samples “that Israeli authorities had collected”",
+                "Examiner hired by the NYT; materials all Israeli"
+              ],
+              [
+                "Translation 1",
+                "The New York Times",
+                "Yes — but from an Israel-supplied image"
+              ],
+              [
+                "Translation 2 and analysis",
+                "Amit (Meir Amit) Institute, within the Israeli Intelligence Heritage and Commemoration Center",
+                "No"
+              ],
+              [
+                "“Corroborating” intercepts",
+                "Unit 8200, shared by three Israeli security officials; NYT reviewed and translated hours of recordings",
+                "No (content reviewed by NYT; provenance Israeli)"
+              ],
+              [
+                "Assessment",
+                "Gazit Institute, affiliated with military intelligence (confidential)",
+                "No"
+              ],
+              [
+                "Phrasing match",
+                "“Several words and phrases … appear in other Hamas documents previously reviewed by The Times” — themselves Israel-supplied",
+                "No"
+              ],
+              [
+                "Hamas response",
+                "Media office did not answer the NYT; unnamed Hamas sources told Okaz they recognised the handwriting style but not the content; analyst Ibrahim Madhoun doubted it",
+                "Yes — and it doesn't confirm"
+              ]
+            ],
+            "note": "The only independent links are the NYT's translation, its handwriting examiner's opinion, and the unconfirmed Hamas reactions. Everything they were given came from one party to the war. Sources: <a href=\"https://archive.li/TmcqJ\" target=\"_blank\" rel=\"noopener\">NYT</a>, <a href=\"https://www.terrorism-info.org.il/app/uploads/2025/10/E_145_25.pdf\" target=\"_blank\" rel=\"noopener\">Amit Institute</a>, Okaz. <span class=\"st\">verified</span>"
+          }
         },
         {
           "heading": "What we don't know",
-          "html": "<ol><li>Are the page images scans or photographs — and who made them, when?</li><li>Was the computer encrypted or password-protected, and how was it opened?</li><li>Has any file metadata been disclosed? Has a forensic disk image with a hash been offered to anyone outside Israel?</li><li>Does a paper original exist?</li><li>What is the chain of custody from the bunker to the newsroom?</li><li>The institute's appendix shows five images; the memo is described as six pages. Is anything missing?</li><li>Is the Israeli translation faithful to the Arabic? No independent translation has been published.</li><li>Were other files on the same computer withheld?</li><li>Why five months between recovery and publication — and why days after the ceasefire deal?</li></ol><p>None of these is hard to answer for whoever holds the laptop.</p>"
+          "html": "<ol><li>Are the page images scans or photographs — and who made them, when?</li><li>Was the computer encrypted or password-protected, and how was it opened?</li><li>Has any file metadata been disclosed? Has a forensic disk image with a hash been offered to anyone outside Israel?</li><li>Does a paper original exist?</li><li>What is the chain of custody from the bunker to the newsroom?</li><li>The institute's appendix shows five images; the memo is described as six pages. Is anything missing?</li><li>Which translation is right where they differ — soldiers, or “people”? The Arabic images are public; an independent Arabic reader could settle it.</li><li>Where are the raw intercept recordings, and has anyone outside Israel authenticated them?</li><li>Were other files on the same computer withheld?</li><li>Why five months between recovery and publication — and why days after the ceasefire deal?</li></ol><p>None of these is hard to answer for whoever holds the laptop.</p>"
         },
         {
           "heading": "How to weigh it",
-          "html": "<p><b>For authenticity:</b> the handwriting comparison; Hamas sources recognising the style; instructions that match 7 October (bulldozed fence breaches, attack waves, factions joining later, homes burned, atrocities filmed and broadcast); handwriting fits Sinwar's known avoidance of electronics. <b>For caution:</b> one custodian (the Israeli military); Israeli-only attribution; a match made from images; no file, device or metadata; an Israeli translation; the timing; and the record — in September 2024 supposed Hamas documents about Sinwar, published by the Jewish Chronicle and Bild, were found to be forged or misrepresented, and people linked to the Prime Minister's office were arrested over the leak (<a href=\"https://fair.org/home/despite-history-of-fabrication-press-uncritically-covers-idf-provided-documents-on-hamas/\" target=\"_blank\" rel=\"noopener\">FAIR</a>).</p><p>Matching later events is what an authentic plan would do. A document written or edited after the fact would match too. Only access to the file and the device can tell the two apart.</p>"
+          "html": "<p><b>For authenticity:</b> the handwriting comparison; Hamas sources recognising the style; instructions that match 7 October (bulldozed fence breaches, attack waves, factions joining later, homes burned, atrocities filmed and broadcast); handwriting fits Sinwar's known avoidance of electronics. <b>For caution:</b> one custodian (the Israeli military); Israeli-only attribution; a match made from images; no file, device or metadata; an Israeli translation that is harsher than the independent one; the timing; and the record — in September 2024 supposed Hamas documents about Sinwar, published by the Jewish Chronicle and Bild, were found to be forged or misrepresented, and people linked to the Prime Minister's office were arrested over the leak (<a href=\"https://fair.org/home/despite-history-of-fabrication-press-uncritically-covers-idf-provided-documents-on-hamas/\" target=\"_blank\" rel=\"noopener\">FAIR</a>).</p><p>Matching later events is what an authentic plan would do. A document written or edited after the fact would match too. Only access to the file and the device can tell the two apart.</p>"
         }
       ],
       "links": [
         {
           "url": "https://www.nytimes.com/2025/10/11/world/middleeast/israel-hamas-plans.html",
-          "source": "The New York Times",
-          "published": "2025-10-11"
+          "source": "The New York Times (Ronen Bergman, Adam Rasgon)",
+          "published": "2025-10-11",
+          "headline": "A Memo in a Bunker, Intercepted Communications and Hamas’s Oct. 7 Plans"
         },
         {
           "url": "https://archive.li/TmcqJ",
           "source": "The New York Times (archive.today copy)",
-          "published": "2025-10-11"
+          "published": "2025-10-11",
+          "headline": "A Memo in a Bunker, Intercepted Communications and Hamas’s Oct. 7 Plans — archived 11 Oct 2025 15:03 UTC"
         },
         {
           "url": "https://www.timesofisrael.com/burn-towns-slaughter-broadcast-2022-sinwar-memo-said-to-detail-hamas-plan-for-oct-7/",
