@@ -1,0 +1,11 @@
+Gaza Government Media Office, Telegram @mediagovps — copies captured 2026-10-30T00:00Z
+5186+5187: press statement, 15 Oct 2026 10:02:57 UTC — https://t.me/mediagovps/5186 , https://t.me/mediagovps/5187
+5188: Crossings and Borders Authority weekly report 9-15 Oct 2026, posted 16 Oct 2026 08:17:58 UTC — https://t.me/mediagovps/5188
+*-telegram-embed.html = page as served by t.me embed; *-text-ar.txt = message text extracted unaltered
+
+8e81ea7038eaf817d551a9e77d55cb789230e105fe9364dc5663af47ec3d2ed8  mediagovps-5186-telegram-embed.html
+70e3e25f7a76bd7d27bf13f3dc0b1efdc6a09e4948a304524c198917e7702512  mediagovps-5187-telegram-embed.html
+8f1966c4da2e46eb19e00c921351ceda5be98f83fb6dfa15e1d30431fe4e4345  mediagovps-5188-telegram-embed.html
+a92e1c5fd944ef122edd6a9aba70e2213f982a21b45ea75fa397bb095857c2b8  mediagovps-5186-text-ar.txt
+982f6f6271345644f4e1a66035d59036e13741715277e16a8102ff57ad73c287  mediagovps-5187-text-ar.txt
+cb36343baf019760eaea67fe1b6f31e20eb3697659115ed2e6aecc025e0fc42a  mediagovps-5188-text-ar.txt
