@@ -1,22 +1,13 @@
+/* one light palette everywhere, whatever the reader's system theme */
 :root {
-  --bg: #0e0f12;
-  --card: #17181d;
-  --text: #e8e6e1;
-  --muted: #9a978f;
-  --accent: #c0392b;
-  --line: #26272e;
-  --link: #d8a48f;
-}
-@media (prefers-color-scheme: light) {
-  :root {
-    --bg: #f6f5f2;
-    --card: #ffffff;
-    --text: #1c1c1e;
-    --muted: #6b6960;
-    --accent: #a93226;
-    --line: #e3e1da;
-    --link: #a04b2f;
-  }
+  color-scheme: light;
+  --bg: #f6f5f2;
+  --card: #ffffff;
+  --text: #1c1c1e;
+  --muted: #6b6960;
+  --accent: #a93226;
+  --line: #e3e1da;
+  --link: #a04b2f;
 }
 * { box-sizing: border-box; margin: 0; }
 html { scroll-behavior: smooth; }
@@ -61,7 +52,7 @@ h1 { font-size: 1.9rem; line-height: 1.2; letter-spacing: -0.01em; }
 .card:hover {
   transform: translateY(-3px);
   border-color: var(--accent);
-  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
 }
 .card.pre { opacity: 0; }
 .card.hidden { display: none; }

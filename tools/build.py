@@ -3,7 +3,7 @@
 
 Run after editing data.json:  python3 tools/build.py
 """
-import json, html, re, shutil
+import json, html, re, shutil, subprocess, datetime
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -16,6 +16,30 @@ path = lambda d: d.get('slug') or d['id']
 is_fa = lambda u: 'forensic-architecture.org' in u
 favicon = lambda u: f'https://www.google.com/s2/favicons?domain={urlparse(u).hostname}&sz=64'
 host = lambda u: (urlparse(u).hostname or '').removeprefix('www.')
+
+def git(*args):
+    return subprocess.run(['git', *args], cwd=ROOT, capture_output=True, text=True).stdout
+
+def last_updated():
+    """Date each incident's entry last changed: the oldest run of commits, counting back from HEAD, in which
+    the entry equals what is in data.json now. Uncommitted edits count as today."""
+    today = datetime.date.today().isoformat()
+    want = {d['id']: json.dumps(d, sort_keys=True) for d in incidents}
+    out, open_ids = {i: today for i in want}, set(want)
+    for line in git('log', '--format=%H %cs', '--', 'data.json').split('\n'):
+        if not line or not open_ids: break
+        sha, date = line.split()
+        try: then = {d['id']: json.dumps(d, sort_keys=True) for d in json.loads(git('show', f'{sha}:data.json'))['incidents']}
+        except ValueError: continue
+        for i in list(open_ids):
+            if then.get(i) == want[i]: out[i] = date
+            else: open_ids.discard(i)
+    return out
+UPDATED = last_updated()
+import hashlib
+CSS = '/site.css?v=' + hashlib.sha256((ROOT / 'site.css').read_bytes()).hexdigest()[:8]  # cache-bust on every stylesheet change
+file_updated = lambda f: (git('log', '-1', '--format=%cs', '--', f).strip() if not git('status', '--porcelain', '--', f).strip() else '') or datetime.date.today().isoformat()
+nice_date = lambda iso: datetime.date.fromisoformat(iso).strftime('%-d %b %Y')
 
 def labels():
     out, n = {}, 0
@@ -144,6 +168,7 @@ def page(d, prev, nxt):
     title = f'{plain(d["title"])} — War Crimes Safari'
     ld = {'@context': 'https://schema.org', '@type': 'Article', 'headline': plain(d['title'])[:110], 'description': desc,
           'url': url, 'isPartOf': {'@type': 'WebSite', 'name': 'The War Crimes Safari', 'url': SITE + '/'},
+          'dateModified': UPDATED[d['id']],
           'citation': [l['url'] for l in ordered] + ([d['wikipedia']] if d.get('wikipedia') else [])}
     fig = d.get('figure')
     og_image = (f'<meta property="og:image" content="{SITE}{fig["src"]}">\n<meta name="twitter:card" content="summary_large_image">'
@@ -189,7 +214,7 @@ def page(d, prev, nxt):
 <meta property="og:description" content="{e(desc)}">
 <meta property="og:url" content="{url}">
 {og_image}
-<link rel="stylesheet" href="/site.css">
+<link rel="stylesheet" href="{CSS}">
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
 </head>
 <body>
@@ -206,7 +231,7 @@ def page(d, prev, nxt):
 <main class="page">
   <div class="crumbs"><a href="/">War Crimes Safari</a> › <a href="/{SECTION_ANCHOR[d['section']]}">{SECTION_NAME[d['section']]}</a> › {LABEL[d['id']]}</div>
   <h1><span class="num">{LABEL[d['id']]}</span>{d['title']}</h1>
-  <div class="meta">{d['date']}</div>
+  <div class="meta">{d['date']} · <span class="updated">Last updated <time datetime="{UPDATED[d['id']]}">{nice_date(UPDATED[d['id']])}</time></span></div>
   {'<ul class="why">' + ''.join(f'<li>{b}</li>' for b in d['bullets']) + '</ul>' if d.get('bullets') else ''}
   <p class="lede">{d['summary']}</p>
   {f'<div class="comment">{d["comment"]}</div>' if d.get('comment') else ''}
@@ -256,9 +281,13 @@ def main():
                 f'<link rel="canonical" href="{SITE}{target}"><meta name="robots" content="noindex">'
                 f'<meta http-equiv="refresh" content="0; url={target}"><script>location.replace("{target}"+location.hash)</script>'
                 f'<a href="{target}">{e(plain(d["title"]))}</a>\n')
-    urls = [SITE + '/', SITE + '/al-ahli.html'] + [f'{SITE}/{x}/' for x in STATIC_PAGES] + [f'{SITE}/{path(d)}/' for d in ORDER]
+    for f in ['index.html'] + [f'{x}/index.html' for x in STATIC_PAGES]:  # hand-written pages share the stylesheet
+        fp = ROOT / f; t = fp.read_text(); n = re.sub(r'href="/?site\.css(\?v=\w+)?"', f'href="{CSS}"', t)
+        if n != t: fp.write_text(n)
+    urls = ([(SITE + '/', max(UPDATED.values())), (SITE + '/al-ahli.html', file_updated('al-ahli.html'))]
+            + [(f'{SITE}/{x}/', file_updated(f'{x}/index.html')) for x in STATIC_PAGES] + [(f'{SITE}/{path(d)}/', UPDATED[d['id']]) for d in ORDER])
     (ROOT / 'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-                                      + ''.join(f'  <url><loc>{u}</loc></url>\n' for u in urls) + '</urlset>\n')
+                                      + ''.join(f'  <url><loc>{u}</loc><lastmod>{m}</lastmod></url>\n' for u, m in urls) + '</urlset>\n')
     (ROOT / 'robots.txt').write_text(f'User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n')
     print(f'built {len(ORDER)} pages')
 
