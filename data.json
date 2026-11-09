@@ -17,8 +17,10 @@
       "verify": "open curation caveat (optional)",
       "slug": "optional keyword-rich URL path for the incident page; defaults to id. Old /<id>/ redirects to it.",
       "figure": "optional {src, alt, title, caption, credit{label,url}} — image shown on the incident page and used as its social preview",
-      "dossier": "optional [{heading, html?, table?{cols, rows, note?}}] — profile sections on organisation pages (propaganda desk)",
-      "figures": "optional list of extra posters, same shape as figure, shown below it"
+      "dossier": "optional [{id?, heading, html?, table?{cols, rows, note?}}] — evidence and profile sections before the source table",
+      "figures": "optional list of extra posters, same shape as figure, shown below it",
+      "subsection_of": "optional parent incident id; a focused sub-entry does not advance the main incident numbering",
+      "label_suffix": "letter appended to the parent number for a sub-entry, e.g. B yields 07B"
     }
   },
   "incidents": [
@@ -724,9 +726,9 @@
     {
       "id": "sde-teiman-dogs",
       "section": "main",
-      "title": "Torture and sexual violence against Palestinian detainees at Sde Teiman, including use of attack dogs",
+      "title": "Torture and sexual violence against Palestinian detainees",
       "date": "October 2023 onward; principal documentation May–August 2024",
-      "summary": "According to UN OHCHR reporting and testimonies from released detainees, Palestinians held at Israel's Sde Teiman military detention facility were subjected to systematic torture and severe sexual and gender-based violence, including dogs being set on shackled detainees, with some testimonies collected by UN bodies and human-rights organizations alleging dog-involved sexual assault. Israeli whistleblowers who worked at the facility corroborated accounts of abuse in a CNN investigation, and UN experts described the reported treatment as flagrant violations of international law, while Israel has denied the specific allegations.",
+      "summary": "According to UN OHCHR reporting and testimonies from released detainees, Palestinians held at Israel's Sde Teiman military detention facility were subjected to systematic torture and severe sexual and gender-based violence, including dogs being set on shackled detainees, with some testimonies collected by UN bodies and human-rights organizations alleging dog-involved sexual assault. Israeli whistleblowers who worked at the facility corroborated accounts of abuse in a CNN investigation, and UN experts described the reported treatment as flagrant violations of international law, while Israel has denied the specific allegations. A November 2025 investigation by Physicians for Human Rights–Israel (PHRI) documented at least 94 Palestinian deaths across Israeli detention facilities between 7 October 2023 and 31 August 2025; this wider custody record is featured below.",
       "links": [
         {
           "url": "https://www.ohchr.org/en/press-releases/2024/08/israels-escalating-use-torture-against-palestinians-custody-preventable",
@@ -823,6 +825,18 @@
           "source": "ABC News",
           "headline": "The Latest | Israeli politician's visit to a Jerusalem holy site threatens Gaza cease-fire talks",
           "published": "2024-07-18"
+        },
+        {
+          "url": "https://www.phr.org.il/wp-content/uploads/2025/11/6538_Death_custody_Paper_Eng.pdf",
+          "source": "Physicians for Human Rights–Israel",
+          "headline": "Deaths of Palestinians in Israeli Custody: Enforced Disappearances, Systematic Killings and Cover-Ups",
+          "published": "2025-11"
+        },
+        {
+          "url": "https://www.phr.org.il/wp-content/uploads/2025/11/6538_Death_custody_testimonies_Eng.pdf",
+          "source": "Physicians for Human Rights–Israel — appendix",
+          "headline": "Deaths of Palestinians in Israeli Custody: Enforced Disappearances, Systematic Killings and Cover-Ups — Appendix",
+          "published": "2025-11"
         }
       ],
       "wikipedia": "https://en.wikipedia.org/wiki/Sde_Teiman_detention_camp",
@@ -840,6 +854,117 @@
         "Attack dogs set on shackled, blindfolded detainees — documented by the UN.",
         "Israeli whistleblowers described amputations caused by round-the-clock zip-tie restraints.",
         "The UN found the torture systematic — policy, not incidents."
+      ],
+      "comment": "Dedicated focus: <a href=\"/dogs-torture/\">07B — attack dogs, torture and reported rape of Palestinian detainees →</a>",
+      "dossier": [
+        {
+          "id": "featured-phri-evidence",
+          "heading": "Featured evidence — Physicians for Human Rights–Israel",
+          "html": "<p>PHRI’s November 2025 investigation draws on official records, freedom-of-information responses, medical evidence and witness accounts across the Israeli detention system.</p><p class=\"sub\"><b>1. Research report · November 2025 · 28 pages</b><br><a href=\"https://www.phr.org.il/wp-content/uploads/2025/11/6538_Death_custody_Paper_Eng.pdf\" target=\"_blank\" rel=\"noopener\">Deaths of Palestinians in Israeli Custody: Enforced Disappearances, Systematic Killings and Cover-Ups (PDF)</a></p><p>Examines deaths in military and prison-service custody, enforced disappearance, family notification, post-mortem examinations and accountability.</p><p class=\"sub\"><b>2. Supporting case documentation · November 2025 · 25 pages</b><br><a href=\"https://www.phr.org.il/wp-content/uploads/2025/11/6538_Death_custody_testimonies_Eng.pdf\" target=\"_blank\" rel=\"noopener\">Companion appendix: 73 identified deceased detainees (PDF)</a></p><p>Records names, facilities, dates, medical findings and available testimony.</p>",
+          "table": {
+            "cols": [
+              "Figure",
+              "Meaning",
+              "Scope"
+            ],
+            "rows": [
+              [
+                "94+",
+                "Documented deaths in custody",
+                "7 October 2023 – 31 August 2025; multiple facilities"
+              ],
+              [
+                "73",
+                "Identified deceased detainees",
+                "Cases documented in the companion appendix"
+              ],
+              [
+                "21",
+                "Deaths without verified identities",
+                "94 documented deaths minus 73 identified cases"
+              ]
+            ],
+            "note": "Documented minimum figures, not a complete death toll. A death in custody does not by itself establish homicide or torture as the cause. Medical findings, witness allegations and judicial determinations are distinct forms of evidence."
+          }
+        },
+        {
+          "id": "scope-of-evidence",
+          "heading": "Scope of the evidence",
+          "html": "<p>The PHRI findings cover multiple Israeli detention facilities, not Sde Teiman alone. They concern the wider custody record and are not a count of deaths involving dogs. Both featured PDFs are indexed once each in the source table below.</p>"
+        }
+      ]
+    },
+    {
+      "id": "dogs-torture",
+      "section": "main",
+      "subsection_of": "sde-teiman-dogs",
+      "label_suffix": "B",
+      "title": "Attack dogs: torture and reported rape of Palestinian detainees",
+      "date": "Accounts published June 2024 – November 2026; export records October 2023 – February 2025",
+      "summary": "Euro-Med Human Rights Monitor published a witness account in June 2024 and a survivor account in April 2026 alleging that Israeli forces used dogs to rape Palestinian detainees. Its reporting also describes dogs used to attack and intimidate people during detention and raids. A 5 November 2026 investigation by Rajaa Natour for The Electronic Intifada examines the European supply chain behind military dogs; SOMO’s research documents Dutch veterinary export certificates and the absence of military-style licensing controls for these exports.",
+      "comment": "Special focus within <a href=\"/sde-teiman-dogs/\">07 — torture and sexual violence against Palestinian detainees →</a>",
+      "bullets": [
+        "Reported rape involving dogs: Euro-Med published a witness account in 2024 and a separate survivor account in 2026.",
+        "Dog attacks and intimidation are reported in detention facilities and during raids in Gaza and the West Bank.",
+        "SOMO obtained 110 veterinary export certificates issued to Dutch dog companies for exports to Israel; 100 were for Four Winds K9."
+      ],
+      "links": [
+        {
+          "url": "https://euromedmonitor.org/en/article/6383/Gaza:-Israeli-army-systematically-uses-police-dogs-to-brutally-attack-Palestinian-civilians,-with-at-least-one-reported-rape",
+          "source": "Euro-Med Human Rights Monitor",
+          "headline": "Gaza: Israeli army systematically uses police dogs to brutally attack Palestinian civilians, with at least one reported rape",
+          "published": "2024-06-27"
+        },
+        {
+          "url": "https://euromedmonitor.org/en/article/7022/%E2%80%9CAnother-genocide-behind-walls%E2%80%9D:-New-report-documents-testimonies-of-rape-and-sexual-violence-in-Israeli-prisons",
+          "source": "Euro-Med Human Rights Monitor",
+          "headline": "“Another genocide behind walls”: New report documents testimonies of rape and sexual violence in Israeli prisons",
+          "published": "2026-04-12"
+        },
+        {
+          "url": "https://www.somo.nl/unleashing-terror-dutch-dogs-in-israels-war-crimes/",
+          "source": "SOMO",
+          "headline": "Unleashing terror: Dutch dogs in Israel’s war crimes",
+          "published": "2025-04-10"
+        },
+        {
+          "url": "https://en.arij.net/investigation/the-fangs-of-israel/",
+          "source": "Arab Reporters for Investigative Journalism (ARIJ)",
+          "headline": "The Fangs of Israel",
+          "published": "2025-09-11"
+        },
+        {
+          "url": "https://electronicintifada.net/content/exported-israel-pets-dutch-dogs-used-torture-palestinians/51737",
+          "source": "The Electronic Intifada — Rajaa Natour",
+          "headline": "Exported to Israel as pets, Dutch dogs used to torture Palestinians",
+          "published": "2026-11-05"
+        }
+      ],
+      "official": {
+        "url": "https://www.idf.il/en/mini-sites/israel-at-war/all-articles/response-to-queries-about-the-detention-facility-in-the-sde-teiman-military-base/",
+        "label": "IDF statement on Sde Teiman (general detention response)"
+      },
+      "dossier": [
+        {
+          "id": "reported-rape-involving-dogs",
+          "heading": "Reported rape involving dogs — two published accounts",
+          "html": "<p><b>June 2024 — witness account.</b> Euro-Med published testimony from lawyer Fadi Saif al-Din Bakr, who said he saw soldiers restrain another detainee and use dogs to rape him. <a href=\"https://euromedmonitor.org/en/article/6383/Gaza:-Israeli-army-systematically-uses-police-dogs-to-brutally-attack-Palestinian-civilians,-with-at-least-one-reported-rape\" target=\"_blank\" rel=\"noopener\">Read Euro-Med’s account and attribution →</a></p><p class=\"sub\"><b>April 2026 — survivor account.</b> Euro-Med published testimony from Wajdi, 43, who alleged that he was raped by soldiers and a dog during interrogation. <a href=\"https://euromedmonitor.org/en/article/7022/%E2%80%9CAnother-genocide-behind-walls%E2%80%9D:-New-report-documents-testimonies-of-rape-and-sexual-violence-in-Israeli-prisons\" target=\"_blank\" rel=\"noopener\">Read the later report →</a></p><p class=\"sub\">These are published testimonies recorded by Euro-Med, not judicial findings. Repetition of the same account in later articles is not an additional incident. The accounts do not establish a total number of victims or locate every incident at Sde Teiman.</p>"
+        },
+        {
+          "id": "new-electronic-intifada-reporting",
+          "heading": "New reporting — 5 November 2026",
+          "html": "<p><a href=\"https://electronicintifada.net/content/exported-israel-pets-dutch-dogs-used-torture-palestinians/51737\" target=\"_blank\" rel=\"noopener\"><b>Exported to Israel as pets, Dutch dogs used to torture Palestinians</b></a> — Rajaa Natour, The Electronic Intifada.</p><p class=\"sub\">The article follows the Dutch supply chain and interviews researchers about export oversight, corporate responsibility and the reported use of dogs against Palestinians. Amended 6 November 2026.</p>"
+        },
+        {
+          "id": "dutch-export-records",
+          "heading": "The Dutch supply chain — what the records show",
+          "html": "<p><a href=\"https://www.somo.nl/unleashing-terror-dutch-dogs-in-israels-war-crimes/\" target=\"_blank\" rel=\"noopener\">SOMO’s April 2025 investigation</a> obtained 110 veterinary certificates issued between October 2023 and February 2025 to Dutch military/police dog companies for exports to Israel: 100 to Four Winds K9, four to Police Dogs Centre Holland and six to K10 Working Dogs.</p><p class=\"sub\">Certificates document exports; they do not identify every end user, demonstrate that every dog went to the military, or link a particular exported dog to an alleged assault. <a href=\"https://en.arij.net/investigation/the-fangs-of-israel/\" target=\"_blank\" rel=\"noopener\">ARIJ’s investigation examines the wider European trade →</a></p>"
+        },
+        {
+          "id": "scope-and-response",
+          "heading": "Scope and official response",
+          "html": "<p>This focus brings together allegations from detention and raids across different locations. The linked IDF statement concerns Sde Teiman generally; it is not a specific response to each dog-related allegation. For the broader detention record and PHRI’s custody-death investigation, see <a href=\"/sde-teiman-dogs/\">07 — torture and sexual violence</a>.</p>"
+        }
       ]
     },
     {

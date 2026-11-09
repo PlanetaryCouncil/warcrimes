@@ -6,7 +6,7 @@
 <meta name="description" content="Documented war crimes in Gaza and the West Bank, 2023–2026: each incident with its sources dated and named, the official Israeli response, and what remains disputed.">
 <link rel="canonical" href="https://warcrimes.planetarycouncil.org/">
 <title>The War Crimes Safari — Gaza &amp; the West Bank, 2023–2026</title>
-<link rel="stylesheet" href="/site.css?v=e38055f8">
+<link rel="stylesheet" href="/site.css?v=193a2aa5">
 </head>
 <body>
 <nav id="topnav">
@@ -113,16 +113,24 @@ fetch('data.json', { cache: 'no-store' }).then(r => r.json()).then(({ incidents 
   const docket = incidents.filter(d => d.section === 'docket');
   const hamas = incidents.filter(d => d.section === 'hamas');
   const propaganda = incidents.filter(d => d.section === 'propaganda');
+  const labels = new Map();
+  let incidentNumber = 0;
+  for (const d of [...main, ...closers]) {
+    if (!d.subsection_of) labels.set(d.id, num(++incidentNumber));
+  }
+  for (const d of [...main, ...closers]) {
+    if (d.subsection_of) labels.set(d.id, labels.get(d.subsection_of) + (d.label_suffix || 'B'));
+  }
   const nSources = incidents.reduce((n, d) => n + d.links.length + (d.wikipedia ? 1 : 0) + (d.official ? 1 : 0), 0);
   document.getElementById('counts').textContent =
-    `Currently: ${main.length + closers.length + hamas.length} incidents, ${docket.length} individuals on the docket, ${nSources} sources.`;
+    `Currently: ${main.length + closers.length + hamas.length} incident and focus entries, ${docket.length} individuals on the docket, ${nSources} sources.`;
 
   const SECTIONS = [
-    ['list', main, i => num(i + 1)],
-    ['closers', closers, i => num(main.length + i + 1)],
-    ['docket', docket, i => 'D' + (i + 1)],
-    ['hamas', hamas, i => 'H' + (i + 1)],
-    ['propaganda', propaganda, i => 'P' + (i + 1)],
+    ['list', main, d => labels.get(d.id)],
+    ['closers', closers, d => labels.get(d.id)],
+    ['docket', docket, (d, i) => 'D' + (i + 1)],
+    ['hamas', hamas, (d, i) => 'H' + (i + 1)],
+    ['propaganda', propaganda, (d, i) => 'P' + (i + 1)],
   ];
   const colsFor = () => innerWidth >= 1120 ? 3 : innerWidth >= 760 ? 2 : 1;
   let lastCols = 0;
@@ -137,7 +145,7 @@ fetch('data.json', { cache: 'no-store' }).then(r => r.json()).then(({ incidents 
       const cols = Array.from({ length: n }, () => {
         const c = document.createElement('div'); c.className = 'col'; return c;
       });
-      items.forEach((d, i) => cols[i % n].insertAdjacentHTML('beforeend', card(d, label(i))));
+      items.forEach((d, i) => cols[i % n].insertAdjacentHTML('beforeend', card(d, label(d, i))));
       host.replaceChildren(...cols);
     }
     wire();

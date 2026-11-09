@@ -22,6 +22,7 @@ Goal: **the most-documented war crimes record in history.** Every claim independ
 |---|---|
 | `id` | stable slug, also the page anchor |
 | `section` | `main`, `closers`, `docket`, or `hamas` |
+| `subsection_of`, `label_suffix` | optional parent incident ID and letter suffix: a focus such as `07B` appears after `07` without advancing the later incident numbers |
 | `comment` | optional curator's note, rendered as an accent-bar italic block |
 | `title`, `date` | sober factual title; date or range |
 | `summary` | 2 sentences, attributed ("according to…") |

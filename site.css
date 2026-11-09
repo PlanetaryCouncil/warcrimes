@@ -115,6 +115,7 @@ a:hover { color: var(--accent); }
 .official, .wiki {
   margin-top: 1rem; padding: 0.75rem 1rem; border: 1px solid var(--line); border-radius: 8px; background: var(--card); font-size: 0.9rem;
 }
+.wiki a { overflow-wrap: anywhere; }
 .official b, .wiki b { color: var(--muted); font-weight: 600; margin-right: 0.35rem; }
 .record { margin-top: 2.2rem; }
 .record h2 { font-size: 1.2rem; border-top: 2px solid var(--accent); padding-top: 1rem; }

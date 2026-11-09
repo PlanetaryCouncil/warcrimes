@@ -45,9 +45,22 @@ def labels():
     out, n = {}, 0
     for sec in ('main', 'closers'):
         for d in incidents:
-            if d['section'] == sec: n += 1; out[d['id']] = f'{n:02d}'
+            if d['section'] == sec and not d.get('subsection_of'):
+                n += 1; out[d['id']] = f'{n:02d}'
     for sec, p in (('docket', 'D'), ('hamas', 'H'), ('propaganda', 'P')):
         for i, d in enumerate([d for d in incidents if d['section'] == sec]): out[d['id']] = f'{p}{i + 1}'
+    for d in incidents:
+        if d.get('subsection_of'):
+            parent = next((p for p in incidents if p['id'] == d['subsection_of']), None)
+            suffix = d.get('label_suffix', 'B')
+            if not parent or parent.get('subsection_of') or parent['section'] != d['section'] or d['section'] not in ('main', 'closers'):
+                raise ValueError(f"Invalid parent for subsection {d['id']}")
+            if not re.fullmatch(r'[A-Z]', suffix):
+                raise ValueError(f"Invalid label suffix for subsection {d['id']}")
+            label = out[parent['id']] + suffix
+            if label in out.values():
+                raise ValueError(f"Duplicate subsection label {label}")
+            out[d['id']] = label
     return out
 LABEL = labels()
 ORDER = sorted(incidents, key=lambda d: (['main', 'closers', 'docket', 'hamas', 'propaganda'].index(d['section']), incidents.index(d)))
@@ -183,7 +196,7 @@ def page(d, prev, nxt):
              + '.</figcaption></figure>') if vid else ''
     # optional dossier: [{heading, html?, table?{cols, rows}}] — profile sections for organisation pages
     dossier = ''.join(
-        f'<section class="dossier"><h2>{s["heading"]}</h2>' + (s.get('html') or '')
+        f'<section class="dossier"' + (f' id="{e(s["id"])}"' if s.get("id") else '') + f'><h2>{s["heading"]}</h2>' + (s.get('html') or '')
         + ((f'<div class="tw"><table class="facts"><thead><tr>' + ''.join(f'<th>{c}</th>' for c in s['table']['cols']) + '</tr></thead><tbody>'
             + ''.join('<tr>' + ''.join(f'<td>{c}</td>' for c in r) + '</tr>' for r in s['table']['rows']) + '</tbody></table></div>'
             + (f'<p class="sub">{s["table"]["note"]}</p>' if s['table'].get('note') else '')) if s.get('table') else '')
