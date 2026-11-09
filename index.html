@@ -121,9 +121,14 @@ fetch('data.json', { cache: 'no-store' }).then(r => r.json()).then(({ incidents 
   for (const d of [...main, ...closers]) {
     if (d.subsection_of) labels.set(d.id, labels.get(d.subsection_of) + (d.label_suffix || 'B'));
   }
-  const nSources = incidents.reduce((n, d) => n + d.links.length + (d.wikipedia ? 1 : 0) + (d.official ? 1 : 0), 0);
+  const sourceUrls = new Set(incidents.flatMap(d => [
+    ...d.links.map(l => l.url),
+    ...(d.wikipedia ? [d.wikipedia] : []),
+    ...(d.official ? [d.official.url] : []),
+  ]));
+  const nSources = sourceUrls.size;
   document.getElementById('counts').textContent =
-    `Currently: ${main.length + closers.length + hamas.length} incident and focus entries, ${docket.length} individuals on the docket, ${nSources} sources.`;
+    `Currently: ${main.length + closers.length + hamas.length} incident and focus entries, ${docket.length} individuals on the docket, ${nSources} unique source URLs.`;
 
   const SECTIONS = [
     ['list', main, d => labels.get(d.id)],

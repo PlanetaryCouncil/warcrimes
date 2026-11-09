@@ -249,7 +249,7 @@ def page(d, prev, nxt):
   <p class="lede">{d['summary']}</p>
   {f'<div class="comment">{d["comment"]}</div>' if d.get('comment') else ''}
   {f'<div class="verify">⚠ {d["verify"]}</div>' if d.get('verify') else ''}
-  {official}
+{('  ' + official) if official else ''}
   {wiki}
   {score}
   {video}
@@ -266,7 +266,7 @@ def page(d, prev, nxt):
       </tbody>
     </table>
   </section>
-  {machine}
+{('  ' + machine) if machine else ''}
   {pager}
   <footer>Permalink: <a href="{url}">{url}</a> · Data: <a href="/data.json">data.json</a> · Corrections: <a href="https://github.com/PlanetaryCouncil/warcrimes/issues" target="_blank" rel="noopener">open an issue</a></footer>
 </main>

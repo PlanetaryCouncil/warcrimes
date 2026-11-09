@@ -940,10 +940,6 @@
           "published": "2026-11-05"
         }
       ],
-      "official": {
-        "url": "https://www.idf.il/en/mini-sites/israel-at-war/all-articles/response-to-queries-about-the-detention-facility-in-the-sde-teiman-military-base/",
-        "label": "IDF statement on Sde Teiman (general detention response)"
-      },
       "dossier": [
         {
           "id": "reported-rape-involving-dogs",
@@ -963,7 +959,7 @@
         {
           "id": "scope-and-response",
           "heading": "Scope and official response",
-          "html": "<p>This focus brings together allegations from detention and raids across different locations. The linked IDF statement concerns Sde Teiman generally; it is not a specific response to each dog-related allegation. For the broader detention record and PHRI’s custody-death investigation, see <a href=\"/sde-teiman-dogs/\">07 — torture and sexual violence</a>.</p>"
+          "html": "<p>This focus brings together allegations from detention and raids across different locations. The general IDF statement on Sde Teiman is indexed in <a href=\"/sde-teiman-dogs/\">07 — torture and sexual violence</a>, alongside the broader detention record and PHRI’s custody-death investigation. That statement is not a specific response to each dog-related allegation.</p>"
         }
       ]
     },
