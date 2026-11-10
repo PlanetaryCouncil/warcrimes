@@ -5687,7 +5687,7 @@
       "section": "propaganda",
       "title": "“Outrage should be directed at Hamas”: a 2020 rocket video, reposted for Gaza's 2026 floods",
       "date": "Israel MFA post: 9 Nov 2026 · footage aired by Al Jazeera: 13 Sep 2020 · pipes described by Sinwar: 4 Nov 2019",
-      "summary": "On 9 November 2026, as the first winter storm flooded Gaza's tent camps, Israel's Foreign Ministry posted a 64-second Al-Qassam Brigades video of men digging up pipes and turning them into rockets, writing that “when the rains come and sewage floods Gaza's streets, outrage should be directed at Hamas.” The footage is genuine Hamas propaganda, but it isn't new: it matches an Al Jazeera documentary aired on 13 September 2020, and the pipes are the ones Yahya Sinwar said in 2019 were dug out of the former Israeli settlements, not Gaza's sewers or storm drains. The UN and aid groups attribute this week's flooding to a water, sewage and drainage network damaged in the war, pumps without fuel or spare parts, and tents held outside Gaza; Israel says 91,000 tents have gone in and blames Hamas.",
+      "summary": "On 9 November 2026, as the first winter storm flooded Gaza's tent camps, Israel's Foreign Ministry posted a 64-second Al-Qassam Brigades video of men digging up pipes and turning them into rockets, writing that “when the rains come and sewage floods Gaza's streets, outrage should be directed at Hamas.” The footage is genuine Hamas propaganda, but it isn't new: it matches an Al Jazeera documentary aired on 13 September 2020 and already circulated in October 2023 as “EU-funded water pipes”, and the pipes are the ones Yahya Sinwar said in 2019 were dug out of the former Israeli settlements, not Gaza's sewers or storm drains. The UN and aid groups attribute this week's flooding to a water, sewage and drainage network damaged in the war, pumps without fuel or spare parts, and tents held outside Gaza; Israel says 91,000 tents have gone in and blames Hamas.",
       "bullets": [
         "<b>The video is real — and Hamas's own.</b> The Al-Qassam “Military Media” watermark runs through it; its scenes match Al Jazeera's “What Is Hidden Is Greater”, aired 13 September 2020.",
         "<b>The pipes aren't Gaza's sewers.</b> Sinwar said in 2019, and Qassam told Al Jazeera in 2020, that they came out of the ground in the former settlements, left behind in 2005.",
@@ -5776,6 +5776,16 @@
                 "<a href=\"https://arabi21.com/story/1300098\" target=\"_blank\" rel=\"noopener\">Arabi21</a> · <a href=\"https://qudsnen.co/hamas-reveals-new-sources-of-its-weapons\" target=\"_blank\" rel=\"noopener\">QNN, 14 Sep</a> · <a href=\"https://www.jns.org/al-jazeera-airs-documentary-about-hamass-missile-industry/\" target=\"_blank\" rel=\"noopener\">JNS, 24 Sep</a> <span class=\"st\">reported</span>"
               ],
               [
+                "11 Oct 2023",
+                "Four days after October 7, the same kind of footage resurfaces with a new twist: The Daily Telegraph reports the EU funded water pipelines “that terrorists turned into rockets”; the claim spreads as “EU-funded water pipes”. The EU says it funds Hamas neither “directly or indirectly”",
+                "<a href=\"https://www.pressreader.com/uk/the-daily-telegraph/20231011/282359749364238\" target=\"_blank\" rel=\"noopener\">The Telegraph, via PressReader</a> <span class=\"st\">reported</span>"
+              ],
+              [
+                "10 Nov 2023",
+                "Debunk video by Wally Rashid, answering a post by Ben Shapiro: the clip was cut without its audio; he traces it to a 2020 MEMRI release with the original sound, in which a Qassam commander says the pipes are the old settlement lines, not EU-funded ones",
+                "<a href=\"https://x.com/ME_Observer_/status/1722819629960040820\" target=\"_blank\" rel=\"noopener\">Middle East Observer on X</a> <span class=\"st\">reported</span>"
+              ],
+              [
                 "19 Dec 2024",
                 "The same footage on X, in a file whose media ID dates its upload",
                 "X media ID <span class=\"st\">verified</span>"
@@ -5787,7 +5797,7 @@
               ]
             ]
           },
-          "html": "<p>We matched the scenes to the 2020 episode's published descriptions, not frame by frame to the broadcast itself, which we couldn't retrieve. Some shots could come from later Qassam releases; none shows anything that dates it to this war.</p>"
+          "html": "<p>So this is at least the third outing for the same footage: 2020 as Hamas's boast, 2023 as “EU-funded pipes”, 2026 as the cause of the floods. We matched the scenes to the 2020 episode's published descriptions, not frame by frame to the broadcast itself, which we couldn't retrieve; we haven't seen the MEMRI clip the 2023 debunk cites. None of it shows anything that dates it to this war.</p>"
         },
         {
           "heading": "Whose pipes?",
@@ -5865,8 +5875,22 @@
           "url": "https://www.jewishnews.co.uk/board-of-peace-warns-gaza-winter-aid-insufficient-despite-8200-truck-deliveries/",
           "source": "Jewish News",
           "headline": "Board of Peace warns Gaza winter aid ‘insufficient’ despite 8,200 truck deliveries"
+        },
+        {
+          "url": "https://www.pressreader.com/uk/the-daily-telegraph/20231011/282359749364238",
+          "source": "The Daily Telegraph (print edition, via PressReader)",
+          "headline": "EU funded water pipelines that terrorists turned into rockets",
+          "published": "2023-10-11"
+        },
+        {
+          "url": "https://x.com/ME_Observer_/status/1722819629960040820",
+          "source": "Middle East Observer on X — Wally Rashid's debunk video",
+          "headline": "Wally Rashid exposing Ben Shapiro the fraud",
+          "published": "2023-11-10",
+          "stance": "pro-palestinian"
         }
-      ]
+      ],
+      "share": "/img/share-israel-mfa-pipes-video-debunked-2020.jpg"
     }
   ]
 }

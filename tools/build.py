@@ -185,8 +185,10 @@ def page(d, prev, nxt):
           'dateModified': UPDATED[d['id']],
           'citation': [l['url'] for l in ordered] + ([d['wikipedia']] if d.get('wikipedia') else [])}
     fig = d.get('figure')
-    og_image = (f'<meta property="og:image" content="{SITE}{fig["src"]}">\n<meta name="twitter:card" content="summary_large_image">'
-                if fig else '<meta name="twitter:card" content="summary">')
+    # share (optional) is a social-preview image only; otherwise the poster doubles as the preview
+    og_src = d.get('share') or (fig and fig['src'])
+    og_image = (f'<meta property="og:image" content="{SITE}{og_src}">\n<meta name="twitter:card" content="summary_large_image">'
+                if og_src else '<meta name="twitter:card" content="summary">')
     # figure is the poster and social preview; figures (optional) adds more posters below it
     figure = ''.join(f'<figure class="poster"><h2>{e(f["title"])}</h2><a href="{f["src"]}"><img src="{f["src"]}" alt="{e(f["alt"])}" loading="lazy"></a>'
               f'<figcaption>{e(f["caption"])}' + (f' <a href="{e(f["credit"]["url"])}" target="_blank" rel="noopener">{e(f["credit"]["label"])}</a>' if f.get('credit') else '')
