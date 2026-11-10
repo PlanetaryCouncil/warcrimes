@@ -9,7 +9,7 @@
       "title": "sober factual title",
       "date": "date or range",
       "summary": "2 sentences, attributed",
-      "links": "[{url, source, headline?, published?}] — headline and publication date as the source itself published them (tools/harvest.py); blank = not retrieved, never guessed; tag: \"propaganda\" marks a source we cite as an example of denial, not as evidence",
+      "links": "[{url, source, headline?, published?}] — headline and publication date as the source itself published them (tools/harvest.py); blank = not retrieved, never guessed; tag: \"propaganda\" marks a source we cite as an example of denial, not as evidence; label: optional editorial link description when the original headline has not been retrieved",
       "wikipedia": "most relevant Wikipedia article (optional)",
       "official": "{url, label} — official Israeli response, primary where possible (optional)",
       "image": "{src, page, credit, license} — freely licensed embed, Wikimedia Commons (optional)",
@@ -901,7 +901,7 @@
       "label_suffix": "B",
       "title": "Attack dogs: torture and reported rape of Palestinian detainees",
       "date": "Accounts published June 2024 – November 2026; export records October 2023 – February 2025",
-      "summary": "Euro-Med Human Rights Monitor published a witness account in June 2024 and a survivor account in April 2026 alleging that Israeli forces used dogs to rape Palestinian detainees. Its reporting also describes dogs used to attack and intimidate people during detention and raids. A 5 November 2026 investigation by Rajaa Natour for The Electronic Intifada examines the European supply chain behind military dogs; SOMO’s research documents Dutch veterinary export certificates and the absence of military-style licensing controls for these exports.",
+      "summary": "Euro-Med Human Rights Monitor published a witness account in June 2024 and a survivor account in April 2026 alleging that Israeli forces used dogs to rape Palestinian detainees. Its reporting also describes dogs used to attack and intimidate people during detention and raids. A 5 November 2026 investigation by Rajaa Natour for The Electronic Intifada examines the European supply chain behind military dogs; SOMO’s research documents Dutch veterinary export certificates and the absence of military-style licensing controls for these exports. Joshua Carroll’s November 2025 report for Novara Media covers testimony collected by the Palestinian Centre for Human Rights; Nicholas Kristof’s New York Times Opinion column and its follow-up are linked below alongside Caitlin Johnstone’s commentary.",
       "comment": "Special focus within <a href=\"/sde-teiman-dogs/\">07 — torture and sexual violence against Palestinian detainees →</a>",
       "bullets": [
         "Reported rape involving dogs: Euro-Med published a witness account in 2024 and a separate survivor account in 2026.",
@@ -938,6 +938,29 @@
           "source": "The Electronic Intifada — Rajaa Natour",
           "headline": "Exported to Israel as pets, Dutch dogs used to torture Palestinians",
           "published": "2026-11-05"
+        },
+        {
+          "url": "https://www.nytimes.com/2026/05/11/opinion/israel-palestinians-sexual-violence.html?unlocked_article_code=1.h1A.Bvl7.HOHhhhq_xdze",
+          "source": "New York Times Opinion — Nicholas Kristof",
+          "label": "Nicholas Kristof’s column on Palestinian detainees and sexual violence (gift link)"
+        },
+        {
+          "url": "https://www.nytimes.com/2026/05/21/opinion/kristof-palestinian-sexual-assault.html?unlocked_article_code=1.kFA.0f5m.J4kT1NIKg_Wb",
+          "source": "New York Times Opinion — follow-up",
+          "label": "Your Questions About Nicholas Kristof’s Column on Palestinians and Sexual Assault (gift link)"
+        },
+        {
+          "url": "https://braveneweurope.com/geopolitics/caitlin-johnstone-sorry-if-this-is-antisemitic-but-i-think-its-wrong-to-train-dogs-to-rape-prisoners/",
+          "source": "Brave New Europe — Caitlin Johnstone (commentary)",
+          "headline": "Caitlin Johnstone – Sorry If This Is Antisemitic But I Think It’s Wrong To Train Dogs To Rape Prisoners",
+          "published": "2025-12-04",
+          "stance": "pro-palestinian"
+        },
+        {
+          "url": "https://novaramedia.com/2025/11/25/israeli-prison-guards-are-using-dogs-to-rape-palestinians-former-detainees-say/",
+          "source": "Novara Media — Joshua Carroll",
+          "headline": "Israeli Prison Guards Are Using Dogs to Rape Palestinians, Former Detainees Say",
+          "published": "2025-11-25"
         }
       ],
       "dossier": [
@@ -945,6 +968,11 @@
           "id": "reported-rape-involving-dogs",
           "heading": "Reported rape involving dogs — two published accounts",
           "html": "<p><b>June 2024 — witness account.</b> Euro-Med published testimony from lawyer Fadi Saif al-Din Bakr, who said he saw soldiers restrain another detainee and use dogs to rape him. <a href=\"https://euromedmonitor.org/en/article/6383/Gaza:-Israeli-army-systematically-uses-police-dogs-to-brutally-attack-Palestinian-civilians,-with-at-least-one-reported-rape\" target=\"_blank\" rel=\"noopener\">Read Euro-Med’s account and attribution →</a></p><p class=\"sub\"><b>April 2026 — survivor account.</b> Euro-Med published testimony from Wajdi, 43, who alleged that he was raped by soldiers and a dog during interrogation. <a href=\"https://euromedmonitor.org/en/article/7022/%E2%80%9CAnother-genocide-behind-walls%E2%80%9D:-New-report-documents-testimonies-of-rape-and-sexual-violence-in-Israeli-prisons\" target=\"_blank\" rel=\"noopener\">Read the later report →</a></p><p class=\"sub\">These are published testimonies recorded by Euro-Med, not judicial findings. Repetition of the same account in later articles is not an additional incident. The accounts do not establish a total number of victims or locate every incident at Sde Teiman.</p>"
+        },
+        {
+          "id": "additional-reporting-and-commentary",
+          "heading": "Further reporting, opinion and follow-up",
+          "html": "<p><b>Novara Media — reporting.</b> Joshua Carroll’s 25 November 2025 article describes a former detainee’s account collected by PCHR and interviews PCHR advocacy officer Basel Alsourani. It also revisits previously published testimony, including Bakr’s account. <a href=\"https://novaramedia.com/2025/11/25/israeli-prison-guards-are-using-dogs-to-rape-palestinians-former-detainees-say/\" target=\"_blank\" rel=\"noopener\">Read the report →</a></p><p class=\"sub\"><b>New York Times Opinion — Nicholas Kristof.</b> <a href=\"https://www.nytimes.com/2026/05/11/opinion/israel-palestinians-sexual-violence.html?unlocked_article_code=1.h1A.Bvl7.HOHhhhq_xdze\" target=\"_blank\" rel=\"noopener\">Read the column (gift link) →</a> · <a href=\"https://www.nytimes.com/2026/05/21/opinion/kristof-palestinian-sexual-assault.html?unlocked_article_code=1.kFA.0f5m.J4kT1NIKg_Wb\" target=\"_blank\" rel=\"noopener\">Your Questions About Nicholas Kristof’s Column on Palestinians and Sexual Assault (follow-up gift link) →</a></p><p class=\"sub\"><b>Caitlin Johnstone — commentary, republished by Brave New Europe.</b> <a href=\"https://braveneweurope.com/geopolitics/caitlin-johnstone-sorry-if-this-is-antisemitic-but-i-think-its-wrong-to-train-dogs-to-rape-prisoners/\" target=\"_blank\" rel=\"noopener\">Read Johnstone’s commentary →</a></p><p class=\"sub\">Several articles revisit the same testimonies. Distinct publications are listed once each; their number is not a count of separate assaults.</p>"
         },
         {
           "id": "new-electronic-intifada-reporting",
@@ -961,7 +989,17 @@
           "heading": "Scope and official response",
           "html": "<p>This focus brings together allegations from detention and raids across different locations. The general IDF statement on Sde Teiman is indexed in <a href=\"/sde-teiman-dogs/\">07 — torture and sexual violence</a>, alongside the broader detention record and PHRI’s custody-death investigation. That statement is not a specific response to each dog-related allegation.</p>"
         }
-      ]
+      ],
+      "figure": {
+        "src": "/img/dogs-torture-investigate-returned-bodies-meme.png",
+        "title": "Planetary Council — a call for investigation",
+        "alt": "Planetary Council campaign meme headed “War crimes. Trigger warning.” It calls for an independent investigation, justice and accountability, refers to reporting on alleged rape involving dogs and allegations about bodies returned from detention, and concludes “The proof is in the bodies.”",
+        "caption": "Planetary Council / Ministry of Memes & Better Propaganda. Campaign commentary calling for an independent investigation. Its claims about returned bodies and alleged organ removal concern the separate record in incident 08.",
+        "credit": {
+          "url": "/organs-missing/",
+          "label": "08 — returned bodies: reporting and evidence limits."
+        }
+      }
     },
     {
       "id": "organs-missing",
