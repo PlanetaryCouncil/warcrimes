@@ -1,0 +1,26 @@
+{
+  "source": "X API (get_posts_by_id), retrieved 2026-11-12T22:03:00Z approximately (Europe/London). The API returned only the first 280 characters of this long post (note_tweet/full text was not in the response). Opening two paragraphs below are complete and match the published beginning verbatim.",
+  "retrieved": "2026-11-12",
+  "tweet": {
+    "url": "https://x.com/idfonline/status/2120792126862598459",
+    "id": "2120792126862598459",
+    "created_at": "2026-11-12T08:13:40.000Z",
+    "author": {
+      "username": "idfonline",
+      "name": "צבא ההגנה לישראל",
+      "id": "201279013",
+      "followers_count": 342807
+    },
+    "public_metrics_at_retrieval": {
+      "bookmark_count": 3,
+      "impression_count": 8197,
+      "like_count": 144,
+      "quote_count": 5,
+      "reply_count": 30,
+      "retweet_count": 22
+    },
+    "lang": "he",
+    "opening_text_verbatim": "צה\"ל ושב\"כ תקפו את מפקד חטיבת חאן יונס של ארגון הטרור חמאס\nבתקיפה ממוקדת במהלך הלילה, צה\"ל ושב\"כ תקפו את המחבל מחמד אבו איסמעיל ששימש כמפקד חטיבת חאן יונס ומחבלים נוספים שהסתתרו בבית החולים \"נאצר\" בח'אן יונס שבדרום רצועת עזה.",
+    "api_truncated_text": "צה\"ל ושב\"כ תקפו את מפקד חטיבת חאן יונס של ארגון הטרור חמאס\n\nבתקיפה ממוקדת במהלך הלילה, צה\"ל ושב\"כ תקפו את המחבל מחמד אבו איסמעיל ששימש כמפקד חטיבת חאן יונס ומחבלים נוספים שהסתתרו בבית החולים \"נאצר\" בח'אן יונס שבדרום רצועת עזה.\n\nבמסגרת תפקידו, מחמד אבו איסמעיל היה אחראי על ניהול"
+  }
+}

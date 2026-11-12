@@ -1,4 +1,4 @@
-Archived 2026-11-12: X posts via api.fxtwitter.com (JSON), Telegram posts as embeds and extracted Arabic text. View counts in the JSON are as read on 12 Nov 2026 (evening UTC).
+Archived 2026-11-12: X posts via api.fxtwitter.com (JSON), Telegram posts as embeds and extracted Arabic text. View counts in the JSON are as read on 12 Nov 2026 (evening UTC). The @idfonline Hebrew post (x-idfonline-status-2120792126862598459.json) was archived from the X API later that evening; that file records the opening two paragraphs verbatim and notes that the API truncated the rest of this long post.
 
 6db7780d7a152464f58ad52d0693bb87bf3233b5020b05773cd381f5eb59f9bf  x-BoardOfPeace-status-2120913419305906586.json
 8f6de93edb87d5bdc34b5e76c38a72312c79b973fe8bdd9dd60ad1f0a52b4226  x-IDF-status-2120753046648967287.json
@@ -11,3 +11,4 @@ caf15d50503f89aa3705d6b0be5a753aa4760e9c0a219627d25e76088ab4300f  mediagovps-540
 0d9cfbe95990f3d51efe9ed1bd968fb94682d1af74a75fa5af166bac9abe6cb4  mediagovps-5398-text-ar.txt
 bc62a87ee7794d810b15ede9283246284685d7f65e2d9b8a4878fae3cd948208  mediagovps-5399-text-ar.txt
 cc2deef6d329bcc54307b118b39d1eb276092991ecadd5bca94231a1220255c9  mediagovps-5400-text-ar.txt
+389ea0b0833348dbe4981295b76618457e752a87c3de057c3cd223459040d380  x-idfonline-status-2120792126862598459.json
