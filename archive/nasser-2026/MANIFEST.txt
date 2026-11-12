@@ -1,0 +1,13 @@
+Archived 2026-11-12: X posts via api.fxtwitter.com (JSON), Telegram posts as embeds and extracted Arabic text. View counts in the JSON are as read on 12 Nov 2026 (evening UTC).
+
+6db7780d7a152464f58ad52d0693bb87bf3233b5020b05773cd381f5eb59f9bf  x-BoardOfPeace-status-2120913419305906586.json
+8f6de93edb87d5bdc34b5e76c38a72312c79b973fe8bdd9dd60ad1f0a52b4226  x-IDF-status-2120753046648967287.json
+7e42b5dd3d4cbf609df7fb45ff20af5c6bb4d58fe9b11fd57e29194ded5c6371  x-IDF-status-2120795276977869304.json
+569d26b05cb00119979859fc6ef55dc18cf91217981f9bbc961476e0aa5280a9  x-IDF-status-2120930699842658528.json
+961bf3057d57c9bf7127d0d22b9c5722e1d574a03183eb1363e1ffdd967b729e  x-ismailalthwabta-status-2120891942808510784.json
+5e78be80c45222f14489749ec58730d3c48cc23b699fbf1debd38103252df6fb  mediagovps-5398-telegram-embed.html
+e43bcb61112a41f6a055b0754722379624248e03bad6664a34fc8f2ee1943d47  mediagovps-5399-telegram-embed.html
+caf15d50503f89aa3705d6b0be5a753aa4760e9c0a219627d25e76088ab4300f  mediagovps-5400-telegram-embed.html
+0d9cfbe95990f3d51efe9ed1bd968fb94682d1af74a75fa5af166bac9abe6cb4  mediagovps-5398-text-ar.txt
+bc62a87ee7794d810b15ede9283246284685d7f65e2d9b8a4878fae3cd948208  mediagovps-5399-text-ar.txt
+cc2deef6d329bcc54307b118b39d1eb276092991ecadd5bca94231a1220255c9  mediagovps-5400-text-ar.txt

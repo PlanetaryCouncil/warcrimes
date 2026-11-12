@@ -2351,6 +2351,215 @@
       ]
     },
     {
+      "id": "nasser-2026",
+      "slug": "nasser-hospital-strike-surgical-building-ceasefire-november-2026",
+      "section": "main",
+      "title": "Nasser Hospital, again: a strike on the surgical building during the ceasefire",
+      "date": "12 Nov 2026, about 00:30 local time",
+      "summary": "Shortly after midnight on 12 November 2026, an Israeli strike hit the al-Yasin surgical building of Nasser Medical Complex in Khan Younis, the largest hospital in southern Gaza. Gaza's Hamas-run health ministry says six people were killed — medical staff, patients and companions, among them surgeon Dr Rizq Abu Shaira and a 13-year-old boy — and about 30 injured. The Israeli army says it struck Mohammed Abu Ismail, commander of Hamas's Khan Younis Brigade, and other fighters using the hospital's second floor as a headquarters, after repeated warnings; the hospital's director says no warning was received, and Hamas denies any military use. The army's three posts drew about 363,000 views on X that day; the Gaza media office head's, about 1,300.",
+      "bullets": [
+        "Six killed, including a surgeon and a 13-year-old, says Gaza's health ministry; the army names one target, a Hamas brigade commander, and no civilian toll.",
+        "The army says it warned “on several occasions”; the hospital director says no warning came. Neither claim can be checked independently — Israel keeps foreign press out of Gaza.",
+        "The army's three posts: about 363,000 views. The Gaza media office head's post: 1,305. Roughly 280 to one."
+      ],
+      "comment": "Two accounts of one strike, and they barely touch. Israel names a commander, draws his room on an illustration, and lists the hostages it says he held; Gaza names a surgeon and a schoolboy. Both may be true at once: that is exactly the case the law of war was written for, and why it demands warnings that are heeded or ignored on the record, and a strike whose cost is weighed. On a timeline, only one of them gets heard.",
+      "official": {
+        "url": "https://x.com/IDF/status/2120795276977869304",
+        "label": "Israeli army on X, 12 Nov 2026: the strike and its stated target"
+      },
+      "verify": "The army's “hospitals used by Hamas” map and its second-floor diagram are both captioned “Illustration”; the weapons photos on the map come from earlier raids, not this strike. The army has said “further updates on its results will follow”: as of 12 November it had not said whether Abu Ismail was killed. The view counts are X's own figures, read the evening of 12 November; the posts and Telegram statements are <a href=\"/archive/nasser-2026/MANIFEST.txt\">archived here</a>.",
+      "figure": {
+        "src": "/img/nasser-hospital-strike-2026-who-got-heard-views.jpg",
+        "alt": "Bar chart, “Same strike, same day. Who got heard?” Views on X on 12 November 2026: Israeli army, three posts, 362,837; Board of Peace, one statement, 357,230; Gaza media office head, one post, 1,305. Roughly 280 to one. Gaza's Telegram statements drew 266 to 327 views each.",
+        "title": "Same strike, same day. Who got heard?",
+        "caption": "Views as X reports them, read the evening of 12 November 2026. Reach also reflects audience size: @IDF has about 3.3 million followers, the Board of Peace about 186,000, Ismail al-Thawabteh about 61,000."
+      },
+      "dossier": [
+        {
+          "heading": "Who says what",
+          "table": {
+            "cols": [
+              "Question",
+              "Israeli army",
+              "Gaza authorities (Hamas-run) & hospital",
+              "Independent"
+            ],
+            "rows": [
+              [
+                "Who was killed?",
+                "“A senior Hamas terrorist and additional terrorists”; later named Mohammed Abu Ismail, Khan Younis Brigade commander. No civilian toll given",
+                "Six: medical staff, patients and companions, among them surgeon Dr Rizq Abu Shaira and Jihad Abu Tilkh, 13",
+                "BBC spoke to a surgeon wounded in the head, Dr Mohammed Qdeih, who was lying near Dr Abu Shaira <span class=\"st\">reported</span>"
+              ],
+              [
+                "Injured",
+                "—",
+                "About 30 (health ministry, via BBC); “more than 25” (media office)",
+                "—"
+              ],
+              [
+                "What was hit?",
+                "“The room from which the brigade commander & the other terrorist were conducting military activities”",
+                "The al-Yasin surgical building: surgical wards and intensive care; two missiles, one unexploded",
+                "BBC's freelance footage: operating theatre, wards and a medics' sleeping area damaged; agencies photographed what appears to be an unexploded missile <span class=\"st\">reported</span>"
+              ],
+              [
+                "Warning?",
+                "Warned “on several occasions” that military activity at the hospital stop; released audio of what it says was a warning to a senior Gaza health official",
+                "Hospital director Dr Ahmed al-Fara: no warning was received",
+                "Not verifiable <span class=\"st\">open</span>"
+              ],
+              [
+                "Military use?",
+                "Second floor a Hamas HQ closed to civilians; rooms of three commanders; weapons storage, interrogations, observation posts",
+                "Hamas: “false narratives… to cover up a new war crime”",
+                "Earlier testimony places hostages at Nasser in 2023 (below); nothing independent yet on 2026 use <span class=\"st\">open</span>"
+              ],
+              [
+                "Was the commander killed?",
+                "“Further updates on its results will follow”",
+                "—",
+                "Unknown as of 12 Nov <span class=\"st\">open</span>"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "The hostages claim",
+          "html": "<p>The army says “dozens of hostages” were held at Nasser and that Abu Ismail held several of them, naming Nimrod Cohen, Matan Zangauker, Edan Alexander, Avera Mengistu, Col. Asaf Hamami, Staff Sgt. Oz Daniel and Capt. Omer Neutra. It gives no evidence in the posts. There is earlier testimony that fits part of it: Sharon Alony Cunio, freed in November 2023, told CNN and AP that she and her daughters spent most of their captivity in Nasser, in rooms holding 10 to 12 captives (<a href=\"https://www.pbs.org/newshour/world/a-freed-israeli-hostage-relives-horrors-of-captivity-and-fears-for-her-husband-still-held-captive-in-gaza\" target=\"_blank\" rel=\"noopener\">AP via PBS</a>). Hamas denied it then. <span class=\"st\">reported</span></p><p>Holding hostages in a hospital in 2023 is a grave allegation in its own right. It doesn't establish what the second floor was used for in November 2026, which is what the strike was justified by.</p>"
+        },
+        {
+          "heading": "What the army showed",
+          "html": "<ul><li><b>A satellite view</b> of the complex: “where senior Hamas terrorist and additional terrorists were hiding.” Shows the building, not who was in it.</li><li><b>A second-floor diagram</b> marking the rooms of Abu Ismail, Abu Hosna (Tel al-Sultan Battalion) and Muhammad Barim (Rafah Brigade), captioned “Illustration”.</li><li><b>A map, “Hospitals in the Gaza Strip used by Hamas for terror purposes”</b>, with weapons photos from Nasser, the European Hospital, al-Shifa, al-Quds and Kamal Adwan — earlier raids, also captioned “Illustration”.</li><li><b>A 23-second video</b> and an audio clip it says is a warning call. We haven't been able to check either.</li></ul><p>None of this is evidence about the night of the strike. It is the case for it.</p>"
+        },
+        {
+          "heading": "What the Gaza side published",
+          "html": "<ul><li><b>The media office</b>, on Telegram at 07:08 UTC (<a href=\"https://t.me/mediagovps/5398\" target=\"_blank\" rel=\"noopener\">statement</a>, Arabic): six killed, among them Dr Rizq Ahmed Abu Shaira and a 13-year-old; more than 25 injured; 793 attacks on health care and 1,725 medical staff killed by its count. It blames Israel and the US administration, questions the role of the Board of Peace and Gaza's national administrative committee, recalls the August 2025 double strike on Nasser, and calls on journalists to step up coverage with testimonies, pictures, “designs” and videos. <span class=\"st\">verified</span> (that it said this)</li><li><b>The education ministry</b> (<a href=\"https://t.me/mediagovps/5399\" target=\"_blank\" rel=\"noopener\">statement</a>): the 13-year-old was Jihad Naeem Abu Tilkh, an eighth-grader, the eighth pupil it says was killed in November. <span class=\"st\">reported</span></li><li><b>The health ministry</b> (<a href=\"https://t.me/mediagovps/5400\" target=\"_blank\" rel=\"noopener\">statement</a>): condemns the strike on the surgical building and asks for protection of hospitals. <span class=\"st\">reported</span></li><li><b>Ismail al-Thawabteh</b>, the media office's director, on X (<a href=\"https://x.com/ismailalthwabta/status/2120891942808510784\" target=\"_blank\" rel=\"noopener\">post</a>, Arabic): a general appeal — “stop the killing machine… stop the genocide” — without naming Nasser. <span class=\"st\">verified</span></li></ul>"
+        },
+        {
+          "heading": "The Board of Peace, in between",
+          "html": "<p>Its statement (<a href=\"https://x.com/BoardOfPeace/status/2120913419305906586\" target=\"_blank\" rel=\"noopener\">X</a>) describes the dispute even-handedly — “Hamas alleges deliberate Israeli attacks on hospitals, Israel maintains that Hamas exploits these facilities” — then takes a side on the facts: it “strongly condemns Hamas's continued exploitation of hospitals.” It condemns no Israeli act, and asks “all parties” to cede authority to the Board itself. <span class=\"st\">verified</span></p>"
+        },
+        {
+          "heading": "Who got heard",
+          "table": {
+            "cols": [
+              "Account",
+              "Posts",
+              "Followers",
+              "Views, 12 Nov evening"
+            ],
+            "rows": [
+              [
+                "<a href=\"https://x.com/IDF/status/2120753046648967287\" target=\"_blank\" rel=\"noopener\">@IDF</a> (Israeli gov)",
+                "3 (05:38, 08:26, 17:24 UTC)",
+                "≈3.29 million",
+                "67,147 + 233,377 + 62,313 = <b>362,837</b>"
+              ],
+              [
+                "<a href=\"https://x.com/BoardOfPeace/status/2120913419305906586\" target=\"_blank\" rel=\"noopener\">@BoardOfPeace</a>",
+                "1 (16:15 UTC)",
+                "≈186,000",
+                "<b>357,230</b>"
+              ],
+              [
+                "<a href=\"https://x.com/ismailalthwabta/status/2120891942808510784\" target=\"_blank\" rel=\"noopener\">@ismailalthwabta</a> (Hamas-run gov)",
+                "1 (14:50 UTC)",
+                "≈61,000",
+                "<b>1,305</b>"
+              ],
+              [
+                "Media office on Telegram",
+                "3 (07:08–07:14 UTC)",
+                "—",
+                "266 · 311 · 327"
+              ]
+            ]
+          },
+          "html": "<p>About 280 to one on X. Part of that is plain audience size — @IDF has 54 times the followers — and part is language: the Gaza post is in Arabic. Even per follower, though, the army's posts reached about five times further. The first full account most English-language readers met on X was the army's; the Gaza statement with names and numbers was on Telegram, in Arabic, seen by a few hundred.</p>"
+        },
+        {
+          "heading": "What the law says",
+          "html": "<p>Hospitals are protected. They lose that protection only if used, outside their humanitarian function, to commit acts harmful to the enemy — and even then only after a warning, with a reasonable time limit where appropriate, has gone unheeded (<a href=\"https://ihl-databases.icrc.org/en/customary-ihl/v1/rule28\" target=\"_blank\" rel=\"noopener\">ICRC, customary rule 28</a>). The attack must still be proportionate: the expected harm to patients and staff weighed against the military advantage. So the questions here are the ones in the table: was the second floor used militarily, was a warning given and ignored, and was killing a surgeon and patients in a working surgical building proportionate to the target. None is answered by either side's posts.</p>"
+        },
+        {
+          "heading": "Nasser before",
+          "html": "<p>The hospital's director says this is the seventh time Nasser has been hit in the war. In August 2025, a double strike killed 22 people including journalists and rescuers — see <a href=\"/nasser-double-tap/\">our record of it</a>. The WHO says it has documented 1,056 attacks on health care in Gaza in three years, with 1,010 deaths (via <a href=\"https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo\" target=\"_blank\" rel=\"noopener\">BBC</a>).</p>"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo",
+          "source": "BBC News (Rushdi Abualouf, David Gritten, Claire Keenan)",
+          "headline": "Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
+          "published": "2026-11-12"
+        },
+        {
+          "url": "https://x.com/IDF/status/2120753046648967287",
+          "source": "Israeli army (@IDF) on X",
+          "headline": "STRUCK: A senior Hamas terrorist and additional terrorists operating within Nasser Hospital",
+          "published": "2026-11-12"
+        },
+        {
+          "url": "https://x.com/IDF/status/2120795276977869304",
+          "source": "Israeli army (@IDF) on X",
+          "headline": "STRUCK: Hamas brigade commander hiding in a hospital who held numerous hostages captive",
+          "published": "2026-11-12"
+        },
+        {
+          "url": "https://x.com/IDF/status/2120930699842658528",
+          "source": "Israeli army (@IDF) on X",
+          "headline": "Hamas' exploitation of the Nasser Hospital: the hospital's second floor serves as a Hamas military HQ",
+          "published": "2026-11-12"
+        },
+        {
+          "url": "https://x.com/BoardOfPeace/status/2120913419305906586",
+          "source": "Board of Peace (US-chaired) on X",
+          "headline": "Statement by the Board of Peace",
+          "published": "2026-11-12"
+        },
+        {
+          "url": "https://t.me/mediagovps/5398",
+          "source": "Government Media Office, Gaza (Hamas-run), Telegram — Arabic",
+          "headline": "جيش الاحتلال يرتكب مجزرة جديدة بقصف مجمع ناصر الطبي وارتقاء 6 شهداء",
+          "published": "2026-11-12",
+          "stance": "gaza-gov"
+        },
+        {
+          "url": "https://t.me/mediagovps/5399",
+          "source": "Ministry of Education, Gaza (Hamas-run), via Government Media Office Telegram — Arabic",
+          "headline": "مجزرة جديدة.. الاحتلال يقتل طفلا في جريمة بشعة وصلت إلى حد قصف مستشفى في غزة",
+          "published": "2026-11-12",
+          "stance": "gaza-gov"
+        },
+        {
+          "url": "https://t.me/mediagovps/5400",
+          "source": "Ministry of Health, Gaza (Hamas-run), via Government Media Office Telegram — Arabic",
+          "headline": "استهداف مبنى الجراحات بمجمع ناصر الطبي جريمة تطال المرضى والطواقم الصحية",
+          "published": "2026-11-12",
+          "stance": "gaza-gov"
+        },
+        {
+          "url": "https://x.com/ismailalthwabta/status/2120891942808510784",
+          "source": "Ismail al-Thawabteh, director of the Government Media Office (Hamas-run), on X — Arabic",
+          "headline": "الاحتلال الإسرائيلي يُصعّد القتل والإبادة في قطاع غزة!",
+          "published": "2026-11-12",
+          "stance": "gaza-gov"
+        },
+        {
+          "url": "https://www.pbs.org/newshour/world/a-freed-israeli-hostage-relives-horrors-of-captivity-and-fears-for-her-husband-still-held-captive-in-gaza",
+          "source": "AP, via PBS NewsHour",
+          "headline": "A freed Israeli hostage relives horrors of captivity and fears for her husband, still held captive in Gaza"
+        },
+        {
+          "url": "https://ihl-databases.icrc.org/en/customary-ihl/v1/rule28",
+          "source": "ICRC, Customary IHL database",
+          "headline": "Rule 28. Medical Units"
+        }
+      ],
+      "wikipedia": "https://en.wikipedia.org/wiki/Nasser_Medical_Complex"
+    },
+    {
       "id": "christians",
       "section": "closers",
       "title": "Attacks on Christians: Jerusalem harassment and Gaza church killings",
