@@ -209,6 +209,114 @@
           "source": "BBC",
           "headline": "Israeli double strike on Gaza hospital - what we know",
           "published": "2025-08-25"
+        },
+        {
+          "url": "https://apnews.com/article/mariam-dagga-journalists-killed-gaza-c751959deca9aa87cad9d29e7444b145",
+          "source": "Associated Press",
+          "headline": "Mariam Dagga, AP freelance journalist in Gaza, was killed by an Israeli strike",
+          "published": "2025-08-25"
+        },
+        {
+          "url": "https://apnews.com/article/israel-palestinians-hamas-gaza-war-08-26-2025-0f1be1b4e3231e0cbec54ce837cc6af9",
+          "source": "Associated Press",
+          "headline": "Israeli military says strikes on Gaza hospital targeted Hamas surveillance camera",
+          "published": "2025-08-26"
+        },
+        {
+          "url": "https://apnews.com/article/israel-palestinians-hamas-war-strikes-hospital-journalists-75e79272f3acc37fa8acb653e45d564c",
+          "source": "Associated Press",
+          "headline": "AP reporting questions why and how Israel attacked a Gaza hospital",
+          "published": "2025-09-05"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/israel-hits-gaza-hospital-killing-least-20-people-including-five-journalists-2025-08-25/",
+          "source": "Reuters",
+          "headline": "Israel hits Gaza hospital, killing at least 20 people, including five journalists",
+          "published": "2025-08-25"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/netanyahu-says-israel-regrets-mishap-gaza-hospital-2025-08-25/",
+          "source": "Reuters",
+          "headline": "Netanyahu says Israel regrets 'mishap' at Gaza hospital",
+          "published": "2025-08-25"
+        },
+        {
+          "url": "https://www.reuters.com/investigations/visual-evidence-upends-israels-official-story-deadly-attack-gaza-hospital-2025-09-26/",
+          "source": "Reuters",
+          "headline": "Visual evidence upends Israel’s official story for deadly attack on Gaza hospital",
+          "published": "2025-09-26"
+        },
+        {
+          "url": "https://www.reuters.com/media-center/statement-from-reuters-editor-in-chief-alessandra-galloni-and-ap-executive-editor-julie-pace/",
+          "source": "Reuters and Associated Press (joint statement)",
+          "headline": "Statement from Reuters Editor-in-Chief Alessandra Galloni and AP Executive Editor Julie Pace",
+          "published": "2025-09-25"
+        },
+        {
+          "url": "https://www.bbc.com/news/articles/cly6lxn1l4po",
+          "source": "BBC Verify",
+          "headline": "New footage shows Israel struck Gaza's Nasser Hospital four times",
+          "published": "2025-08-29"
+        },
+        {
+          "url": "https://news.sky.com/story/un-told-israeli-strike-on-gaza-hospital-was-premeditated-as-sky-news-uncovers-new-details-about-the-attack-13418777",
+          "source": "Sky News",
+          "headline": "Israeli strike on Gaza hospital 'premeditated', UN told, as Sky News uncovers new details about attack",
+          "published": "2025-08-26"
+        },
+        {
+          "url": "https://www.nbcnews.com/world/gaza/israel-gazas-nasser-hospital-four-missiles-rcna227939",
+          "source": "NBC News",
+          "headline": "NBC News analysis finds that Israel hit Gaza hospital four times",
+          "published": "2025-08-29"
+        },
+        {
+          "url": "https://www.cnn.com/2025/08/27/middleeast/gaza-nasser-hospital-israel-attack-three-strikes-intl",
+          "source": "CNN",
+          "headline": "New video reveals third strike in deadly ‘double-tap’ attack on Gaza hospital",
+          "published": "2025-08-27"
+        },
+        {
+          "url": "https://www.cnn.com/2025/08/26/middleeast/idf-nasser-hospital-gaza-war-protest-latam-intl",
+          "source": "CNN",
+          "headline": "Israel says Gaza hospital strike targeted alleged Hamas camera without providing evidence",
+          "published": "2025-08-26"
+        },
+        {
+          "url": "https://rsf.org/en/gaza-least-four-more-journalists-killed-israeli-army-rsf-repeats-call-emergency-un-security-council",
+          "source": "Reporters Without Borders (RSF)",
+          "headline": "Gaza: At least four more journalists killed by Israeli army, RSF repeats call for emergency UN Security Council Meeting",
+          "published": "2025-08-25"
+        },
+        {
+          "url": "https://news.un.org/en/story/2025/08/1165715",
+          "source": "UN News",
+          "headline": "Gaza: UN calls for probe following deadly strikes on Nasser Hospital",
+          "published": "2025-08-25"
+        },
+        {
+          "url": "https://www.jpost.com/israel-news/defense-news/article-865388",
+          "source": "The Jerusalem Post",
+          "headline": "IDF: Six Gaza terrorists killed in Nasser Hospital strike",
+          "published": "2025-08-26"
+        },
+        {
+          "url": "https://www.nytimes.com/2025/08/26/world/middleeast/israel-hospital-attack-gaza-camera-hamas.html",
+          "source": "The New York Times",
+          "headline": "Israel Links Deadly Hospital Attack in Gaza to Hamas Surveillance Camera",
+          "published": "2025-08-26"
+        },
+        {
+          "url": "https://www.nytimes.com/video/world/middleeast/100000010370105/nasser-hospital-gaza-israel-attack-videos.html",
+          "source": "The New York Times",
+          "headline": "Videos Contradict Israel’s Rationale for Deadly Hospital Attack",
+          "published": "2025-08-26"
+        },
+        {
+          "url": "https://www.washingtonpost.com/world/2025/08/25/israel-gaza-palestinian-journalists-killed-hospital/",
+          "source": "The Washington Post",
+          "headline": "Israel strikes Gaza hospital, killing 20, including journalists and medics",
+          "published": "2025-08-25"
         }
       ],
       "wikipedia": "https://en.wikipedia.org/wiki/2025_Nasser_Hospital_strikes",
@@ -224,6 +332,13 @@
         "The second missile was for the rescuers — fired as they pulled bodies from the first.",
         "Killed live on air: a Reuters camera streamed its own operator's death.",
         "Five journalists from Reuters, AP and Al Jazeera died; the army said it was aiming at “a Hamas camera.”"
+      ],
+      "dossier": [
+        {
+          "id": "double-tap-and-later-investigations",
+          "heading": "The double-tap, and what later investigations found",
+          "html": "<p>Video from the scene shows how the two waves of the attack unfolded. Reuters said its live camera feed, operated by cameraman Hussam al-Masri from an upper-floor position on the hospital’s eastern stairwell, shut down at the moment of a first strike at about 10:08 local time, which killed him. About nine minutes later, at about 10:17, as journalists and rescue workers gathered on the same stairwell, a further strike hit them; Reporters Without Borders said that second strike was captured live by Al-Ghad TV. BBC Verify, Sky News and NBC News later concluded, from frame-by-frame analysis of the footage, that what first appeared as two strikes was at least four: two in the opening wave, and two near-simultaneous projectiles on the same stairwell in the second.</p>\n<p>The World Health Organization’s director-general said at least 20 people were killed, including four health workers and five journalists, and that about 50 others were injured. The journalists, whose deaths were confirmed by the outlets they worked for, were Hussam al-Masri, a Reuters contractor; Mariam Dagga (also Mariam Abu Dagga), a freelancer for the Associated Press and Independent Arabia; Mohammad Salama, a cameraman for Al Jazeera; Moaz Abu Taha, a freelancer who had contributed to several organisations, including occasionally Reuters; and Ahmed Abu Aziz, a freelancer for Middle East Eye. Later AP and Reuters reporting put the death toll at 22. Prime Minister Benjamin Netanyahu’s office said Israel “deeply regrets the tragic mishap.”</p>\n<p>The following day the Israeli military said troops had targeted what they identified as a Hamas surveillance camera used to observe IDF forces, and named six of the dead as “terrorists,” without publishing supporting evidence. A <a href=\"https://www.reuters.com/investigations/visual-evidence-upends-israels-official-story-deadly-attack-gaza-hospital-2025-09-26/\" target=\"_blank\" rel=\"noopener\">September 2025 Reuters investigation</a> reported that the camera belonged to Reuters — al-Masri had often covered it with a prayer rug — that troops used tank fire, and that they had acted without the required approval of the commander of Southern Command. <a href=\"https://apnews.com/article/israel-palestinians-hamas-war-strikes-hospital-journalists-75e79272f3acc37fa8acb653e45d564c\" target=\"_blank\" rel=\"noopener\">AP reporting</a> found inconsistencies in the six names, including that two of those named were identified by their employers as a hospital health worker and a Civil Defence driver, and that one name did not appear on the hospital’s casualty list.</p>"
+        }
       ]
     },
     {
