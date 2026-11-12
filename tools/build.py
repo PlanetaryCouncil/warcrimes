@@ -105,7 +105,7 @@ def handle(l):
 ISRAELI_GOV_HOSTS = ('idf.il', 'gov.il', 'mfa.gov.il', 'terrorism-info.org.il')
 ISRAELI_GOV_X = {'idf', 'idfonline', 'netanyahu', 'orenmarmorstein', 'ltc_ariella', 'israelmfa', 'israel', 'israelipm', 'idfspokesperson', 'avichayadraee', 'israelingeneva', 'cogatonline'}
 PRO_ISRAEL_HOSTS = ('aipac.org', 'honestreporting.com', 'honestreporting.ca', 'washingtoninstitute.org', 'algemeiner.com', 'camera.org', 'ngo-monitor.org', 'jns.org', 'worldisraelnews.com', 'unwatch.org', 'israellycool.com')
-PRO_ISRAEL_X = {'gazawood1'}
+PRO_ISRAEL_X = {'gazawood1', 'camera4truth'}
 PRO_PAL_HOSTS = ('mondoweiss.net', 'electronicintifada.net', 'palestinechronicle.com', 'middleeastmonitor.com', 'alhaq.org', 'euromedmonitor.org', 'palestine-studies.org', 'hindrajabfoundation.org', 'wafa.ps', 'qudsnen.co')
 PRO_PAL_X = {'mondoweiss', 'qudsnen', 'euromedhr'}
 GAZA_GOV_HOSTS = ('shehabnews.com', 'alresalah.news')

@@ -2573,6 +2573,11 @@
           "html": "<p>Later reporting, after the first day's posts, filled in some of those gaps without settling the rest. No public independent evidence of Hamas military use of the hospital that night was published; AP, AFP and DW record that the army's claim was made without accompanying proof, and that the named target, Mohammed Abu Ismail, was not on the published lists of the dead. The six deaths were confirmed by the hospital, Civil Defence, WHO and MSF, not only by Gaza's health ministry.</p>"
         },
         {
+          "id": "the-warning",
+          "heading": "The warning",
+          "html": "<p>The warning is disputed on more than one point, and the two should not be collapsed. The army's English-language statement on X, at 08:26 UTC, said that “Prior to the strike, advance warnings were issued to the civilian population” (<a href=\"https://x.com/IDF/status/2120795276977869304\" target=\"_blank\" rel=\"noopener\">@IDF, 12 November 2026</a>). That is a claim about warnings to the population at large. It is a separate question from whether a specific evacuation warning was given for the hospital. The hospital's director, Dr Ahmed al-Fara, says no warning was received. <a href=\"https://www.msf.org/gaza-msf-condemns-another-deadly-attack-nasser-hospital\" target=\"_blank\" rel=\"noopener\">Médecins Sans Frontières</a> wrote that “No warning was given before the attack.” Two UK volunteer surgeons at the hospital, Dr Goher Rahbour and Dr Stephan Verborg, <a href=\"https://www.nbcnews.com/world/middle-east/israeli-strike-gaza-nasser-hospital-abu-shaira-doctor-hamas-rcna608932\" target=\"_blank\" rel=\"noopener\">told NBC News</a> they knew of no warning.</p><p><a href=\"/camera-committee-accuracy-middle-east-reporting-analysis-propaganda/\">CAMERA</a> (the Committee for Accuracy in Middle East Reporting and Analysis), a pro-Israel media-monitoring group (<a href=\"https://en.wikipedia.org/wiki/Committee_for_Accuracy_in_Middle_East_Reporting_and_Analysis\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>; listed on this site's <a href=\"/camera-committee-accuracy-middle-east-reporting-analysis-propaganda/\">propaganda desk</a>), posted on X on 12 November 2026 at 18:00 UTC: <a href=\"https://x.com/CAMERA4Truth/status/2120939900522447197\" target=\"_blank\" rel=\"noopener\">@CAMERA4Truth</a>. Its text: “The @WSJ reported today's strike on Gaza's Nasser Hospital ‘came without an evacuation warning, according to the military.’ In reality, the IDF never said that—and explicitly stated ‘advance warnings were issued to the population.’ CAMERA has requested a correction.” The article it refers to is <a href=\"https://www.wsj.com/world/middle-east/israel-strikes-gaza-hospital-killing-at-least-six-e01ebd5f\" target=\"_blank\" rel=\"noopener\">“Israel Strikes Gaza Hospital, Killing at Least Six”</a>, by Anat Peled, Summer Said and Suha Ma’ayeh, published at 13:01 UTC that day.</p><p>The army's own statement does claim, as CAMERA says, that advance warnings went to the population. That does not settle whether a specific evacuation warning for the hospital was given, which the hospital director, MSF and the UK volunteer surgeons deny. The Journal article is real; CAMERA's quotation matches a passage it screenshotted from a version of the piece. The page later showed an update time of 22:19 UTC, after CAMERA's request. The quoted sentence does not appear in the publicly visible portion of the current article; the rest is behind a paywall. Whether the Journal has issued a correction is unconfirmed.</p>"
+        },
+        {
           "heading": "The hostages claim",
           "html": "<p>The army says “dozens of hostages” were held at Nasser and that Abu Ismail held several of them, naming Nimrod Cohen, Matan Zangauker, Edan Alexander, Avera Mengistu, Col. Asaf Hamami, Staff Sgt. Oz Daniel and Capt. Omer Neutra. It gives no evidence in the posts. There is earlier testimony that fits part of it: Sharon Alony Cunio, freed in November 2023, told CNN and AP that she and her daughters spent most of their captivity in Nasser, in rooms holding 10 to 12 captives (<a href=\"https://www.pbs.org/newshour/world/a-freed-israeli-hostage-relives-horrors-of-captivity-and-fears-for-her-husband-still-held-captive-in-gaza\" target=\"_blank\" rel=\"noopener\">AP via PBS</a>). Hamas denied it then. <span class=\"st\">reported</span></p><p>Holding hostages in a hospital in 2023 is a grave allegation in its own right. It doesn't establish what the second floor was used for in November 2026, which is what the strike was justified by.</p>"
         },
@@ -2804,10 +2809,29 @@
           "source": "Shaiel Ben-Ephraim (@academic_la), former Unit 8200 analyst and Israeli diplomat — analysis/commentary, X thread and 13-minute video",
           "headline": "I read the army's statements in Hebrew and went through the evidence. Here is what holds up and what doesn't.",
           "published": "2026-11-12"
+        },
+        {
+          "url": "https://x.com/CAMERA4Truth/status/2120939900522447197",
+          "source": "CAMERA (@CAMERA4Truth) on X",
+          "headline": "The @WSJ reported today's strike on Gaza's Nasser Hospital \"came without an evacuation warning, according to the military.\"",
+          "published": "2026-11-12",
+          "stance": "pro-israel",
+          "tag": "propaganda"
+        },
+        {
+          "url": "https://www.wsj.com/world/middle-east/israel-strikes-gaza-hospital-killing-at-least-six-e01ebd5f",
+          "source": "The Wall Street Journal",
+          "headline": "Israel Strikes Gaza Hospital, Killing at Least Six",
+          "published": "2026-11-12"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Committee_for_Accuracy_in_Middle_East_Reporting_and_Analysis",
+          "source": "Wikipedia — Committee for Accuracy in Middle East Reporting and Analysis",
+          "headline": "Committee for Accuracy in Middle East Reporting and Analysis"
         }
       ],
       "wikipedia": "https://en.wikipedia.org/wiki/Nasser_Medical_Complex",
-      "share": "/img/share-nasser-hospital-strike-2026-why-then-why-there.jpg",
+      "share": "/img/share-nasser-hospital-strike-2026-surgical-strike-on-surgical-unit.jpg",
       "figures": [
         {
           "src": "/img/idf-nasser-hospital-2026-hebrew-post-x-english-translation-terror-highlighted.webp",
@@ -2820,8 +2844,8 @@
           }
         },
         {
-          "src": "/img/share-nasser-hospital-strike-2026-why-then-why-there.jpg",
-          "alt": "Share image over the Israeli army's own satellite image of Nasser Hospital, darkened: “Even if he was there — why then? Why there?” 00:30. A surgical building. Doctors going to sleep after their shift. Six killed, says Gaza's health ministry — a surgeon, patients, a 13-year-old. The army says it used aerial surveillance before striking. So: why not wait until he walked out? The law requires every feasible precaution to spare civilians — including timing.",
+          "src": "/img/share-nasser-hospital-strike-2026-surgical-strike-on-surgical-unit.jpg",
+          "alt": "Share image over the Israeli army's own satellite image of Nasser Hospital, darkened: “Even if he was there — why then? Why there?” 00:30. A surgical building. Doctors going to sleep after their shift. 6 killed. Surgical strike on surgical unit — a surgeon, patients, a 13-year-old. The army says it used aerial surveillance before striking. So: why not wait until he walked out? The law requires every feasible precaution to spare civilians — including timing.",
           "title": "For sharing: why then? Why there?",
           "caption": "Free to share. Background: the Israeli army's own satellite image of the hospital, from its post of 12 November. Click to open the full-size file."
         }
@@ -6381,6 +6405,152 @@
         }
       ],
       "share": "/img/share-israel-mfa-pipes-video-debunked-2020.jpg"
+    },
+    {
+      "id": "camera",
+      "slug": "camera-committee-accuracy-middle-east-reporting-analysis-propaganda",
+      "section": "propaganda",
+      "title": "CAMERA: a pro-Israel media-monitoring group — a propaganda organisation, its critics say",
+      "date": "Founded 1982 · Dossier compiled 12 Nov 2026",
+      "summary": "The Committee for Accuracy in Middle East Reporting and Analysis (CAMERA), formerly the Committee for Accuracy in Middle East Reporting in America, is, in the first sentence of its Wikipedia article, “an American nonprofit pro-Israel media-monitoring, research, and membership organization”; it says it was founded in 1982 “to respond to The Washington Post's coverage of Israel's Lebanon incursion” and is “devoted to promoting accurate and balanced coverage of Israel and the Middle East.” It is a US 501(c)(3) charity (EIN 52-1332702), based in Boston and led for many years by Andrea Levin, and it is known for requesting corrections from news outlets and for advertising and letter-writing campaigns. Critics have described that work in these terms, by name: Edward Said, writing in the New York Times in 1988, said “surely, the Israeli lobby can find better propaganda methods than this!”; Robert I. Friedman, in The Nation in 1987, wrote that CAMERA was formed “to keep the U.S. press in line”; Ian Mayes, then the Guardian's readers' editor and president of the Organisation of News Ombudsmen, wrote in 2006 that its methods “go beyond a reasonable call for accountability”; Mark Jurkowitz, in a 2003 Boston Globe profile, reported that “to many in the media CAMERA is … an advocacy group trying to impose its pro-Israeli views on mainstream journalism”; and Gershom Gorenberg, in The American Prospect, called the name “Orwellian” and wrote that CAMERA “does not understand the difference between advocacy and accuracy.” On 12 November 2026, after a Wall Street Journal report on the strike on Nasser Hospital, CAMERA posted that the Journal had attributed to the Israeli military a claim the army “never said,” and that CAMERA had “requested a correction” — an example of the correction-request campaigns that are its main work.",
+      "bullets": [
+        "Wikipedia's first sentence: “an American nonprofit pro-Israel media-monitoring, research, and membership organization.” Its own: “accurate and balanced coverage of Israel and the Middle East.”",
+        "Edward Said, 1988: “better propaganda methods than this.” Ian Mayes, 2006: methods “go beyond a reasonable call for accountability.” Gershom Gorenberg: it “does not understand the difference between advocacy and accuracy.”",
+        "Today's example: it asked the <a href=\"/nasser-hospital-strike-surgical-building-ceasefire-november-2026/#the-warning\">Wall Street Journal to correct a sentence</a> about a warning the army says it gave the population. Whether the Journal has corrected it is unconfirmed."
+      ],
+      "comment": "A correction machine, pointed one way.",
+      "wikipedia": "https://en.wikipedia.org/wiki/Committee_for_Accuracy_in_Middle_East_Reporting_and_Analysis",
+      "official": {
+        "url": "https://www.camera.org/about/",
+        "label": "CAMERA — About (its own description)",
+        "flag": "📄"
+      },
+      "verify": "No public evidence was found here that CAMERA is funded or directed by the Israeli government; it is a US nonprofit (EIN 52-1332702). Its most recent IRS filing on ProPublica, for the fiscal year ending December 2025, shows revenue of $20.4 million, almost all from contributions, and net assets of $29.7 million. A 2016 Haaretz investigation by Uri Blau reported that Seth Klarman, co-founder of The Times of Israel, gave the group $1.5 million. CAMERA's self-description is taken from its About page as quoted on Wikipedia; the critics' words are theirs and are quoted with a named source for each. The 12 November 2026 Wall Street Journal article is cited from its canonical URL; whether the Journal has issued the correction CAMERA requested is unconfirmed — the quoted sentence is not in the publicly visible portion of the page, and the rest is behind a paywall.",
+      "dossier": [
+        {
+          "id": "what-it-is",
+          "heading": "What it is, in its own words and Wikipedia's",
+          "html": "<p>The <a href=\"https://en.wikipedia.org/wiki/Committee_for_Accuracy_in_Middle_East_Reporting_and_Analysis\" target=\"_blank\" rel=\"noopener\">Wikipedia article</a> on the Committee for Accuracy in Middle East Reporting and Analysis opens by calling it “an American nonprofit pro-Israel media-monitoring, research, and membership organization.” CAMERA, formerly the Committee for Accuracy in Middle East Reporting in America, says on its website that it is “devoted to promoting accurate and balanced coverage of Israel and the Middle East,” and that it was founded in 1982 “to respond to <i>The Washington Post</i>'s coverage of Israel's Lebanon incursion” and to what it considers the media's “general anti-Israel bias.” Wikipedia records Winifred Meiselman as the founder, Boston as the headquarters, and Andrea Levin as national president; Levin succeeded Meiselman as executive director in 1991. CAMERA describes itself as non-partisan and as taking “no position with regard to American or Israeli political issues or with regard to ultimate solutions to the Arab–Israeli conflict.” It is a member of the Conference of Presidents of Major American Jewish Organizations.</p>"
+        },
+        {
+          "id": "how-it-works",
+          "heading": "How it works: correction requests, advertisements, campaigns",
+          "html": "<p>Wikipedia, citing CAMERA, says that when the group perceives an inaccurate statement in the media it gathers information, sends findings, and asks for a printed or broadcast correction, and that CAMERA lists 46 news outlets it says have issued corrections based on its work. The same article records that the group mobilises protests against coverage it deems unfair by issuing full-page newspaper advertisements, organising demonstrations, and encouraging sponsors to withhold funds. Ian Mayes, writing in the <a href=\"https://www.theguardian.com/commentisfree/2006/oct/30/israel.pressandpublishing\" target=\"_blank\" rel=\"noopener\">Guardian</a> on 30 October 2006 as the paper's readers' editor and as president of the Organisation of News Ombudsmen, said CAMERA's methods “seem to me to go beyond a reasonable call for accountability,” and described a long-running campaign against NPR's Middle East coverage that included demonstrations outside NPR stations and an effort “to persuade NPR's supporters to withhold funds.”</p><p>On 12 November 2026 that correction-request machine was turned on the Wall Street Journal's reporting of the <a href=\"/nasser-hospital-strike-surgical-building-ceasefire-november-2026/#the-warning\">strike on Nasser Hospital</a>. The case, the quotation, and the unconfirmed status of any correction are set out there; it is included here as a current example of the activity described above, not as a verdict on the Journal's sentence or on the army's claim.</p>"
+        },
+        {
+          "id": "funding",
+          "heading": "Funding",
+          "html": "<p>CAMERA is a US 501(c)(3) nonprofit, EIN 52-1332702. <a href=\"https://projects.propublica.org/nonprofits/organizations/521332702\" target=\"_blank\" rel=\"noopener\">ProPublica's Nonprofit Explorer</a> reproduces its IRS filings. The filing for the fiscal year ending December 2025 shows revenue of $20,385,298, of which $20,549,755 is recorded as contributions, expenses of $8,545,292, and net assets of $29,744,246. In 2016, <a href=\"https://www.haaretz.com/israel-news/2016-09-05/ty-article/times-of-israel-cofounder-gave-1-5-million-to-right-wing-media-watchdog/0000017f-f089-d497-a1ff-f28919680000\" target=\"_blank\" rel=\"noopener\">Uri Blau reported in Haaretz</a> that Seth Klarman, co-founder of The Times of Israel, “gave $1.5 million to [a] right-wing media watchdog that routinely goes after news outlets” — CAMERA, in the article's account.</p><p>No public evidence was found, in those filings or in the sources below, that CAMERA is funded or directed by the Israeli government. That is a statement about what is on the record, not a finding that no such link could exist.</p>"
+        },
+        {
+          "id": "critics",
+          "heading": "What journalists, academics and editors have called it",
+          "html": "<p>Each of the following is a named person's words, not this site's:</p><ul><li><b>Edward Said</b>, professor of English and comparative literature at Columbia University, writing in the <a href=\"https://www.nytimes.com/1988/02/05/opinion/l-how-great-were-the-injustices-of-arabs-to-jews-pacification-of-gaza-160288.html\" target=\"_blank\" rel=\"noopener\">New York Times</a> on 5 February 1988, argued that not even the Israeli government had ventured arguments as extreme as CAMERA's, and that “surely, the Israeli lobby can find better propaganda methods than this!”</li><li><b>Robert I. Friedman</b>, in <i>The Nation</i> of 6 June 1987, described CAMERA as having been formed after Israel's 1982 invasion of Lebanon “to keep the U.S. press in line,” and wrote that “CAMERA, the A.D.L., AIPAC and the rest of the lobby don't want fairness, but bias in their favour.”</li><li><b>Ian Mayes</b>, in the <a href=\"https://www.theguardian.com/commentisfree/2006/oct/30/israel.pressandpublishing\" target=\"_blank\" rel=\"noopener\">Guardian</a> on 30 October 2006, wrote that CAMERA's methods seemed to go “beyond a reasonable call for accountability,” including a campaign asking NPR's supporters to withhold funds.</li><li><b>Mark Jurkowitz</b>, in a <a href=\"https://web.archive.org/web/20090213190540/http://www.hnn.us/comments/8390.html\" target=\"_blank\" rel=\"noopener\">Boston Globe Magazine profile</a> of 9 February 2003, wrote that CAMERA's detractors “see CAMERA as a myopic and vindictive special interest group trying to muscle its views into media coverage,” and that “to many in the media CAMERA is … an advocacy group trying to impose its pro-Israeli views on mainstream journalism.”</li><li><b>Gershom Gorenberg</b>, in <a href=\"https://prospect.org/article/mideast-editing-wars\" target=\"_blank\" rel=\"noopener\">The American Prospect</a> (2008) and in <i>Moment</i> magazine (2007), called the group “Orwellian-named,” wrote that it “does not understand the difference between advocacy and accuracy,” and that “self-respecting journalists will regard an occasional snarl from the watchdog as proof that they're doing their job.”</li><li><b>Ian Lustick</b>, in the <a href=\"https://forward.com/opinion/435453/how-trumps-education-department-is-weaponizing-anti-semitism-and/\" target=\"_blank\" rel=\"noopener\">Forward</a> on 29 November 2019, called CAMERA an “extreme Israel advocacy group.”</li><li><b>Jeffrey Dvorkin</b>, then NPR's ombudsman, said in 2002 that CAMERA's campaign was “a kind of McCarthyism, frankly, that bashes us and causes people to question our commitment to doing this story fairly” (<a href=\"https://web.archive.org/web/20170621060842/http://www.npr.org/yourturn/ombudsman/2002/020222.html\" target=\"_blank\" rel=\"noopener\">NPR Ombudsman, 22 February 2002</a>, via archive).</li><li><b>David Landau</b>, then editor-in-chief of <i>Haaretz</i>, refused in 2007 to comment on a CAMERA conference, calling it “a matter of policy and principle” not to respond to CAMERA, which he called “McCarthyite” (reported in <i>The New York Sun</i> and the <i>Jewish Press</i>, October 2007).</li></ul><p>Wikipedia also records Cheryl A. Rubenberg, a political-science professor, describing CAMERA in 1986 as “another pro-Israeli organization that was formed after 1982 to monitor the media,” and placing it among the groups that constituted the “Israeli lobby” at the time. Supporters including Elie Wiesel, Alan Dershowitz, Joe Lieberman and Natan Sharansky have spoken at CAMERA fundraising events, per the same article; they are named here because the page records them, not as an endorsement of either side.</p>"
+        },
+        {
+          "id": "wikipedia-campaign",
+          "heading": "The 2008 Wikipedia campaign",
+          "html": "<p>In 2008 CAMERA organised a campaign, later reported by <a href=\"https://www.theguardian.com/world/2010/aug/18/wikipedia-editing-zionist-groups\" target=\"_blank\" rel=\"noopener\">the Guardian</a>, <a href=\"https://harpers.org/archive/2008/07/0082086/\" target=\"_blank\" rel=\"noopener\">Harper's Magazine</a> (“Candid camera,” July 2008), <a href=\"https://prospect.org/article/mideast-editing-wars\" target=\"_blank\" rel=\"noopener\">Gershom Gorenberg in The American Prospect</a> and <a href=\"https://www.telegraph.co.uk/news/1934857/Israeli-battles-rage-on-Wikipedia.html\" target=\"_blank\" rel=\"noopener\">The Daily Telegraph</a>, to alter Wikipedia articles on the Israeli–Palestinian conflict. Wikipedia's article on CAMERA, citing those reports, says the campaign suggested that pro-Israel editors should pretend to be interested in other topics until elected as administrators, and then misuse those powers to suppress pro-Palestinian editors. Five editors involved were sanctioned by Wikipedia administrators, who wrote that the encyclopaedia's open nature “is fundamentally incompatible with the creation of a private group to surreptitiously coordinate editing.” Gorenberg wrote that the affair was “a reminder — not the first — that CAMERA is ready to exempt itself from the demands for accuracy that it aims at the media.”</p>"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.camera.org/about/",
+          "source": "CAMERA — About",
+          "tag": "propaganda",
+          "headline": "About CAMERA"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Committee_for_Accuracy_in_Middle_East_Reporting_and_Analysis",
+          "source": "Wikipedia",
+          "headline": "Committee for Accuracy in Middle East Reporting and Analysis"
+        },
+        {
+          "url": "https://projects.propublica.org/nonprofits/organizations/521332702",
+          "source": "ProPublica Nonprofit Explorer",
+          "headline": "Committee For Accuracy In Middle East Reporting In America Inc - Nonprofit Explorer - ProPublica"
+        },
+        {
+          "url": "https://x.com/CAMERA4Truth/status/2120939900522447197",
+          "source": "CAMERA (@CAMERA4Truth) on X",
+          "headline": "The @WSJ reported today's strike on Gaza's Nasser Hospital \"came without an evacuation warning, according to the military.\"",
+          "published": "2026-11-12",
+          "tag": "propaganda",
+          "stance": "pro-israel"
+        },
+        {
+          "url": "https://www.wsj.com/world/middle-east/israel-strikes-gaza-hospital-killing-at-least-six-e01ebd5f",
+          "source": "The Wall Street Journal",
+          "headline": "Israel Strikes Gaza Hospital, Killing at Least Six",
+          "published": "2026-11-12"
+        },
+        {
+          "url": "https://www.theguardian.com/commentisfree/2006/oct/30/israel.pressandpublishing",
+          "source": "The Guardian (Ian Mayes)",
+          "headline": "Open door: The readers' editor on ... a ruling in favour of freedom of expression",
+          "published": "2006-10-30"
+        },
+        {
+          "url": "https://www.nytimes.com/1988/02/05/opinion/l-how-great-were-the-injustices-of-arabs-to-jews-pacification-of-gaza-160288.html",
+          "source": "The New York Times (Edward Said)",
+          "headline": "How Great Were the Injustices of Arabs to Jews - 'Pacification' of Gaza",
+          "published": "1988-02-05"
+        },
+        {
+          "url": "https://web.archive.org/web/20090213190540/http://www.hnn.us/comments/8390.html",
+          "source": "The Boston Globe Magazine (Mark Jurkowitz), via History News Network archive",
+          "headline": "Blaming the Messenger: When the Pro-Israeli Group CAMERA Sees News from the Middle East That It Deems Unfair Or Wrong, It Targets the Media-And Doesn't Let Go",
+          "published": "2003-02-09"
+        },
+        {
+          "url": "https://prospect.org/article/mideast-editing-wars",
+          "source": "The American Prospect (Gershom Gorenberg)",
+          "headline": "The Mideast Editing Wars",
+          "published": "2008-05-01"
+        },
+        {
+          "url": "https://forward.com/opinion/435453/how-trumps-education-department-is-weaponizing-anti-semitism-and/",
+          "source": "The Forward (Ian Lustick)",
+          "headline": "The Trump Administration Is Using Accusations Of Anti-Semitism To Silence Criticism Of Israel",
+          "published": "2019-11-29"
+        },
+        {
+          "url": "https://www.haaretz.com/israel-news/2016-09-05/ty-article/times-of-israel-cofounder-gave-1-5-million-to-right-wing-media-watchdog/0000017f-f089-d497-a1ff-f28919680000",
+          "source": "Haaretz (Uri Blau)",
+          "headline": "Times of Israel cofounder gave $1.5 million to right-wing media watchdog that routinely goes after news outlets",
+          "published": "2016-09-05"
+        },
+        {
+          "url": "https://www.theguardian.com/world/2010/aug/18/wikipedia-editing-zionist-groups",
+          "source": "The Guardian (Rachel Shabi and Jemima Kiss)",
+          "headline": "Wikipedia editing courses launched by Zionist groups",
+          "published": "2010-08-18"
+        },
+        {
+          "url": "https://harpers.org/archive/2008/07/0082086/",
+          "source": "Harper's Magazine",
+          "headline": "Candid camera",
+          "published": "2008-07-01"
+        },
+        {
+          "url": "https://www.telegraph.co.uk/news/1934857/Israeli-battles-rage-on-Wikipedia.html",
+          "source": "The Daily Telegraph (Damien McElroy)",
+          "headline": "Israeli battles rage on Wikipedia",
+          "published": "2008-05-07"
+        },
+        {
+          "url": "https://web.archive.org/web/20170621060842/http://www.npr.org/yourturn/ombudsman/2002/020222.html",
+          "source": "NPR Ombudsman (Jeffrey Dvorkin), via archive",
+          "headline": "NPR's Middle East 'Problem'",
+          "published": "2002-02-22"
+        },
+        {
+          "url": "https://www.haaretz.com/israel-news/2020-10-04/ty-article/.highlight/the-second-intifada-still-rages-on-wikipedia/0000017f-e7fb-da9b-a1ff-efff2c230000",
+          "source": "Haaretz (Omer Benjakob)",
+          "headline": "The Second Intifada Still Rages on Wikipedia",
+          "published": "2020-10-04"
+        }
+      ]
     }
   ]
 }
