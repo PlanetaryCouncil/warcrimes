@@ -2364,8 +2364,8 @@
       ],
       "comment": "Two accounts of one strike, and they barely touch. Israel names a commander, draws his room on an illustration, and lists the hostages it says he held; Gaza names a surgeon and a schoolboy. Both may be true at once: that is exactly the case the law of war was written for, and why it demands warnings that are heeded or ignored on the record, and a strike whose cost is weighed. On a timeline, only one of them gets heard.",
       "official": {
-        "url": "https://x.com/IDF/status/2120795276977869304",
-        "label": "Israeli army on X, 12 Nov 2026: the strike and its stated target"
+        "url": "https://x.com/idfonline/status/2120792126862598459",
+        "label": "Israeli army on X (@idfonline), 12 Nov 2026, 08:13 UTC: the original Hebrew statement"
       },
       "verify": "The army's “hospitals used by Hamas” map and its second-floor diagram are both captioned “Illustration”; the weapons photos on the map come from earlier raids, not this strike. The army has said “further updates on its results will follow”: as of 12 November it had not said whether Abu Ismail was killed. The view counts are X's own figures, read the evening of 12 November; the posts and Telegram statements are <a href=\"/archive/nasser-2026/MANIFEST.txt\">archived here</a>.",
       "figure": {
@@ -2389,13 +2389,13 @@
                 "Who was killed?",
                 "“A senior Hamas terrorist and additional terrorists”; later named Mohammed Abu Ismail, Khan Younis Brigade commander. No civilian toll given",
                 "Six: medical staff, patients and companions, among them surgeon Dr Rizq Abu Shaira and Jihad Abu Tilkh, 13",
-                "BBC spoke to a surgeon wounded in the head, Dr Mohammed Qdeih, who was lying near Dr Abu Shaira <span class=\"st\">reported</span>"
+                "BBC spoke to a surgeon wounded in the head, Dr Mohammed Qdeih, who was lying near Dr Abu Shaira. The hospital, Civil Defence, WHO and MSF also confirmed the deaths, not only the health ministry (AP, MSF, WHO). PCHR published names and ages of all six. <span class=\"st\">reported</span>"
               ],
               [
                 "Injured",
                 "—",
                 "About 30 (health ministry, via BBC); “more than 25” (media office)",
-                "—"
+                "MSF reported 52 injured; other counts range from about 20 to “more than 25.” <span class=\"st\">reported</span>"
               ],
               [
                 "What was hit?",
@@ -2413,16 +2413,20 @@
                 "Military use?",
                 "Second floor a Hamas HQ closed to civilians; rooms of three commanders; weapons storage, interrogations, observation posts",
                 "Hamas: “false narratives… to cover up a new war crime”",
-                "Earlier testimony places hostages at Nasser in 2023 (below); nothing independent yet on 2026 use <span class=\"st\">open</span>"
+                "No public independent evidence of Hamas military use that night has been published (AP, DW). Earlier testimony places hostages at Nasser in 2023 (below). <span class=\"st\">open</span>"
               ],
               [
                 "Was the commander killed?",
                 "“Further updates on its results will follow”",
                 "—",
-                "Unknown as of 12 Nov <span class=\"st\">open</span>"
+                "AP and AFP report the named target, Mohammed Abu Ismail, was not on the published lists of the dead. The army had not confirmed his death as of those reports. <span class=\"st\">reported</span>"
               ]
             ]
           }
+        },
+        {
+          "heading": "What later reporting added",
+          "html": "<p>Later reporting, after the first day's posts, filled in some of those gaps without settling the rest. No public independent evidence of Hamas military use of the hospital that night was published; AP, AFP and DW record that the army's claim was made without accompanying proof, and that the named target, Mohammed Abu Ismail, was not on the published lists of the dead. The six deaths were confirmed by the hospital, Civil Defence, WHO and MSF, not only by Gaza's health ministry.</p>"
         },
         {
           "heading": "The hostages claim",
@@ -2496,7 +2500,7 @@
         },
         {
           "heading": "The original posts, word for word",
-          "html": "<p>As published, unedited; each links to the original, and each is archived with its view count and a SHA-256 hash (<a href=\"/archive/nasser-2026/MANIFEST.txt\">manifest</a>). Translations from Arabic are ours.</p><details><summary><b>Israeli army, post 1</b> — 12 Nov, 05:38 UTC · <a href=\"https://x.com/IDF/status/2120753046648967287\" target=\"_blank\" rel=\"noopener\">original</a></summary><blockquote>🎯 STRUCK: A senior Hamas terrorist and additional terrorists operating within Nasser Hospital in Khan Yunis, southern Gaza, to eliminate the threat they posed.<br>Hamas used the hospital complex as a hub for military and terrorist activities against IDF troops and Israel, including:<br>• Storing weapons.<br>• Conducting interrogations and torture.<br>• Operating command-and-control rooms.<br>• Using hospital facilities as observation posts and shelters for terrorists.<br>Hamas’ use of the hospital for military purposes constitutes a blatant violation of international law and endangers patients, medical personnel &amp; civilians.<br>Further updates on its results will follow.</blockquote></details><details><summary><b>Israeli army, post 2</b> — 12 Nov, 08:26 UTC · <a href=\"https://x.com/IDF/status/2120795276977869304\" target=\"_blank\" rel=\"noopener\">original</a></summary><blockquote>🎯 STRUCK: HAMAS BRIGADE COMMANDER HIDING IN A HOSPITAL WHO HELD NUMEROUS HOSTAGES CAPTIVE.<br>The Commander of Hamas’ Khan Yunis Brigade Muhammad Abu Ismail &amp; additional terrorists hiding inside of the Nasser Hospital were struck in a targeted IDF &amp; ISA strike in southern Gaza.<br>Abu Ismail was responsible for directing terrorist attacks against Israeli civilians &amp; IDF troops and for holding numerous hostages captive throughout the war.<br>Hamas turned the hospital complex into a headquarters to advance dozens of terrorist attacks and restore the brigade’s terror capabilities. Additionally, dozens of hostages were held captive within the hospital. <br>Prior to the strike, advance warnings were issued to the civilian population &amp; precision-guided munitions and aerial surveillance assets were employed to minimize the risk of harm to civilians.</blockquote></details><details><summary><b>Israeli army, post 3</b> — 12 Nov, 17:24 UTC · <a href=\"https://x.com/IDF/status/2120930699842658528\" target=\"_blank\" rel=\"noopener\">original</a></summary><blockquote>‼️🏥 Hamas’ exploitation of the Nasser Hospital: The hospital’s second floor serves as a Hamas military HQ, where civilians are not permitted to enter, as it is used by Hamas commanders, including Muhammad Abu Ismail, the Khan Yunis Brigade Commander who was targeted in the strike earlier today.<br>Dozens of hostages were held captive at the Nasser Hospital, and Muhammad Abu Ismail was responsible for holding numerous of them, including: Nimrod Cohen, Matan Zangauker, Edan Alexander, Avera Mengistu, Colonel Asaf Hamami, Staff Sergeant Oz Daniel &amp; Captain Omer Neutra. <br>The strike was specifically directed at the room from which the brigade commander &amp; the other terrorist were conducting military activities. Prior to the strike, the IDF warned on several occasions that the military activity at the hospital be halted. Despite these warnings, the activity at the hospital did not cease.</blockquote></details><details><summary><b>Board of Peace</b> — 12 Nov, 16:15 UTC (posted as an image of this text) · <a href=\"https://x.com/BoardOfPeace/status/2120913419305906586\" target=\"_blank\" rel=\"noopener\">original</a></summary><blockquote>The tragic loss of life following an Israeli strike on Nasser Hospital in Khan Younis underscores precisely why President Trump's Comprehensive Peace Plan must be implemented immediately without further delay. Otherwise, we will continue to see tragedies in which Hamas alleges deliberate Israeli attacks on hospitals, Israel maintains that Hamas exploits these facilities for terrorist operations, and innocent Gazans ultimately pay the price.<br>The Board of Peace deplores the death of any civilians and strongly condemns Hamas's continued exploitation of hospitals and other critical civilian infrastructure for military purposes. Both Israel and Hamas must immediately honor their commitments under the Comprehensive Peace Plan, including protecting civilians, maintaining the ceasefire, and advancing Gaza's demilitarization.<br>The Board of Peace has established a strategic framework to ensure Gazans can live safely and access essential medical care in secure, demilitarized facilities. All parties must cede the necessary authority and operational space to the Board of Peace to implement this framework without further obstruction or delay.</blockquote></details><details><summary><b>Ismail al-Thawabteh, Gaza media office</b> — 12 Nov, 14:50 UTC (Arabic) · <a href=\"https://x.com/ismailalthwabta/status/2120891942808510784\" target=\"_blank\" rel=\"noopener\">original</a></summary><blockquote><p dir=\"rtl\" lang=\"ar\">الاحتلال الإسرائيلي يُصعّد القتل والإبادة في قطاع غزة!<br>ما يجري في غزة استمرار لسياسة القتل والتدمير والاستهداف الممنهج، وسط تصاعد الاعتداءات على المدنيين، وقصف المستشفيات، وقتل الأطباء والأطفال، وتفاقم الكارثة الإنسانية.<br>يواصل الاحتلال استباحة الدم الفلسطيني، مستفيداً من غياب المحاسبة الدولية وعجز المجتمع الدولي ومجلس السلام عن وقف الجرائم وحماية المدنيين.<br>إن استمرار هذه الجرائم يحمّل العالم مسؤولية أخلاقية وقانونية وتاريخية. فحياة شعبنا ليست ورقة في حسابات السياسة، ودماء أبنائه ليست أرقاماً عابرة.<br>أوقفوا آلة القتل.. أوقفوا الإبادة.. وأنقذوا غزة! #غزة<br>د. إسماعيل إبراهيم الثوابتة<br>مدير عام المكتب الإعلامي الحكومي <br>قطاع غزة- فلسطين</p></blockquote><p><i>Our translation:</i></p><blockquote>The Israeli occupation is escalating the killing and the genocide in the Gaza Strip!<br>What is happening in Gaza is a continuation of the policy of killing, destruction and systematic targeting, amid escalating attacks on civilians, the bombing of hospitals, the killing of doctors and children, and a worsening humanitarian catastrophe.<br>The occupation continues to treat Palestinian blood as fair game, taking advantage of the absence of international accountability and the inability of the international community and the Board of Peace to stop the crimes and protect civilians.<br>The continuation of these crimes places a moral, legal and historic responsibility on the world. Our people's lives are not a card in political calculations, and the blood of its sons is not passing numbers.<br>Stop the killing machine.. stop the genocide.. and save Gaza! #Gaza<br>Dr. Ismail Ibrahim al-Thawabteh, Director General of the Government Media Office, Gaza Strip – Palestine</blockquote><p>The image attached to the post has the same text but says “the Security Council” where the post says “the Board of Peace”.</p></details><p>The media office's full statement on Telegram, with its figures, is <a href=\"/archive/nasser-2026/mediagovps-5398-text-ar.txt\">archived in Arabic</a> (<a href=\"https://t.me/mediagovps/5398\" target=\"_blank\" rel=\"noopener\">original</a>).</p>"
+          "html": "<p>As published, unedited; each links to the original, and each is archived with its view count and a SHA-256 hash (<a href=\"/archive/nasser-2026/MANIFEST.txt\">manifest</a>). The army's original statement is the Hebrew post on @idfonline, given first; the English @IDF posts follow. Opening Hebrew is quoted verbatim. Translations from Arabic are ours.</p><details><summary><b>Israeli army, Hebrew account (@idfonline) — primary source for the army's claim</b> — 12 Nov, 08:13 UTC · <a href=\"https://x.com/idfonline/status/2120792126862598459\" target=\"_blank\" rel=\"noopener\">original</a></summary><blockquote><p lang=\"he\" dir=\"rtl\">צה\"ל ושב\"כ תקפו את מפקד חטיבת חאן יונס של ארגון הטרור חמאס<br>בתקיפה ממוקדת במהלך הלילה, צה\"ל ושב\"כ תקפו את המחבל מחמד אבו איסמעיל ששימש כמפקד חטיבת חאן יונס ומחבלים נוספים שהסתתרו בבית החולים \"נאצר\" בח'אן יונס שבדרום רצועת עזה.</p></blockquote><p>Opening lines, as published, unedited. The English-language @IDF post at 08:26 UTC (post 2 below) is a later version of the same claim.</p></details><details><summary><b>Israeli army, post 1</b> — 12 Nov, 05:38 UTC · <a href=\"https://x.com/IDF/status/2120753046648967287\" target=\"_blank\" rel=\"noopener\">original</a></summary><blockquote>🎯 STRUCK: A senior Hamas terrorist and additional terrorists operating within Nasser Hospital in Khan Yunis, southern Gaza, to eliminate the threat they posed.<br>Hamas used the hospital complex as a hub for military and terrorist activities against IDF troops and Israel, including:<br>• Storing weapons.<br>• Conducting interrogations and torture.<br>• Operating command-and-control rooms.<br>• Using hospital facilities as observation posts and shelters for terrorists.<br>Hamas’ use of the hospital for military purposes constitutes a blatant violation of international law and endangers patients, medical personnel &amp; civilians.<br>Further updates on its results will follow.</blockquote></details><details><summary><b>Israeli army, post 2</b> — 12 Nov, 08:26 UTC · <a href=\"https://x.com/IDF/status/2120795276977869304\" target=\"_blank\" rel=\"noopener\">original</a></summary><blockquote>🎯 STRUCK: HAMAS BRIGADE COMMANDER HIDING IN A HOSPITAL WHO HELD NUMEROUS HOSTAGES CAPTIVE.<br>The Commander of Hamas’ Khan Yunis Brigade Muhammad Abu Ismail &amp; additional terrorists hiding inside of the Nasser Hospital were struck in a targeted IDF &amp; ISA strike in southern Gaza.<br>Abu Ismail was responsible for directing terrorist attacks against Israeli civilians &amp; IDF troops and for holding numerous hostages captive throughout the war.<br>Hamas turned the hospital complex into a headquarters to advance dozens of terrorist attacks and restore the brigade’s terror capabilities. Additionally, dozens of hostages were held captive within the hospital. <br>Prior to the strike, advance warnings were issued to the civilian population &amp; precision-guided munitions and aerial surveillance assets were employed to minimize the risk of harm to civilians.</blockquote></details><details><summary><b>Israeli army, post 3</b> — 12 Nov, 17:24 UTC · <a href=\"https://x.com/IDF/status/2120930699842658528\" target=\"_blank\" rel=\"noopener\">original</a></summary><blockquote>‼️🏥 Hamas’ exploitation of the Nasser Hospital: The hospital’s second floor serves as a Hamas military HQ, where civilians are not permitted to enter, as it is used by Hamas commanders, including Muhammad Abu Ismail, the Khan Yunis Brigade Commander who was targeted in the strike earlier today.<br>Dozens of hostages were held captive at the Nasser Hospital, and Muhammad Abu Ismail was responsible for holding numerous of them, including: Nimrod Cohen, Matan Zangauker, Edan Alexander, Avera Mengistu, Colonel Asaf Hamami, Staff Sergeant Oz Daniel &amp; Captain Omer Neutra. <br>The strike was specifically directed at the room from which the brigade commander &amp; the other terrorist were conducting military activities. Prior to the strike, the IDF warned on several occasions that the military activity at the hospital be halted. Despite these warnings, the activity at the hospital did not cease.</blockquote></details><details><summary><b>Board of Peace</b> — 12 Nov, 16:15 UTC (posted as an image of this text) · <a href=\"https://x.com/BoardOfPeace/status/2120913419305906586\" target=\"_blank\" rel=\"noopener\">original</a></summary><blockquote>The tragic loss of life following an Israeli strike on Nasser Hospital in Khan Younis underscores precisely why President Trump's Comprehensive Peace Plan must be implemented immediately without further delay. Otherwise, we will continue to see tragedies in which Hamas alleges deliberate Israeli attacks on hospitals, Israel maintains that Hamas exploits these facilities for terrorist operations, and innocent Gazans ultimately pay the price.<br>The Board of Peace deplores the death of any civilians and strongly condemns Hamas's continued exploitation of hospitals and other critical civilian infrastructure for military purposes. Both Israel and Hamas must immediately honor their commitments under the Comprehensive Peace Plan, including protecting civilians, maintaining the ceasefire, and advancing Gaza's demilitarization.<br>The Board of Peace has established a strategic framework to ensure Gazans can live safely and access essential medical care in secure, demilitarized facilities. All parties must cede the necessary authority and operational space to the Board of Peace to implement this framework without further obstruction or delay.</blockquote></details><details><summary><b>Ismail al-Thawabteh, Gaza media office</b> — 12 Nov, 14:50 UTC (Arabic) · <a href=\"https://x.com/ismailalthwabta/status/2120891942808510784\" target=\"_blank\" rel=\"noopener\">original</a></summary><blockquote><p dir=\"rtl\" lang=\"ar\">الاحتلال الإسرائيلي يُصعّد القتل والإبادة في قطاع غزة!<br>ما يجري في غزة استمرار لسياسة القتل والتدمير والاستهداف الممنهج، وسط تصاعد الاعتداءات على المدنيين، وقصف المستشفيات، وقتل الأطباء والأطفال، وتفاقم الكارثة الإنسانية.<br>يواصل الاحتلال استباحة الدم الفلسطيني، مستفيداً من غياب المحاسبة الدولية وعجز المجتمع الدولي ومجلس السلام عن وقف الجرائم وحماية المدنيين.<br>إن استمرار هذه الجرائم يحمّل العالم مسؤولية أخلاقية وقانونية وتاريخية. فحياة شعبنا ليست ورقة في حسابات السياسة، ودماء أبنائه ليست أرقاماً عابرة.<br>أوقفوا آلة القتل.. أوقفوا الإبادة.. وأنقذوا غزة! #غزة<br>د. إسماعيل إبراهيم الثوابتة<br>مدير عام المكتب الإعلامي الحكومي <br>قطاع غزة- فلسطين</p></blockquote><p><i>Our translation:</i></p><blockquote>The Israeli occupation is escalating the killing and the genocide in the Gaza Strip!<br>What is happening in Gaza is a continuation of the policy of killing, destruction and systematic targeting, amid escalating attacks on civilians, the bombing of hospitals, the killing of doctors and children, and a worsening humanitarian catastrophe.<br>The occupation continues to treat Palestinian blood as fair game, taking advantage of the absence of international accountability and the inability of the international community and the Board of Peace to stop the crimes and protect civilians.<br>The continuation of these crimes places a moral, legal and historic responsibility on the world. Our people's lives are not a card in political calculations, and the blood of its sons is not passing numbers.<br>Stop the killing machine.. stop the genocide.. and save Gaza! #Gaza<br>Dr. Ismail Ibrahim al-Thawabteh, Director General of the Government Media Office, Gaza Strip – Palestine</blockquote><p>The image attached to the post has the same text but says “the Security Council” where the post says “the Board of Peace”.</p></details><p>The media office's full statement on Telegram, with its figures, is <a href=\"/archive/nasser-2026/mediagovps-5398-text-ar.txt\">archived in Arabic</a> (<a href=\"https://t.me/mediagovps/5398\" target=\"_blank\" rel=\"noopener\">original</a>).</p>"
         }
       ],
       "links": [
@@ -2511,6 +2515,13 @@
           "source": "Israeli army (@IDF) on X",
           "headline": "STRUCK: A senior Hamas terrorist and additional terrorists operating within Nasser Hospital",
           "published": "2026-11-12"
+        },
+        {
+          "url": "https://x.com/idfonline/status/2120792126862598459",
+          "source": "Israeli army (@idfonline) on X — Hebrew, original statement",
+          "headline": "צה\"ל ושב\"כ תקפו את מפקד חטיבת חאן יונס של ארגון הטרור חמאס",
+          "published": "2026-11-12",
+          "stance": "israeli-gov"
         },
         {
           "url": "https://x.com/IDF/status/2120795276977869304",
@@ -2567,6 +2578,87 @@
           "url": "https://ihl-databases.icrc.org/en/customary-ihl/v1/rule28",
           "source": "ICRC, Customary IHL database",
           "headline": "Rule 28. Medical Units"
+        },
+        {
+          "url": "https://apnews.com/article/gaza-israel-hospital-strike-people-killed-50b547b5a82388b6b415aee4d776fbfb",
+          "source": "Associated Press",
+          "published": "2026-11-12"
+        },
+        {
+          "url": "https://apnews.com/article/gaza-israel-hospital-hamas-palestinians-25d0ebb9cc014c7366bede100d0ee5cf",
+          "source": "Associated Press (follow-up)",
+          "published": "2026-11-12"
+        },
+        {
+          "url": "https://www.al-monitor.com/originals/2026/11/israeli-strike-gaza-hospital-kills-six-including-surgeon-medics-say",
+          "source": "Reuters, via Al-Monitor",
+          "published": "2026-11-12",
+          "headline": "Israeli strike on Gaza hospital kills six, including surgeon, medics say"
+        },
+        {
+          "url": "https://www.afp.com/en/israeli-strike-gaza-hospital-deadliest-election",
+          "source": "AFP",
+          "published": "2026-11-12"
+        },
+        {
+          "url": "https://www.nbcnews.com/world/middle-east/israeli-strike-gaza-nasser-hospital-abu-shaira-doctor-hamas-rcna608932",
+          "source": "NBC News",
+          "published": "2026-11-12",
+          "headline": "Israeli strike on Gaza’s Nasser Hospital kills at least six people, officials say"
+        },
+        {
+          "url": "https://www.msf.org/gaza-msf-condemns-another-deadly-attack-nasser-hospital",
+          "source": "Médecins Sans Frontières (MSF)",
+          "published": "2026-11-12",
+          "headline": "Gaza: MSF condemns another deadly attack on Nasser hospital"
+        },
+        {
+          "url": "https://media.un.org/unifeed/en/asset/d368/d3686004",
+          "source": "WHO, via UNifeed",
+          "published": "2026-11-12",
+          "headline": "WHO / GAZA NASSER HOSPITAL ATTACK"
+        },
+        {
+          "url": "https://www.aa.com.tr/en/middle-east/un-deeply-alarmed-by-israeli-airstrike-on-nasser-hospital-in-gaza/4123313",
+          "source": "UN reaction, via Anadolu Agency",
+          "headline": "UN 'deeply alarmed' by Israeli airstrike on Nasser Hospital in Gaza",
+          "published": "2026-11-12"
+        },
+        {
+          "url": "https://www.ynetnews.com/article/sk00ufox0ml",
+          "source": "Ynet — IDF case; ‘could not be independently verified’",
+          "published": "2026-11-12",
+          "headline": "IDF says Hamas used Gaza hospital as command center, details strike on senior commander"
+        },
+        {
+          "url": "https://www.jpost.com/israel-news/defense-news/article-914652",
+          "source": "The Jerusalem Post",
+          "published": "2026-11-12",
+          "headline": "Israel targets Hamas terrorists plotting attacks from Gaza's Nasser Hospital"
+        },
+        {
+          "url": "https://pchrgaza.org/israel-kills-22-palestinians-in-the-gaza-strip-including-six-in-direct-attack-on-nasser-hospitals-surgery-building-among-them-a-doctor-and-a-child/",
+          "source": "Palestinian Centre for Human Rights (PCHR)",
+          "published": "2026-11-12",
+          "headline": "Israel Kills 22 Palestinians in the Gaza Strip, Including Six in Direct Attack on Nasser Hospital’s Surgery Building, Among Them a Doctor and a Child"
+        },
+        {
+          "url": "https://www.map.org.uk/latest/news/we-lost-some-of-the-patients-i-had-been-caring-for-uk-must-impose-sanctions-after-nasser-hospital-surgeon-killed/",
+          "source": "Medical Aid for Palestinians (MAP)",
+          "published": "2026-11-12",
+          "headline": "\"We lost some of the patients I had been caring for\": UK must impose sanctions after Nasser Hospital surgeon killed"
+        },
+        {
+          "url": "https://www.dw.com/en/israel-strikes-gaza-hospital-says-hamas-senior-figure-inside/a-79927645",
+          "source": "Deutsche Welle (DW)",
+          "headline": "Israel hits Gaza with deadly hospital strike, says senior Hamas figure inside",
+          "published": "2026-11-12"
+        },
+        {
+          "url": "https://x.com/academic_la/status/2120859681249980574",
+          "source": "Shaiel Ben-Ephraim (@academic_la), former Unit 8200 analyst and Israeli diplomat — analysis/commentary, X thread and 13-minute video",
+          "headline": "I read the army's statements in Hebrew and went through the evidence. Here is what holds up and what doesn't.",
+          "published": "2026-11-12"
         }
       ],
       "wikipedia": "https://en.wikipedia.org/wiki/Nasser_Medical_Complex",
@@ -4186,6 +4278,12 @@
           "source": "The Guardian",
           "headline": "Priti Patel to announce plan to make support for Hamas illegal",
           "published": "2021-11-19"
+        },
+        {
+          "url": "https://independenttribunal.org/research/hamas-deproscription/",
+          "source": "Independent Tribunal — research",
+          "headline": "Hamas deproscription — Independent Tribunal",
+          "published": "2026-10-19"
         }
       ],
       "wikipedia": "https://en.wikipedia.org/wiki/Hamas",
@@ -4204,7 +4302,8 @@
         "Designated terrorists in Washington (1997), Brussels (2003), London (2021).",
         "Donating to Hamas: up to 20 years in a US federal prison.",
         "Voicing support is an offense under the UK Terrorism Act."
-      ]
+      ],
+      "comment": "A sourced research page on the current UK application to deproscribe Hamas is at Independent Tribunal: <a href=\"https://independenttribunal.org/research/hamas-deproscription/\">Hamas deproscription</a>. A designation is not a permanent fact: the law that creates it also provides the route to undo it, and arguing for that is lawful speech, not support. See also <a href=\"/deproscription/\">our own page on the deproscription route</a>."
     },
     {
       "id": "deproscription",
@@ -4244,6 +4343,12 @@
           "source": "Liberty — 'Breaking down the Court of Appeal judgment on Palestine Action's proscription' (June 2026 reversal; one month to seek permission to appeal to the Supreme Court)",
           "headline": "Breaking down the Court of Appeal judgment on Palestine Action’s proscription - Liberty",
           "published": "2026-06-15"
+        },
+        {
+          "url": "https://independenttribunal.org/research/hamas-deproscription/",
+          "source": "Independent Tribunal — research",
+          "headline": "Hamas deproscription — Independent Tribunal",
+          "published": "2026-10-19"
         }
       ],
       "wikipedia": "https://en.wikipedia.org/wiki/Proscribed_Organisations_Appeal_Commission",
@@ -4258,7 +4363,7 @@
         "credit": "Steph Gray — Home Office, 2 Marsham Street, London",
         "license": "CC BY-SA 2.0"
       },
-      "comment": "Supporting a proscribed group is a crime. Arguing that the proscription itself is wrong is not — it is the mechanism the statute provides.",
+      "comment": "Supporting a proscribed group is a crime. Arguing that the proscription itself is wrong is not — it is the mechanism the statute provides. Independent Tribunal has a sourced research page on the current Hamas application: <a href=\"https://independenttribunal.org/research/hamas-deproscription/\">Hamas deproscription</a>.",
       "verify": "The Home Office's published guidance sets out the s.4 route but does not itself say in terms that campaigning for deproscription is lawful; that rests on s.10 of the Act and on a Home Office letter of 11 Aug 2025, quoted by Novara Media, stating it is not an offence to criticise the decision to proscribe Palestine Action.",
       "bullets": [
         "The same law that bans a group provides the form to unban it.",
