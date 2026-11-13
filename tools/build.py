@@ -197,13 +197,19 @@ def page(d, prev, nxt):
     video = (f'<figure class="poster"><h2>{e(vid["title"])}</h2><video controls preload="none" playsinline poster="{vid["poster"]}" src="{vid["src"]}"></video>'
              f'<figcaption>{e(vid["caption"])}' + (f' <a href="{e(vid["credit"]["url"])}" target="_blank" rel="noopener">{e(vid["credit"]["label"])}</a>' if vid.get('credit') else '')
              + '.</figcaption></figure>') if vid else ''
-    # optional dossier: [{heading, html?, table?{cols, rows}}] — profile sections for organisation pages
-    dossier = ''.join(
-        f'<section class="dossier"' + (f' id="{e(s["id"])}"' if s.get("id") else '') + f'><h2>{s["heading"]}</h2>' + (s.get('html') or '')
-        + ((f'<div class="tw"><table class="facts"><thead><tr>' + ''.join(f'<th>{c}</th>' for c in s['table']['cols']) + '</tr></thead><tbody>'
-            + ''.join('<tr>' + ''.join(f'<td>{c}</td>' for c in r) + '</tr>' for r in s['table']['rows']) + '</tbody></table></div>'
-            + (f'<p class="sub">{s["table"]["note"]}</p>' if s['table'].get('note') else '')) if s.get('table') else '')
-        + '</section>' for s in d.get('dossier', []))
+    # optional dossier: [{heading, html?, table?{cols, rows}, placement?}] — profile sections for organisation pages
+    # placement "after_record" hangs a section after the sources table, before the pager
+    def dossier_section(s):
+        return (
+            f'<section class="dossier"' + (f' id="{e(s["id"])}"' if s.get("id") else '') + f'><h2>{s["heading"]}</h2>' + (s.get('html') or '')
+            + ((f'<div class="tw"><table class="facts"><thead><tr>' + ''.join(f'<th>{c}</th>' for c in s['table']['cols']) + '</tr></thead><tbody>'
+                + ''.join('<tr>' + ''.join(f'<td>{c}</td>' for c in r) + '</tr>' for r in s['table']['rows']) + '</tbody></table></div>'
+                + (f'<p class="sub">{s["table"]["note"]}</p>' if s['table'].get('note') else '')) if s.get('table') else '')
+            + '</section>'
+        )
+    sections = d.get('dossier', [])
+    dossier = ''.join(dossier_section(s) for s in sections if s.get('placement') != 'after_record')
+    dossier_after = ''.join(dossier_section(s) for s in sections if s.get('placement') == 'after_record')
     score = ''
     if d['section'] in ('main', 'closers'):
         score = f'''<div class="score" title="The scoreboard is satire. The facts in it are not.">
@@ -269,7 +275,7 @@ def page(d, prev, nxt):
       </tbody>
     </table>
   </section>
-{('  ' + machine) if machine else ''}
+{('  ' + machine) if machine else ''}{('\n  ' + dossier_after) if dossier_after else ''}
   {pager}
   <footer>Permalink: <a href="{url}">{url}</a> · Data: <a href="/data.json">data.json</a> · Corrections: <a href="https://github.com/PlanetaryCouncil/warcrimes/issues" target="_blank" rel="noopener">open an issue</a></footer>
 </main>

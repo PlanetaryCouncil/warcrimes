@@ -178,6 +178,7 @@ section.dossier p, section.dossier li { line-height: 1.6; }
 section.dossier ul, section.dossier ol { padding-left: 1.2rem; }
 section.dossier li { margin-bottom: 0.5rem; }
 section.dossier blockquote { margin: 0.8rem 0; padding: 0.6rem 1rem; border-left: 3px solid var(--accent); background: var(--card, transparent); }
+section.dossier .epigraph { font-style: italic; color: var(--muted); margin: 0 0 1.1rem; font-size: 1.08rem; }
 .st { display: inline-block; font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.04em; padding: 0 0.4em; border: 1px solid var(--line); border-radius: 3px; margin-left: 0.3em; vertical-align: 0.1em; opacity: 0.8; }
 .tw { overflow-x: auto; }
 table.facts { border-collapse: collapse; width: 100%; font-size: 0.9rem; }
