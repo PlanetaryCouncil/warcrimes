@@ -6646,6 +6646,170 @@
           "published": "2020-10-04"
         }
       ]
+    },
+    {
+      "id": "hjs",
+      "slug": "henry-jackson-society-hamas-human-shield-report-israeli-army-sources-funding",
+      "section": "propaganda",
+      "title": "The Henry Jackson Society's human-shields report: four in ten of its links go to the Israeli army",
+      "date": "Report published April 2025 · read and counted 19 Nov 2026",
+      "summary": "“Hamas's Human Shield Strategy in Gaza” (April 2025, 87 pages) by Andrew Fox and Salo Aizenberg for the Henry Jackson Society, a London think tank, calls itself the “missing chapter” in UN and NGO reporting on Gaza. Of the 325 links in its text, 132 (41%) go to the Israeli army's own channels and 7 more to Israeli state accounts; one goes to Gaza's authorities. One author sits on the board of HonestReporting, the other went into Gaza in 2024 as, by AOAV's account, a guest of the Israeli army. Almost half the charity's 2024 income came from its US arm, whose donors it doesn't name. Hamas fighting from among civilians is documented; this report is a prosecution brief built largely from one party's evidence.",
+      "bullets": [
+        "<b>132 of 325 links go to the Israeli army</b> — its Telegram, X, video server and website. One link goes to Gaza's authorities.",
+        "<b>Its authors:</b> a former British Army major who visited Gaza twice in 2024, and an HonestReporting board member.",
+        "<b>Its money:</b> 47% of the UK charity's 2024 income was a single donation from its US arm, Henry Jackson Society Inc, whose donors aren't published."
+      ],
+      "comment": "The question it asks is fair: Hamas does fight from tunnels under homes, and most UN and NGO reports say little about how. The method isn't. A brief whose main witness is the army being accused, and whose findings say the army's videos “prove without doubt”, is advocacy, not the missing chapter. Hasbara with footnotes.",
+      "official": {
+        "url": "https://henryjacksonsociety.org/wp-content/uploads/2025/05/HJS-Hamass-Human-Shield-Strategy-in-Gaza-Report-WEB.pdf",
+        "label": "The report itself (PDF, 87 pages, Henry Jackson Society)",
+        "flag": "📄"
+      },
+      "verify": "Every link we counted is listed in <a href=\"/archive/hjs/hjs-human-shield-report-2025-cited-links.txt\">this file</a>, in the order it appears, with the PDF's SHA-256 in the <a href=\"/archive/hjs/MANIFEST.txt\">manifest</a>. Run your own count: the domains tell you who published each source. Links that break across lines in the PDF may be cut short, so the totals are close, not exact. The charity's income comes from its filed 2024 accounts.",
+      "figure": {
+        "src": "/img/hjs-human-shield-report-sources-israeli-army.jpg",
+        "alt": "Bar chart, “A report on Hamas. Its sources: the Israeli army.” The 325 links in the Henry Jackson Society's report “Hamas's Human Shield Strategy in Gaza”, by who published them: Israeli army 132 (41%); news media 57 (18%); other 46 (14%); commentators on X 30 (9%); UN, ICRC, courts and NGOs 25 (8%); YouTube 18 (6%); pro-Israel advocacy 9 (3%); Israeli state 7 (2%); Gaza authorities 1.",
+        "title": "Whose evidence?",
+        "caption": "Every link in the report's text, sorted by publisher. “Israeli army”: its Telegram channel (42), video server (40), X account (16), website (19) and press mailing list (15). Our count, from the PDF; the list is linked below."
+      },
+      "dossier": [
+        {
+          "heading": "What it says",
+          "html": "<p>The report argues that Hamas used “ten distinct human shield strategies”, that its leaders have admitted it, and that the UN and NGOs “deliberately disregard” it, so that “all of the evidence documented in this report is absent from UN and NGO reports.” It calls itself the “missing chapter” in those reports. One of its key findings:</p><blockquote>“The IDF has provided thousands of high-quality videos and photographs of its activities in Gaza that prove without doubt that Hamas has militarised large portions of the civilian infrastructure of the Gaza Strip.”</blockquote><p>That sentence is the method in miniature: the accused party's footage, accepted as proof.</p>"
+        },
+        {
+          "heading": "Whose evidence",
+          "table": {
+            "cols": [
+              "Publisher",
+              "Links",
+              "Share"
+            ],
+            "rows": [
+              [
+                "Israeli army (Telegram, video server, X, website, press list)",
+                "132",
+                "41%"
+              ],
+              [
+                "News media (NYT, WSJ, Times of Israel, Al Jazeera, Reuters…)",
+                "57",
+                "18%"
+              ],
+              [
+                "Other (governments, EU, think tanks, unidentified X accounts…)",
+                "46",
+                "14%"
+              ],
+              [
+                "Commentators and journalists on X",
+                "30",
+                "9%"
+              ],
+              [
+                "UN, ICRC, courts and NGOs",
+                "25",
+                "8%"
+              ],
+              [
+                "YouTube",
+                "18",
+                "6%"
+              ],
+              [
+                "Pro-Israel advocacy and media (MEMRI, Arutz Sheva…)",
+                "9",
+                "3%"
+              ],
+              [
+                "Israeli state (@Israel, ministries)",
+                "7",
+                "2%"
+              ],
+              [
+                "Gaza authorities",
+                "1",
+                "0.3%"
+              ]
+            ]
+          },
+          "html": "<p>Counted from the report's PDF text: 325 links, 313 of them different. Some are Hamas's own material relayed by others, and some Israeli army posts are footage of real tunnels and real weapons. The army being a source isn't the problem. Being the main one is, in a report about whether that same army's attacks were justified. <span class=\"st\">verified</span> (<a href=\"/archive/hjs/hjs-human-shield-report-2025-cited-links.txt\" target=\"_blank\" rel=\"noopener\">the list</a>)</p>"
+        },
+        {
+          "heading": "Who wrote it",
+          "html": "<ul><li><b>Andrew Fox</b>, research fellow at HJS, 16 years in the British Army, left the Parachute Regiment as a major. The report says he “visited Gaza twice” in 2024; foreign journalists weren't allowed in, and AOAV describes him as “the guest of the Israel Defence Forces (IDF) on trips to Gaza.” <span class=\"st\">reported</span></li><li><b>Salo Aizenberg</b> has written reports for NGO Monitor and, in the report's own words, “serves on the board of HonestReporting” — see <a href=\"/honestreporting-israel-advocacy-propaganda-media-watchdog/\">our page on HonestReporting</a>. <span class=\"st\">verified</span></li><li><b>Peer reviewers:</b> two named in the acknowledgments. No review by anyone outside the authors' circle is mentioned.</li><li><b>Fox's previous HJS report</b>, “Questionable Counting” (December 2024), attacked Gaza's casualty figures. Researchers Gabriel Epstein and Michael Spagat, writing for AOAV, found its key findings “contain some truth” but that the evidence “does not support the dramatic charges” it makes (<a href=\"https://aoav.org.uk/2024/flawed-critique-how-andrew-foxs-report-for-the-henry-jackson-society-on-gaza-death-toll-lacks-evidence-for-key-claims/\" target=\"_blank\" rel=\"noopener\">AOAV</a>). <span class=\"st\">reported</span></li></ul>"
+        },
+        {
+          "heading": "Who pays",
+          "html": "<ul><li><b>The UK charity</b> (no. 1140489): income £1,255,010 in 2024, £1,239,172 of it donations (<a href=\"https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/5015403/financial-history\" target=\"_blank\" rel=\"noopener\">Charity Commission</a>). Of that, <b>£579,403 was one donation from Henry Jackson Society Inc</b>, its US arm — 47% of the year's income. The accounts say the charity “relies on continued support from Henry Jackson Society Inc, a US entity” (<a href=\"https://opencharities.uk/ew/1140489/files/2024-12-31-accounts.html\" target=\"_blank\" rel=\"noopener\">2024 accounts</a>). <span class=\"st\">verified</span></li><li><b>The US arm</b>, Henry Jackson Society Inc, New York: about $561,000 in contributions in 2023 (<a href=\"https://projects.propublica.org/nonprofits/organizations/461190785\" target=\"_blank\" rel=\"noopener\">ProPublica, from IRS filings</a>). US charities need not publish their donors, and it doesn't. <span class=\"st\">verified</span></li><li><b>Some donors show up in the givers' own filings:</b> the American Endowment Foundation, the Goodman Family Supporting Foundation and DonorsTrust (<a href=\"https://www.influencewatch.org/non-profit/the-henry-jackson-society-hjs/\" target=\"_blank\" rel=\"noopener\">InfluenceWatch</a>); the Marc E. Leland Foundation, the Newton & Rochelle Becker Charitable Trust and Vanguard Charitable (<a href=\"https://grantable.co/nonprofits/the-henry-jackson-society-inc-morg_823a307d77c24ee3a29074314df32221\" target=\"_blank\" rel=\"noopener\">Grantable</a>). Several are donor-advised funds, which pass on money without naming who gave it. <span class=\"st\">reported</span></li><li><b>Earlier:</b> a 2015 Spinwatch study traced HJS donors to Conservative and pro-Israel funding networks (<a href=\"https://researchportal.bath.ac.uk/en/publications/the-henry-jackson-society-and-the-degeneration-of-british-neocons/\" target=\"_blank\" rel=\"noopener\">University of Bath record</a>); in 2020 openDemocracy reported the Home Office paid HJS £83,452 for a report on Islamist terrorism (<a href=\"https://www.opendemocracy.net/en/revealed-uk-home-office-paid-80000-to-a-lobby-group-which-has-funded-conservative-mps/\" target=\"_blank\" rel=\"noopener\">openDemocracy</a>). <span class=\"st\">reported</span></li></ul><p>We found nothing showing who paid for <i>this</i> report, or that the Israeli government did. HJS says its donors are entitled to privacy. That is legal, and it is also why we can't tell you more.</p>"
+        },
+        {
+          "heading": "What it gets right, what it gets wrong",
+          "html": "<ul><li><b>Right:</b> Hamas built tunnels under homes, schools and hospitals, fired from populated areas, and its leaders have said things that are on the record. The UN's genocide-related reports spend little space on how Hamas fights. Those are fair points.</li><li><b>Overstated:</b> “Never asserted” and “all of the evidence… is absent” are sweeping. UN reports did record allegations of armed groups operating among civilians, as the report itself concedes four times; it dismisses them for using the word “allegation”, which is what an unverified claim is.</li><li><b>Careless:</b> its key UN search is dated “from 7 October 2023 through 1/15/2023” — a range that ends before it starts. Probably a typo for 2025; the count it supports is the report's headline number.</li><li><b>Wrong on the law:</b> shielding is a war crime (<a href=\"https://ihl-databases.icrc.org/en/customary-ihl/v1/rule97\" target=\"_blank\" rel=\"noopener\">ICRC rule 97</a>), but it doesn't hand the attacker a blank cheque. Civilians used as shields are still civilians; precautions and proportionality still apply to every strike. The report's case that Hamas shields says nothing about whether any given Israeli attack was lawful — see <a href=\"/nasser-hospital-strike-surgical-building-ceasefire-november-2026/\">Nasser, November 2026</a>.</li></ul>"
+        },
+        {
+          "heading": "Questions for HJS",
+          "html": "<ol><li>Who paid for this report? Was any grant restricted to it?</li><li>Did the Israeli army or government arrange the authors' visits to Gaza, provide material, or review drafts?</li><li>How were incidents chosen, and which were confirmed by anyone other than the Israeli army?</li><li>Who are the donors behind Henry Jackson Society Inc and the donor-advised funds that pay it?</li></ol><p>We'll publish any answer in full.</p>"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://henryjacksonsociety.org/wp-content/uploads/2025/05/HJS-Hamass-Human-Shield-Strategy-in-Gaza-Report-WEB.pdf",
+          "source": "The Henry Jackson Society (Andrew Fox, Salo Aizenberg)",
+          "headline": "Hamas's Human Shield Strategy in Gaza",
+          "published": "2025-04",
+          "tag": "propaganda"
+        },
+        {
+          "url": "https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/5015403/financial-history",
+          "source": "Charity Commission for England and Wales",
+          "headline": "The Henry Jackson Society (1140489): financial history"
+        },
+        {
+          "url": "https://opencharities.uk/ew/1140489/files/2024-12-31-accounts.html",
+          "source": "The Henry Jackson Society, via OpenCharities",
+          "headline": "Annual report and financial statements, year ended 31 December 2024"
+        },
+        {
+          "url": "https://projects.propublica.org/nonprofits/organizations/461190785",
+          "source": "ProPublica Nonprofit Explorer (IRS filings)",
+          "headline": "Henry Jackson Society Inc"
+        },
+        {
+          "url": "https://www.influencewatch.org/non-profit/the-henry-jackson-society-hjs/",
+          "source": "InfluenceWatch (Capital Research Center)",
+          "headline": "The Henry Jackson Society (HJS)"
+        },
+        {
+          "url": "https://grantable.co/nonprofits/the-henry-jackson-society-inc-morg_823a307d77c24ee3a29074314df32221",
+          "source": "Grantable (IRS 990 data)",
+          "headline": "The Henry Jackson Society Inc"
+        },
+        {
+          "url": "https://aoav.org.uk/2024/flawed-critique-how-andrew-foxs-report-for-the-henry-jackson-society-on-gaza-death-toll-lacks-evidence-for-key-claims/",
+          "source": "Action on Armed Violence (Gabriel Epstein, Michael Spagat)",
+          "headline": "Flawed critique: how Andrew Fox's report on Gaza death toll for the Henry Jackson Society lacks evidence for key claims",
+          "published": "2024-12-22"
+        },
+        {
+          "url": "https://researchportal.bath.ac.uk/en/publications/the-henry-jackson-society-and-the-degeneration-of-british-neocons/",
+          "source": "Spinwatch / Public Interest Investigations (Griffin, Aked, Miller, Marusek), via University of Bath",
+          "headline": "The Henry Jackson Society and the degeneration of British neoconservatism",
+          "published": "2015-06"
+        },
+        {
+          "url": "https://www.opendemocracy.net/en/revealed-uk-home-office-paid-80000-to-a-lobby-group-which-has-funded-conservative-mps/",
+          "source": "openDemocracy",
+          "headline": "Revealed: UK Home Office paid £80,000 to a lobby group which has funded Conservative MPs",
+          "published": "2020-07-14"
+        },
+        {
+          "url": "https://ihl-databases.icrc.org/en/customary-ihl/v1/rule97",
+          "source": "ICRC, Customary IHL database",
+          "headline": "Rule 97. Human Shields"
+        }
+      ],
+      "wikipedia": "https://en.wikipedia.org/wiki/Henry_Jackson_Society"
     }
   ]
 }
