@@ -6,11 +6,12 @@
 <meta name="description" content="Documented war crimes in Gaza and the West Bank, 2023–2026: each incident with its sources dated and named, the official Israeli response, and what remains disputed.">
 <link rel="canonical" href="https://warcrimes.planetarycouncil.org/">
 <title>The War Crimes Safari — Gaza &amp; the West Bank, 2023–2026</title>
-<link rel="stylesheet" href="/site.css?v=e3e3b2b3">
+<link rel="stylesheet" href="/site.css?v=71f0da4a">
 </head>
 <body>
 <nav id="topnav">
   <span class="brand">War Crimes Safari</span>
+  <a href="#sec-developing">Developing</a>
   <a href="#top">Incidents</a>
   <a href="#sec-closers">Closers</a>
   <a href="#sec-docket">Docket</a>
@@ -43,6 +44,14 @@
     <a href="https://github.com/PlanetaryCouncil/warcrimes/issues" target="_blank" rel="noopener">open an issue</a>
     and we will simply remove it — though we would rather you saw it as your work bearing witness, credited,
     where it matters.
+  </div>
+  <div class="section developing" id="sec-developing">
+    <h2>Developing situation</h2>
+    <p class="sub">Events still unfolding, monitored as the record comes in. Claims here are dated and attributed and may change; each entry says when it was last checked, and every change is a public commit.</p>
+  </div>
+  <div id="developing" class="cards"></div>
+  <div class="section" id="sec-incidents">
+    <h2>Incidents</h2>
   </div>
   <div id="list" class="cards"></div>
   <div class="section" id="sec-closers">
@@ -97,6 +106,7 @@ const card = (d, label) => `
       ${d.photo ? `<a class="emoji" href="${d.photo.url}" target="_blank" rel="noopener" title="Photo — ${esc(d.photo.source)}" aria-label="Photo — ${esc(d.photo.source)}">📷</a>` : ''}
       ${d.official ? `<a class="emoji" href="${d.official.url}" target="_blank" rel="noopener" title="Official response — ${esc(d.official.label)}" aria-label="Official response — ${esc(d.official.label)}">${d.official.flag || '🇮🇱'}</a>` : ''}
     </div>
+    ${d.monitor ? `<div class="monitor"><span class="live">● ${d.monitor.status}</span> Last checked ${d.monitor.last_checked}.</div>` : ''}
     ${d.verify ? `<div class="verify">⚠ ${d.verify}</div>` : ''}
     ${(d.section === 'main' || d.section === 'closers') ? `<div class="score" title="The scoreboard is satire. The facts in it are not.">
       <span>⚑ Excuse: ${d.official ? 'on file' : 'none offered'}</span>
@@ -108,6 +118,7 @@ const card = (d, label) => `
   </article>`;
 fetch('data.json', { cache: 'no-store' }).then(r => r.json()).then(({ incidents }) => {
   const num = n => String(n).padStart(2, '0');
+  const developing = incidents.filter(d => d.section === 'developing');
   const main = incidents.filter(d => d.section === 'main');
   const closers = incidents.filter(d => d.section === 'closers');
   const docket = incidents.filter(d => d.section === 'docket');
@@ -128,9 +139,10 @@ fetch('data.json', { cache: 'no-store' }).then(r => r.json()).then(({ incidents 
   ]));
   const nSources = sourceUrls.size;
   document.getElementById('counts').textContent =
-    `Currently: ${main.length + closers.length + hamas.length} incident and focus entries, ${docket.length} individuals on the docket, ${nSources} unique source URLs.`;
+    `Currently: ${developing.length} developing, ${main.length + closers.length + hamas.length} incident and focus entries, ${docket.length} individuals on the docket, ${nSources} unique source URLs.`;
 
   const SECTIONS = [
+    ['developing', developing, (d, i) => 'L' + (i + 1)],
     ['list', main, d => labels.get(d.id)],
     ['closers', closers, d => labels.get(d.id)],
     ['docket', docket, (d, i) => 'D' + (i + 1)],
