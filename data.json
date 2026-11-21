@@ -30,7 +30,7 @@
       "section": "developing",
       "monitor": {
         "status": "Developing: monitored",
-        "last_checked": "21 Nov 2026, evening (Gaza time)",
+        "last_checked": "21 Nov 2026, late evening (Gaza time)",
         "note": "This entry changes as the record does. Every change is a commit in the public repository."
       },
       "title": "Tel al-Hawa: a strike on a vehicle carrying food, three killed. Aid workers, or Islamic Jihad?",
@@ -61,6 +61,12 @@
           "url": "https://www.aljazeera.com/news/2026/11/21/at-least-four-palestinians-killed-in-israeli-attacks-on-gaza",
           "source": "Al Jazeera",
           "headline": "Israeli strike on vehicle distributing food aid in Gaza kills three",
+          "published": "2026-11-21"
+        },
+        {
+          "url": "https://x.com/AJEnglish/status/2124189780565205019",
+          "source": "Al Jazeera English on X (video, 1 min 28 s)",
+          "headline": "Three Palestinians were killed in an Israeli air attack on a vehicle carrying food for forcibly displaced people in Gaza City. Papers bearing the logo of aid organisation World Central Kitchen were found inside.",
           "published": "2026-11-21"
         },
         {
@@ -150,7 +156,7 @@
               ],
               [
                 "Evidence published",
-                "Witness accounts; AFP and Reuters photos of the vehicle",
+                "Witness accounts; AFP and Reuters photos of the vehicle; Al Jazeera English video from the scene (X, 21 Nov, 17:14 UTC)",
                 "A strike video and a statement; no names",
                 "A statement"
               ]
@@ -168,7 +174,7 @@
         },
         {
           "heading": "Monitoring log",
-          "html": "<ul><li><b>21 Nov 2026, evening:</b> entry opened. 11 sources read: Reuters (via Haaretz and Internazionale), Al Jazeera, TRT World, Times of Israel (three items), Ynet, Jerusalem Post, OSINT613, and the August 2025 precedent.</li></ul>",
+          "html": "<ul><li><b>21 Nov 2026, evening:</b> entry opened. 11 sources read: Reuters (via Haaretz and Internazionale), Al Jazeera, TRT World, Times of Israel (three items), Ynet, Jerusalem Post, OSINT613, and the August 2025 precedent.</li><li><b>21 Nov 2026, late evening:</b> added Al Jazeera English's video post from the scene (posted 17:14 UTC), which says papers bearing WCK's logo were found inside the vehicle. Al Jazeera's caption calls the vehicle's cargo food for displaced people; like every other source so far, it does not identify the three.</li></ul>",
           "placement": "after_record"
         }
       ]
