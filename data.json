@@ -174,7 +174,7 @@
         },
         {
           "heading": "Monitoring log",
-          "html": "<ul><li><b>21 Nov 2026, evening:</b> entry opened. 11 sources read: Reuters (via Haaretz and Internazionale), Al Jazeera, TRT World, Times of Israel (three items), Ynet, Jerusalem Post, OSINT613, and the August 2025 precedent.</li><li><b>21 Nov 2026, late evening:</b> added Al Jazeera English's video post from the scene (posted 17:14 UTC), which says papers bearing WCK's logo were found inside the vehicle. The video shows the aftermath; it does not show who the three were.</li></ul>",
+          "html": "<ul><li><b>21 Nov 2026, evening:</b> entry opened. 11 sources read: Reuters (via Haaretz and Internazionale), Al Jazeera, TRT World, Times of Israel (three items), Ynet, Jerusalem Post, OSINT613, and the August 2025 precedent.</li><li><b>21 Nov 2026, late evening:</b> added Al Jazeera English's video post from the scene (posted 17:14 UTC), which says papers bearing WCK's logo were found inside the vehicle. Al Jazeera's caption calls the vehicle's cargo food for displaced people; like every other source so far, it does not identify the three.</li></ul>",
           "placement": "after_record"
         }
       ]
