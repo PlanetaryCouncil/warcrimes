@@ -47,7 +47,7 @@ def labels():
         for d in incidents:
             if d['section'] == sec and not d.get('subsection_of'):
                 n += 1; out[d['id']] = f'{n:02d}'
-    for sec, p in (('docket', 'D'), ('hamas', 'H'), ('propaganda', 'P')):
+    for sec, p in (('developing', 'L'), ('docket', 'D'), ('hamas', 'H'), ('propaganda', 'P')):
         for i, d in enumerate([d for d in incidents if d['section'] == sec]): out[d['id']] = f'{p}{i + 1}'
     for d in incidents:
         if d.get('subsection_of'):
@@ -63,9 +63,9 @@ def labels():
             out[d['id']] = label
     return out
 LABEL = labels()
-ORDER = sorted(incidents, key=lambda d: (['main', 'closers', 'docket', 'hamas', 'propaganda'].index(d['section']), incidents.index(d)))
-SECTION_NAME = {'main': 'Incidents', 'closers': 'Closers', 'docket': 'The Docket', 'hamas': 'Hamas', 'propaganda': 'Propaganda desk'}
-SECTION_ANCHOR = {'main': '#top', 'closers': '#sec-closers', 'docket': '#sec-docket', 'hamas': '#sec-hamas', 'propaganda': '#sec-propaganda'}
+ORDER = sorted(incidents, key=lambda d: (['developing', 'main', 'closers', 'docket', 'hamas', 'propaganda'].index(d['section']), incidents.index(d)))
+SECTION_NAME = {'developing': 'Developing situation', 'main': 'Incidents', 'closers': 'Closers', 'docket': 'The Docket', 'hamas': 'Hamas', 'propaganda': 'Propaganda desk'}
+SECTION_ANCHOR = {'developing': '#sec-developing', 'main': '#top', 'closers': '#sec-closers', 'docket': '#sec-docket', 'hamas': '#sec-hamas', 'propaganda': '#sec-propaganda'}
 
 def plain(s): return re.sub(r'<[^>]+>', '', s)
 def first_sentence(s):
@@ -210,6 +210,10 @@ def page(d, prev, nxt):
     sections = d.get('dossier', [])
     dossier = ''.join(dossier_section(s) for s in sections if s.get('placement') != 'after_record')
     dossier_after = ''.join(dossier_section(s) for s in sections if s.get('placement') == 'after_record')
+    # monitor (optional): {status, last_checked, note} — a live banner for entries in the developing section
+    mon = d.get('monitor')
+    monitor = ('\n  ' + f'<div class="monitor"><span class="live">● {e(mon["status"])}</span> Last checked {e(mon["last_checked"])}.'
+               + (f' {e(mon["note"])}' if mon.get('note') else '') + '</div>') if mon else ''
     score = ''
     if d['section'] in ('main', 'closers'):
         score = f'''<div class="score" title="The scoreboard is satire. The facts in it are not.">
@@ -242,6 +246,7 @@ def page(d, prev, nxt):
 <body>
 <nav id="topnav">
   <a class="brand" href="/" style="opacity:1">War Crimes Safari</a>
+  <a href="/#sec-developing">Developing</a>
   <a href="/#top">Incidents</a>
   <a href="/#sec-closers">Closers</a>
   <a href="/#sec-docket">Docket</a>
@@ -257,7 +262,7 @@ def page(d, prev, nxt):
   {'<ul class="why">' + ''.join(f'<li>{b}</li>' for b in d['bullets']) + '</ul>' if d.get('bullets') else ''}
   <p class="lede">{d['summary']}</p>
   {f'<div class="comment">{d["comment"]}</div>' if d.get('comment') else ''}
-  {f'<div class="verify">⚠ {d["verify"]}</div>' if d.get('verify') else ''}
+  {f'<div class="verify">⚠ {d["verify"]}</div>' if d.get('verify') else ''}{monitor}
 {('  ' + official) if official else ''}
   {wiki}
   {score}

@@ -25,6 +25,155 @@
   },
   "incidents": [
     {
+      "id": "tel-al-hawa-aid-vehicle",
+      "slug": "tel-al-hawa-gaza-city-strike-vehicle-food-world-central-kitchen-islamic-jihad-november-2026",
+      "section": "developing",
+      "monitor": {
+        "status": "Developing: monitored",
+        "last_checked": "21 Nov 2026, evening (Gaza time)",
+        "note": "This entry changes as the record does. Every change is a commit in the public repository."
+      },
+      "title": "Tel al-Hawa: a strike on a vehicle carrying food, three killed. Aid workers, or Islamic Jihad?",
+      "date": "21 Nov 2026",
+      "summary": "On 21 November 2026 an Israeli strike hit a vehicle on al-Sina'a Street in Tel al-Hawa, Gaza City, killing three Palestinians, according to Gaza's health ministry, Civil Defence and witnesses; a Reuters witness said it carried packaged food and papers bearing World Central Kitchen's logo, and was about to stop to hand food and drink to children. The Israeli army says the three were Palestinian Islamic Jihad operatives in an unmarked vehicle carrying food and logistical supplies to terror operatives, and that Gazan sources falsely presented them as aid workers; WCK says the vehicle was not affiliated with it, and that the driver had previously worked for the charity.",
+      "bullets": [
+        "Three dead. Gaza says aid workers delivering food; the army says PIJ operatives running supplies. WCK says: not ours.",
+        "The army says one of the three once worked for an international aid group and was fired after the army passed it information. WCK says the driver was a former employee. The two accounts fit; the army has not named the group.",
+        "The army has published a video and a claim. It has not published names or evidence of membership, and foreign press still cannot enter Gaza to check."
+      ],
+      "comment": "WCK's denial is the strongest fact on the record, because WCK is the party with the least reason to disown its own people: in 2024 it named its seven dead and demanded an independent inquiry. But read what the denial covers. It says the vehicle was not WCK's and the driver no longer was; it says nothing about who the three were. And read the headlines against the statement: the army says Gazan sources <i>presented</i> the dead as aid workers; a Times of Israel headline says they were <i>masquerading</i> as aid workers. Those are different claims, and only the first is the army's. Last: even on the army's account, the target was a van of food. Carrying food is not, by itself, taking part in hostilities; the strike is lawful only if the three were fighters in their own right, which is exactly what has not been shown.",
+      "verify": "Developing. Not yet established: the names of the dead; any evidence of PIJ membership beyond the army's statement; whether the 'international aid group' that fired one of them is WCK (the army has not said; WCK's 'former employee' statement is reported by the Times of Israel). Accounts differ on the weapon (drone strike per Gaza's Civil Defence and Al Jazeera; 'strike' per the army) and on the vehicle (van, truck, or 'bus' in an AFP caption). Emanuel Fabian's X post was not retrieved. Precedent: in August 2025 the army said it struck five armed men near a vehicle bearing WCK's logo in Deir al-Balah, and said WCK confirmed the vehicle was not its own.",
+      "wikipedia": "https://en.wikipedia.org/wiki/World_Central_Kitchen_aid_convoy_attack",
+      "links": [
+        {
+          "url": "https://www.haaretz.com/gaza/2026-11-21/ty-article/israeli-strike-kills-three-in-vehicle-distributing-aid-in-gaza-medics-say/000001a1-fe5b-d9ff-a7b5-ffff29890000",
+          "source": "Haaretz (Reuters)",
+          "headline": "Israeli Strike Kills Three in Vehicle Distributing Aid in Gaza, Medics Say",
+          "published": "2026-11-21"
+        },
+        {
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/11/21/israeli-strike-kills-three-in-vehicle-distributing-aid-in-gaza-witnesses-say",
+          "source": "Reuters (via Internazionale)",
+          "headline": "Israeli strike kills three in vehicle distributing aid in Gaza, witnesses say",
+          "published": "2026-11-21"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/11/21/at-least-four-palestinians-killed-in-israeli-attacks-on-gaza",
+          "source": "Al Jazeera",
+          "headline": "Israeli strike on vehicle distributing food aid in Gaza kills three",
+          "published": "2026-11-21"
+        },
+        {
+          "url": "https://www.trtworld.com/article/1799a4d614f3",
+          "source": "TRT World (Reuters, AFP)",
+          "headline": "Israel kills four Palestinians in Gaza, including three in aid vehicle strike",
+          "published": "2026-11-21"
+        },
+        {
+          "url": "https://www.timesofisrael.com/israeli-strike-in-gaza-city-kills-3-idf-says-it-hit-terrorists-masquerading-as-aid-workers",
+          "source": "Times of Israel (Emanuel Fabian)",
+          "headline": "Israeli strike in Gaza City kills 3; IDF says it hit terrorists masquerading as aid workers",
+          "published": "2026-11-21"
+        },
+        {
+          "url": "https://www.timesofisrael.com/liveblog_entry/idf-says-gaza-city-strike-targeted-terror-operatives-witnesses-say-struck-vehicle-was-carrying-aid-3-people-killed",
+          "source": "Times of Israel liveblog (Emanuel Fabian, Reuters)",
+          "headline": "IDF says Gaza City strike targeted terror operatives; witnesses say struck vehicle was carrying aid, 3 people killed",
+          "published": "2026-11-21"
+        },
+        {
+          "url": "https://www.timesofisrael.com/liveblog_entry/idf-says-targets-of-earlier-gaza-city-strike-were-pij-operatives-falsely-presented-as-aid-workers/",
+          "source": "Times of Israel liveblog (Emanuel Fabian)",
+          "headline": "IDF says targets of earlier Gaza City strike were PIJ operatives falsely presented as aid workers",
+          "published": "2026-11-21"
+        },
+        {
+          "url": "https://www.ynetnews.com/article/hkaflljy7x",
+          "source": "Ynet (Einav Halabi, Elisha Ben Kimon)",
+          "headline": "'Cynical exploitation': Palestinians claim IDF killed aid workers, WCK denies link",
+          "published": "2026-11-21"
+        },
+        {
+          "url": "https://www.jpost.com/israel-news/defense-news/article-915643",
+          "source": "Jerusalem Post",
+          "headline": "IDF confirms vehicle struck in Gaza was used by PIJ terrorists, after claims they were aid workers",
+          "published": "2026-11-21"
+        },
+        {
+          "url": "https://www.osint613.com/post/wck-denies-link-to-struck-gaza-vehicle-28503",
+          "source": "OSINT613",
+          "headline": "WCK Denies Link to Struck Gaza Vehicle",
+          "published": "2026-11-21",
+          "stance": "pro-israel"
+        },
+        {
+          "url": "https://www.timesofisrael.com/liveblog_entry/idf-says-it-caught-terror-operatives-posing-as-world-central-kitchen-staff-in-central-gaza/",
+          "source": "Times of Israel liveblog (precedent, Aug 2025)",
+          "headline": "IDF says it caught terror operatives posing as World Central Kitchen staff in central Gaza",
+          "published": "2025-08-12"
+        }
+      ],
+      "dossier": [
+        {
+          "heading": "Who says what",
+          "table": {
+            "cols": [
+              "Question",
+              "Gaza health ministry, Civil Defence, witnesses",
+              "Israeli army",
+              "World Central Kitchen"
+            ],
+            "rows": [
+              [
+                "Who died",
+                "Three people delivering food; called aid workers",
+                "Three Palestinian Islamic Jihad operatives",
+                "Not WCK staff; the driver had previously worked for WCK (as reported by the Times of Israel)"
+              ],
+              [
+                "What the vehicle carried",
+                "Packaged food; papers with WCK's logo; about to stop for children",
+                "Food and logistical supplies for terror operatives",
+                "Not affiliated with WCK"
+              ],
+              [
+                "Markings",
+                "Not stated",
+                "No visual markings identifying an aid organisation (military source)",
+                "Not stated"
+              ],
+              [
+                "The former employee",
+                "Not stated",
+                "One of the three once worked for an unnamed international aid group and was fired after the army gave it information",
+                "The driver had previously worked for WCK"
+              ],
+              [
+                "Evidence published",
+                "Witness accounts; AFP and Reuters photos of the vehicle",
+                "A strike video and a statement; no names",
+                "A statement"
+              ]
+            ],
+            "note": "Compiled from the sources in the record below, 21 November 2026. Each cell is that party's claim, not our finding."
+          }
+        },
+        {
+          "heading": "What is established, what is claimed",
+          "html": "<ul><li><b>Established:</b> a strike hit a vehicle in Tel al-Hawa on 21 November 2026 and three people died. Every party agrees on this.</li><li><b>Established:</b> WCK says the vehicle was not its own. A charity that lost seven workers to an Israeli strike in 2024 and has publicly demanded accountability has no motive to disown its staff.</li><li><b>Claimed, not shown:</b> that the three were PIJ members (the army); that they were aid workers (the health ministry and witnesses). The army's video shows a strike, not an identity.</li><li><b>Claimed, not shown:</b> that the vehicle supplied fighters. Even if it did, food deliveries are not in themselves direct participation in hostilities. What would make the three lawful targets is membership of an armed group in a combat role, which needs evidence the army has not released.</li><li><b>Pattern to watch:</b> the army's statement says Gazan sources <i>presented</i> the dead as aid workers; one headline turned that into <i>masquerading</i>. The same compression we have recorded before.</li></ul>"
+        },
+        {
+          "heading": "What would settle it",
+          "html": "<ol><li>The names of the three, from the health ministry or families, and whether any appears on published PIJ rolls or martyrdom notices.</li><li>WCK naming when and why the driver's employment ended, and whether the army's information was the reason.</li><li>The army's full video and the intelligence basis for the strike, or a referral to the military advocate general.</li><li>Independent access to the site, which Israel still denies foreign journalists.</li></ol>"
+        },
+        {
+          "heading": "Monitoring log",
+          "html": "<ul><li><b>21 Nov 2026, evening:</b> entry opened. 11 sources read: Reuters (via Haaretz and Internazionale), Al Jazeera, TRT World, Times of Israel (three items), Ynet, Jerusalem Post, OSINT613, and the August 2025 precedent.</li></ul>",
+          "placement": "after_record"
+        }
+      ]
+    },
+    {
       "id": "hind-rajab",
       "section": "main",
       "title": "Killing of Hind Rajab, her family, and two paramedics in Gaza City",
