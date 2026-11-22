@@ -30,19 +30,19 @@
       "section": "developing",
       "monitor": {
         "status": "Developing: monitored",
-        "last_checked": "22 Nov 2026, about 14:00 Gaza time",
+        "last_checked": "22 Nov 2026, about 22:00 Gaza time",
         "note": "This entry changes as the record does. Every change is a commit in the public repository."
       },
       "title": "Tel al-Hawa: a strike on a vehicle carrying food, three killed. Aid workers, or Islamic Jihad?",
       "date": "21 Nov 2026",
-      "summary": "On 21 November 2026 an Israeli strike hit a vehicle on al-Sina'a Street in Tel al-Hawa, Gaza City, killing three Palestinians, according to Gaza's health ministry, Civil Defence and witnesses; a Reuters witness said it carried packaged food and papers bearing World Central Kitchen's logo, and was about to stop to hand food and drink to children. The Israeli army says the three were Palestinian Islamic Jihad operatives in an unmarked vehicle carrying food and logistical supplies to terror operatives, and that Gazan sources falsely presented them as aid workers; WCK says the vehicle was not affiliated with it, and that the driver had previously worked for the charity.",
+      "summary": "On 21 November 2026 an Israeli strike hit a vehicle on al-Sina'a Street in Tel al-Hawa, Gaza City, killing three Palestinians, according to Gaza's health ministry, Civil Defence and witnesses; a Reuters witness said it carried packaged food and papers bearing World Central Kitchen's logo, and was about to stop to hand food and drink to children. The Israeli army says the three were Palestinian Islamic Jihad operatives in an unmarked vehicle carrying food and logistical supplies to terror operatives, and that Gazan sources falsely presented them as aid workers; On 22 November it named them as Ahmed Badran Nimr Suweifri, an Islamic Jihad engineering platoon commander, and operatives Mustafa Youssef Mustafa Rafa'i and Khaled Odeh Fathi Naim. WCK says the vehicle was not affiliated with it and that the driver had previously worked for the charity; its founder, José Andrés, wrote: “They were not part of our team, and it was not our vehicle. That's all we know.”",
       "bullets": [
         "Three dead. Gaza says aid workers delivering food; the army says PIJ operatives running supplies. WCK says: not ours.",
         "The army says one of the three once worked for an international aid group and was fired after the army passed it information. WCK says the driver was a former employee. The two accounts fit; the army has not named the group.",
-        "The army has published a video and a claim. It has not published names or evidence of membership, and foreign press still cannot enter Gaza to check."
+        "On 22 November the army named the three: Ahmed Badran Nimr Suweifri, it says an Islamic Jihad engineering platoon commander, and Mustafa Youssef Mustafa Rafa'i and Khaled Odeh Fathi Naim, it says operatives. Names, not evidence: no proof of membership has been published, and foreign press still cannot enter Gaza to check."
       ],
       "comment": "WCK's denial is the strongest fact on the record, because WCK is the party with the least reason to disown its own people: in 2024 it named its seven dead and demanded an independent inquiry (<a href=\"/wck-strike/\">our record of that strike</a>). But read what the denial covers. It says the vehicle was not WCK's and the driver no longer was; it says nothing about who the three were. And read the headlines against the statement: the army says Gazan sources <i>presented</i> the dead as aid workers; a Times of Israel headline says they were <i>masquerading</i> as aid workers. Those are different claims, and only the first is the army's. Last: even on the army's account, the target was a van of food. Carrying food is not, by itself, taking part in hostilities; the strike is lawful only if the three were fighters in their own right, which is exactly what has not been shown.",
-      "verify": "Developing. Not yet established: the names of the dead; any evidence of PIJ membership beyond the army's statement; whether the 'international aid group' that fired one of them is WCK (the army has not said; WCK's 'former employee' statement is now carried by Reuters as well as the Times of Israel). Accounts differ on the weapon (drone strike per Gaza's Civil Defence and Al Jazeera; 'strike' per the army) and on the vehicle (van, truck, or 'bus' in an AFP caption). Emanuel Fabian's X post was not retrieved. Precedent: in August 2025 the army said it struck five armed men near a vehicle bearing WCK's logo in Deir al-Balah, and said WCK confirmed the vehicle was not its own. In November 2024 an Israeli strike on a car killed five people including WCK workers; the army said one was an October 7 attacker, WCK said it had no knowledge of any such tie, and his family denied it. Same question then as now: what did the army tell the charity, and when.",
+      "verify": "Developing. Not yet established: any evidence of PIJ membership beyond the army's statement (the names, published by the army on 22 November, have not yet been confirmed or disputed by Gaza's health ministry, the families or Islamic Jihad); whether the 'international aid group' that fired one of them is WCK (the army has not said; WCK's 'former employee' statement is now carried by Reuters as well as the Times of Israel). Accounts differ on the weapon (drone strike per Gaza's Civil Defence and Al Jazeera; 'strike' per the army) and on the vehicle (van, truck, or 'bus' in an AFP caption). Emanuel Fabian's X post was not retrieved. Precedent: in August 2025 the army said it struck five armed men near a vehicle bearing WCK's logo in Deir al-Balah, and said WCK confirmed the vehicle was not its own. In November 2024 an Israeli strike on a car killed five people including WCK workers; the army said one was an October 7 attacker, WCK said it had no knowledge of any such tie, and his family denied it. Same question then as now: what did the army tell the charity, and when.",
       "links": [
         {
           "url": "https://www.haaretz.com/gaza/2026-11-21/ty-article/israeli-strike-kills-three-in-vehicle-distributing-aid-in-gaza-medics-say/000001a1-fe5b-d9ff-a7b5-ffff29890000",
@@ -140,6 +140,25 @@
           "source": "Daily Sabah",
           "headline": "Hamas urges mediator action after Israeli strike kills 3 in Gaza",
           "published": ""
+        },
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/world-central-kitchen-founder-says-three-killed-gaza-strike-not-part-our",
+          "source": "Middle East Eye (live blog)",
+          "headline": "World Central Kitchen founder says three killed in Gaza strike 'not part of our team'",
+          "published": "2026-11-22"
+        },
+        {
+          "url": "https://www.tbsnews.net/worldbiz/middle-east/israeli-strike-vehicle-gaza-kills-three-gaza-health-ministry-says-1610046",
+          "source": "The Business Standard (Reuters)",
+          "headline": "Israeli strike on vehicle in Gaza kills three, Gaza Health Ministry says",
+          "published": "2026-11-22"
+        },
+        {
+          "url": "https://www.jfeed.com/news-israel/idf-gaza-strike-islamic-jihad-wck-claim",
+          "source": "JFeed",
+          "headline": "IDF: Gaza Strike Hit Islamic Jihad, Not WCK Workers",
+          "published": "2026-11-21",
+          "stance": "pro-israel"
         }
       ],
       "dossier": [
@@ -156,8 +175,8 @@
               [
                 "Who died",
                 "Three people delivering food; called aid workers",
-                "Three Palestinian Islamic Jihad operatives",
-                "Not WCK staff; the driver had previously worked for WCK (reported by Reuters and the Times of Israel)"
+                "Three Palestinian Islamic Jihad members, named on 22 Nov: Ahmed Badran Nimr Suweifri (engineering platoon commander), Mustafa Youssef Mustafa Rafa'i and Khaled Odeh Fathi Naim (operatives)",
+                "Not WCK staff; the driver had previously worked for WCK (Reuters, Times of Israel). José Andrés: “They were not part of our team, and it was not our vehicle. That's all we know.”"
               ],
               [
                 "What the vehicle carried",
@@ -180,8 +199,8 @@
               [
                 "Evidence published",
                 "Witness accounts; AFP and Reuters photos of the vehicle; Al Jazeera English video from the scene (X, 21 Nov, 17:14 UTC)",
-                "A strike video and a statement; no names",
-                "A statement"
+                "Strike footage of a white commercial vehicle with no visible markings, tracked from the air; three names. No evidence of membership",
+                "A statement; José Andrés's post on X"
               ],
               [
                 "Other parties",
@@ -191,7 +210,8 @@
               ]
             ],
             "note": "Compiled from the sources in the record below, 21 November 2026. Each cell is that party's claim, not our finding."
-          }
+          },
+          "note": "Compiled from the sources in the record below, 21–22 November 2026. Each cell is that party's claim, not our finding."
         },
         {
           "heading": "What is established, what is claimed",
@@ -199,11 +219,11 @@
         },
         {
           "heading": "What would settle it",
-          "html": "<ol><li>The names of the three, from the health ministry or families, and whether any appears on published PIJ rolls or martyrdom notices.</li><li>WCK naming when and why the driver's employment ended, and whether the army's information was the reason.</li><li>The army's full video and the intelligence basis for the strike, or a referral to the military advocate general.</li><li>Independent access to the site, which Israel still denies foreign journalists.</li></ol>"
+          "html": "<ol><li>The names of the three: the army published them on 22 November. Still needed: confirmation or dispute from the health ministry or families, and whether any appears in Islamic Jihad's own martyrdom notices.</li><li>WCK naming when and why the driver's employment ended, and whether the army's information was the reason.</li><li>The army's full video and the intelligence basis for the strike, or a referral to the military advocate general.</li><li>Independent access to the site, which Israel still denies foreign journalists.</li></ol>"
         },
         {
           "heading": "Monitoring log",
-          "html": "<ul><li><b>21 Nov 2026, evening:</b> entry opened. 11 sources read: Reuters (via Haaretz and Internazionale), Al Jazeera, TRT World, Times of Israel (three items), Ynet, Jerusalem Post, OSINT613, and the August 2025 precedent.</li><li><b>21 Nov 2026, late evening:</b> added Al Jazeera English's video post from the scene (posted 17:14 UTC), which says papers bearing WCK's logo were found inside the vehicle. Al Jazeera's caption calls the vehicle's cargo food for displaced people; like every other source so far, it does not identify the three.</li><li><b>22 Nov 2026, ~00:00 UTC (check 1):</b> page confirmed live. No names of the dead, no further WCK statement and no new army evidence found. Added NBC's copy of the Reuters report and the November 2024 precedent (AP via PBS).</li><li><b>22 Nov 2026, 04:00 and 08:00 UTC (checks 2–3):</b> nothing new; only re-publications of the Reuters story.</li><li><b>22 Nov 2026, 12:00 UTC (check 4):</b> Reuters' updated story now carries WCK's statement that the driver had previously worked for it and the other two were not its workers; says Islamic Jihad did not immediately comment and that Reuters could not independently verify the army's statement. Hamas says the dead were soup-kitchen workers and urged mediators to act. Still no names.</li></ul>",
+          "html": "<ul><li><b>21 Nov 2026, evening:</b> entry opened. 11 sources read: Reuters (via Haaretz and Internazionale), Al Jazeera, TRT World, Times of Israel (three items), Ynet, Jerusalem Post, OSINT613, and the August 2025 precedent.</li><li><b>21 Nov 2026, late evening:</b> added Al Jazeera English's video post from the scene (posted 17:14 UTC), which says papers bearing WCK's logo were found inside the vehicle. Al Jazeera's caption calls the vehicle's cargo food for displaced people; like every other source so far, it does not identify the three.</li><li><b>22 Nov 2026, ~00:00 UTC (check 1):</b> page confirmed live. No names of the dead, no further WCK statement and no new army evidence found. Added NBC's copy of the Reuters report and the November 2024 precedent (AP via PBS).</li><li><b>22 Nov 2026, 04:00 and 08:00 UTC (checks 2–3):</b> nothing new; only re-publications of the Reuters story.</li><li><b>22 Nov 2026, 12:00 UTC (check 4):</b> Reuters' updated story now carries WCK's statement that the driver had previously worked for it and the other two were not its workers; says Islamic Jihad did not immediately comment and that Reuters could not independently verify the army's statement. Hamas says the dead were soup-kitchen workers and urged mediators to act. Still no names.</li><li><b>22 Nov 2026, 16:00 UTC (check 5):</b> nothing new.</li><li><b>22 Nov 2026, 20:00 UTC (check 6):</b> the army named the three (Times of Israel, updated 22 Nov). José Andrés on X: “They were not part of our team, and it was not our vehicle. That's all we know.” (Middle East Eye). The army's footage shows a white commercial vehicle with no visible markings (JFeed). Gaza's side has not yet named the dead.</li></ul>",
           "placement": "after_record"
         }
       ]
