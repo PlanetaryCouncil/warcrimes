@@ -254,6 +254,7 @@ def page(d, prev, nxt):
   <a href="/#sec-propaganda">Propaganda</a>
   <a href="/talking-about-war-crimes-is-not-antisemitic/">Not antisemitic</a>
   <a href="/al-ahli.html">Contested</a>
+  <a href="https://planetarycouncil.org/publications/psychology-of-war-crimes-and-genocide.pdf" target="_blank" rel="noopener">Psychology ↗</a>
 </nav>
 <main class="page">
   <div class="crumbs"><a href="/">War Crimes Safari</a> › <a href="/{SECTION_ANCHOR[d['section']]}">{SECTION_NAME[d['section']]}</a> › {LABEL[d['id']]}</div>
