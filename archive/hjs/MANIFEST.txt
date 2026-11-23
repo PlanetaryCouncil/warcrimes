@@ -1,0 +1,7 @@
+Archived 2026-11-19.
+Report PDF not stored (5.0 MB, © HJS). SHA-256 of the PDF as downloaded from https://henryjacksonsociety.org/wp-content/uploads/2025/05/HJS-Hamass-Human-Shield-Strategy-in-Gaza-Report-WEB.pdf :
+82924777ff330e092739ba61933e065fdf0ce0618a8271d0912fa1c40740051a  report.pdf (87 pages)
+cited-links.txt: every URL extracted from the PDF text (pdftotext -layout), in order; links broken across lines may be cut short.
+
+56c59bdc9d6a69f0fc723cf41d7d2f0d8d9076b5bb83b253dce90bf919632432  hjs-human-shield-report-2025-cited-links.txt
+a50ce965ce3076a06fc9aa3eb583feff6ed04bc417e9099e942793e6daee2a07  hjs-charity-accounts-2024-ocr.md
