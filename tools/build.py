@@ -260,7 +260,7 @@ def page(d, prev, nxt):
   <div class="crumbs"><a href="/">War Crimes Safari</a> › <a href="/{SECTION_ANCHOR[d['section']]}">{SECTION_NAME[d['section']]}</a> › {LABEL[d['id']]}</div>
   <h1><span class="num">{LABEL[d['id']]}</span>{d['title']}</h1>
   <div class="meta">{d['date']} · <span class="updated">Last updated <time datetime="{UPDATED[d['id']]}">{nice_date(UPDATED[d['id']])}</time></span></div>
-  {'<ul class="why">' + ''.join(f'<li>{b}</li>' for b in d['bullets']) + '</ul>' if d.get('bullets') else ''}
+  {'<ul class="why">' + ''.join(f'<li>{b}</li>' for b in d['bullets']) + '</ul>' if d.get('bullets') else ''}{(chr(10)+'  '+f'<div class="notice" style="margin-top:1.1rem">{d["notice"]}</div>') if d.get('notice') else ''}
   <p class="lede">{d['summary']}</p>
   {f'<div class="comment">{d["comment"]}</div>' if d.get('comment') else ''}
   {f'<div class="verify">⚠ {d["verify"]}</div>' if d.get('verify') else ''}{monitor}
