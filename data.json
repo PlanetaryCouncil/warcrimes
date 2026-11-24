@@ -30,7 +30,7 @@
       "section": "developing",
       "monitor": {
         "status": "Developing: monitored",
-        "last_checked": "23 Nov 2026, about 22:30 Gaza time",
+        "last_checked": "24 Nov 2026, about 02:30 Gaza time",
         "note": "This entry changes as the record does. Every change is a commit in the public repository."
       },
       "title": "Tel al-Hawa: a strike on a vehicle carrying food, three killed. Aid workers, or Islamic Jihad?",
@@ -183,6 +183,26 @@
           "source": "HonestReporting (Joe Truzman)",
           "headline": "Analysis: Unearthed Evidence Suggests Reported Gaza Charity Worker was Linked to Palestinian Islamic Jihad",
           "published": "2026-11-23"
+        },
+        {
+          "url": "https://www.skynewsarabia.com/middle-east/1906206-3-%D9%82%D8%AA%D9%84%D9%89-%D8%A8%D9%82%D8%B5%D9%81-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A-%D9%84%D9%85%D8%B1%D9%83%D8%A8%D8%A9-%D8%AD%D9%8A-%D8%AA%D9%84-%D8%A7%D9%84%D9%87%D9%88%D9%89-%D8%A8%D9%85%D8%AF%D9%8A%D9%86%D8%A9-%D8%BA%D8%B2%D8%A9",
+          "source": "Sky News Arabia",
+          "headline": "3 قتلى بقصف إسرائيلي لمركبة في حي تل الهوى بمدينة غزة",
+          "published": "2026-11-21"
+        },
+        {
+          "url": "https://nn.najah.edu/news/Gaza/2026/11/21/575271/",
+          "source": "An-Najah News (An-Najah University)",
+          "headline": "3 شهداء وإصابات في قصف الاحتلال مركبة لنقل الطعام للنازحين غرب غزة",
+          "published": "2026-11-21",
+          "stance": "pro-palestinian"
+        },
+        {
+          "url": "https://safa.ps/post/424316/%D8%A7%D9%84%D8%AA%D9%86%D9%85%D9%8A%D8%A9-%D8%AA%D8%AF%D9%8A%D9%86-%D9%82%D8%AA%D9%84-%D9%82%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D8%A7%D8%AD%D8%AA%D9%84%D8%A7%D9%84-3-%D8%B9%D8%A7%D9%85%D9%84%D9%8A%D9%86-%D8%A5%D8%BA%D8%A7%D8%AB%D9%8A%D9%8A%D9%86-%D9%81%D9%8A-%D8%BA%D8%B2%D8%A9",
+          "source": "Safa (Gaza Ministry of Social Development statement)",
+          "headline": "\"التنمية\" تدين قتل قوات الاحتلال 3 عاملين إغاثيين في غزة",
+          "published": "",
+          "stance": "gaza-gov"
         }
       ],
       "dossier": [
@@ -204,7 +224,7 @@
               ],
               [
                 "What the vehicle carried",
-                "Packaged food; papers with WCK's logo; about to stop for children",
+                "Packaged food; papers with WCK's logo; about to stop for children. Gaza's (Hamas-run) Ministry of Social Development: a vehicle belonging to a charity kitchen (takiya) on al-Sina'a Street",
                 "21 Nov: “food and logistical supplies to terror operatives”. 22 Nov: “At the time of the strike, the terrorists were conducting a patrol between operational positions controlled by terror organizations”",
                 "Not affiliated with WCK"
               ],
@@ -253,7 +273,7 @@
         },
         {
           "heading": "Monitoring log",
-          "html": "<ul><li><b>21 Nov 2026, evening:</b> entry opened. 11 sources read: Reuters (via Haaretz and Internazionale), Al Jazeera, TRT World, Times of Israel (three items), Ynet, Jerusalem Post, OSINT613, and the August 2025 precedent.</li><li><b>21 Nov 2026, late evening:</b> added Al Jazeera English's video post from the scene (posted 17:14 UTC), which says papers bearing WCK's logo were found inside the vehicle. Al Jazeera's caption calls the vehicle's cargo food for displaced people; like every other source so far, it does not identify the three.</li><li><b>22 Nov 2026, ~00:00 UTC (check 1):</b> page confirmed live. No names of the dead, no further WCK statement and no new army evidence found. Added NBC's copy of the Reuters report and the November 2024 precedent (AP via PBS).</li><li><b>22 Nov 2026, 04:00 and 08:00 UTC (checks 2–3):</b> nothing new; only re-publications of the Reuters story.</li><li><b>22 Nov 2026, 12:00 UTC (check 4):</b> Reuters' updated story now carries WCK's statement that the driver had previously worked for it and the other two were not its workers; says Islamic Jihad did not immediately comment and that Reuters could not independently verify the army's statement. Hamas says the dead were soup-kitchen workers and urged mediators to act. Still no names.</li><li><b>22 Nov 2026, 16:00 UTC (check 5):</b> nothing new.</li><li><b>22 Nov 2026, 20:00 UTC (check 6):</b> the army named the three (Times of Israel, updated 22 Nov). José Andrés on X: “They were not part of our team, and it was not our vehicle. That's all we know.” (Middle East Eye). The army's footage shows a white commercial vehicle with no visible markings (JFeed). Gaza's side has not yet named the dead.</li><li><b>23 Nov 2026, 00:00 UTC (check 7):</b> no confirmation or dispute of the army's names from Gaza's side or Islamic Jihad. Added Al Manassa's report (three men distributing free food to displacement camps; a WCK source said they were not staff). Noted an AFP photo caption (via NBC): Khaled Naeem, killed in a vehicle strike, mourned at al-Shifa on 21 November; possibly one of the three, not yet tied to this strike by any source.</li><li><b>23 Nov 2026, 04:00 UTC (check 8):</b> nothing new (the 'official statement' in an Al-Quds report is Hamas's, already recorded).</li><li><b>23 Nov 2026, 08:00 UTC (check 9):</b> added Haaretz (22 Nov). Reuters' Sunday update gives one of the three as a <i>company</i> commander; the Times of Israel says <i>platoon</i> commander. Still no confirmation or dispute of the names from Gaza's side or Islamic Jihad.</li><li><b>23 Nov 2026, 12:00 UTC (check 10):</b> added the Times of Israel liveblog of the army's 22 November naming statement, which describes the men as “conducting a patrol between operational positions controlled by terror organizations”, a different account from the first day's “food and logistical supplies”. Still no response from Gaza's side or Islamic Jihad on the names.</li><li><b>23 Nov 2026, 16:00 UTC (check 11):</b> nothing new.</li><li><b>23 Nov 2026, 20:00 UTC (check 12):</b> HonestReporting (Joe Truzman, 23 Nov) matched Suweifri/Sawafiri by facial recognition to photos of Islamic Jihad rallies in 2014, 2015 and 2017, while stating this cannot confirm membership or rank; found nothing on Rafa'i; and reported that Fatah mourned Khaled Na'im as “a son of the Fatah movement”, which contradicts the army's account of him. Islamic Jihad still silent.</li></ul>",
+          "html": "<ul><li><b>21 Nov 2026, evening:</b> entry opened. 11 sources read: Reuters (via Haaretz and Internazionale), Al Jazeera, TRT World, Times of Israel (three items), Ynet, Jerusalem Post, OSINT613, and the August 2025 precedent.</li><li><b>21 Nov 2026, late evening:</b> added Al Jazeera English's video post from the scene (posted 17:14 UTC), which says papers bearing WCK's logo were found inside the vehicle. Al Jazeera's caption calls the vehicle's cargo food for displaced people; like every other source so far, it does not identify the three.</li><li><b>22 Nov 2026, ~00:00 UTC (check 1):</b> page confirmed live. No names of the dead, no further WCK statement and no new army evidence found. Added NBC's copy of the Reuters report and the November 2024 precedent (AP via PBS).</li><li><b>22 Nov 2026, 04:00 and 08:00 UTC (checks 2–3):</b> nothing new; only re-publications of the Reuters story.</li><li><b>22 Nov 2026, 12:00 UTC (check 4):</b> Reuters' updated story now carries WCK's statement that the driver had previously worked for it and the other two were not its workers; says Islamic Jihad did not immediately comment and that Reuters could not independently verify the army's statement. Hamas says the dead were soup-kitchen workers and urged mediators to act. Still no names.</li><li><b>22 Nov 2026, 16:00 UTC (check 5):</b> nothing new.</li><li><b>22 Nov 2026, 20:00 UTC (check 6):</b> the army named the three (Times of Israel, updated 22 Nov). José Andrés on X: “They were not part of our team, and it was not our vehicle. That's all we know.” (Middle East Eye). The army's footage shows a white commercial vehicle with no visible markings (JFeed). Gaza's side has not yet named the dead.</li><li><b>23 Nov 2026, 00:00 UTC (check 7):</b> no confirmation or dispute of the army's names from Gaza's side or Islamic Jihad. Added Al Manassa's report (three men distributing free food to displacement camps; a WCK source said they were not staff). Noted an AFP photo caption (via NBC): Khaled Naeem, killed in a vehicle strike, mourned at al-Shifa on 21 November; possibly one of the three, not yet tied to this strike by any source.</li><li><b>23 Nov 2026, 04:00 UTC (check 8):</b> nothing new (the 'official statement' in an Al-Quds report is Hamas's, already recorded).</li><li><b>23 Nov 2026, 08:00 UTC (check 9):</b> added Haaretz (22 Nov). Reuters' Sunday update gives one of the three as a <i>company</i> commander; the Times of Israel says <i>platoon</i> commander. Still no confirmation or dispute of the names from Gaza's side or Islamic Jihad.</li><li><b>23 Nov 2026, 12:00 UTC (check 10):</b> added the Times of Israel liveblog of the army's 22 November naming statement, which describes the men as “conducting a patrol between operational positions controlled by terror organizations”, a different account from the first day's “food and logistical supplies”. Still no response from Gaza's side or Islamic Jihad on the names.</li><li><b>23 Nov 2026, 16:00 UTC (check 11):</b> nothing new.</li><li><b>23 Nov 2026, 20:00 UTC (check 12):</b> HonestReporting (Joe Truzman, 23 Nov) matched Suweifri/Sawafiri by facial recognition to photos of Islamic Jihad rallies in 2014, 2015 and 2017, while stating this cannot confirm membership or rank; found nothing on Rafa'i; and reported that Fatah mourned Khaled Na'im as “a son of the Fatah movement”, which contradicts the army's account of him. Islamic Jihad still silent.</li><li><b>24 Nov 2026, 00:30 UTC (check 13):</b> Arabic-language sources added: Gaza's Ministry of Social Development condemned the killing of three relief workers in a vehicle belonging to a charity kitchen (via Safa); al-Shifa reported three dead and others wounded (An-Najah News, Sky News Arabia). No statement from Islamic Jihad, no second source for Fatah's mourning of Khaled Na'im, no army response to it.</li></ul>",
           "placement": "after_record"
         }
       ]
