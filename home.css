@@ -1,0 +1,109 @@
+/* home page only: a dark, cinematic first impression. Incident pages keep the light palette in site.css. */
+body.home {
+  color-scheme: dark;
+  --bg: #0b0b0d;
+  --card: #141417;
+  --text: #ecebe6;
+  --muted: #a3a097;
+  --accent: #d0493a;
+  --line: #2a2a2f;
+  --link: #e0806b;
+  background:
+    radial-gradient(1200px 600px at 15% -10%, rgba(169, 50, 38, 0.22), transparent 60%),
+    radial-gradient(900px 500px at 95% 5%, rgba(120, 110, 90, 0.10), transparent 60%),
+    var(--bg);
+  background-repeat: no-repeat;
+  overflow-x: clip;
+}
+body.home #topnav { background: color-mix(in srgb, var(--bg) 78%, transparent); }
+body.home .card:hover { box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); }
+body.home .notice { background: var(--card); }
+
+/* hero */
+.hero { position: relative; min-height: min(78vh, 680px); display: flex; align-items: flex-end; margin: -2.2rem -1rem 0; padding: 0 1.25rem 3.5rem; }
+.hero::before { /* slow drifting ember glow: pure CSS */
+  content: ""; position: absolute; inset: -20%;
+  background: radial-gradient(40% 35% at 30% 60%, rgba(208, 73, 58, 0.28), transparent 70%),
+              radial-gradient(30% 30% at 75% 30%, rgba(236, 235, 230, 0.06), transparent 70%);
+  -webkit-mask-image: radial-gradient(closest-side, #000 55%, transparent);
+  mask-image: radial-gradient(closest-side, #000 55%, transparent);
+}
+.hero::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 1px; background: linear-gradient(90deg, transparent, var(--accent), transparent); }
+.hero-in { position: relative; max-width: 1100px; margin: 0 auto; width: 100%; }
+.hero h1 { font-family: Georgia, "Times New Roman", serif; font-weight: 400; font-size: clamp(2.6rem, 8vw, 6rem); line-height: 0.98; letter-spacing: -0.02em; }
+.hero .overline { color: var(--accent); }
+.hero-sub { font-size: clamp(1.05rem, 2.2vw, 1.4rem); line-height: 1.45; color: var(--text); opacity: 0.86; max-width: 40rem; margin-top: 1.2rem; }
+.hero-cta { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-top: 1.8rem; }
+.hero-cta a { color: var(--text); text-decoration: none; border: 1px solid var(--line); border-radius: 999px; padding: 0.55rem 1.05rem; font-size: 0.92rem; background: rgba(255, 255, 255, 0.03); transition: border-color 0.2s, background 0.2s; }
+.hero-cta a:first-child { background: var(--accent); border-color: var(--accent); color: #fff; }
+.hero-cta a:hover { border-color: var(--accent); }
+.hero-counts { color: var(--muted); font-size: 0.82rem; margin-top: 1.4rem; }
+
+/* sections */
+.home-sec { max-width: 1240px; margin: 4.5rem auto 0; scroll-margin-top: 4rem; }
+.home-sec > h2 { font-family: Georgia, serif; font-weight: 400; font-size: clamp(1.8rem, 4vw, 2.6rem); letter-spacing: -0.01em; }
+.home-sec > .sub { max-width: 46rem; }
+
+/* top 20 */
+.t20-grid { display: grid; grid-template-columns: 1fr; gap: 1.25rem; margin-top: 2rem; }
+@media (min-width: 720px) { .t20-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1120px) { .t20-grid { grid-template-columns: repeat(3, 1fr); } }
+.t20 { position: relative; background: var(--card); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; display: flex; flex-direction: column; transition: border-color 0.25s, transform 0.25s; }
+.t20:hover { border-color: var(--accent); transform: translateY(-3px); }
+.t20-media { position: relative; aspect-ratio: 16 / 10; overflow: hidden; background: #050506; }
+.t20-media img { width: 100%; height: 100%; object-fit: cover; display: block; filter: saturate(0.8) contrast(1.05) brightness(0.88); transform-origin: 50% 40%; }
+.t20-media::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 45%, rgba(11, 11, 13, 0.85)); pointer-events: none; }
+.t20-n { position: absolute; left: 0.9rem; bottom: 0.55rem; z-index: 1; font: 400 2.6rem/1 Georgia, serif; color: #fff; text-shadow: 0 2px 14px rgba(0, 0, 0, 0.6); font-variant-numeric: tabular-nums; }
+.t20-credit { position: absolute; right: 0.6rem; bottom: 0.5rem; z-index: 1; max-width: 60%; font-size: 0.62rem; color: rgba(255, 255, 255, 0.6); text-align: right; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.noimg .t20-media { background: radial-gradient(120% 90% at 20% 20%, rgba(208, 73, 58, 0.35), transparent 60%), linear-gradient(135deg, #1b1416, #0b0b0d); }
+.t20-type { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font: italic 400 clamp(1.4rem, 3vw, 2rem)/1.1 Georgia, serif; color: rgba(236, 235, 230, 0.22); letter-spacing: 0.04em; }
+.t20-body { padding: 1rem 1.2rem 1.2rem; display: flex; flex-direction: column; flex: 1; }
+.t20-when { color: var(--accent); font-size: 0.72rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; }
+.t20 h3 { font: 400 1.35rem/1.2 Georgia, serif; margin-top: 0.3rem; }
+.t20 h3 a { color: var(--text); text-decoration: none; }
+.t20 h3 a::after { content: ""; position: absolute; inset: 0; z-index: 2; } /* the whole card opens the page */
+.t20 p { font-size: 0.95rem; line-height: 1.5; margin-top: 0.55rem; }
+.t20-off { color: var(--muted); font-size: 0.85rem !important; border-left: 2px solid var(--line); padding-left: 0.65rem; }
+.t20-off span { display: block; font-size: 0.66rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); opacity: 0.8; margin-bottom: 0.1rem; }
+.t20-more { margin-top: auto; padding-top: 0.9rem; color: var(--link); font-size: 0.85rem; text-decoration: none; }
+
+/* ten names */
+.tn-wrap { display: grid; grid-template-columns: 1fr; gap: 1.25rem; margin-top: 2rem; }
+@media (min-width: 900px) { .tn-wrap { grid-template-columns: 1fr 1fr; } }
+.tn { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 1.4rem 1.4rem 0.6rem; }
+.tn.il { border-top: 3px solid #3d6fb4; }
+.tn.hm { border-top: 3px solid #3f8f5a; }
+.tn h3 { font: 400 1.35rem/1.25 Georgia, serif; }
+.tn-lede { color: var(--muted); font-size: 0.88rem; margin-top: 0.5rem; }
+.tn ol { list-style: none; padding: 0; margin-top: 1rem; }
+.tn li { display: flex; gap: 0.85rem; padding: 0.85rem 0; border-top: 1px solid var(--line); }
+.tn-i { font: 400 1.1rem/1.4 Georgia, serif; color: var(--muted); font-variant-numeric: tabular-nums; min-width: 1.6rem; }
+.tn-name { font-weight: 700; }
+.tn-name a { color: var(--text); text-decoration: none; border-bottom: 1px solid var(--line); }
+.tn-name a:hover { border-color: var(--accent); }
+.tn-role { color: var(--muted); font-size: 0.82rem; }
+.tn li p { font-size: 0.88rem; line-height: 1.45; margin-top: 0.3rem; }
+.tn-src { color: var(--link); text-decoration: none; white-space: nowrap; font-size: 0.8rem; }
+
+.full-record { max-width: 760px; margin: 5rem auto 1.5rem !important; }
+body.home main > header { display: none; }
+
+/* motion: Ken Burns on every card image, fade-up on scroll — CSS only, off for reduced motion */
+@media (prefers-reduced-motion: no-preference) {
+  .hero::before { animation: drift 28s ease-in-out infinite alternate; }
+  .t20-media img { animation: kenburns 26s ease-in-out infinite alternate; }
+  .t20:nth-child(3n+2) .t20-media img { animation-duration: 31s; animation-direction: alternate-reverse; transform-origin: 30% 60%; }
+  .t20:nth-child(3n) .t20-media img { animation-duration: 23s; transform-origin: 70% 35%; }
+  .noimg .t20-media { background-size: 160% 160%; animation: glow 18s ease-in-out infinite alternate; }
+  @supports (animation-timeline: view()) {
+    .t20, .tn li { animation: rise linear both; animation-timeline: view(); animation-range: entry 0% entry 40%; }
+  }
+}
+@keyframes kenburns { from { transform: scale(1.04) translate(0, 0); } to { transform: scale(1.16) translate(-2.5%, -1.5%); } }
+@keyframes drift { from { transform: translate(-4%, 2%) scale(1); } to { transform: translate(5%, -3%) scale(1.12); } }
+@keyframes glow { from { background-position: 0% 0%; } to { background-position: 100% 100%; } }
+@keyframes rise { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: none; } }
+@media (max-width: 720px) {
+  body.home #topnav { flex-wrap: nowrap; overflow-x: auto; white-space: nowrap; scrollbar-width: none; }
+  .hero { min-height: 0; padding-top: 4rem; }
+}

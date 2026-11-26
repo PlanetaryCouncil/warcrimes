@@ -1,0 +1,347 @@
+{
+ "note": "Curated home page: the Top 20 and the two 'ten names' panels. Rendered into index.html by tools/home.py. Images, titles, dates and URLs come from data.json; only the one-liners live here. One sentence each, attributed, nothing beyond what the incident's own page says.",
+ "top20": [
+  {
+   "id": "al-nasr-babies",
+   "short": "Babies left to die in an ICU",
+   "when": "Nov 2023",
+   "line": "Staff say they were ordered out of al-Nasr Children's Hospital under fire and had to leave premature babies on ventilators; on 27 November a reporter filmed their decomposing remains, which CNN geolocated to the ICU.",
+   "official": "The army says it “did not operate inside the Al-Nasr hospital” and called the allegations “a perverse exploitation of innocent lives”."
+  },
+  {
+   "id": "genocidal-rhetoric",
+   "short": "“Nuclear bomb is an option”",
+   "when": "Nov 2023 –",
+   "line": "Israeli ministers' calls to flatten or erase Gaza — the heritage minister called a nuclear bomb “an option” — were cited by South Africa as evidence of genocidal intent, and the ICJ ordered Israel to prevent and punish incitement to genocide.",
+   "official": "Netanyahu suspended the minister from cabinet meetings; at the ICJ, Israel's legal adviser rejected the genocide case."
+  },
+  {
+   "id": "christians",
+   "short": "Shot inside a church compound",
+   "when": "Oct – Dec 2023",
+   "line": "The Latin Patriarchate says an Israeli sniper shot dead Nahida Anton and her daughter Samar inside Gaza's Holy Family parish, two months after a strike on the Saint Porphyrius church compound killed 18 people sheltering there, according to church officials.",
+   "official": "The army denies it targeted the Holy Family church."
+  },
+  {
+   "id": "hind-rajab",
+   "short": "Hind Rajab, six years old",
+   "when": "29 Jan 2024",
+   "line": "Hind Rajab, six relatives and the two paramedics sent to rescue her were killed in Gaza City; Forensic Architecture, The Washington Post and Sky News found an Israeli tank was present and likely fired 335 rounds into the car.",
+   "official": "The army first said its probe indicated no troops were in the area."
+  },
+  {
+   "id": "flour-massacre",
+   "short": "The flour massacre",
+   "when": "29 Feb 2024",
+   "line": "At least 112 Palestinians were killed around an aid-flour convoy on al-Rashid Street; witnesses and Gaza health officials say Israeli forces fired on the crowd, and a CNN video review found gunfire began before the army's stated timeline.",
+   "official": "The army says most victims were trampled or run over in a crush around the trucks."
+  },
+  {
+   "id": "wck-strike",
+   "short": "Seven aid workers, three strikes",
+   "when": "1 Apr 2024",
+   "line": "Three successive Israeli drone strikes killed seven World Central Kitchen aid workers in a clearly marked convoy on a route the charity had coordinated with the army.",
+   "official": "The army called it “a grave mistake” stemming from misidentification and dismissed two officers."
+  },
+  {
+   "id": "sde-teiman-dogs",
+   "short": "Sde Teiman: torture in custody",
+   "when": "Oct 2023 –",
+   "line": "UN reporting, released detainees and Israeli whistleblowers describe systematic torture and sexual violence at the Sde Teiman camp, including dogs set on shackled detainees; PHRI counted at least 94 Palestinian deaths in Israeli custody by August 2025.",
+   "official": "Israel denies the specific allegations."
+  },
+  {
+   "id": "right-to-rape",
+   "short": "Sde Teiman: the mob and the charges",
+   "when": "29 Jul 2024",
+   "line": "When reservists were detained over the alleged severe sexual abuse of a detainee at Sde Teiman, mobs that included Knesset members stormed two army bases, and lawmakers publicly defended the soldiers.",
+   "official": "In March 2026 the Military Advocate General withdrew the indictment, citing weakened evidence and the leak of the video."
+  },
+  {
+   "id": "hospital-rocket-jump",
+   "short": "Burned alive in a hospital tent camp",
+   "when": "14 Oct 2024",
+   "line": "An Israeli strike set fire to a tent camp for displaced people at Al-Aqsa Martyrs Hospital in Deir al-Balah; footage verified by NBC News showed people burning alive, among them a man reportedly attached to an IV drip.",
+   "official": "The army says it targeted a Hamas command centre at the site; MSF says it had no knowledge of one."
+  },
+  {
+   "id": "children-sniped",
+   "short": "Children shot in the head",
+   "when": "2023 – 2025",
+   "line": "In de Volkskrant's prize-winning investigation, 15 foreign doctors described 114 children aged 15 and under shot once in the head or chest, and two forensic pathologists judged the wounds highly likely to be long-distance shots.",
+   "official": "Israel denies it, saying its forces do not deliberately target civilians."
+  },
+  {
+   "id": "human-shields",
+   "short": "The “mosquito procedure”",
+   "when": "2023 – 2025",
+   "line": "An AP investigation, drawing on Israeli soldiers and former detainees, found units routinely forced Palestinian civilians — teenagers and the elderly among them — into tunnels and possibly booby-trapped buildings ahead of troops.",
+   "official": "The army says the practice is “strictly prohibited” and that Military Police opened criminal investigations."
+  },
+  {
+   "id": "rafah-paramedics",
+   "short": "Fifteen medics in a mass grave",
+   "when": "23 Mar 2025",
+   "line": "Fifteen emergency workers were killed in Rafah and buried in a shallow grave with their crushed ambulances; a paramedic's recovered phone video showed the emergency lights flashing, contradicting the army's first account.",
+   "official": "An army inquiry acknowledged “professional failures” and dismissed the deputy battalion commander."
+  },
+  {
+   "id": "ghf-aid-shootings",
+   "short": "Shot while queuing for food",
+   "when": "May – Oct 2025",
+   "line": "The UN human rights office says 994 Palestinians were killed near GHF food-distribution sites by mid-August 2025, and soldiers told Haaretz they were ordered to fire on unarmed crowds.",
+   "official": "The army and government deny it; Netanyahu called the report a “blood libel”."
+  },
+  {
+   "id": "anas-al-sharif",
+   "short": "Anas al-Sharif and the press tent",
+   "when": "10 Aug 2025",
+   "line": "An Israeli strike on the journalists' tent outside al-Shifa Hospital killed Al Jazeera's Anas al-Sharif and four colleagues; by CPJ's count, at least 192 journalists had been killed by Israel by that day.",
+   "official": "The army claims he led a Hamas cell; CPJ and Al Jazeera say that is unproven."
+  },
+  {
+   "id": "nasser-double-tap",
+   "short": "Nasser Hospital: the double tap",
+   "when": "25 Aug 2025",
+   "line": "Israel struck Nasser Hospital twice in quick succession, the second strike hitting the rescuers and journalists who had gathered at the first; Gaza health officials say at least 20 were killed, five of them journalists.",
+   "official": "The army says journalists were not the target and troops aimed at what they identified as a Hamas camera."
+  },
+  {
+   "id": "doha-strike",
+   "short": "Bombing the negotiators",
+   "when": "9 Sep 2025",
+   "line": "Israel struck a compound in Doha where Hamas negotiators were discussing a US-backed ceasefire proposal, killing six people, including a Qatari security officer; the UN Security Council condemned the strike.",
+   "official": "Netanyahu's office: “a wholly independent Israeli operation”, for which “Israel takes full responsibility”."
+  },
+  {
+   "id": "organs-missing",
+   "short": "Bodies returned bound and blindfolded",
+   "when": "Oct 2025 – Feb 2026",
+   "line": "Gaza health officials and forensic doctors say many of the hundreds of bodies Israel returned during the ceasefire arrived bound, blindfolded or marked by torture; claims of missing organs remain unconfirmed.",
+   "official": "Israel denies the accusations."
+  },
+  {
+   "id": "jenin-execution",
+   "short": "Hands up in Jenin",
+   "when": "27 Nov 2025",
+   "line": "Video shows two Palestinian men emerging from a building with their hands raised and shirts lifted before Israeli forces shot them dead; the UN human rights office called it a “summary execution”.",
+   "official": "The army and police say the men were wanted militants, and the army says it is investigating."
+  },
+  {
+   "id": "doctors-under-fire",
+   "short": "Doctors taken, doctors dead",
+   "when": "Oct 2023 –",
+   "line": "Physicians for Human Rights–Israel says about 250 Gaza health workers have been taken into Israeli detention and at least six have died in custody, among them Al-Shifa surgeon Dr Adnan al-Bursh.",
+   "official": "Israel's mission in Geneva calls hospital director Dr Hussam Abu Safiya “a colonel in Hamas”, lawfully detained."
+  },
+  {
+   "id": "nasser-2026",
+   "short": "Surgical strike on a surgical unit",
+   "when": "12 Nov 2026",
+   "line": "During the ceasefire an Israeli strike hit Nasser Hospital's surgical building, killing six people — among them surgeon Dr Rizq Abu Shaira and a 13-year-old boy — according to Gaza's health ministry.",
+   "official": "The army says it struck Khan Younis Brigade commander Mohammed Abu Ismail and fighters using the second floor as a headquarters."
+  }
+ ],
+ "israel": {
+  "title": "Israel: ten officials facing plausible war-crimes investigation",
+  "lede": "Each is named in, or the subject of, a court proceeding, a court filing, government sanctions or a published investigation. That is the basis listed — not a finding of guilt. The presumption of innocence applies.",
+  "people": [
+   {
+    "id": "docket-netanyahu",
+    "name": "Benjamin Netanyahu",
+    "role": "Prime Minister",
+    "basis": "Subject of an ICC arrest warrant (21 Nov 2024): starvation as a method of warfare; murder, persecution and other inhumane acts as crimes against humanity.",
+    "source": {
+     "label": "ICC",
+     "url": "https://www.icc-cpi.int/news/situation-state-palestine-icc-pre-trial-chamber-i-rejects-state-israels-challenges"
+    }
+   },
+   {
+    "id": "docket-gallant",
+    "name": "Yoav Gallant",
+    "role": "Defence Minister, Oct 2023 – Nov 2024",
+    "basis": "Subject of an ICC arrest warrant (21 Nov 2024); his “complete siege” statement is noted in the ICJ's 26 Jan 2024 order.",
+    "source": {
+     "label": "ICC",
+     "url": "https://www.icc-cpi.int/news/situation-state-palestine-icc-pre-trial-chamber-i-rejects-state-israels-challenges"
+    }
+   },
+   {
+    "id": "docket-herzog",
+    "name": "Isaac Herzog",
+    "role": "President",
+    "basis": "His 12 Oct 2023 remark that “an entire nation” is responsible is cited in South Africa's ICJ application and noted in the Court's order.",
+    "source": {
+     "label": "ICJ application",
+     "url": "https://www.icj-cij.org/node/203394"
+    }
+   },
+   {
+    "id": "docket-ben-gvir",
+    "name": "Itamar Ben-Gvir",
+    "role": "National Security Minister",
+    "basis": "Sanctioned by the UK, Canada, Australia, New Zealand and Norway (10 Jun 2025) for inciting violence and serious abuses of Palestinian human rights.",
+    "source": {
+     "label": "Govt of Canada",
+     "url": "https://www.canada.ca/en/global-affairs/news/2025/06/joint-statement-by-the-foreign-ministers-of-australia-canada-new-zealand-norway-and-the-united-kingdom-on-measures-targeting-itamar-ben-gvir-and-be.html"
+    }
+   },
+   {
+    "id": "docket-smotrich",
+    "name": "Bezalel Smotrich",
+    "role": "Finance Minister",
+    "basis": "Sanctioned by the same five states (10 Jun 2025); said starving two million civilians “might be justified and moral” — condemned by the UN rights chief.",
+    "source": {
+     "label": "UK Government",
+     "url": "https://www.gov.uk/government/news/uk-and-partners-unite-to-sanction-ministers-inciting-west-bank-violence"
+    }
+   },
+   {
+    "id": "docket-eliyahu",
+    "name": "Amichai Eliyahu",
+    "role": "Heritage Minister",
+    "basis": "Called a nuclear bomb on Gaza “one way” of dealing with it; the remark is cited in South Africa's ICJ case.",
+    "source": {
+     "label": "ICJ case 192",
+     "url": "https://www.icj-cij.org/case/192"
+    }
+   },
+   {
+    "id": "docket-halevi",
+    "name": "Herzi Halevi",
+    "role": "Army Chief of Staff, 2023 – 2025",
+    "basis": "Named in a May 2026 universal-jurisdiction criminal complaint filed in Wrocław, Poland, alleging war crimes and starvation.",
+    "source": {
+     "label": "Hind Rajab Foundation",
+     "url": "https://www.hindrajabfoundation.org/posts/-poland-criminal-complaint-filed-against-senior-israeli-officials-for-starvation--obstruction-of-humanitarian-aid-in-gaza"
+    }
+   },
+   {
+    "id": "docket-alian",
+    "name": "Ghassan Alian",
+    "role": "Maj. Gen., head of COGAT",
+    "basis": "His “human animals … you wanted hell, you will get hell” address is cited in South Africa's ICJ case; HRW's report on water deprivation names him.",
+    "source": {
+     "label": "HRW",
+     "url": "https://www.hrw.org/report/2024/12/19/extermination-and-acts-genocide/israel-deliberately-depriving-palestinians-gaza"
+    }
+   },
+   {
+    "id": "docket-vach",
+    "name": "Yehuda Vach",
+    "role": "Brig. Gen., Division 252",
+    "basis": "Subject of Haaretz investigations into a Netzarim “kill zone”; the Military Advocate General ordered the shootings of aid seekers examined as possible war crimes.",
+    "source": {
+     "label": "Haaretz",
+     "url": "https://www.haaretz.com/israel-news/2024-12-18/ty-article-magazine/.premium/idf-soldiers-expose-arbitrary-killings-and-rampant-lawlessness-in-gazas-netzarim-corridor/00000193-da7f-de86-a9f3-fefff2e50000"
+    }
+   },
+   {
+    "id": "docket-eiland",
+    "name": "Giora Eiland",
+    "role": "Ret. Maj. Gen., former National Security Council head",
+    "basis": "Author of the “Generals' Plan” of siege for northern Gaza; his statements are cited in South Africa's ICJ application.",
+    "source": {
+     "label": "ICJ application",
+     "url": "https://www.icj-cij.org/node/203394"
+    }
+   }
+  ]
+ },
+ "hamas": {
+  "title": "Hamas: ten leaders — none left to try",
+  "lede": "Killed, not tried. All ten are dead — killed in Israeli strikes, in a drone strike the Pentagon attributed to Israel, or in fighting with Israeli forces — so no court will ever hear the case against them. The ICC withdrew its cases against Haniyeh, Sinwar and Deif after their deaths.",
+  "people": [
+   {
+    "name": "Yahya Sinwar",
+    "role": "Hamas leader in Gaza; then head of the political bureau",
+    "death": "Killed by Israeli troops in Tal al-Sultan, Rafah, 16 Oct 2024. ICC application withdrawn 22 Oct 2024.",
+    "source": {
+     "label": "ICC filing",
+     "url": "https://www.icc-cpi.int/sites/default/files/CourtRecords/0902ebd1809cd122.pdf"
+    }
+   },
+   {
+    "name": "Mohammed Deif",
+    "role": "Commander of the al-Qassam Brigades",
+    "death": "Killed in an Israeli airstrike in al-Mawasi, Khan Younis, 13 Jul 2024; Hamas confirmed it on 30 Jan 2025. ICC warrant withdrawn 26 Feb 2025.",
+    "source": {
+     "label": "ICC",
+     "url": "https://www.icc-cpi.int/defendant/deif"
+    }
+   },
+   {
+    "name": "Ismail Haniyeh",
+    "role": "Head of the Hamas political bureau",
+    "death": "Killed in Tehran, 31 Jul 2024; Israel's defence minister acknowledged responsibility on 23 Dec 2024. ICC application withdrawn 2 Aug 2024.",
+    "source": {
+     "label": "ICC filing",
+     "url": "https://www.icc-cpi.int/sites/default/files/CourtRecords/0902ebd18096dc05.pdf"
+    }
+   },
+   {
+    "name": "Marwan Issa",
+    "role": "Deputy commander of the al-Qassam Brigades",
+    "death": "Killed in an Israeli strike in central Gaza, March 2024; Hamas confirmed it on 30 Jan 2025.",
+    "source": {
+     "label": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2025/1/30/hamas-confirms-the-killing-of-military-commander-mohammed-deif"
+    }
+   },
+   {
+    "name": "Saleh al-Arouri",
+    "role": "Deputy head of the political bureau",
+    "death": "Killed by a drone strike in Beirut, 2 Jan 2024; Israel did not officially claim it, and the Pentagon said the strike was Israeli.",
+    "source": {
+     "label": "Reuters",
+     "url": "https://www.reuters.com/world/middle-east/explosion-southern-beirut-suburb-dahiyeh-two-security-sources-2024-01-02/"
+    }
+   },
+   {
+    "name": "Mohammed Sinwar",
+    "role": "Commander of the al-Qassam Brigades after Deif",
+    "death": "Killed in an Israeli strike on a tunnel under the European Hospital, Khan Younis, 13 May 2025; Hamas confirmed it on 29 Dec 2025.",
+    "source": {
+     "label": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2025/12/29/hamas-armed-wing-confirms-deaths-of-figures-israel-earlier-said-it-killed-2"
+    }
+   },
+   {
+    "name": "Mohammed Shabana",
+    "role": "Commander of the Rafah Brigade",
+    "death": "Killed in the same 13 May 2025 strike; confirmed by the Israeli army on 31 May and by Hamas on 29 Dec 2025.",
+    "source": {
+     "label": "Times of Israel",
+     "url": "https://www.timesofisrael.com/following-netanyahu-idf-confirms-hamas-leader-muhammad-sinwar-killed-in-may-13-strike/"
+    }
+   },
+   {
+    "name": "Raed Saad",
+    "role": "Senior al-Qassam commander; the army calls him an architect of 7 October",
+    "death": "Killed in an Israeli strike on a car in Gaza City during the ceasefire, 13 Dec 2025; Hamas confirmed it the next day.",
+    "source": {
+     "label": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2025/12/14/hamas-confirms-killing-of-senior-commander-in-israeli-strike-in-gaza"
+    }
+   },
+   {
+    "name": "Rafa'a Salama",
+    "role": "Commander of the Khan Younis Brigade",
+    "death": "Killed in the 13 Jul 2024 strike that killed Deif; Hamas confirmed it on 30 Jan 2025.",
+    "source": {
+     "label": "Times of Israel",
+     "url": "https://www.timesofisrael.com/six-months-later-hamas-officially-admits-muhammad-deif-killed-by-israel/"
+    }
+   },
+   {
+    "name": "Ahmed Ghandour",
+    "role": "Commander of the Northern Gaza Brigade",
+    "death": "Killed during the war; al-Qassam announced his death on 26 Nov 2023, without saying how.",
+    "source": {
+     "label": "Reuters",
+     "url": "https://www.reuters.com/world/middle-east/al-qassam-brigades-says-four-military-commanders-killed-fighting-2023-11-26/"
+    }
+   }
+  ]
+ }
+}
